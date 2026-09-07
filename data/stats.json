@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-09-07T05:52:33.485Z",
+  "generatedAt": "2026-09-07T11:59:06.698Z",
   "bookingCounts": {
-    "total": 2694,
-    "inCustody": 257,
+    "total": 2695,
+    "inCustody": 258,
     "released": 2437
   },
   "gender": [
     {
       "label": "Male",
-      "count": 1833,
-      "pct": 68
+      "count": 1834,
+      "pct": 68.1
     },
     {
       "label": "Female",
@@ -26,11 +26,11 @@
     {
       "label": "White",
       "count": 1912,
-      "pct": 71
+      "pct": 70.9
     },
     {
       "label": "Unknown",
-      "count": 326,
+      "count": 327,
       "pct": 12.1
     },
     {
@@ -50,14 +50,14 @@
     }
   ],
   "age": {
-    "mean": 38.7,
+    "mean": 38.6,
     "median": 37,
     "min": 18,
     "max": 87,
     "histogram": [
       {
         "label": "18–25",
-        "count": 381
+        "count": 382
       },
       {
         "label": "26–35",
@@ -112,7 +112,7 @@
     },
     {
       "label": "Protection Order Violation",
-      "count": 170
+      "count": 171
     },
     {
       "label": "Other",
@@ -154,7 +154,7 @@
     },
     {
       "label": "PORT ORCHARD POLICE DEPARTMENT",
-      "count": 300
+      "count": 301
     },
     {
       "label": "POULSBO POLICE DEPARTMENT",
@@ -550,6 +550,53 @@
     }
   ],
   "chargesByRace": {
+    "Unknown": {
+      "Protection Order Violation": 9,
+      "DUI": 83,
+      "Other": 32,
+      "Obstruction": 14,
+      "Assault": 24,
+      "Domestic Violence": 72,
+      "Theft (1st Degree)": 1,
+      "Child Sex Offense": 4,
+      "Incest": 1,
+      "Assault (Child)": 1,
+      "Failure to Appear": 41,
+      "DOC Warrant": 6,
+      "Possession of Stolen Vehicle": 2,
+      "Driving While License Suspended": 35,
+      "Drug Offense": 21,
+      "Making False Statements": 8,
+      "Ignition Interlock Violation": 9,
+      "Sex Offense": 6,
+      "Fugitive from Justice": 2,
+      "Harassment": 9,
+      "Local / Tribal Code": 5,
+      "Criminal Trespass": 13,
+      "Malicious Mischief": 5,
+      "Resisting Arrest": 5,
+      "Hit and Run": 9,
+      "Homicide": 2,
+      "Criminal Impersonation": 1,
+      "Attempt to Elude": 6,
+      "Burglary (1st Degree)": 1,
+      "Kidnapping / Unlawful Imprisonment": 2,
+      "Theft (3rd Degree)": 8,
+      "Residential Burglary": 1,
+      "Interference with DV Reporting": 3,
+      "Weapons": 4,
+      "Child Exploitation / CSAM": 3,
+      "Theft (2nd Degree)": 5,
+      "Traffic / Obstruction": 3,
+      "Motor Vehicle Theft": 2,
+      "Burglary (2nd Degree)": 2,
+      "PR / Bail Revocation": 2,
+      "Stalking": 1,
+      "Indecent Exposure": 1,
+      "Reckless Driving": 2,
+      "Failure to Comply (Sentence)": 1,
+      "Public Order": 1
+    },
     "White": {
       "Homicide": 17,
       "Harassment": 61,
@@ -614,53 +661,6 @@
       "Incest": 1,
       "Theft": 1,
       "Bribery": 1
-    },
-    "Unknown": {
-      "DUI": 83,
-      "Other": 32,
-      "Obstruction": 14,
-      "Assault": 24,
-      "Domestic Violence": 72,
-      "Theft (1st Degree)": 1,
-      "Child Sex Offense": 4,
-      "Incest": 1,
-      "Assault (Child)": 1,
-      "Failure to Appear": 41,
-      "DOC Warrant": 6,
-      "Possession of Stolen Vehicle": 2,
-      "Driving While License Suspended": 35,
-      "Protection Order Violation": 8,
-      "Drug Offense": 21,
-      "Making False Statements": 8,
-      "Ignition Interlock Violation": 9,
-      "Sex Offense": 6,
-      "Fugitive from Justice": 2,
-      "Harassment": 9,
-      "Local / Tribal Code": 5,
-      "Criminal Trespass": 13,
-      "Malicious Mischief": 5,
-      "Resisting Arrest": 5,
-      "Hit and Run": 9,
-      "Homicide": 2,
-      "Criminal Impersonation": 1,
-      "Attempt to Elude": 6,
-      "Burglary (1st Degree)": 1,
-      "Kidnapping / Unlawful Imprisonment": 2,
-      "Theft (3rd Degree)": 8,
-      "Residential Burglary": 1,
-      "Interference with DV Reporting": 3,
-      "Weapons": 4,
-      "Child Exploitation / CSAM": 3,
-      "Theft (2nd Degree)": 5,
-      "Traffic / Obstruction": 3,
-      "Motor Vehicle Theft": 2,
-      "Burglary (2nd Degree)": 2,
-      "PR / Bail Revocation": 2,
-      "Stalking": 1,
-      "Indecent Exposure": 1,
-      "Reckless Driving": 2,
-      "Failure to Comply (Sentence)": 1,
-      "Public Order": 1
     },
     "Black": {
       "Assault": 34,
@@ -784,6 +784,7 @@
   },
   "chargesBySex": {
     "Male": {
+      "Protection Order Violation": 127,
       "Homicide": 21,
       "Harassment": 75,
       "Domestic Violence": 237,
@@ -796,7 +797,6 @@
       "Assault": 131,
       "Resisting Arrest": 46,
       "DOC Warrant": 123,
-      "Protection Order Violation": 126,
       "Fugitive from Justice": 14,
       "Hit and Run": 33,
       "Other": 112,
@@ -993,7 +993,7 @@
   "recidivism": {
     "rate": 13.1,
     "repeatBookerCount": 301,
-    "totalIndividuals": 2294,
+    "totalIndividuals": 2295,
     "repeatBookers": [
       {
         "name": "SCHWEITZER, BRIAN A",
@@ -1579,7 +1579,7 @@
     },
     {
       "month": "2026-09",
-      "count": 72
+      "count": 73
     }
   ],
   "crimeTypes": [
@@ -1610,7 +1610,7 @@
     },
     {
       "label": "Order Violations",
-      "count": 289,
+      "count": 290,
       "pct": 7.3
     },
     {
@@ -1637,7 +1637,7 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 3584,
+      "count": 3585,
       "pct": 60
     },
     {
@@ -1810,7 +1810,7 @@
     },
     {
       "name": "Port Orchard PD",
-      "count": 301,
+      "count": 302,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -1830,7 +1830,7 @@
           "count": 15
         },
         {
-          "label": "Theft (2nd Degree)",
+          "label": "Protection Order Violation",
           "count": 13
         }
       ]
@@ -2366,7 +2366,7 @@
       },
       {
         "charge": "Protection Order Violation",
-        "avgWeight": 192,
+        "avgWeight": 191,
         "avgHeight": "5'11\"",
         "topRace": "White",
         "n": 126
@@ -2966,7 +2966,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 2691
+      "count": 2692
     }
   ]
 }
