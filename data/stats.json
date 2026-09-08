@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-09-08T17:24:42.443Z",
+  "generatedAt": "2026-09-08T20:10:53.213Z",
   "bookingCounts": {
-    "total": 2714,
+    "total": 2715,
     "inCustody": 265,
-    "released": 2449
+    "released": 2450
   },
   "gender": [
     {
       "label": "Male",
-      "count": 1848,
+      "count": 1849,
       "pct": 68.1
     },
     {
@@ -25,7 +25,7 @@
   "race": [
     {
       "label": "White",
-      "count": 1927,
+      "count": 1928,
       "pct": 71
     },
     {
@@ -65,7 +65,7 @@
       },
       {
         "label": "36–45",
-        "count": 802
+        "count": 803
       },
       {
         "label": "46–55",
@@ -84,7 +84,7 @@
   "topCharges": [
     {
       "label": "Failure to Appear",
-      "count": 1016
+      "count": 1017
     },
     {
       "label": "Domestic Violence",
@@ -128,7 +128,7 @@
     },
     {
       "label": "Harassment",
-      "count": 99
+      "count": 100
     },
     {
       "label": "Ignition Interlock Violation",
@@ -146,7 +146,7 @@
   "topAgencies": [
     {
       "label": "KITSAP COUNTY SHERIFFS OFFICE",
-      "count": 2378
+      "count": 2379
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
@@ -174,7 +174,7 @@
     },
     {
       "label": "BAINBRIDGE ISLAND POLICE DEPARTMENT",
-      "count": 57
+      "count": 58
     },
     {
       "label": "OTHER AGENCY",
@@ -186,22 +186,22 @@
     }
   ],
   "bail": {
-    "mean": 32750.34,
+    "mean": 32785.42,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1977
+    "count": 1974
   },
   "stay": {
     "mean": 21.8,
     "median": 1.9,
     "min": 0,
     "max": 1233.4,
-    "count": 2414,
+    "count": 2415,
     "histogram": [
       {
         "label": "< 1 day",
-        "count": 885
+        "count": 886
       },
       {
         "label": "1–3 days",
@@ -321,16 +321,16 @@
       "count": 6
     },
     {
-      "category": "Criminal Impersonation",
+      "category": "Court Hold",
       "medianBail": 30000,
       "meanBail": 30000,
       "count": 1
     },
     {
-      "category": "Court Hold",
-      "medianBail": 27500,
-      "meanBail": 27500,
-      "count": 2
+      "category": "Criminal Impersonation",
+      "medianBail": 30000,
+      "meanBail": 30000,
+      "count": 1
     },
     {
       "category": "PR / Bail Revocation",
@@ -377,8 +377,8 @@
     {
       "category": "Protection Order Violation",
       "medianBail": 10000,
-      "meanBail": 31500,
-      "count": 46
+      "meanBail": 30936.17,
+      "count": 47
     },
     {
       "category": "Theft (2nd Degree)",
@@ -413,8 +413,8 @@
     {
       "category": "Vehicle Prowling",
       "medianBail": 5000,
-      "meanBail": 5285.71,
-      "count": 7
+      "meanBail": 6000,
+      "count": 6
     },
     {
       "category": "Malicious Mischief",
@@ -425,7 +425,7 @@
     {
       "category": "DUI",
       "medianBail": 5000,
-      "meanBail": 19814.21,
+      "meanBail": 19855.19,
       "count": 183
     },
     {
@@ -501,16 +501,16 @@
       "count": 4
     },
     {
-      "category": "Drug Offense",
-      "medianBail": 2500,
-      "meanBail": 5774.27,
-      "count": 103
-    },
-    {
       "category": "Failure to Appear",
       "medianBail": 2500,
-      "meanBail": 13883.14,
+      "meanBail": 13883.81,
       "count": 746
+    },
+    {
+      "category": "Drug Offense",
+      "medianBail": 2500,
+      "meanBail": 5783.98,
+      "count": 103
     },
     {
       "category": "Driving While License Suspended",
@@ -525,16 +525,10 @@
       "count": 7
     },
     {
-      "category": "Local / Tribal Code",
-      "medianBail": 1000,
-      "meanBail": 3500,
-      "count": 22
-    },
-    {
       "category": "Criminal Trespass",
       "medianBail": 1000,
-      "meanBail": 3139.42,
-      "count": 104
+      "meanBail": 3014.56,
+      "count": 103
     },
     {
       "category": "Resisting Arrest",
@@ -547,51 +541,21 @@
       "medianBail": 1000,
       "meanBail": 2100,
       "count": 5
+    },
+    {
+      "category": "Local / Tribal Code",
+      "medianBail": 1000,
+      "meanBail": 3619.05,
+      "count": 21
     }
   ],
   "chargesByRace": {
-    "Asian / Pacific Islander": {
-      "Vehicle Prowling": 1,
-      "DUI": 16,
-      "Ignition Interlock Violation": 5,
-      "Domestic Violence": 12,
-      "Failure to Appear": 35,
-      "Making False Statements": 1,
-      "Hit and Run": 1,
-      "Criminal Trespass": 8,
-      "DOC Warrant": 2,
-      "Drug Offense": 5,
-      "Harassment": 3,
-      "Resisting Arrest": 4,
-      "Theft (3rd Degree)": 2,
-      "Fugitive from Justice": 1,
-      "Driving While License Suspended": 12,
-      "Failure to Comply (Sentence)": 1,
-      "Assault": 5,
-      "Protection Order Violation": 7,
-      "PR / Bail Revocation": 1,
-      "Weapons": 3,
-      "Other": 2,
-      "Indecent Exposure": 1,
-      "Malicious Mischief": 2,
-      "Obstruction": 1,
-      "Reckless Driving": 1,
-      "Attempt to Elude": 1,
-      "Criminal Impersonation": 1,
-      "Motor Vehicle Theft": 2,
-      "Theft (2nd Degree)": 1,
-      "Residential Burglary": 1,
-      "Forgery": 1,
-      "Community Custody Violation": 1,
-      "Possession of Stolen Vehicle": 1,
-      "Traffic Violation": 1
-    },
     "White": {
+      "Failure to Appear": 802,
       "Local / Tribal Code": 16,
       "Drug Offense": 190,
-      "Failure to Appear": 801,
       "Domestic Violence": 266,
-      "Harassment": 63,
+      "Harassment": 64,
       "DUI": 246,
       "Assault": 121,
       "Protection Order Violation": 129,
@@ -650,6 +614,42 @@
       "Incest": 1,
       "Theft": 1,
       "Bribery": 1
+    },
+    "Asian / Pacific Islander": {
+      "Vehicle Prowling": 1,
+      "DUI": 16,
+      "Ignition Interlock Violation": 5,
+      "Domestic Violence": 12,
+      "Failure to Appear": 35,
+      "Making False Statements": 1,
+      "Hit and Run": 1,
+      "Criminal Trespass": 8,
+      "DOC Warrant": 2,
+      "Drug Offense": 5,
+      "Harassment": 3,
+      "Resisting Arrest": 4,
+      "Theft (3rd Degree)": 2,
+      "Fugitive from Justice": 1,
+      "Driving While License Suspended": 12,
+      "Failure to Comply (Sentence)": 1,
+      "Assault": 5,
+      "Protection Order Violation": 7,
+      "PR / Bail Revocation": 1,
+      "Weapons": 3,
+      "Other": 2,
+      "Indecent Exposure": 1,
+      "Malicious Mischief": 2,
+      "Obstruction": 1,
+      "Reckless Driving": 1,
+      "Attempt to Elude": 1,
+      "Criminal Impersonation": 1,
+      "Motor Vehicle Theft": 2,
+      "Theft (2nd Degree)": 1,
+      "Residential Burglary": 1,
+      "Forgery": 1,
+      "Community Custody Violation": 1,
+      "Possession of Stolen Vehicle": 1,
+      "Traffic Violation": 1
     },
     "Black": {
       "Assault": 35,
@@ -786,12 +786,12 @@
   },
   "chargesBySex": {
     "Male": {
+      "Failure to Appear": 731,
       "Vehicle Prowling": 16,
       "Local / Tribal Code": 35,
       "Drug Offense": 174,
-      "Failure to Appear": 730,
       "Domestic Violence": 239,
-      "Harassment": 77,
+      "Harassment": 78,
       "DUI": 228,
       "Assault": 134,
       "Protection Order Violation": 129,
@@ -953,7 +953,7 @@
     },
     {
       "label": "Released (Unknown Reason)",
-      "count": 649
+      "count": 650
     },
     {
       "label": "Released",
@@ -995,7 +995,7 @@
   "recidivism": {
     "rate": 13.2,
     "repeatBookerCount": 305,
-    "totalIndividuals": 2306,
+    "totalIndividuals": 2307,
     "repeatBookers": [
       {
         "name": "SCHWEITZER, BRIAN A",
@@ -1231,7 +1231,7 @@
           {
             "bookingNumber": "2026004021",
             "firstSeen": "09/08/2026, 10:21:42",
-            "status": "in_custody"
+            "status": "released"
           },
           {
             "bookingNumber": "2026003634",
@@ -1591,13 +1591,13 @@
     },
     {
       "month": "2026-09",
-      "count": 92
+      "count": 93
     }
   ],
   "crimeTypes": [
     {
       "label": "Court / Supervision",
-      "count": 1217,
+      "count": 1218,
       "pct": 30.5
     },
     {
@@ -1622,8 +1622,8 @@
     },
     {
       "label": "Order Violations",
-      "count": 293,
-      "pct": 7.3
+      "count": 294,
+      "pct": 7.4
     },
     {
       "label": "Drug",
@@ -1649,7 +1649,7 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 3612,
+      "count": 3614,
       "pct": 59.9
     },
     {
@@ -1768,7 +1768,7 @@
   "agencyBreakdown": [
     {
       "name": "Kitsap County Sheriff",
-      "count": 2389,
+      "count": 2390,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -1957,12 +1957,12 @@
     },
     {
       "name": "BAINBRIDGE ISLAND POLICE DEPARTMENT",
-      "count": 57,
+      "count": 58,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
           "label": "Failure to Appear",
-          "count": 9
+          "count": 10
         },
         {
           "label": "Domestic Violence",
@@ -2169,7 +2169,7 @@
     }
   ],
   "bailOnRelease": {
-    "total": 2449,
+    "total": 2450,
     "withBail": 1157,
     "pct": 47.2
   },
@@ -2229,7 +2229,7 @@
       "topCharges": [
         {
           "label": "Failure to Appear",
-          "count": 365
+          "count": 366
         },
         {
           "label": "Domestic Violence",
@@ -2332,7 +2332,7 @@
         "avgWeight": 184,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 723
+        "n": 724
       },
       {
         "charge": "Domestic Violence",
@@ -2409,7 +2409,7 @@
         "avgWeight": 184,
         "avgHeight": "5'11\"",
         "topRace": "White",
-        "n": 75
+        "n": 76
       },
       {
         "charge": "Ignition Interlock Violation",
@@ -2978,7 +2978,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 2711
+      "count": 2712
     }
   ]
 }
