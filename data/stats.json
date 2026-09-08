@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-09-08T03:46:08.403Z",
+  "generatedAt": "2026-09-08T08:46:04.703Z",
   "bookingCounts": {
-    "total": 2710,
+    "total": 2712,
     "inCustody": 266,
-    "released": 2444
+    "released": 2446
   },
   "gender": [
     {
       "label": "Male",
-      "count": 1844,
-      "pct": 68
+      "count": 1846,
+      "pct": 68.1
     },
     {
       "label": "Female",
@@ -25,7 +25,7 @@
   "race": [
     {
       "label": "White",
-      "count": 1924,
+      "count": 1926,
       "pct": 71
     },
     {
@@ -65,11 +65,11 @@
       },
       {
         "label": "36–45",
-        "count": 801
+        "count": 802
       },
       {
         "label": "46–55",
-        "count": 407
+        "count": 408
       },
       {
         "label": "56–65",
@@ -84,11 +84,11 @@
   "topCharges": [
     {
       "label": "Failure to Appear",
-      "count": 1013
+      "count": 1015
     },
     {
       "label": "Domestic Violence",
-      "count": 400
+      "count": 401
     },
     {
       "label": "DUI",
@@ -128,7 +128,7 @@
     },
     {
       "label": "Harassment",
-      "count": 98
+      "count": 99
     },
     {
       "label": "Ignition Interlock Violation",
@@ -146,7 +146,7 @@
   "topAgencies": [
     {
       "label": "KITSAP COUNTY SHERIFFS OFFICE",
-      "count": 2372
+      "count": 2376
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
@@ -182,22 +182,22 @@
     },
     {
       "label": "PORT GAMBLE POLICE DEPARTMENT",
-      "count": 31
+      "count": 34
     }
   ],
   "bail": {
-    "mean": 32853.33,
+    "mean": 32795.66,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1971
+    "count": 1975
   },
   "stay": {
-    "mean": 21.9,
+    "mean": 21.8,
     "median": 1.9,
     "min": 0,
     "max": 1233.4,
-    "count": 2411,
+    "count": 2413,
     "histogram": [
       {
         "label": "< 1 day",
@@ -205,7 +205,7 @@
       },
       {
         "label": "1–3 days",
-        "count": 522
+        "count": 524
       },
       {
         "label": "4–7 days",
@@ -503,8 +503,8 @@
     {
       "category": "Failure to Appear",
       "medianBail": 2500,
-      "meanBail": 13952.59,
-      "count": 742
+      "meanBail": 13901.23,
+      "count": 746
     },
     {
       "category": "Drug Offense",
@@ -551,12 +551,12 @@
   ],
   "chargesByRace": {
     "White": {
+      "Failure to Appear": 800,
+      "Domestic Violence": 266,
+      "Harassment": 63,
       "DUI": 246,
       "Assault": 121,
-      "Domestic Violence": 265,
       "Protection Order Violation": 129,
-      "Harassment": 62,
-      "Failure to Appear": 798,
       "Drug Offense": 189,
       "Vehicle Prowling": 13,
       "Malicious Mischief": 44,
@@ -784,12 +784,12 @@
   },
   "chargesBySex": {
     "Male": {
+      "Failure to Appear": 729,
+      "Domestic Violence": 239,
+      "Harassment": 77,
       "DUI": 228,
       "Assault": 134,
-      "Domestic Violence": 238,
       "Protection Order Violation": 129,
-      "Harassment": 76,
-      "Failure to Appear": 727,
       "Drug Offense": 173,
       "Vehicle Prowling": 15,
       "Malicious Mischief": 53,
@@ -951,11 +951,11 @@
     },
     {
       "label": "Released (Unknown Reason)",
-      "count": 648
+      "count": 649
     },
     {
       "label": "Released",
-      "count": 592
+      "count": 593
     },
     {
       "label": "Scheduled Release / Time Served",
@@ -993,7 +993,7 @@
   "recidivism": {
     "rate": 13.2,
     "repeatBookerCount": 304,
-    "totalIndividuals": 2304,
+    "totalIndividuals": 2306,
     "repeatBookers": [
       {
         "name": "SCHWEITZER, BRIAN A",
@@ -1584,23 +1584,23 @@
     },
     {
       "month": "2026-09",
-      "count": 88
+      "count": 90
     }
   ],
   "crimeTypes": [
     {
       "label": "Court / Supervision",
-      "count": 1214,
+      "count": 1216,
       "pct": 30.5
     },
     {
       "label": "Traffic / DUI",
       "count": 616,
-      "pct": 15.5
+      "pct": 15.4
     },
     {
       "label": "Violent",
-      "count": 598,
+      "count": 599,
       "pct": 15
     },
     {
@@ -1615,7 +1615,7 @@
     },
     {
       "label": "Order Violations",
-      "count": 292,
+      "count": 293,
       "pct": 7.3
     },
     {
@@ -1642,18 +1642,18 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 3603,
+      "count": 3609,
       "pct": 59.9
     },
     {
       "label": "Unknown",
-      "count": 1043,
+      "count": 1044,
       "pct": 17.3
     },
     {
       "label": "Felony",
       "count": 894,
-      "pct": 14.9
+      "pct": 14.8
     },
     {
       "label": "Misdemeanor",
@@ -1761,16 +1761,16 @@
   "agencyBreakdown": [
     {
       "name": "Kitsap County Sheriff",
-      "count": 2383,
+      "count": 2387,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
           "label": "Failure to Appear",
-          "count": 788
+          "count": 789
         },
         {
           "label": "Domestic Violence",
-          "count": 273
+          "count": 275
         },
         {
           "label": "DUI",
@@ -2004,12 +2004,12 @@
     },
     {
       "name": "PORT GAMBLE POLICE DEPARTMENT",
-      "count": 31,
+      "count": 34,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
           "label": "Failure to Appear",
-          "count": 18
+          "count": 21
         },
         {
           "label": "Local / Tribal Code",
@@ -2162,8 +2162,8 @@
     }
   ],
   "bailOnRelease": {
-    "total": 2444,
-    "withBail": 1155,
+    "total": 2446,
+    "withBail": 1157,
     "pct": 47.3
   },
   "chargesByAgeGroup": [
@@ -2222,7 +2222,7 @@
       "topCharges": [
         {
           "label": "Failure to Appear",
-          "count": 364
+          "count": 365
         },
         {
           "label": "Domestic Violence",
@@ -2247,11 +2247,11 @@
       "topCharges": [
         {
           "label": "Failure to Appear",
-          "count": 159
+          "count": 160
         },
         {
           "label": "Domestic Violence",
-          "count": 47
+          "count": 48
         },
         {
           "label": "DUI",
@@ -2325,14 +2325,14 @@
         "avgWeight": 184,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 720
+        "n": 722
       },
       {
         "charge": "Domestic Violence",
         "avgWeight": 190,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 229
+        "n": 230
       },
       {
         "charge": "DUI",
@@ -2399,10 +2399,10 @@
       },
       {
         "charge": "Harassment",
-        "avgWeight": 183,
+        "avgWeight": 184,
         "avgHeight": "5'11\"",
         "topRace": "White",
-        "n": 74
+        "n": 75
       },
       {
         "charge": "Ignition Interlock Violation",
@@ -2971,7 +2971,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 2707
+      "count": 2709
     }
   ]
 }
