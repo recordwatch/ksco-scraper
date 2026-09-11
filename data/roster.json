@@ -131450,9 +131450,9 @@
     "charges": [
       {
         "violation": "NONE - FAILURE TO COMPLY -  W/TERMS OF SENTENCE - FELONY",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
@@ -131636,6 +131636,84 @@
     "totalBond": null,
     "status": "in_custody",
     "firstSeen": "09/11/2026, 02:56:03",
+    "releasedAt": null
+  },
+  "2026004069": {
+    "bookingNumber": "2026004069",
+    "firstName": "ADAM",
+    "lastName": "LOMBARDI",
+    "middleName": "J",
+    "race": "W",
+    "sex": "M",
+    "bookingDate": "",
+    "releaseDate": "",
+    "schReleaseDate": "",
+    "detailUrl": "https://incustody.kitsap.gov/Home/BookingSearchResult?LastName=%25&FirstName=&BookingFrom=&BookingTo=&ValidSearch=&sort=BookingDate&sortdir=DESC&page=18&BookingNumber=12",
+    "inmateId": "50005413",
+    "schedRelease": null,
+    "age": "43",
+    "height": null,
+    "weight": null,
+    "hair": "Eyes",
+    "eyes": "Height",
+    "charges": [
+      {
+        "violation": "9A.36.041(2) - ASSAULT-4 - DV",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "NOBD",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "09/14/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "09/11/2026",
+        "courtType": "DS"
+      }
+    ],
+    "totalBond": null,
+    "status": "in_custody",
+    "firstSeen": "09/11/2026, 07:09:35",
+    "releasedAt": null
+  },
+  "2026004070": {
+    "bookingNumber": "2026004070",
+    "firstName": "LUIS",
+    "lastName": "RAMOS CHANCHAVAC",
+    "middleName": "A",
+    "race": "W",
+    "sex": "M",
+    "bookingDate": "",
+    "releaseDate": "",
+    "schReleaseDate": "",
+    "detailUrl": "https://incustody.kitsap.gov/Home/BookingSearchResult?LastName=%25&FirstName=&BookingFrom=&BookingTo=&ValidSearch=&sort=BookingDate&sortdir=DESC&page=18&BookingNumber=13",
+    "inmateId": "50005414",
+    "schedRelease": null,
+    "age": "39",
+    "height": "505",
+    "weight": "170",
+    "hair": "BLK",
+    "eyes": "BRO",
+    "charges": [
+      {
+        "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 5000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "09/14/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "09/11/2026",
+        "courtType": "DS"
+      }
+    ],
+    "totalBond": 5000,
+    "status": "in_custody",
+    "firstSeen": "09/11/2026, 07:09:35",
     "releasedAt": null
   }
 }

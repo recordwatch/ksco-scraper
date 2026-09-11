@@ -1,6 +1,74 @@
 [
   {
     "type": "BOOKED",
+    "bookingNumber": "2026004070",
+    "name": "RAMOS CHANCHAVAC, LUIS A",
+    "bookingDate": "",
+    "charges": [
+      {
+        "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 5000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "09/14/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "09/11/2026",
+        "courtType": "DS"
+      }
+    ],
+    "age": "39",
+    "sex": "M",
+    "race": "W",
+    "height": "505",
+    "weight": "170",
+    "hair": "BLK",
+    "eyes": "BRO",
+    "inmateId": "50005414",
+    "schedRelease": null,
+    "firstSeen": "09/11/2026, 07:09:35",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
+    "bookingNumber": "2026004069",
+    "name": "LOMBARDI, ADAM J",
+    "bookingDate": "",
+    "charges": [
+      {
+        "violation": "9A.36.041(2) - ASSAULT-4 - DV",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "NOBD",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "09/14/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "09/11/2026",
+        "courtType": "DS"
+      }
+    ],
+    "age": "43",
+    "sex": "M",
+    "race": "W",
+    "height": null,
+    "weight": null,
+    "hair": "Eyes",
+    "eyes": "Height",
+    "inmateId": "50005413",
+    "schedRelease": null,
+    "firstSeen": "09/11/2026, 07:09:35",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
     "bookingNumber": "2026004068",
     "name": "MENDENHALL, MARY",
     "bookingDate": "",
@@ -157,9 +225,9 @@
     "charges": [
       {
         "violation": "NONE - FAILURE TO COMPLY -  W/TERMS OF SENTENCE - FELONY",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
