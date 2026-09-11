@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-11T20:43:20.033Z",
+  "generatedAt": "2026-09-11T23:07:00.368Z",
   "bookingCounts": {
     "total": 2763,
-    "inCustody": 262,
-    "released": 2501
+    "inCustody": 261,
+    "released": 2502
   },
   "gender": [
     {
@@ -146,7 +146,7 @@
   "topAgencies": [
     {
       "label": "KITSAP COUNTY SHERIFFS OFFICE",
-      "count": 2452
+      "count": 2453
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
@@ -186,7 +186,7 @@
     }
   ],
   "bail": {
-    "mean": 32741.58,
+    "mean": 32699.83,
     "median": 5000,
     "min": 50,
     "max": 4000000,
@@ -197,7 +197,7 @@
     "median": 1.9,
     "min": 0,
     "max": 1233.4,
-    "count": 2464,
+    "count": 2465,
     "histogram": [
       {
         "label": "< 1 day",
@@ -209,7 +209,7 @@
       },
       {
         "label": "4–7 days",
-        "count": 197
+        "count": 198
       },
       {
         "label": "1–2 weeks",
@@ -423,15 +423,9 @@
       "count": 183
     },
     {
-      "category": "Theft (3rd Degree)",
-      "medianBail": 5000,
-      "meanBail": 4406.25,
-      "count": 32
-    },
-    {
       "category": "Vehicle Prowling",
       "medianBail": 5000,
-      "meanBail": 15142.86,
+      "meanBail": 5285.71,
       "count": 7
     },
     {
@@ -457,6 +451,12 @@
       "medianBail": 5000,
       "meanBail": 6261.9,
       "count": 21
+    },
+    {
+      "category": "Theft (3rd Degree)",
+      "medianBail": 5000,
+      "meanBail": 4064.52,
+      "count": 31
     },
     {
       "category": "Possession of Stolen Vehicle",
@@ -509,8 +509,8 @@
     {
       "category": "Drug Offense",
       "medianBail": 2500,
-      "meanBail": 5797.62,
-      "count": 105
+      "meanBail": 5757.08,
+      "count": 106
     },
     {
       "category": "Driving While License Suspended",
@@ -527,7 +527,7 @@
     {
       "category": "Criminal Trespass",
       "medianBail": 1000,
-      "meanBail": 2975.73,
+      "meanBail": 2966.02,
       "count": 103
     },
     {
@@ -955,7 +955,7 @@
     },
     {
       "label": "Released (Unknown Reason)",
-      "count": 660
+      "count": 661
     },
     {
       "label": "Released",
@@ -1656,7 +1656,7 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 3687,
+      "count": 3688,
       "pct": 60
     },
     {
@@ -1775,12 +1775,12 @@
   "agencyBreakdown": [
     {
       "name": "Kitsap County Sheriff",
-      "count": 2463,
+      "count": 2464,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
           "label": "Failure to Appear",
-          "count": 820
+          "count": 821
         },
         {
           "label": "Domestic Violence",
@@ -2176,8 +2176,8 @@
     }
   ],
   "bailOnRelease": {
-    "total": 2501,
-    "withBail": 1176,
+    "total": 2502,
+    "withBail": 1177,
     "pct": 47
   },
   "chargesByAgeGroup": [
