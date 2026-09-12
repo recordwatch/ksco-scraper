@@ -54,11 +54,11 @@
         "courtType": null
       }
     ],
-    "age": "22",
+    "age": "23",
     "sex": "M",
     "race": "B",
     "height": "600",
-    "weight": "185",
+    "weight": "200",
     "hair": "BLK",
     "eyes": "BRO",
     "inmateId": "50003689",
@@ -75,9 +75,9 @@
     "charges": [
       {
         "violation": "46.52.020(5) - HIT AND RUN-ATTENDED-PROPERTY DMG",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": 7000,
         "cashAmount": null,
@@ -89,9 +89,9 @@
       },
       {
         "violation": "46.20.342(1)(C) - DWLS 3 -DRIVE W/LICENSE SUSP OR REVOKED-3 OR REVOKED LIC OR PRIVILEGE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": null,
         "cashAmount": null,
@@ -103,9 +103,9 @@
       },
       {
         "violation": "46.20.740(2) - IGNITION INTERLOCK VIOL-NOTATION ON DR REC-VERIFY INTERLOCK",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": null,
         "cashAmount": null,
@@ -117,9 +117,9 @@
       },
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "DUI",
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": 1500,
         "cashAmount": null,
@@ -131,9 +131,9 @@
       },
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "DWLS 2ND, HIT AND RUN",
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": 1500,
         "cashAmount": null,
@@ -144,7 +144,7 @@
         "courtType": "DS"
       }
     ],
-    "age": "39",
+    "age": "43",
     "sex": "M",
     "race": "W",
     "height": "511",
@@ -502,8 +502,8 @@
     "inmateId": "50004207",
     "schedRelease": "09/11/2026",
     "firstSeen": "09/10/2026, 17:25:47",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "09/11/2026, 18:23:57",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -1642,8 +1642,8 @@
     "inmateId": "40564271",
     "schedRelease": null,
     "firstSeen": "09/09/2026, 12:22:58",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "09/11/2026, 18:23:56",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -108150,9 +108150,9 @@
     "charges": [
       {
         "violation": "9A.44.076(2) - RAPE OF A CHILD-2",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": null,
         "cashAmount": null,
@@ -108164,9 +108164,9 @@
       },
       {
         "violation": "9A.44.086(2) - CHILD MOLESTATION-2",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": null,
         "cashAmount": null,
@@ -108178,9 +108178,9 @@
       },
       {
         "violation": "9A.64.020(2)(B) - INCEST-2",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": 500000,
         "cashAmount": null,
@@ -108201,8 +108201,8 @@
     "inmateId": "30055199",
     "schedRelease": "02/02/2026",
     "firstSeen": "03/25/2026, 18:53:21",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "09/11/2026, 18:23:55",
+    "status": "released"
   },
   {
     "type": "BOOKED",
