@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-09-12T06:18:52.835Z",
+  "generatedAt": "2026-09-12T11:10:41.106Z",
   "bookingCounts": {
-    "total": 2768,
-    "inCustody": 262,
+    "total": 2770,
+    "inCustody": 264,
     "released": 2506
   },
   "gender": [
     {
       "label": "Male",
-      "count": 1892,
+      "count": 1894,
       "pct": 68.4
     },
     {
@@ -25,7 +25,7 @@
   "race": [
     {
       "label": "White",
-      "count": 1966,
+      "count": 1968,
       "pct": 71
     },
     {
@@ -61,7 +61,7 @@
       },
       {
         "label": "26–35",
-        "count": 765
+        "count": 767
       },
       {
         "label": "36–45",
@@ -92,7 +92,7 @@
     },
     {
       "label": "DUI",
-      "count": 385
+      "count": 386
     },
     {
       "label": "Driving While License Suspended",
@@ -146,7 +146,7 @@
   "topAgencies": [
     {
       "label": "KITSAP COUNTY SHERIFFS OFFICE",
-      "count": 2454
+      "count": 2455
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
@@ -162,7 +162,7 @@
     },
     {
       "label": "WASHINGTON STATE PATROL",
-      "count": 213
+      "count": 214
     },
     {
       "label": "GIG HARBOR POLICE DEPARTMENT",
@@ -186,11 +186,11 @@
     }
   ],
   "bail": {
-    "mean": 32706.07,
+    "mean": 32678.46,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 2005
+    "count": 2007
   },
   "stay": {
     "mean": 22.1,
@@ -389,8 +389,8 @@
     {
       "category": "Domestic Violence",
       "medianBail": 10000,
-      "meanBail": 94091.46,
-      "count": 82
+      "meanBail": 93018.07,
+      "count": 83
     },
     {
       "category": "Theft (2nd Degree)",
@@ -411,6 +411,12 @@
       "count": 1
     },
     {
+      "category": "DUI",
+      "medianBail": 5000,
+      "meanBail": 18823.37,
+      "count": 184
+    },
+    {
       "category": "Theft (3rd Degree)",
       "medianBail": 5000,
       "meanBail": 4093.75,
@@ -421,12 +427,6 @@
       "medianBail": 5000,
       "meanBail": 21300,
       "count": 20
-    },
-    {
-      "category": "DUI",
-      "medianBail": 5000,
-      "meanBail": 18898.91,
-      "count": 183
     },
     {
       "category": "Vehicle Prowling",
@@ -551,6 +551,8 @@
   ],
   "chargesByRace": {
     "White": {
+      "DUI": 252,
+      "Child Sex Offense": 20,
       "Trafficking Stolen Property": 8,
       "Possession of Stolen Property": 16,
       "Theft (3rd Degree)": 64,
@@ -561,7 +563,6 @@
       "Hit and Run": 38,
       "Driving While License Suspended": 161,
       "Ignition Interlock Violation": 65,
-      "DUI": 251,
       "Domestic Violence": 271,
       "Other": 103,
       "Drug Offense": 193,
@@ -597,7 +598,6 @@
       "Arson": 7,
       "Identity Theft": 5,
       "Motor Vehicle Theft": 20,
-      "Child Sex Offense": 19,
       "Probation Violation": 3,
       "Sex Offense": 18,
       "Theft (1st Degree)": 11,
@@ -788,6 +788,8 @@
   },
   "chargesBySex": {
     "Male": {
+      "DUI": 237,
+      "Child Sex Offense": 22,
       "Trafficking Stolen Property": 6,
       "Possession of Stolen Property": 17,
       "Harassment": 79,
@@ -798,7 +800,6 @@
       "Hit and Run": 34,
       "Driving While License Suspended": 188,
       "Ignition Interlock Violation": 69,
-      "DUI": 236,
       "Domestic Violence": 244,
       "Other": 114,
       "Drug Offense": 178,
@@ -820,7 +821,6 @@
       "Attempt to Elude": 23,
       "Fugitive from Justice": 14,
       "Making False Statements": 38,
-      "Child Sex Offense": 21,
       "Incest": 2,
       "Court Hold": 9,
       "Residential Burglary": 17,
@@ -995,9 +995,9 @@
     }
   ],
   "recidivism": {
-    "rate": 13.5,
-    "repeatBookerCount": 317,
-    "totalIndividuals": 2340,
+    "rate": 13.6,
+    "repeatBookerCount": 318,
+    "totalIndividuals": 2341,
     "repeatBookers": [
       {
         "name": "SCHWEITZER, BRIAN A",
@@ -1603,7 +1603,7 @@
     },
     {
       "month": "2026-09",
-      "count": 146
+      "count": 148
     }
   ],
   "crimeTypes": [
@@ -1614,7 +1614,7 @@
     },
     {
       "label": "Traffic / DUI",
-      "count": 627,
+      "count": 628,
       "pct": 15.4
     },
     {
@@ -1625,7 +1625,7 @@
     {
       "label": "Property",
       "count": 470,
-      "pct": 11.6
+      "pct": 11.5
     },
     {
       "label": "Other",
@@ -1644,7 +1644,7 @@
     },
     {
       "label": "Sex Offense",
-      "count": 81,
+      "count": 82,
       "pct": 2
     },
     {
@@ -1661,7 +1661,7 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 3691,
+      "count": 3692,
       "pct": 60
     },
     {
@@ -1671,7 +1671,7 @@
     },
     {
       "label": "Felony",
-      "count": 906,
+      "count": 907,
       "pct": 14.7
     },
     {
@@ -1780,7 +1780,7 @@
   "agencyBreakdown": [
     {
       "name": "Kitsap County Sheriff",
-      "count": 2465,
+      "count": 2466,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -1888,12 +1888,12 @@
     },
     {
       "name": "WASHINGTON STATE PATROL",
-      "count": 213,
+      "count": 214,
       "topCharge": "DUI",
       "chargeBreakdown": [
         {
           "label": "DUI",
-          "count": 71
+          "count": 72
         },
         {
           "label": "Failure to Appear",
@@ -2224,7 +2224,7 @@
         },
         {
           "label": "DUI",
-          "count": 94
+          "count": 95
         },
         {
           "label": "Drug Offense",
@@ -2358,7 +2358,7 @@
         "avgWeight": 185,
         "avgHeight": "5'9\"",
         "topRace": "White",
-        "n": 218
+        "n": 219
       },
       {
         "charge": "Driving While License Suspended",
@@ -2515,16 +2515,16 @@
         "n": 23
       },
       {
+        "charge": "Child Sex Offense",
+        "avgWeight": 217,
+        "avgHeight": "5'11\"",
+        "topRace": "White",
+        "n": 22
+      },
+      {
         "charge": "Homicide",
         "avgWeight": 166,
         "avgHeight": "5'9\"",
-        "topRace": "White",
-        "n": 21
-      },
-      {
-        "charge": "Child Sex Offense",
-        "avgWeight": 219,
-        "avgHeight": "5'10\"",
         "topRace": "White",
         "n": 21
       },
@@ -2990,7 +2990,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 2765
+      "count": 2767
     }
   ]
 }
