@@ -1,6 +1,59 @@
 [
   {
     "type": "BOOKED",
+    "bookingNumber": "2026004087",
+    "name": "MENDS, NANA EFUA AVOKOMA",
+    "bookingDate": "",
+    "charges": [],
+    "age": "37",
+    "sex": "F",
+    "race": "B",
+    "height": "505",
+    "weight": "280",
+    "hair": "BRO",
+    "eyes": "BRO",
+    "inmateId": "50005319",
+    "schedRelease": null,
+    "firstSeen": "09/12/2026, 10:22:15",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
+    "bookingNumber": "2026004088",
+    "name": "MCMEANS, DAVID",
+    "bookingDate": "",
+    "charges": [
+      {
+        "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
+        "cleared": false,
+        "addDesc": "FTA-CRIM TRES2, PSP 3",
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 1000,
+        "cashAmount": null,
+        "courtCase": "50182206",
+        "nextCourtDate": "09/14/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "09/12/2026",
+        "courtType": "BM"
+      }
+    ],
+    "age": "42",
+    "sex": "M",
+    "race": "B",
+    "height": "510",
+    "weight": "167",
+    "hair": "BLK",
+    "eyes": "BLK",
+    "inmateId": "40125198",
+    "schedRelease": null,
+    "firstSeen": "09/12/2026, 10:22:14",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
     "bookingNumber": "2026004085",
     "name": "SANDERS, RICHIE VASHAWN",
     "bookingDate": "",
@@ -41,31 +94,31 @@
     "charges": [
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "FTA-VOCSA",
-        "clearance": null,
+        "clearance": "RL",
         "bondBailType": "C/B",
         "bondAmount": 1000,
         "cashAmount": null,
         "courtCase": "50139704",
-        "nextCourtDate": "09/14/2026",
+        "nextCourtDate": null,
         "arrestAgency": "BREMERTON POLICE DEPARTMENT",
         "arrestDate": "09/12/2026",
-        "courtType": "BM"
+        "courtType": null
       },
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "FTA-CRIM TRES 2, POSS STOL PROP",
-        "clearance": null,
+        "clearance": "RL",
         "bondBailType": "C/B",
         "bondAmount": 1000,
         "cashAmount": null,
         "courtCase": "50182206",
-        "nextCourtDate": "09/14/2026",
+        "nextCourtDate": null,
         "arrestAgency": "BREMERTON POLICE DEPARTMENT",
         "arrestDate": "09/12/2026",
-        "courtType": "BM"
+        "courtType": null
       }
     ],
     "age": "42",
@@ -78,8 +131,8 @@
     "inmateId": "40150877",
     "schedRelease": null,
     "firstSeen": "09/12/2026, 07:18:03",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "09/12/2026, 02:22:00",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -89,31 +142,31 @@
     "charges": [
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "CRIM TRES 2, POSS STOLEN PROP 3",
-        "clearance": null,
+        "clearance": "RL",
         "bondBailType": "C/B",
         "bondAmount": 1000,
         "cashAmount": null,
         "courtCase": "50182206",
-        "nextCourtDate": "09/14/2026",
+        "nextCourtDate": null,
         "arrestAgency": "BREMERTON POLICE DEPARTMENT",
         "arrestDate": "09/12/2026",
-        "courtType": "BM"
+        "courtType": null
       },
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "CONTROLLED SUBSTANCE KNOWING POSSESSION",
-        "clearance": null,
+        "clearance": "RL",
         "bondBailType": "C/B",
         "bondAmount": 1000,
         "cashAmount": null,
         "courtCase": "50139704",
-        "nextCourtDate": "09/14/2026",
+        "nextCourtDate": null,
         "arrestAgency": "BREMERTON POLICE DEPARTMENT",
         "arrestDate": "09/12/2026",
-        "courtType": "BM"
+        "courtType": null
       }
     ],
     "age": "42",
@@ -126,8 +179,8 @@
     "inmateId": "40150877",
     "schedRelease": null,
     "firstSeen": "09/12/2026, 07:18:02",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "09/12/2026, 02:12:00",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -403,9 +456,9 @@
     "charges": [
       {
         "violation": "NONE - FAILURE TO COMPLY -  W/TERMS OF SENTENCE - FELONY",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "FTC DC",
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
@@ -426,8 +479,8 @@
     "inmateId": "40374289",
     "schedRelease": "09/12/2026",
     "firstSeen": "09/11/2026, 13:40:45",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "09/12/2026, 02:17:00",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -713,10 +766,10 @@
     "age": "43",
     "sex": "M",
     "race": "W",
-    "height": null,
-    "weight": null,
-    "hair": "Eyes",
-    "eyes": "Height",
+    "height": "602",
+    "weight": "260",
+    "hair": "BRO",
+    "eyes": "HAZ",
     "inmateId": "50005413",
     "schedRelease": null,
     "firstSeen": "09/11/2026, 07:09:35",
@@ -1369,9 +1422,9 @@
       },
       {
         "violation": "DOCWT - DEPARTMENT OF CORRECTIONS WARRANT",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
@@ -23520,9 +23573,9 @@
     "charges": [
       {
         "violation": "9A.36.041(2) - ASSAULT-4 - DV",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
@@ -23543,8 +23596,8 @@
     "inmateId": "40130366",
     "schedRelease": "09/12/2026",
     "firstSeen": "08/06/2026, 17:25:09",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "09/12/2026, 01:44:00",
+    "status": "released"
   },
   {
     "type": "BOOKED",

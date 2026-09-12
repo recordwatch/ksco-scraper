@@ -106570,9 +106570,9 @@
     "charges": [
       {
         "violation": "9A.36.041(2) - ASSAULT-4 - DV",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
@@ -106584,9 +106584,9 @@
       }
     ],
     "totalBond": null,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "08/06/2026, 17:25:09",
-    "releasedAt": null
+    "releasedAt": "09/12/2026, 01:44:00"
   },
   "2026003544": {
     "bookingNumber": "2026003544",
@@ -131085,9 +131085,9 @@
       },
       {
         "violation": "DOCWT - DEPARTMENT OF CORRECTIONS WARRANT",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
@@ -131764,10 +131764,10 @@
     "inmateId": "50005413",
     "schedRelease": null,
     "age": "43",
-    "height": null,
-    "weight": null,
-    "hair": "Eyes",
-    "eyes": "Height",
+    "height": "602",
+    "weight": "260",
+    "hair": "BRO",
+    "eyes": "HAZ",
     "charges": [
       {
         "violation": "9A.36.041(2) - ASSAULT-4 - DV",
@@ -131927,9 +131927,9 @@
     "charges": [
       {
         "violation": "NONE - FAILURE TO COMPLY -  W/TERMS OF SENTENCE - FELONY",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "FTC DC",
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
@@ -131941,9 +131941,9 @@
       }
     ],
     "totalBond": null,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "09/11/2026, 13:40:45",
-    "releasedAt": null
+    "releasedAt": "09/12/2026, 02:17:00"
   },
   "2026004074": {
     "bookingNumber": "2026004074",
@@ -132440,37 +132440,37 @@
     "charges": [
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "CRIM TRES 2, POSS STOLEN PROP 3",
-        "clearance": null,
+        "clearance": "RL",
         "bondBailType": "C/B",
         "bondAmount": 1000,
         "cashAmount": null,
         "courtCase": "50182206",
-        "nextCourtDate": "09/14/2026",
+        "nextCourtDate": null,
         "arrestAgency": "BREMERTON POLICE DEPARTMENT",
         "arrestDate": "09/12/2026",
-        "courtType": "BM"
+        "courtType": null
       },
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "CONTROLLED SUBSTANCE KNOWING POSSESSION",
-        "clearance": null,
+        "clearance": "RL",
         "bondBailType": "C/B",
         "bondAmount": 1000,
         "cashAmount": null,
         "courtCase": "50139704",
-        "nextCourtDate": "09/14/2026",
+        "nextCourtDate": null,
         "arrestAgency": "BREMERTON POLICE DEPARTMENT",
         "arrestDate": "09/12/2026",
-        "courtType": "BM"
+        "courtType": null
       }
     ],
     "totalBond": 2000,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "09/12/2026, 07:18:02",
-    "releasedAt": null
+    "releasedAt": "09/12/2026, 02:12:00"
   },
   "2026004085": {
     "bookingNumber": "2026004085",
@@ -132532,22 +132532,85 @@
     "charges": [
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "FTA-VOCSA",
-        "clearance": null,
+        "clearance": "RL",
         "bondBailType": "C/B",
         "bondAmount": 1000,
         "cashAmount": null,
         "courtCase": "50139704",
-        "nextCourtDate": "09/14/2026",
+        "nextCourtDate": null,
         "arrestAgency": "BREMERTON POLICE DEPARTMENT",
         "arrestDate": "09/12/2026",
-        "courtType": "BM"
+        "courtType": null
       },
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "FTA-CRIM TRES 2, POSS STOL PROP",
+        "clearance": "RL",
+        "bondBailType": "C/B",
+        "bondAmount": 1000,
+        "cashAmount": null,
+        "courtCase": "50182206",
+        "nextCourtDate": null,
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "09/12/2026",
+        "courtType": null
+      }
+    ],
+    "totalBond": 2000,
+    "status": "released",
+    "firstSeen": "09/12/2026, 07:18:03",
+    "releasedAt": "09/12/2026, 02:22:00"
+  },
+  "2026004087": {
+    "bookingNumber": "2026004087",
+    "firstName": "NANA EFUA",
+    "lastName": "MENDS",
+    "middleName": "AVOKOMA",
+    "race": "B",
+    "sex": "F",
+    "bookingDate": "",
+    "releaseDate": "",
+    "schReleaseDate": "",
+    "detailUrl": "https://incustody.kitsap.gov/Home/BookingSearchResult?LastName=%25&FirstName=&BookingFrom=&BookingTo=&ValidSearch=&sort=BookingDate&sortdir=DESC&page=19&BookingNumber=1",
+    "inmateId": "50005319",
+    "schedRelease": null,
+    "age": "37",
+    "height": "505",
+    "weight": "280",
+    "hair": "BRO",
+    "eyes": "BRO",
+    "charges": [],
+    "totalBond": null,
+    "status": "in_custody",
+    "firstSeen": "09/12/2026, 10:22:15",
+    "releasedAt": null
+  },
+  "2026004088": {
+    "bookingNumber": "2026004088",
+    "firstName": "DAVID",
+    "lastName": "MCMEANS",
+    "middleName": "",
+    "race": "B",
+    "sex": "M",
+    "bookingDate": "",
+    "releaseDate": "",
+    "schReleaseDate": "",
+    "detailUrl": "https://incustody.kitsap.gov/Home/BookingSearchResult?LastName=%25&FirstName=&BookingFrom=&BookingTo=&ValidSearch=&sort=BookingDate&sortdir=DESC&page=18&BookingNumber=15",
+    "inmateId": "40125198",
+    "schedRelease": null,
+    "age": "42",
+    "height": "510",
+    "weight": "167",
+    "hair": "BLK",
+    "eyes": "BLK",
+    "charges": [
+      {
+        "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
+        "cleared": false,
+        "addDesc": "FTA-CRIM TRES2, PSP 3",
         "clearance": null,
         "bondBailType": "C/B",
         "bondAmount": 1000,
@@ -132559,9 +132622,9 @@
         "courtType": "BM"
       }
     ],
-    "totalBond": 2000,
+    "totalBond": 1000,
     "status": "in_custody",
-    "firstSeen": "09/12/2026, 07:18:03",
+    "firstSeen": "09/12/2026, 10:22:14",
     "releasedAt": null
   }
 }
