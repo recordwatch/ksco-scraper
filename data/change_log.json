@@ -1,11 +1,122 @@
 [
   {
     "type": "BOOKED",
+    "bookingNumber": "2026004089",
+    "name": "STEWART, AMBER LYNN",
+    "bookingDate": "",
+    "charges": [
+      {
+        "violation": "46.61.522(2) - VEHICULAR ASSAULT",
+        "cleared": false,
+        "addDesc": "VEH ASLT DV",
+        "clearance": null,
+        "bondBailType": "NOBD",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "09/14/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "09/12/2026",
+        "courtType": "SC"
+      },
+      {
+        "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
+        "cleared": false,
+        "addDesc": "DUI",
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 5000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "09/14/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "09/12/2026",
+        "courtType": "SC"
+      }
+    ],
+    "age": null,
+    "sex": "",
+    "race": "",
+    "height": null,
+    "weight": null,
+    "hair": "Eyes",
+    "eyes": "Height",
+    "inmateId": "50005416",
+    "schedRelease": null,
+    "firstSeen": "09/12/2026, 12:34:30",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
+    "bookingNumber": "2026004090",
+    "name": "FAULKNER, BRIANNA LEE",
+    "bookingDate": "",
+    "charges": [
+      {
+        "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
+        "cleared": false,
+        "addDesc": "CRIM TRESS 1",
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 2500,
+        "cashAmount": null,
+        "courtCase": "50023802",
+        "nextCourtDate": "09/14/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "09/12/2026",
+        "courtType": "BM"
+      },
+      {
+        "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
+        "cleared": false,
+        "addDesc": "UPOCS",
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 2500,
+        "cashAmount": null,
+        "courtCase": "50023804",
+        "nextCourtDate": "09/14/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "09/12/2026",
+        "courtType": "BM"
+      }
+    ],
+    "age": "39",
+    "sex": "F",
+    "race": "W",
+    "height": "506",
+    "weight": "175",
+    "hair": "BRO",
+    "eyes": "BRO",
+    "inmateId": "40170297",
+    "schedRelease": null,
+    "firstSeen": "09/12/2026, 12:34:29",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
     "bookingNumber": "2026004087",
     "name": "MENDS, NANA EFUA AVOKOMA",
     "bookingDate": "",
-    "charges": [],
-    "age": "37",
+    "charges": [
+      {
+        "violation": "7.105.450(1) - PROTECTION ORDER VIOLATION",
+        "cleared": false,
+        "addDesc": "POV",
+        "clearance": null,
+        "bondBailType": "NOBD",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "09/14/2026",
+        "arrestAgency": "PORT ORCHARD POLICE DEPARTMENT",
+        "arrestDate": "09/12/2026",
+        "courtType": "POMC"
+      }
+    ],
+    "age": "38",
     "sex": "F",
     "race": "B",
     "height": "505",
@@ -26,9 +137,9 @@
     "charges": [
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "FTA-CRIM TRES2, PSP 3",
-        "clearance": null,
+        "clearance": "BR",
         "bondBailType": "C/B",
         "bondAmount": 1000,
         "cashAmount": null,
@@ -49,8 +160,8 @@
     "inmateId": "40125198",
     "schedRelease": null,
     "firstSeen": "09/12/2026, 10:22:14",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "09/12/2026, 12:34:30",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -1490,9 +1601,9 @@
     "charges": [
       {
         "violation": "7.105.450(1) - PROTECTION ORDER VIOLATION",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": 2500,
         "cashAmount": null,
@@ -1504,9 +1615,9 @@
       },
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": 1000,
         "cashAmount": null,
