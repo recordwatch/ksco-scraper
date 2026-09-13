@@ -1,6 +1,40 @@
 [
   {
     "type": "BOOKED",
+    "bookingNumber": "2026004091",
+    "name": "SWAIM, ABYGAEL JOYZ",
+    "bookingDate": "",
+    "charges": [
+      {
+        "violation": "9A.56.040(2) - THEFT-2",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 10000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "09/14/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "09/12/2026",
+        "courtType": "SC"
+      }
+    ],
+    "age": "26",
+    "sex": "F",
+    "race": "W",
+    "height": "501",
+    "weight": "141",
+    "hair": "BRO",
+    "eyes": "HAZ",
+    "inmateId": "40587176",
+    "schedRelease": null,
+    "firstSeen": "09/12/2026, 17:09:10",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
     "bookingNumber": "2026004089",
     "name": "STEWART, AMBER LYNN",
     "bookingDate": "",
@@ -55,9 +89,9 @@
     "charges": [
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "CRIM TRESS 1",
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": 2500,
         "cashAmount": null,
@@ -69,9 +103,9 @@
       },
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "UPOCS",
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": 2500,
         "cashAmount": null,
@@ -314,7 +348,7 @@
         "courtType": "DS"
       }
     ],
-    "age": "34",
+    "age": "35",
     "sex": "M",
     "race": "W",
     "height": "508",
@@ -451,9 +485,9 @@
     "charges": [
       {
         "violation": "9A.56.050(2) - THEFT-3",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "BR",
         "bondBailType": "C/B",
         "bondAmount": 5000,
         "cashAmount": null,
@@ -474,8 +508,8 @@
     "inmateId": "40273357",
     "schedRelease": null,
     "firstSeen": "09/11/2026, 23:16:12",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "09/12/2026, 17:09:12",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -827,9 +861,9 @@
     "charges": [
       {
         "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": 5000,
         "cashAmount": null,
@@ -850,8 +884,8 @@
     "inmateId": "40166435",
     "schedRelease": null,
     "firstSeen": "09/11/2026, 07:09:35",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "09/12/2026, 17:09:11",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -1638,8 +1672,8 @@
     "inmateId": "50001830",
     "schedRelease": null,
     "firstSeen": "09/10/2026, 01:46:54",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "09/12/2026, 17:09:11",
+    "status": "released"
   },
   {
     "type": "BOOKED",

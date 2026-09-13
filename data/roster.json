@@ -130965,9 +130965,9 @@
       }
     ],
     "totalBond": null,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "09/10/2026, 01:46:54",
-    "releasedAt": null
+    "releasedAt": "09/12/2026, 17:09:11"
   },
   "2026004053": {
     "bookingNumber": "2026004053",
@@ -131810,9 +131810,9 @@
     "charges": [
       {
         "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": 5000,
         "cashAmount": null,
@@ -131824,9 +131824,9 @@
       }
     ],
     "totalBond": 5000,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "09/11/2026, 07:09:35",
-    "releasedAt": null
+    "releasedAt": "09/12/2026, 17:09:11"
   },
   "2026004071": {
     "bookingNumber": "2026004071",
@@ -132139,9 +132139,9 @@
     "charges": [
       {
         "violation": "9A.56.050(2) - THEFT-3",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "BR",
         "bondBailType": "C/B",
         "bondAmount": 5000,
         "cashAmount": null,
@@ -132153,9 +132153,9 @@
       }
     ],
     "totalBond": 5000,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "09/11/2026, 23:16:12",
-    "releasedAt": null
+    "releasedAt": "09/12/2026, 17:09:12"
   },
   "2026004078": {
     "bookingNumber": "2026004078",
@@ -132393,7 +132393,7 @@
     "detailUrl": "https://incustody.kitsap.gov/Home/BookingSearchResult?LastName=%25&FirstName=&BookingFrom=&BookingTo=&ValidSearch=&sort=BookingDate&sortdir=DESC&page=18&BookingNumber=13",
     "inmateId": "40096591",
     "schedRelease": null,
-    "age": "34",
+    "age": "35",
     "height": "508",
     "weight": "185",
     "hair": "BRO",
@@ -132716,9 +132716,9 @@
     "charges": [
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "CRIM TRESS 1",
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": 2500,
         "cashAmount": null,
@@ -132730,9 +132730,9 @@
       },
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "UPOCS",
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": 2500,
         "cashAmount": null,
@@ -132746,6 +132746,45 @@
     "totalBond": 5000,
     "status": "in_custody",
     "firstSeen": "09/12/2026, 12:34:29",
+    "releasedAt": null
+  },
+  "2026004091": {
+    "bookingNumber": "2026004091",
+    "firstName": "ABYGAEL",
+    "lastName": "SWAIM",
+    "middleName": "JOYZ",
+    "race": "W",
+    "sex": "F",
+    "bookingDate": "",
+    "releaseDate": "",
+    "schReleaseDate": "",
+    "detailUrl": "https://incustody.kitsap.gov/Home/BookingSearchResult?LastName=%25&FirstName=&BookingFrom=&BookingTo=&ValidSearch=&sort=BookingDate&sortdir=DESC&page=19&BookingNumber=1",
+    "inmateId": "40587176",
+    "schedRelease": null,
+    "age": "26",
+    "height": "501",
+    "weight": "141",
+    "hair": "BRO",
+    "eyes": "HAZ",
+    "charges": [
+      {
+        "violation": "9A.56.040(2) - THEFT-2",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 10000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "09/14/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "09/12/2026",
+        "courtType": "SC"
+      }
+    ],
+    "totalBond": 10000,
+    "status": "in_custody",
+    "firstSeen": "09/12/2026, 17:09:10",
     "releasedAt": null
   }
 }
