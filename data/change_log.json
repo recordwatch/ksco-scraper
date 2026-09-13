@@ -20,7 +20,7 @@
         "courtType": "SC"
       }
     ],
-    "age": "43",
+    "age": "44",
     "sex": "M",
     "race": "W",
     "height": "511",
@@ -1211,9 +1211,9 @@
     "charges": [
       {
         "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
@@ -1234,8 +1234,8 @@
     "inmateId": "50003072",
     "schedRelease": "09/13/2026",
     "firstSeen": "09/11/2026, 13:40:43",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "09/13/2026, 13:42:21",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -3111,9 +3111,9 @@
     "charges": [
       {
         "violation": "NONE - REVOCATION OF PR/BAIL",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "DWLS 2",
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": 5000,
         "cashAmount": null,
@@ -3134,8 +3134,8 @@
     "inmateId": "40016578",
     "schedRelease": null,
     "firstSeen": "09/08/2026, 18:06:01",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "09/13/2026, 13:42:21",
+    "status": "released"
   },
   {
     "type": "BOOKED",

@@ -129832,9 +129832,9 @@
     "charges": [
       {
         "violation": "NONE - REVOCATION OF PR/BAIL",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "DWLS 2",
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": 5000,
         "cashAmount": null,
@@ -129846,9 +129846,9 @@
       }
     ],
     "totalBond": 5000,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "09/08/2026, 18:06:01",
-    "releasedAt": null
+    "releasedAt": "09/13/2026, 13:42:21"
   },
   "2026004030": {
     "bookingNumber": "2026004030",
@@ -132100,9 +132100,9 @@
     "charges": [
       {
         "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
@@ -132114,9 +132114,9 @@
       }
     ],
     "totalBond": null,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "09/11/2026, 13:40:43",
-    "releasedAt": null
+    "releasedAt": "09/13/2026, 13:42:21"
   },
   "2026004077": {
     "bookingNumber": "2026004077",
@@ -133263,7 +133263,7 @@
     "detailUrl": "https://incustody.kitsap.gov/Home/BookingSearchResult?LastName=%25&FirstName=&BookingFrom=&BookingTo=&ValidSearch=&sort=BookingDate&sortdir=DESC&page=19&BookingNumber=6",
     "inmateId": "50003958",
     "schedRelease": null,
-    "age": "43",
+    "age": "44",
     "height": "511",
     "weight": "185",
     "hair": "BLN",
