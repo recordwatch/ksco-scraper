@@ -30,8 +30,8 @@
     "inmateId": "40051478",
     "schedRelease": null,
     "firstSeen": "09/15/2026, 13:04:13",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "09/15/2026, 16:05:21",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -242,8 +242,8 @@
     "inmateId": "50005430",
     "schedRelease": null,
     "firstSeen": "09/15/2026, 06:02:59",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "09/15/2026, 16:05:21",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -304,8 +304,8 @@
     "inmateId": "40185610",
     "schedRelease": null,
     "firstSeen": "09/15/2026, 06:02:58",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "09/15/2026, 16:05:20",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -315,14 +315,14 @@
     "charges": [
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "PROTECTION ORDER VIOLATION",
-        "clearance": null,
-        "bondBailType": "C/B",
-        "bondAmount": 5000,
+        "clearance": "PR",
+        "bondBailType": "PR",
+        "bondAmount": null,
         "cashAmount": null,
         "courtCase": "350422574",
-        "nextCourtDate": "09/15/2026",
+        "nextCourtDate": "10/14/2026",
         "arrestAgency": "OTHER AGENCY",
         "arrestDate": "09/14/2026",
         "courtType": "DS"
@@ -349,14 +349,14 @@
     "charges": [
       {
         "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
-        "bondBailType": "C/B",
-        "bondAmount": 5000,
+        "clearance": "PR",
+        "bondBailType": "PR",
+        "bondAmount": null,
         "cashAmount": null,
-        "courtCase": null,
-        "nextCourtDate": "09/15/2026",
+        "courtCase": "350442907",
+        "nextCourtDate": "10/14/2026",
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "09/14/2026",
         "courtType": "DS"
@@ -630,7 +630,7 @@
         "bondAmount": 10000,
         "cashAmount": null,
         "courtCase": "35045660",
-        "nextCourtDate": "09/15/2026",
+        "nextCourtDate": "10/14/2026",
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "09/14/2026",
         "courtType": "DS"
@@ -691,14 +691,14 @@
     "charges": [
       {
         "violation": "9A.76.190(3)(A) - FAILURE TO APPEAR / CONTEMPT OF COURT - FELONY",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "THEFT 2",
-        "clearance": null,
-        "bondBailType": "NOBD",
+        "clearance": "PR",
+        "bondBailType": "PR",
         "bondAmount": null,
         "cashAmount": null,
         "courtCase": "2510074518",
-        "nextCourtDate": "09/15/2026",
+        "nextCourtDate": "09/18/2026",
         "arrestAgency": "PORT ORCHARD POLICE DEPARTMENT",
         "arrestDate": "09/14/2026",
         "courtType": "SC"
@@ -1037,7 +1037,7 @@
         "addDesc": null,
         "clearance": null,
         "bondBailType": "C/B",
-        "bondAmount": 5000,
+        "bondAmount": 10000,
         "cashAmount": null,
         "courtCase": "51575202",
         "nextCourtDate": "10/06/2026",
@@ -1051,7 +1051,7 @@
         "addDesc": null,
         "clearance": null,
         "bondBailType": "C/B",
-        "bondAmount": 5000,
+        "bondAmount": null,
         "cashAmount": null,
         "courtCase": "51575202",
         "nextCourtDate": "10/06/2026",
@@ -2788,8 +2788,8 @@
     "inmateId": "40649553",
     "schedRelease": null,
     "firstSeen": "09/10/2026, 15:26:41",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "09/15/2026, 16:05:20",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -4584,7 +4584,7 @@
         "bondAmount": 5000,
         "cashAmount": null,
         "courtCase": "2A0088612",
-        "nextCourtDate": "10/06/2026",
+        "nextCourtDate": "09/16/2026",
         "arrestAgency": "PORT GAMBLE POLICE DEPARTMENT",
         "arrestDate": "09/07/2026",
         "courtType": "DS"
@@ -8100,7 +8100,7 @@
         "bondAmount": null,
         "cashAmount": null,
         "courtCase": "51568003",
-        "nextCourtDate": "09/15/2026",
+        "nextCourtDate": "09/16/2026",
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "09/15/2026",
         "courtType": "BM"
@@ -9686,7 +9686,7 @@
         "bondAmount": 15000,
         "cashAmount": null,
         "courtCase": "10569725",
-        "nextCourtDate": "09/15/2026",
+        "nextCourtDate": "10/13/2026",
         "arrestAgency": "BREMERTON POLICE DEPARTMENT",
         "arrestDate": "08/31/2026",
         "courtType": "DS"
@@ -12311,7 +12311,7 @@
         "addDesc": null,
         "clearance": null,
         "bondBailType": "GL",
-        "bondAmount": 1000,
+        "bondAmount": null,
         "cashAmount": null,
         "courtCase": "50721603",
         "nextCourtDate": null,
@@ -12321,17 +12321,17 @@
       },
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
-        "cleared": false,
-        "addDesc": "POSS C/S",
-        "clearance": null,
-        "bondBailType": "C/B",
-        "bondAmount": 1000,
+        "cleared": true,
+        "addDesc": "FALSE STAT",
+        "clearance": "RF",
+        "bondBailType": "RF",
+        "bondAmount": null,
         "cashAmount": null,
         "courtCase": "50721602",
-        "nextCourtDate": "09/15/2026",
+        "nextCourtDate": null,
         "arrestAgency": "BREMERTON POLICE DEPARTMENT",
         "arrestDate": "08/26/2026",
-        "courtType": "BM"
+        "courtType": null
       },
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
@@ -12370,7 +12370,7 @@
     "hair": "BLN",
     "eyes": "BLU",
     "inmateId": "40496932",
-    "schedRelease": "09/14/2026",
+    "schedRelease": "09/16/2026",
     "firstSeen": "08/27/2026, 04:00:23",
     "releasedAt": null,
     "status": "in_custody"
@@ -17612,8 +17612,8 @@
     "inmateId": "40273992",
     "schedRelease": null,
     "firstSeen": "08/19/2026, 23:50:55",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "09/15/2026, 16:05:19",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -19090,7 +19090,7 @@
         "bondAmount": 10000,
         "cashAmount": null,
         "courtCase": "2610055218",
-        "nextCourtDate": "10/19/2026",
+        "nextCourtDate": "09/16/2026",
         "arrestAgency": "BREMERTON POLICE DEPARTMENT",
         "arrestDate": "08/17/2026",
         "courtType": "SC"
@@ -22066,8 +22066,8 @@
     "inmateId": "40573684",
     "schedRelease": "09/05/2026",
     "firstSeen": "08/13/2026, 04:49:48",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "09/15/2026, 16:05:18",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -29977,7 +29977,7 @@
         "bondAmount": 10000,
         "cashAmount": null,
         "courtCase": "350441710",
-        "nextCourtDate": "09/30/2026",
+        "nextCourtDate": "09/16/2026",
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "07/29/2026",
         "courtType": "DS"
@@ -30888,9 +30888,9 @@
     "charges": [
       {
         "violation": "9A.52.020(2) - BURGLARY-1",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": 200000,
         "cashAmount": null,
@@ -56039,7 +56039,7 @@
         "bondAmount": 100000,
         "cashAmount": null,
         "courtCase": "350440671",
-        "nextCourtDate": "09/15/2026",
+        "nextCourtDate": "09/18/2026",
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "06/24/2026",
         "courtType": "DS"
@@ -56067,7 +56067,7 @@
         "bondAmount": 20000,
         "cashAmount": null,
         "courtCase": "350437606",
-        "nextCourtDate": "09/15/2026",
+        "nextCourtDate": "09/18/2026",
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "06/26/2026",
         "courtType": "DS"
@@ -56081,7 +56081,7 @@
         "bondAmount": null,
         "cashAmount": null,
         "courtCase": "350425093",
-        "nextCourtDate": "09/15/2026",
+        "nextCourtDate": "09/18/2026",
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "08/12/2026",
         "courtType": "DS"
@@ -56095,7 +56095,7 @@
         "bondAmount": null,
         "cashAmount": null,
         "courtCase": "350424949",
-        "nextCourtDate": "09/15/2026",
+        "nextCourtDate": "09/18/2026",
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "08/12/2026",
         "courtType": "DS"
@@ -56109,7 +56109,7 @@
         "bondAmount": null,
         "cashAmount": null,
         "courtCase": "350433822",
-        "nextCourtDate": "09/15/2026",
+        "nextCourtDate": "09/18/2026",
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "08/12/2026",
         "courtType": "DS"
