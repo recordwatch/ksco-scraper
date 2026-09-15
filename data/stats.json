@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-09-15T00:52:00.511Z",
+  "generatedAt": "2026-09-15T05:59:26.354Z",
   "bookingCounts": {
-    "total": 2801,
-    "inCustody": 262,
-    "released": 2539
+    "total": 2802,
+    "inCustody": 259,
+    "released": 2543
   },
   "gender": [
     {
       "label": "Male",
       "count": 1912,
-      "pct": 68.3
+      "pct": 68.2
     },
     {
       "label": "Female",
-      "count": 625,
+      "count": 626,
       "pct": 22.3
     },
     {
@@ -25,7 +25,7 @@
   "race": [
     {
       "label": "White",
-      "count": 1986,
+      "count": 1987,
       "pct": 70.9
     },
     {
@@ -57,7 +57,7 @@
     "histogram": [
       {
         "label": "18–25",
-        "count": 396
+        "count": 397
       },
       {
         "label": "26–35",
@@ -112,7 +112,7 @@
     },
     {
       "label": "Protection Order Violation",
-      "count": 179
+      "count": 180
     },
     {
       "label": "Other",
@@ -150,7 +150,7 @@
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
-      "count": 1916
+      "count": 1917
     },
     {
       "label": "PORT ORCHARD POLICE DEPARTMENT",
@@ -197,19 +197,19 @@
     "median": 1.9,
     "min": 0,
     "max": 1233.4,
-    "count": 2499,
+    "count": 2503,
     "histogram": [
       {
         "label": "< 1 day",
-        "count": 908
+        "count": 909
       },
       {
         "label": "1–3 days",
-        "count": 551
+        "count": 553
       },
       {
         "label": "4–7 days",
-        "count": 202
+        "count": 203
       },
       {
         "label": "1–2 weeks",
@@ -551,6 +551,7 @@
   ],
   "chargesByRace": {
     "White": {
+      "Protection Order Violation": 133,
       "Failure to Appear": 827,
       "Ignition Interlock Violation": 66,
       "Driving While License Suspended": 162,
@@ -561,7 +562,6 @@
       "Hit and Run": 39,
       "Other": 104,
       "DOC Warrant": 124,
-      "Protection Order Violation": 132,
       "Domestic Violence": 272,
       "Criminal Trespass": 154,
       "Obstruction": 93,
@@ -788,12 +788,12 @@
   },
   "chargesBySex": {
     "Female": {
+      "Protection Order Violation": 40,
       "Failure to Appear": 266,
       "Drug Offense": 52,
       "DUI": 82,
       "Assault": 43,
       "Hit and Run": 12,
-      "Protection Order Violation": 39,
       "Theft (2nd Degree)": 15,
       "Making False Statements": 7,
       "Failure to Comply (Sentence)": 6,
@@ -951,15 +951,15 @@
   "releaseReasons": [
     {
       "label": "FTA / Contempt Resolved",
-      "count": 866
+      "count": 868
     },
     {
       "label": "Released (Unknown Reason)",
-      "count": 669
+      "count": 670
     },
     {
       "label": "Released",
-      "count": 615
+      "count": 616
     },
     {
       "label": "Scheduled Release / Time Served",
@@ -997,7 +997,7 @@
   "recidivism": {
     "rate": 13.9,
     "repeatBookerCount": 328,
-    "totalIndividuals": 2360,
+    "totalIndividuals": 2361,
     "repeatBookers": [
       {
         "name": "SCHWEITZER, BRIAN A",
@@ -1603,7 +1603,7 @@
     },
     {
       "month": "2026-09",
-      "count": 179
+      "count": 180
     }
   ],
   "crimeTypes": [
@@ -1634,7 +1634,7 @@
     },
     {
       "label": "Order Violations",
-      "count": 301,
+      "count": 302,
       "pct": 7.3
     },
     {
@@ -1661,7 +1661,7 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 3729,
+      "count": 3730,
       "pct": 60
     },
     {
@@ -1736,9 +1736,9 @@
     },
     {
       "category": "Failure to Appear",
-      "avgDays": 16.7,
-      "medianDays": 3.3,
-      "count": 470
+      "avgDays": 16.6,
+      "medianDays": 3.2,
+      "count": 472
     },
     {
       "category": "Protection Order Violation",
@@ -1807,7 +1807,7 @@
     },
     {
       "name": "Bremerton PD",
-      "count": 1916,
+      "count": 1917,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -2192,9 +2192,9 @@
     }
   ],
   "bailOnRelease": {
-    "total": 2539,
-    "withBail": 1197,
-    "pct": 47.1
+    "total": 2543,
+    "withBail": 1200,
+    "pct": 47.2
   },
   "chargesByAgeGroup": [
     {
@@ -2394,10 +2394,10 @@
       },
       {
         "charge": "Protection Order Violation",
-        "avgWeight": 158,
+        "avgWeight": 160,
         "avgHeight": "5'5\"",
         "topRace": "White",
-        "n": 39
+        "n": 40
       },
       {
         "charge": "Driving While License Suspended",
@@ -3001,7 +3001,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 2798
+      "count": 2799
     }
   ]
 }

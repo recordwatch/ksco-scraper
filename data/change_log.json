@@ -1,15 +1,49 @@
 [
   {
     "type": "BOOKED",
+    "bookingNumber": "2026004120",
+    "name": "ZIELINSKI, SOLEY D",
+    "bookingDate": "09/14/2026",
+    "charges": [
+      {
+        "violation": "7.105.450(1) - PROTECTION ORDER VIOLATION",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "NOBD",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "09/15/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "09/14/2026",
+        "courtType": "BM"
+      }
+    ],
+    "age": "25",
+    "sex": "F",
+    "race": "W",
+    "height": "506",
+    "weight": "220",
+    "hair": "BLN",
+    "eyes": "BLU",
+    "inmateId": "50003053",
+    "schedRelease": null,
+    "firstSeen": "09/14/2026, 22:57:03",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
     "bookingNumber": "2026004119",
     "name": "WIPFF, JOLINE",
     "bookingDate": "",
     "charges": [
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "FTA THEFT 3",
-        "clearance": null,
+        "clearance": "BR",
         "bondBailType": "C/B",
         "bondAmount": 2500,
         "cashAmount": null,
@@ -30,8 +64,8 @@
     "inmateId": "50004606",
     "schedRelease": null,
     "firstSeen": "09/14/2026, 17:49:25",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "09/14/2026, 22:57:05",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -948,8 +982,8 @@
     "inmateId": "40498718",
     "schedRelease": null,
     "firstSeen": "09/12/2026, 22:13:56",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "09/14/2026, 22:57:05",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -1638,8 +1672,8 @@
     "inmateId": "50004600",
     "schedRelease": null,
     "firstSeen": "09/11/2026, 23:16:11",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "09/14/2026, 22:57:04",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -1966,8 +2000,8 @@
     "inmateId": "50005413",
     "schedRelease": null,
     "firstSeen": "09/11/2026, 07:09:35",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "09/14/2026, 22:57:03",
+    "status": "released"
   },
   {
     "type": "BOOKED",
