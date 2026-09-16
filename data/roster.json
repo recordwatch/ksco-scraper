@@ -133330,11 +133330,11 @@
     "charges": [
       {
         "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
-        "bondAmount": 10000,
+        "bondAmount": 5000,
         "cashAmount": null,
         "courtCase": "51575202",
         "nextCourtDate": "10/06/2026",
@@ -133344,9 +133344,9 @@
       },
       {
         "violation": "46.52.010(3) - HIT/RUN UNATTENDED VEHICLE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": null,
         "cashAmount": null,
@@ -133358,9 +133358,9 @@
       },
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "HIT & RUN VEH ATT, HIT & RUN UNATT VEH",
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": 5000,
         "cashAmount": null,
@@ -133372,9 +133372,9 @@
       }
     ],
     "totalBond": 10000,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "09/13/2026, 03:30:49",
-    "releasedAt": null
+    "releasedAt": "09/16/2026, 00:24:55"
   },
   "2026004102": {
     "bookingNumber": "2026004102",
@@ -134614,10 +134614,10 @@
     "inmateId": "50005431",
     "schedRelease": null,
     "age": "44",
-    "height": null,
-    "weight": null,
-    "hair": "Eyes",
-    "eyes": "Height",
+    "height": "506",
+    "weight": "120",
+    "hair": "BRO",
+    "eyes": "BLU",
     "charges": [
       {
         "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
@@ -134637,6 +134637,84 @@
     "totalBond": 5000,
     "status": "in_custody",
     "firstSeen": "09/15/2026, 18:33:33",
+    "releasedAt": null
+  },
+  "2026004140": {
+    "bookingNumber": "2026004140",
+    "firstName": "MICHAEL",
+    "lastName": "LEISS",
+    "middleName": "ROBERT",
+    "race": "W",
+    "sex": "M",
+    "bookingDate": "09/15/2026",
+    "releaseDate": "",
+    "schReleaseDate": "",
+    "detailUrl": "https://incustody.kitsap.gov/Home/BookingSearchResult?LastName=%25&FirstName=&BookingFrom=&BookingTo=&ValidSearch=&sort=BookingDate&sortdir=DESC&page=1&BookingNumber=4",
+    "inmateId": "50004070",
+    "schedRelease": null,
+    "age": "47",
+    "height": "509",
+    "weight": "170",
+    "hair": "BRO",
+    "eyes": "HAZ",
+    "charges": [
+      {
+        "violation": "46.61.504(5) - PHYSICAL CONTROL",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "NOBD",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "09/16/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "09/15/2026",
+        "courtType": "DS"
+      }
+    ],
+    "totalBond": null,
+    "status": "in_custody",
+    "firstSeen": "09/16/2026, 00:24:54",
+    "releasedAt": null
+  },
+  "2026004141": {
+    "bookingNumber": "2026004141",
+    "firstName": "KATRINA",
+    "lastName": "HAWKINSON",
+    "middleName": "VIRGINA",
+    "race": "W",
+    "sex": "F",
+    "bookingDate": "09/16/2026",
+    "releaseDate": "",
+    "schReleaseDate": "",
+    "detailUrl": "https://incustody.kitsap.gov/Home/BookingSearchResult?LastName=%25&FirstName=&BookingFrom=&BookingTo=&ValidSearch=&sort=BookingDate&sortdir=DESC&page=1&BookingNumber=1",
+    "inmateId": "50004535",
+    "schedRelease": null,
+    "age": "43",
+    "height": "501",
+    "weight": "140",
+    "hair": "BLN",
+    "eyes": "BLU",
+    "charges": [
+      {
+        "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
+        "cleared": true,
+        "addDesc": "THEFT 3",
+        "clearance": "BR",
+        "bondBailType": "C/B",
+        "bondAmount": 5000,
+        "cashAmount": null,
+        "courtCase": "P24-07022",
+        "nextCourtDate": "09/16/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "09/15/2026",
+        "courtType": "GH"
+      }
+    ],
+    "totalBond": 5000,
+    "status": "in_custody",
+    "firstSeen": "09/16/2026, 00:24:54",
     "releasedAt": null
   }
 }
