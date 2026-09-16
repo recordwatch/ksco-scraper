@@ -19365,7 +19365,7 @@
         "bondAmount": 150000,
         "cashAmount": null,
         "courtCase": "2610020118",
-        "nextCourtDate": "10/05/2026",
+        "nextCourtDate": "09/17/2026",
         "arrestAgency": "BREMERTON POLICE DEPARTMENT",
         "arrestDate": "03/20/2026",
         "courtType": "SC"
@@ -91319,14 +91319,14 @@
         "cleared": false,
         "addDesc": null,
         "clearance": null,
-        "bondBailType": "C/B",
-        "bondAmount": 150000,
+        "bondBailType": "NOBD",
+        "bondAmount": null,
         "cashAmount": null,
         "courtCase": "2510087718",
-        "nextCourtDate": "09/02/2026",
+        "nextCourtDate": null,
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "07/17/2026",
-        "courtType": "DC"
+        "courtType": null
       }
     ],
     "totalBond": 150000,
@@ -105294,7 +105294,7 @@
         "bondAmount": 2500,
         "cashAmount": null,
         "courtCase": "350438562",
-        "nextCourtDate": "10/01/2026",
+        "nextCourtDate": "09/17/2026",
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "08/04/2026",
         "courtType": "DS"
@@ -105308,7 +105308,7 @@
         "bondAmount": 2500,
         "cashAmount": null,
         "courtCase": "350421335",
-        "nextCourtDate": "10/01/2026",
+        "nextCourtDate": "09/17/2026",
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "08/04/2026",
         "courtType": "DS"
@@ -122567,9 +122567,9 @@
       }
     ],
     "totalBond": 12500,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "08/29/2026, 01:45:25",
-    "releasedAt": null
+    "releasedAt": "09/16/2026, 16:45:07"
   },
   "2026003869": {
     "bookingNumber": "2026003869",
@@ -125533,9 +125533,9 @@
       }
     ],
     "totalBond": null,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "09/02/2026, 13:44:43",
-    "releasedAt": null
+    "releasedAt": "09/16/2026, 16:45:08"
   },
   "2026003931": {
     "bookingNumber": "2026003931",
@@ -125611,23 +125611,23 @@
     "charges": [
       {
         "violation": "NONE - REVOCATION PR/BAIL BOND",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
-        "bondBailType": "C/B",
-        "bondAmount": 150000,
+        "clearance": "PR",
+        "bondBailType": "PR",
+        "bondAmount": null,
         "cashAmount": null,
         "courtCase": "2510007118",
-        "nextCourtDate": "09/16/2026",
+        "nextCourtDate": null,
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "09/02/2026",
-        "courtType": "DC"
+        "courtType": null
       }
     ],
     "totalBond": 150000,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "09/02/2026, 18:19:52",
-    "releasedAt": null
+    "releasedAt": "09/16/2026, 16:45:08"
   },
   "2026003933": {
     "bookingNumber": "2026003933",
@@ -134475,7 +134475,7 @@
         "bondAmount": 50000,
         "cashAmount": null,
         "courtCase": "14146214",
-        "nextCourtDate": "09/16/2026",
+        "nextCourtDate": "09/17/2026",
         "arrestAgency": "PORT ORCHARD POLICE DEPARTMENT",
         "arrestDate": "09/15/2026",
         "courtType": "DS"
@@ -134875,8 +134875,8 @@
         "cleared": false,
         "addDesc": "ALST-4 DV",
         "clearance": null,
-        "bondBailType": null,
-        "bondAmount": null,
+        "bondBailType": "CBO",
+        "bondAmount": 5000,
         "cashAmount": null,
         "courtCase": "22110701",
         "nextCourtDate": "09/17/2026",
@@ -134903,9 +134903,9 @@
     "detailUrl": "https://incustody.kitsap.gov/Home/BookingSearchResult?LastName=%25&FirstName=&BookingFrom=&BookingTo=&ValidSearch=&sort=BookingDate&sortdir=DESC&page=17&BookingNumber=13",
     "inmateId": "40541666",
     "schedRelease": null,
-    "age": "31",
-    "height": "504",
-    "weight": "130",
+    "age": "32",
+    "height": "506",
+    "weight": "127",
     "hair": "BRO",
     "eyes": "BRO",
     "charges": [
@@ -134922,6 +134922,20 @@
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "09/16/2026",
         "courtType": "SC"
+      },
+      {
+        "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
+        "cleared": false,
+        "addDesc": "ASLT 4 DV",
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 1000,
+        "cashAmount": null,
+        "courtCase": "50830501",
+        "nextCourtDate": "09/17/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "09/16/2026",
+        "courtType": "BM"
       }
     ],
     "totalBond": 25000,
@@ -134942,7 +134956,7 @@
     "detailUrl": "https://incustody.kitsap.gov/Home/BookingSearchResult?LastName=%25&FirstName=&BookingFrom=&BookingTo=&ValidSearch=&sort=BookingDate&sortdir=DESC&page=17&BookingNumber=14",
     "inmateId": "50001187",
     "schedRelease": "09/19/2026",
-    "age": "61",
+    "age": "62",
     "height": "506",
     "weight": "170",
     "hair": "BLK",
@@ -134966,6 +134980,165 @@
     "totalBond": null,
     "status": "in_custody",
     "firstSeen": "09/16/2026, 14:02:35",
+    "releasedAt": null
+  },
+  "2026004149": {
+    "bookingNumber": "2026004149",
+    "firstName": "ROSE",
+    "lastName": "CRUZ",
+    "middleName": "MARIE",
+    "race": "A",
+    "sex": "F",
+    "bookingDate": "",
+    "releaseDate": "",
+    "schReleaseDate": "09/19/2026",
+    "detailUrl": "https://incustody.kitsap.gov/Home/BookingSearchResult?LastName=%25&FirstName=&BookingFrom=&BookingTo=&ValidSearch=&sort=BookingDate&sortdir=DESC&page=17&BookingNumber=11",
+    "inmateId": "40070049",
+    "schedRelease": "09/19/2026",
+    "age": "39",
+    "height": "503",
+    "weight": "125",
+    "hair": "BLK",
+    "eyes": "BRO",
+    "charges": [
+      {
+        "violation": "72.09.310 - COMMUNITY CUSTODY VIOLATOR",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "GL",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": "898102",
+        "nextCourtDate": null,
+        "arrestAgency": "DEPARTMENT OF CORRECTIONS",
+        "arrestDate": "09/16/2026",
+        "courtType": null
+      }
+    ],
+    "totalBond": null,
+    "status": "in_custody",
+    "firstSeen": "09/16/2026, 16:45:06",
+    "releasedAt": null
+  },
+  "2026004150": {
+    "bookingNumber": "2026004150",
+    "firstName": "HEATHER",
+    "lastName": "KLEEN",
+    "middleName": "LYNNE",
+    "race": "W",
+    "sex": "F",
+    "bookingDate": "",
+    "releaseDate": "",
+    "schReleaseDate": "",
+    "detailUrl": "https://incustody.kitsap.gov/Home/BookingSearchResult?LastName=%25&FirstName=&BookingFrom=&BookingTo=&ValidSearch=&sort=BookingDate&sortdir=DESC&page=17&BookingNumber=12",
+    "inmateId": "40245324",
+    "schedRelease": null,
+    "age": "39",
+    "height": "502",
+    "weight": "140",
+    "hair": "BLK",
+    "eyes": "HAZ",
+    "charges": [
+      {
+        "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
+        "cleared": false,
+        "addDesc": "FTA ASLT 4",
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 2500,
+        "cashAmount": null,
+        "courtCase": "350415418",
+        "nextCourtDate": "09/17/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "09/16/2026",
+        "courtType": "PO"
+      }
+    ],
+    "totalBond": 2500,
+    "status": "in_custody",
+    "firstSeen": "09/16/2026, 16:45:06",
+    "releasedAt": null
+  },
+  "2026004152": {
+    "bookingNumber": "2026004152",
+    "firstName": "ROY",
+    "lastName": "VALDEZ",
+    "middleName": "B",
+    "race": "W",
+    "sex": "M",
+    "bookingDate": "",
+    "releaseDate": "",
+    "schReleaseDate": "",
+    "detailUrl": "https://incustody.kitsap.gov/Home/BookingSearchResult?LastName=%25&FirstName=&BookingFrom=&BookingTo=&ValidSearch=&sort=BookingDate&sortdir=DESC&page=17&BookingNumber=13",
+    "inmateId": "50003436",
+    "schedRelease": null,
+    "age": "40",
+    "height": "506",
+    "weight": "220",
+    "hair": "BLK",
+    "eyes": "BRO",
+    "charges": [
+      {
+        "violation": "46.61.024(1) - ATTEMPT TO ELUDE",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "09/17/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "09/16/2026",
+        "courtType": "SC"
+      },
+      {
+        "violation": "46.20.342(1)(C) - DWLS 3 -DRIVE W/LICENSE SUSP OR REVOKED-3 OR REVOKED LIC OR PRIVILEGE",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "09/17/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "09/16/2026",
+        "courtType": "SC"
+      },
+      {
+        "violation": "9A.52.100(2) - VEHICLE PROWLING-2",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "09/17/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "09/16/2026",
+        "courtType": "SC"
+      },
+      {
+        "violation": "9A.56.040(2) - THEFT-2",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "09/17/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "09/16/2026",
+        "courtType": "SC"
+      }
+    ],
+    "totalBond": null,
+    "status": "in_custody",
+    "firstSeen": "09/16/2026, 16:45:07",
     "releasedAt": null
   }
 }
