@@ -241,7 +241,7 @@
         "bondBailType": "C/B",
         "bondAmount": 20000,
         "cashAmount": null,
-        "courtCase": "251002718",
+        "courtCase": "2510002718",
         "nextCourtDate": "09/17/2026",
         "arrestAgency": "BREMERTON POLICE DEPARTMENT",
         "arrestDate": "09/16/2026",
@@ -529,9 +529,9 @@
     "charges": [
       {
         "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "1-DAY COMMIT",
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
@@ -1287,9 +1287,9 @@
     "charges": [
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
@@ -1301,9 +1301,9 @@
       },
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
@@ -13256,8 +13256,8 @@
     "inmateId": "40255189",
     "schedRelease": null,
     "firstSeen": "08/27/2026, 04:00:22",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "09/17/2026, 07:45:53",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -14623,9 +14623,9 @@
       },
       {
         "violation": "DOCWT - DEPARTMENT OF CORRECTIONS WARRANT",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "ECC, RESIDENTAL BURGLARY",
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
@@ -14688,8 +14688,8 @@
     "inmateId": "50005339",
     "schedRelease": "09/17/2026",
     "firstSeen": "08/25/2026, 05:51:51",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "09/17/2026, 07:45:53",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -18411,9 +18411,9 @@
     "charges": [
       {
         "violation": "DOCWT - DEPARTMENT OF CORRECTIONS WARRANT",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
@@ -18429,8 +18429,8 @@
     "race": "A",
     "height": "507",
     "weight": "210",
-    "hair": "GRY",
-    "eyes": "HAZ",
+    "hair": "Eyes",
+    "eyes": "Height",
     "inmateId": "10008097",
     "schedRelease": "09/17/2026",
     "firstSeen": "08/19/2026, 16:48:36",
@@ -30752,9 +30752,9 @@
     "charges": [
       {
         "violation": "7.105.450(1) - PROTECTION ORDER VIOLATION",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
@@ -30766,9 +30766,9 @@
       },
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "ASLT POLICE OF FIREFIGHTER, THEFT 3",
-        "clearance": null,
+        "clearance": "RL",
         "bondBailType": "C/B",
         "bondAmount": 5000,
         "cashAmount": null,
@@ -30780,9 +30780,9 @@
       },
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "THEFT 3",
-        "clearance": null,
+        "clearance": "RL",
         "bondBailType": "C/B",
         "bondAmount": 5000,
         "cashAmount": null,
@@ -30801,7 +30801,7 @@
     "hair": "BLK",
     "eyes": "BRO",
     "inmateId": "50005135",
-    "schedRelease": "09/17/2026",
+    "schedRelease": "08/16/2026",
     "firstSeen": "07/30/2026, 01:31:30",
     "releasedAt": null,
     "status": "in_custody"
