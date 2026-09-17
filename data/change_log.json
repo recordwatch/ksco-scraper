@@ -1,6 +1,88 @@
 [
   {
     "type": "BOOKED",
+    "bookingNumber": "2026004156",
+    "name": "BARTON, JEFFREY GUY",
+    "bookingDate": "",
+    "charges": [
+      {
+        "violation": "9A.36.031(2) - ASSAULT-3",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 10000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "09/17/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "09/16/2026",
+        "courtType": "SC"
+      },
+      {
+        "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "NOBD",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "09/17/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "09/16/2026",
+        "courtType": "SC"
+      }
+    ],
+    "age": "70",
+    "sex": "M",
+    "race": "W",
+    "height": "506",
+    "weight": "145",
+    "hair": "BLN",
+    "eyes": "GRY",
+    "inmateId": "50001325",
+    "schedRelease": null,
+    "firstSeen": "09/17/2026, 02:35:47",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
+    "bookingNumber": "2026004155",
+    "name": "NEVIN-VASQUEZ, CANDY MARIE STAR",
+    "bookingDate": "09/16/2026",
+    "charges": [
+      {
+        "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 5000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "09/17/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "09/16/2026",
+        "courtType": "DS"
+      }
+    ],
+    "age": "39",
+    "sex": "F",
+    "race": "W",
+    "height": "506",
+    "weight": "220",
+    "hair": "RED",
+    "eyes": "BLU",
+    "inmateId": "50002554",
+    "schedRelease": null,
+    "firstSeen": "09/17/2026, 02:35:46",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
     "bookingNumber": "2026004154",
     "name": "SOHN, TAMARA JEAN",
     "bookingDate": "",
@@ -34,11 +116,11 @@
         "courtType": "GH"
       }
     ],
-    "age": "43",
+    "age": "59",
     "sex": "F",
     "race": "W",
     "height": "501",
-    "weight": "135",
+    "weight": "150",
     "hair": "RED",
     "eyes": "BLU",
     "inmateId": "40059624",
@@ -1643,9 +1725,9 @@
     "charges": [
       {
         "violation": "9A.76.190(3)(A) - FAILURE TO APPEAR / CONTEMPT OF COURT - FELONY",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "ORG RETAIL THEFT 1",
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": 1000,
         "cashAmount": null,
@@ -1666,8 +1748,8 @@
     "inmateId": "50003958",
     "schedRelease": null,
     "firstSeen": "09/13/2026, 10:59:48",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "09/17/2026, 02:35:47",
+    "status": "released"
   },
   {
     "type": "BOOKED",

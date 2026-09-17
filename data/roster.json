@@ -133481,9 +133481,9 @@
     "charges": [
       {
         "violation": "9A.76.190(3)(A) - FAILURE TO APPEAR / CONTEMPT OF COURT - FELONY",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "ORG RETAIL THEFT 1",
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": 1000,
         "cashAmount": null,
@@ -133495,9 +133495,9 @@
       }
     ],
     "totalBond": 5000,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "09/13/2026, 10:59:48",
-    "releasedAt": null
+    "releasedAt": "09/17/2026, 02:35:47"
   },
   "2026004103": {
     "bookingNumber": "2026004103",
@@ -135280,9 +135280,9 @@
     "detailUrl": "https://incustody.kitsap.gov/Home/BookingSearchResult?LastName=%25&FirstName=&BookingFrom=&BookingTo=&ValidSearch=&sort=BookingDate&sortdir=DESC&page=17&BookingNumber=12",
     "inmateId": "40059624",
     "schedRelease": null,
-    "age": "43",
+    "age": "59",
     "height": "501",
-    "weight": "135",
+    "weight": "150",
     "hair": "RED",
     "eyes": "BLU",
     "charges": [
@@ -135318,6 +135318,98 @@
     "totalBond": 1000,
     "status": "in_custody",
     "firstSeen": "09/16/2026, 21:05:47",
+    "releasedAt": null
+  },
+  "2026004155": {
+    "bookingNumber": "2026004155",
+    "firstName": "CANDY",
+    "lastName": "NEVIN-VASQUEZ",
+    "middleName": "MARIE STAR",
+    "race": "W",
+    "sex": "F",
+    "bookingDate": "09/16/2026",
+    "releaseDate": "",
+    "schReleaseDate": "",
+    "detailUrl": "https://incustody.kitsap.gov/Home/BookingSearchResult?LastName=%25&FirstName=&BookingFrom=&BookingTo=&ValidSearch=&sort=BookingDate&sortdir=DESC&page=1&BookingNumber=6",
+    "inmateId": "50002554",
+    "schedRelease": null,
+    "age": "39",
+    "height": "506",
+    "weight": "220",
+    "hair": "RED",
+    "eyes": "BLU",
+    "charges": [
+      {
+        "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 5000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "09/17/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "09/16/2026",
+        "courtType": "DS"
+      }
+    ],
+    "totalBond": 5000,
+    "status": "in_custody",
+    "firstSeen": "09/17/2026, 02:35:46",
+    "releasedAt": null
+  },
+  "2026004156": {
+    "bookingNumber": "2026004156",
+    "firstName": "JEFFREY",
+    "lastName": "BARTON",
+    "middleName": "GUY",
+    "race": "W",
+    "sex": "M",
+    "bookingDate": "",
+    "releaseDate": "",
+    "schReleaseDate": "",
+    "detailUrl": "https://incustody.kitsap.gov/Home/BookingSearchResult?LastName=%25&FirstName=&BookingFrom=&BookingTo=&ValidSearch=&sort=BookingDate&sortdir=DESC&page=17&BookingNumber=13",
+    "inmateId": "50001325",
+    "schedRelease": null,
+    "age": "70",
+    "height": "506",
+    "weight": "145",
+    "hair": "BLN",
+    "eyes": "GRY",
+    "charges": [
+      {
+        "violation": "9A.36.031(2) - ASSAULT-3",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 10000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "09/17/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "09/16/2026",
+        "courtType": "SC"
+      },
+      {
+        "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "NOBD",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "09/17/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "09/16/2026",
+        "courtType": "SC"
+      }
+    ],
+    "totalBond": 10000,
+    "status": "in_custody",
+    "firstSeen": "09/17/2026, 02:35:47",
     "releasedAt": null
   }
 }
