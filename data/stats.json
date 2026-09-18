@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T10:01:54.380Z",
+  "generatedAt": "2026-09-18T14:24:18.270Z",
   "bookingCounts": {
     "total": 2842,
     "inCustody": 251,
@@ -57,11 +57,11 @@
     "histogram": [
       {
         "label": "18–25",
-        "count": 404
+        "count": 403
       },
       {
         "label": "26–35",
-        "count": 783
+        "count": 784
       },
       {
         "label": "36–45",
@@ -120,7 +120,7 @@
     },
     {
       "label": "DOC Warrant",
-      "count": 158
+      "count": 159
     },
     {
       "label": "Obstruction",
@@ -186,11 +186,11 @@
     }
   ],
   "bail": {
-    "mean": 31954.5,
+    "mean": 31969.84,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 2051
+    "count": 2050
   },
   "stay": {
     "mean": 22.2,
@@ -616,12 +616,13 @@
       "Bribery": 1
     },
     "Black": {
-      "Community Custody Violation": 6,
+      "DOC Warrant": 22,
       "Assault": 36,
       "Resisting Arrest": 12,
       "Criminal Trespass": 19,
       "Weapons": 13,
       "Burglary (1st Degree)": 6,
+      "Community Custody Violation": 5,
       "Protection Order Violation": 27,
       "Failure to Appear": 109,
       "Drug Offense": 23,
@@ -631,7 +632,6 @@
       "Domestic Violence": 46,
       "Driving While License Suspended": 35,
       "Other": 23,
-      "DOC Warrant": 21,
       "Stalking": 2,
       "Ignition Interlock Violation": 6,
       "Obstruction": 16,
@@ -843,7 +843,7 @@
       "Bribery": 1
     },
     "Male": {
-      "Community Custody Violation": 16,
+      "DOC Warrant": 128,
       "Theft (3rd Degree)": 59,
       "Resisting Arrest": 50,
       "Drug Offense": 181,
@@ -868,12 +868,12 @@
       "Theft (2nd Degree)": 33,
       "Motor Vehicle Theft": 21,
       "Possession of Stolen Vehicle": 21,
+      "Community Custody Violation": 15,
       "Other": 116,
       "Protection Order Violation": 133,
       "Kidnapping / Unlawful Imprisonment": 7,
       "Ignition Interlock Violation": 70,
       "PR / Bail Revocation": 29,
-      "DOC Warrant": 127,
       "Obstruction": 93,
       "Child Sex Offense": 22,
       "Trafficking Stolen Property": 6,
@@ -2055,11 +2055,11 @@
       "chargeBreakdown": [
         {
           "label": "Community Custody Violation",
-          "count": 14
+          "count": 13
         },
         {
           "label": "DOC Warrant",
-          "count": 7
+          "count": 8
         },
         {
           "label": "Probation Violation",
@@ -2202,7 +2202,7 @@
       "topCharges": [
         {
           "label": "Failure to Appear",
-          "count": 111
+          "count": 110
         },
         {
           "label": "DUI",
@@ -2218,7 +2218,7 @@
         },
         {
           "label": "Assault",
-          "count": 33
+          "count": 32
         }
       ]
     },
@@ -2227,7 +2227,7 @@
       "topCharges": [
         {
           "label": "Failure to Appear",
-          "count": 315
+          "count": 316
         },
         {
           "label": "Domestic Violence",
@@ -2380,7 +2380,7 @@
       },
       {
         "charge": "Assault",
-        "avgWeight": 157,
+        "avgWeight": 158,
         "avgHeight": "5'5\"",
         "topRace": "White",
         "n": 42
@@ -2644,7 +2644,7 @@
         "avgWeight": 182,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 126
+        "n": 127
       },
       {
         "charge": "Other",
@@ -2844,10 +2844,10 @@
       },
       {
         "charge": "Community Custody Violation",
-        "avgWeight": 190,
+        "avgWeight": 189,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 16
+        "n": 15
       },
       {
         "charge": "Fugitive from Justice",
