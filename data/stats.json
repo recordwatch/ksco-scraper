@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-18T18:51:45.428Z",
+  "generatedAt": "2026-09-18T20:39:51.656Z",
   "bookingCounts": {
     "total": 2845,
-    "inCustody": 250,
-    "released": 2595
+    "inCustody": 249,
+    "released": 2596
   },
   "gender": [
     {
@@ -186,22 +186,22 @@
     }
   ],
   "bail": {
-    "mean": 32014.39,
+    "mean": 32035.59,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 2045
+    "count": 2042
   },
   "stay": {
     "mean": 22.1,
     "median": 1.9,
     "min": 0,
     "max": 1233.4,
-    "count": 2551,
+    "count": 2552,
     "histogram": [
       {
         "label": "< 1 day",
-        "count": 923
+        "count": 924
       },
       {
         "label": "1–3 days",
@@ -419,7 +419,7 @@
     {
       "category": "DUI",
       "medianBail": 5000,
-      "meanBail": 17221.62,
+      "meanBail": 17064.86,
       "count": 185
     },
     {
@@ -503,8 +503,8 @@
     {
       "category": "Failure to Appear",
       "medianBail": 2500,
-      "meanBail": 13320.15,
-      "count": 785
+      "meanBail": 13307.81,
+      "count": 784
     },
     {
       "category": "Driving While License Suspended",
@@ -514,9 +514,9 @@
     },
     {
       "category": "Drug Offense",
-      "medianBail": 2250,
-      "meanBail": 5615.38,
-      "count": 104
+      "medianBail": 2500,
+      "meanBail": 5667.48,
+      "count": 103
     },
     {
       "category": "Indecent Exposure",
@@ -527,14 +527,14 @@
     {
       "category": "Resisting Arrest",
       "medianBail": 1000,
-      "meanBail": 2400,
+      "meanBail": 2450,
       "count": 10
     },
     {
       "category": "Criminal Trespass",
       "medianBail": 1000,
-      "meanBail": 2948.11,
-      "count": 106
+      "meanBail": 2966.67,
+      "count": 105
     },
     {
       "category": "Traffic / Obstruction",
@@ -955,7 +955,7 @@
     },
     {
       "label": "Released (Unknown Reason)",
-      "count": 682
+      "count": 683
     },
     {
       "label": "Released",
@@ -2192,8 +2192,8 @@
     }
   ],
   "bailOnRelease": {
-    "total": 2595,
-    "withBail": 1221,
+    "total": 2596,
+    "withBail": 1222,
     "pct": 47.1
   },
   "chargesByAgeGroup": [
