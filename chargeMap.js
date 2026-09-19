@@ -225,6 +225,18 @@ const SEV_MISDEMEANOR = [
 export function getChargeSeverity(rawViolation) {
   if (!rawViolation) return 'Unknown';
   const v = rawViolation.replace(/\s*\(Cleared\)\s*$/i, '').toUpperCase().trim();
+
+  // Some statutes (e.g. Failure to Appear 9A.76.190(3)(A)/(B), Failure to Comply)
+  // carry their own severity as an explicit suffix on the violation text, since
+  // the tier depends on the underlying charge rather than the statute itself.
+  // That's authoritative — trust it over the pattern-based guess below.
+  const suffix = v.match(/-\s*(FELONY|GROSS MISD\.?|MISD\.?)\s*$/);
+  if (suffix) {
+    if (suffix[1] === 'FELONY') return 'Felony';
+    if (suffix[1].startsWith('GROSS')) return 'Gross Misdemeanor';
+    return 'Misdemeanor';
+  }
+
   for (const p of SEV_FELONY) if (p.test(v)) return 'Felony';
   for (const p of SEV_GROSS_MISDEMEANOR) if (p.test(v)) return 'Gross Misdemeanor';
   for (const p of SEV_MISDEMEANOR) if (p.test(v)) return 'Misdemeanor';
@@ -273,4 +285,35 @@ const CRIME_TYPE_MAP = {
 
 export function getCrimeType(normalizedCategory) {
   return CRIME_TYPE_MAP[normalizedCategory] || 'Other';
+}
+
+// ── Underlying Charge Resolution ─────────────────────────────────────────────
+// Court/supervision charges (FTA, warrants, probation violations, etc.) describe
+// a procedural failure, not the conduct that put the person there. The roster's
+// "Add. Desc." field usually names the original charge (e.g. an FTA's addDesc
+// might read "FTA THEFT 3" or "DV - PROTECTIO ORDER VIO"). Without resolving
+// through it, a booking for FTA-on-an-assault gets counted as "Court /
+// Supervision" instead of "Violent" — masking what's actually driving bookings.
+export const MASKING_CATEGORIES = new Set([
+  'Failure to Appear',
+  'DOC Warrant',
+  'Probation Violation',
+  'Community Custody Violation',
+  'Failure to Comply (Sentence)',
+  'PR / Bail Revocation',
+  'Fugitive from Justice',
+]);
+
+/**
+ * Resolve a charge to the category that should drive crime-type classification.
+ * If the charge is a masking category and addDesc names a recognizable
+ * underlying offense, returns that instead. Otherwise returns the charge's
+ * own normalized category.
+ */
+export function resolveEffectiveCategory(rawViolation, addDesc) {
+  const own = normalizeCharge(rawViolation);
+  if (!MASKING_CATEGORIES.has(own) || !addDesc) return own;
+  const underlying = normalizeCharge(addDesc);
+  if (underlying === 'Other' || underlying === 'Unknown' || MASKING_CATEGORIES.has(underlying)) return own;
+  return underlying;
 }

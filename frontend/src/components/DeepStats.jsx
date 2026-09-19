@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import {
   BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip,
-  ResponsiveContainer, Cell,
+  ResponsiveContainer, Cell, PieChart, Pie,
 } from 'recharts'
 
 // ── Palette ──────────────────────────────────────────────────────────────────
@@ -28,7 +28,7 @@ const TYPE_COLORS = {
   'Other':               '#5A6A72',
   'Unknown':             '#484E54',
 }
-const SEV_COLORS = { 'Felony': '#C0535A', 'Gross Misdemeanor': '#C08A45', 'Misdemeanor': '#5B7FA6', 'Unknown': '#484E54' }
+const MISC_PALETTE = ['#5B7FA6', '#7AA8C4', '#4A8A6A', '#C08A45', '#8A6AA8', '#A06878', '#4A8A8A', '#6A8A5A']
 const KNOWN_AGENCIES = ['Kitsap County Sheriff', 'Bremerton PD', 'Poulsbo PD', 'Port Orchard PD', 'Gig Harbor PD', 'Suquamish Tribal Police', 'DOC']
 
 // ── Helpers ───────────────────────────────────────────────────────────────────
@@ -94,6 +94,23 @@ function VBar({ data, dataKey = 'count', nameKey = 'label', color = C.rust, colo
   )
 }
 
+// Compact pie chart, no legend — used inside grid cards (agencies, age groups)
+// where a full recharts legend would overflow the narrow column.
+function MiniPie({ data, dataKey = 'count', nameKey = 'label', colorFn, colors, size = 130 }) {
+  if (!data?.length) return <NoData />
+  const getColor = colorFn || ((d, i) => colors ? colors[i % colors.length] : C.primary)
+  return (
+    <ResponsiveContainer width="100%" height={size}>
+      <PieChart>
+        <Pie data={data} dataKey={dataKey} nameKey={nameKey} cx="50%" cy="50%" outerRadius={size / 2 - 8}>
+          {data.map((d, i) => <Cell key={i} fill={getColor(d, i)} />)}
+        </Pie>
+        <Tooltip content={<DarkTip />} />
+      </PieChart>
+    </ResponsiveContainer>
+  )
+}
+
 // ── Main Component ─────────────────────────────────────────────────────────────
 export default function DeepStats() {
   const [data, setData]       = useState(null)
@@ -101,7 +118,7 @@ export default function DeepStats() {
   const [error, setError]     = useState(null)
   const [trendTab, setTrendTab] = useState('month')   // 'month' | 'year'
   const [profileSex, setProfileSex] = useState(null)  // set after data loads
-  const [showAllProfile, setShowAllProfile] = useState(false)
+  const [showProfile, setShowProfile] = useState(false)
 
   useEffect(() => {
     fetch('./data/stats.json')
@@ -121,16 +138,20 @@ export default function DeepStats() {
 
   const {
     bookingCounts, stay, bail, bailOnRelease, bailByCharge,
-    crimeTypes, severity, avgCharges, topCharges,
-    agencyBreakdown, stayByCharge,
-    chargesBySex, chargesByRace, chargesByAgeGroup,
-    physicalProfile, recidivism,
+    topCharges, agencyBreakdown, stayByCharge,
+    chargesBySex, chargesByRace, chargesByAgeGroup, crimeTypeByAgeGroup,
+    physicalProfile, ftaOriginalCharges,
     bookingsByMonth, bookingsByYear,
     releaseReasons, generatedAt,
   } = data
 
   const profileRows = profileSex ? (physicalProfile?.[profileSex] || []) : []
-  const profileDisplay = showAllProfile ? profileRows : profileRows.slice(0, 12)
+  const profileSummary = (() => {
+    const sexes = Object.keys(physicalProfile || {})
+    const rows = sexes.reduce((s, k) => s + (physicalProfile[k]?.length || 0), 0)
+    const obs  = sexes.reduce((s, k) => s + (physicalProfile[k]?.reduce((t, r) => t + (r.n || 0), 0) || 0), 0)
+    return { sexes: sexes.length, rows, obs }
+  })()
 
   return (
     <div className="stats-page">
@@ -152,50 +173,13 @@ export default function DeepStats() {
 
       {/* ── Section nav ── */}
       <div className="deep-nav">
-        {['Summary','Trends','Crime Types','Bail & Release','Agencies','Detention','Demographics','Physical Profile','Recidivism'].map(s => (
+        {['Trends','Offenses','FTA Charges','Bail & Release','Agencies','Detention','Demographics','Physical Profile','Recidivism'].map(s => (
           <a key={s} href={`#ds-${s.toLowerCase().replace(/[^a-z]/g,'-')}`} className="deep-nav-link">{s}</a>
         ))}
       </div>
 
       {/* ════════════════════════════════════════════════════════════════ */}
-      {/* 1 · SUMMARY                                                      */}
-      {/* ════════════════════════════════════════════════════════════════ */}
-      <div id="ds-summary" className="ds-anchor" />
-      <div className="stats-card">
-        <SectionTitle>Summary</SectionTitle>
-        <div className="stat-boxes">
-          <div className="stat-box">
-            <div className="stat-box-num">{fmtN(bookingCounts?.total)}</div>
-            <div className="stat-box-label">Total Bookings</div>
-          </div>
-          <div className="stat-box">
-            <div className="stat-box-num">{fmtN(bookingCounts?.inCustody)}</div>
-            <div className="stat-box-label">In Custody</div>
-          </div>
-          <div className="stat-box">
-            <div className="stat-box-num">{fmtN(bookingCounts?.released)}</div>
-            <div className="stat-box-label">Releases Tracked</div>
-          </div>
-          <div className="stat-box">
-            <div className="stat-box-num">{stay?.mean ?? '—'}</div>
-            <div className="stat-box-label">Avg Stay (days)</div>
-            <div className="stat-box-sub">median {stay?.median ?? '—'}d</div>
-          </div>
-          <div className="stat-box">
-            <div className="stat-box-num">{avgCharges?.mean ?? '—'}</div>
-            <div className="stat-box-label">Avg Charges / Inmate</div>
-            <div className="stat-box-sub">median {avgCharges?.median ?? '—'}, max {avgCharges?.max ?? '—'}</div>
-          </div>
-          <div className="stat-box">
-            <div className="stat-box-num">{bailOnRelease?.pct ?? '—'}%</div>
-            <div className="stat-box-label">Released w/ Bail Set</div>
-            <div className="stat-box-sub">{fmtN(bailOnRelease?.withBail)} of {fmtN(bailOnRelease?.total)}</div>
-          </div>
-        </div>
-      </div>
-
-      {/* ════════════════════════════════════════════════════════════════ */}
-      {/* 2 · POPULATION TRENDS                                            */}
+      {/* 1 · POPULATION TRENDS                                            */}
       {/* ════════════════════════════════════════════════════════════════ */}
       <div id="ds-trends" className="ds-anchor" />
       <div className="stats-card">
@@ -211,49 +195,35 @@ export default function DeepStats() {
       </div>
 
       {/* ════════════════════════════════════════════════════════════════ */}
-      {/* 3 · CRIME TYPES + SEVERITY                                       */}
+      {/* 2 · MOST COMMON OFFENSES                                         */}
       {/* ════════════════════════════════════════════════════════════════ */}
-      <div id="ds-crime-types" className="ds-anchor" />
-      <div className="stats-grid-2">
-        <div className="stats-card">
-          <SectionTitle>Crime Types</SectionTitle>
-          <p className="stats-card-note">Broad category per booking (deduped). One booking can appear in multiple types.</p>
-          <HBar data={crimeTypes} colorFn={d => TYPE_COLORS[d.label] || C.muted} height={Math.max(180, (crimeTypes?.length || 0) * 30)} />
-          <table className="stats-table" style={{ marginTop: '0.75rem' }}>
-            <tbody>
-              {crimeTypes?.map(r => (
-                <tr key={r.label}>
-                  <td><span style={{ display:'inline-block', width:8, height:8, borderRadius:2, background: TYPE_COLORS[r.label] || C.muted, marginRight:6 }} />{r.label}</td>
-                  <td className="stats-table-num">{r.count}</td>
-                  <td className="stats-table-pct">{r.pct}%</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
-
-        <div className="stats-card">
-          <SectionTitle>Charge Severity</SectionTitle>
-          <p className="stats-card-note">Best-effort classification per individual charge instance (WA state tiers).</p>
-          <HBar data={severity} colorFn={d => SEV_COLORS[d.label] || C.muted} height={160} />
-          <table className="stats-table" style={{ marginTop: '0.75rem' }}>
-            <tbody>
-              {severity?.map(r => (
-                <tr key={r.label}>
-                  <td>{r.label}</td>
-                  <td className="stats-table-num">{r.count}</td>
-                  <td className="stats-table-pct">{r.pct}%</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
-      </div>
-
-      {/* Most common offenses */}
+      <div id="ds-offenses" className="ds-anchor" />
       <div className="stats-card">
         <SectionTitle>Most Common Offenses</SectionTitle>
         <HBar data={topCharges} color={C.primary} />
+      </div>
+
+      {/* ════════════════════════════════════════════════════════════════ */}
+      {/* 3 · FTA — UNDERLYING CHARGES                                     */}
+      {/* ════════════════════════════════════════════════════════════════ */}
+      <div id="ds-fta-charges" className="ds-anchor" />
+      <div className="stats-card">
+        <SectionTitle>Failure to Appear — What Are They Actually For?</SectionTitle>
+        <p className="stats-card-note">
+          FTA is a procedural charge, not the underlying conduct — the roster's "Add. Desc." field usually
+          names the original charge the person failed to appear on. Charge-category breakdowns across the
+          site (Top Charges, Charges by Sex/Race/Age, Agency top charges, Bail by charge, Stay by charge)
+          all attribute FTAs to the underlying offense. This section is the FTA-specific view: how many
+          FTAs there are, how much of them we can resolve, and what those underlying charges look like.
+        </p>
+        {ftaOriginalCharges && (
+          <div className="stats-age-meta" style={{ marginBottom: '0.8rem', flexWrap: 'wrap' }}>
+            <span>{fmtN(ftaOriginalCharges.ftaTotal)} FTA charges tracked</span>
+            <span>{fmtN(ftaOriginalCharges.resolved)} resolved to an original charge ({ftaOriginalCharges.pctResolved}%)</span>
+            <span>{fmtN(ftaOriginalCharges.unresolved)} undocumented</span>
+          </div>
+        )}
+        <HBar data={ftaOriginalCharges?.topOriginalCharges} color={C.accent} />
       </div>
 
       {/* ════════════════════════════════════════════════════════════════ */}
@@ -321,7 +291,7 @@ export default function DeepStats() {
       <div id="ds-agencies" className="ds-anchor" />
       <div className="stats-card">
         <SectionTitle>Arresting Agencies</SectionTitle>
-        <p className="stats-card-note">Charge count per agency. One arrest can carry multiple charges.</p>
+        <p className="stats-card-note">Charge count per agency. One arrest can carry multiple charges. Pie shows each agency's top-5 charge mix.</p>
         {agencyBreakdown?.length
           ? <>
               <HBar data={agencyBreakdown.map(a => ({ label: a.name, count: a.count }))}
@@ -331,10 +301,14 @@ export default function DeepStats() {
                   <div key={a.name} className={`agency-card ${KNOWN_AGENCIES.includes(a.name) ? 'agency-card-known' : ''}`}>
                     <div className="agency-name">{a.name}</div>
                     <div className="agency-count">{a.count.toLocaleString()} charges</div>
+                    <MiniPie data={a.chargeBreakdown} colors={MISC_PALETTE} />
                     <div className="agency-top">Top: {a.topCharge}</div>
                     <ul className="agency-charges">
-                      {a.chargeBreakdown.map(c => (
-                        <li key={c.label}><span>{c.label}</span><span>{c.count}</span></li>
+                      {a.chargeBreakdown.map((c, i) => (
+                        <li key={c.label}>
+                          <span><span style={{ display:'inline-block', width:7, height:7, borderRadius:2, background: MISC_PALETTE[i % MISC_PALETTE.length], marginRight:5 }} />{c.label}</span>
+                          <span>{c.count}</span>
+                        </li>
                       ))}
                     </ul>
                   </div>
@@ -385,21 +359,26 @@ export default function DeepStats() {
       {/* ════════════════════════════════════════════════════════════════ */}
       <div id="ds-demographics" className="ds-anchor" />
 
-      {/* Charges by age group */}
+      {/* Charges by age group + crime type mix per age group */}
       <div className="stats-card">
         <SectionTitle>Top Charges by Age Group</SectionTitle>
+        <p className="stats-card-note">Pie shows crime-type mix per age group (FTA/warrant charges resolved to underlying offense).</p>
         <div className="age-group-grid">
-          {chargesByAgeGroup?.map(({ group, topCharges: tc }) => (
-            <div key={group} className="age-group-card">
-              <div className="age-group-label">{group}</div>
-              {tc.length
-                ? <ol className="age-group-list">
-                    {tc.map(c => <li key={c.label}><span>{c.label}</span><span>{c.count}</span></li>)}
-                  </ol>
-                : <div className="stats-nodata" style={{ padding: '0.5rem 0', fontSize: '0.7rem' }}>No data</div>
-              }
-            </div>
-          ))}
+          {chargesByAgeGroup?.map(({ group, topCharges: tc }) => {
+            const ctByGroup = crimeTypeByAgeGroup?.find(g => g.group === group)
+            return (
+              <div key={group} className="age-group-card">
+                <div className="age-group-label">{group}</div>
+                <MiniPie data={ctByGroup?.crimeTypes} colorFn={d => TYPE_COLORS[d.label] || C.muted} />
+                {tc.length
+                  ? <ol className="age-group-list">
+                      {tc.map(c => <li key={c.label}><span>{c.label}</span><span>{c.count}</span></li>)}
+                    </ol>
+                  : <div className="stats-nodata" style={{ padding: '0.5rem 0', fontSize: '0.7rem' }}>No data</div>
+                }
+              </div>
+            )
+          })}
         </div>
       </div>
 
@@ -444,41 +423,46 @@ export default function DeepStats() {
       <div className="stats-card">
         <SectionTitle>Physical Profile by Charge</SectionTitle>
         <p className="stats-card-note">Average weight/height and most common race per charge, by sex. Requires ≥3 data points.</p>
-        <div className="deep-tabs" style={{ marginBottom: '0.75rem' }}>
-          {Object.keys(physicalProfile || {}).map(sex => (
-            <button key={sex} className={profileSex === sex ? 'active' : ''} onClick={() => { setProfileSex(sex); setShowAllProfile(false) }}>{sex}</button>
-          ))}
+        <div className="stats-age-meta" style={{ marginBottom: '0.75rem', flexWrap: 'wrap' }}>
+          <span>{fmtN(profileSummary.rows)} charge profiles</span>
+          <span>{profileSummary.sexes} sex group{profileSummary.sexes === 1 ? '' : 's'}</span>
+          <span>{fmtN(profileSummary.obs)} observations</span>
         </div>
-        {profileRows.length
-          ? <>
-              <table className="stats-table">
-                <thead><tr>
-                  <th>Charge</th>
-                  <th style={{ textAlign: 'right' }}>Avg Weight</th>
-                  <th style={{ textAlign: 'right' }}>Avg Height</th>
-                  <th>Top Race</th>
-                  <th style={{ textAlign: 'right' }}>n</th>
-                </tr></thead>
-                <tbody>
-                  {profileDisplay.map(r => (
-                    <tr key={r.charge}>
-                      <td>{r.charge}</td>
-                      <td className="stats-table-num">{r.avgWeight ? `${r.avgWeight} lbs` : '—'}</td>
-                      <td className="stats-table-num">{r.avgHeight || '—'}</td>
-                      <td>{r.topRace || '—'}</td>
-                      <td className="stats-table-num">{r.n}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-              {profileRows.length > 12 && (
-                <button className="deep-show-more" onClick={() => setShowAllProfile(v => !v)}>
-                  {showAllProfile ? '▲ Show less' : `▼ Show all ${profileRows.length} rows`}
-                </button>
-              )}
-            </>
-          : <NoData />
-        }
+        <button className="deep-show-more" onClick={() => setShowProfile(v => !v)}>
+          {showProfile ? '▲ Hide table' : '▼ Show table'}
+        </button>
+        {showProfile && (
+          <>
+            <div className="deep-tabs" style={{ margin: '0.75rem 0' }}>
+              {Object.keys(physicalProfile || {}).map(sex => (
+                <button key={sex} className={profileSex === sex ? 'active' : ''} onClick={() => setProfileSex(sex)}>{sex}</button>
+              ))}
+            </div>
+            {profileRows.length
+              ? <table className="stats-table">
+                  <thead><tr>
+                    <th>Charge</th>
+                    <th style={{ textAlign: 'right' }}>Avg Weight</th>
+                    <th style={{ textAlign: 'right' }}>Avg Height</th>
+                    <th>Top Race</th>
+                    <th style={{ textAlign: 'right' }}>n</th>
+                  </tr></thead>
+                  <tbody>
+                    {profileRows.map(r => (
+                      <tr key={r.charge}>
+                        <td>{r.charge}</td>
+                        <td className="stats-table-num">{r.avgWeight ? `${r.avgWeight} lbs` : '—'}</td>
+                        <td className="stats-table-num">{r.avgHeight || '—'}</td>
+                        <td>{r.topRace || '—'}</td>
+                        <td className="stats-table-num">{r.n}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              : <NoData />
+            }
+          </>
+        )}
       </div>
 
       {/* ════════════════════════════════════════════════════════════════ */}
@@ -487,24 +471,24 @@ export default function DeepStats() {
       <div id="ds-recidivism" className="ds-anchor" />
       <div className="stats-card">
         <SectionTitle>Repeat Bookers</SectionTitle>
-        {recidivism && (
+        {data.recidivism && (
           <div className="stats-age-meta" style={{ marginBottom: '0.8rem', flexWrap: 'wrap' }}>
-            <span>Repeat rate {recidivism.rate}%</span>
-            <span>{recidivism.repeatBookerCount} repeat individuals</span>
-            <span>{recidivism.totalIndividuals} unique individuals tracked</span>
+            <span>Repeat rate {data.recidivism.rate}%</span>
+            <span>{data.recidivism.repeatBookerCount} repeat individuals</span>
+            <span>{data.recidivism.totalIndividuals} unique individuals tracked</span>
           </div>
         )}
         <p className="stats-card-note">
           Full recidivism analysis (time between re-arrests, risk scoring) coming soon — requires a longer data history.
         </p>
-        {recidivism?.repeatBookers?.length
+        {data.recidivism?.repeatBookers?.length
           ? <table className="stats-table">
               <thead><tr>
                 <th>Name</th>
                 <th style={{ textAlign: 'right' }}>Bookings</th>
               </tr></thead>
               <tbody>
-                {recidivism.repeatBookers.map(r => (
+                {data.recidivism.repeatBookers.map(r => (
                   <tr key={r.name}><td>{r.name}</td><td className="stats-table-num">{r.count}</td></tr>
                 ))}
               </tbody>

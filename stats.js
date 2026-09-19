@@ -2,7 +2,7 @@
 // All aggregation functions. Take the raw log array (change_log.json entries)
 // and return structured stat objects ready to serve as JSON.
 
-import { normalizeCharge, normalizeRace, normalizeSex, getChargeSeverity, getCrimeType } from './chargeMap.js';
+import { normalizeCharge, normalizeRace, normalizeSex, getChargeSeverity, getCrimeType, resolveEffectiveCategory, MASKING_CATEGORIES } from './chargeMap.js';
 import { normalizeReleaseReason } from './releaseReasonMap.js';
 
 // ─── Helpers ──────────────────────────────────────────────────────────────────
@@ -137,6 +137,9 @@ export function getAgeStats(log) {
 
 /**
  * Top charge categories by booking count (a booking can contribute multiple charges).
+ * FTA/warrant/probation charges are resolved to the underlying offense named in
+ * "Add. Desc." — otherwise they'd inflate a generic "Failure to Appear" bucket
+ * and hide what people were actually charged with.
  * Returns top N categories.
  */
 export function getTopCharges(log, n = 15) {
@@ -144,7 +147,7 @@ export function getTopCharges(log, n = 15) {
   log.forEach(entry => {
     const seen = new Set(); // dedupe per booking so one booking = one count per category
     (entry.charges || []).forEach(c => {
-      const cat = normalizeCharge(c.violation);
+      const cat = resolveEffectiveCategory(c.violation, c.addDesc);
       if (!seen.has(cat)) {
         counts[cat] = (counts[cat] || 0) + 1;
         seen.add(cat);
@@ -246,7 +249,7 @@ export function getBailByCharge(log) {
   const byCategory = {};
   log.forEach(entry => {
     (entry.charges || []).forEach(c => {
-      const cat = normalizeCharge(c.violation);
+      const cat = resolveEffectiveCategory(c.violation, c.addDesc);
       const b = (c.bondAmount > 0 ? c.bondAmount : null) || (c.cashAmount > 0 ? c.cashAmount : null);
       if (b) {
         if (!byCategory[cat]) byCategory[cat] = [];
@@ -276,7 +279,7 @@ export function getChargesByRace(log) {
     if (!result[race]) result[race] = {};
     const seen = new Set();
     (entry.charges || []).forEach(c => {
-      const cat = normalizeCharge(c.violation);
+      const cat = resolveEffectiveCategory(c.violation, c.addDesc);
       if (!seen.has(cat)) {
         result[race][cat] = (result[race][cat] || 0) + 1;
         seen.add(cat);
@@ -296,7 +299,7 @@ export function getChargesBySex(log) {
     if (!result[sex]) result[sex] = {};
     const seen = new Set();
     (entry.charges || []).forEach(c => {
-      const cat = normalizeCharge(c.violation);
+      const cat = resolveEffectiveCategory(c.violation, c.addDesc);
       if (!seen.has(cat)) {
         result[sex][cat] = (result[sex][cat] || 0) + 1;
         seen.add(cat);
@@ -394,7 +397,7 @@ export function getCrimeTypeBreakdown(log) {
   log.forEach(entry => {
     const seen = new Set();
     (entry.charges || []).forEach(c => {
-      const type = getCrimeType(normalizeCharge(c.violation));
+      const type = getCrimeType(resolveEffectiveCategory(c.violation, c.addDesc));
       if (!seen.has(type)) { counts[type] = (counts[type] || 0) + 1; seen.add(type); total++; }
     });
   });
@@ -441,8 +444,8 @@ export function getAvgStayByChargeType(log) {
     const days = stayDays(entry);
     if (days === null) return;
 
-    // Dedupe charge categories for this booking
-    const cats = [...new Set((entry.charges || []).map(c => normalizeCharge(c.violation)))];
+    // Dedupe charge categories for this booking (FTA resolves to underlying)
+    const cats = [...new Set((entry.charges || []).map(c => resolveEffectiveCategory(c.violation, c.addDesc)))];
 
     // Only attribute stay to a charge if it's the sole category on the booking.
     // Multi-charge bookings can't be cleanly attributed — e.g. a DOC Warrant +
@@ -476,7 +479,7 @@ export function getAgencyBreakdown(log) {
       const name = normalizeAgency(c.arrestAgency);
       if (!agencies[name]) agencies[name] = { name, count: 0, charges: {} };
       agencies[name].count++;
-      const cat = normalizeCharge(c.violation);
+      const cat = resolveEffectiveCategory(c.violation, c.addDesc);
       agencies[name].charges[cat] = (agencies[name].charges[cat] || 0) + 1;
     });
   });
@@ -518,13 +521,38 @@ export function getChargesByAgeGroup(log) {
                  : age <= 55 ? '46–55' : age <= 65 ? '56–65' : '65+';
     const seen = new Set();
     (entry.charges || []).forEach(c => {
-      const cat = normalizeCharge(c.violation);
+      const cat = resolveEffectiveCategory(c.violation, c.addDesc);
       if (!seen.has(cat)) { groups[bucket][cat] = (groups[bucket][cat] || 0) + 1; seen.add(cat); }
     });
   });
   return Object.entries(groups).map(([group, charges]) => ({
     group,
     topCharges: Object.entries(charges).sort((a, b) => b[1] - a[1]).slice(0, 5)
+      .map(([label, count]) => ({ label, count })),
+  }));
+}
+
+/**
+ * Crime-type (Violent, Property, Drug, DUI, etc.) breakdown per age group.
+ * Uses resolveEffectiveCategory so FTA/warrant charges are attributed to the
+ * underlying offense's crime type rather than lumped into Court / Supervision.
+ */
+export function getCrimeTypeByAgeGroup(log) {
+  const groups = { '18–25': {}, '26–35': {}, '36–45': {}, '46–55': {}, '56–65': {}, '65+': {} };
+  log.forEach(entry => {
+    const age = parseInt(entry.age);
+    if (isNaN(age) || age < 1 || age > 120) return;
+    const bucket = age <= 25 ? '18–25' : age <= 35 ? '26–35' : age <= 45 ? '36–45'
+                 : age <= 55 ? '46–55' : age <= 65 ? '56–65' : '65+';
+    const seen = new Set();
+    (entry.charges || []).forEach(c => {
+      const type = getCrimeType(resolveEffectiveCategory(c.violation, c.addDesc));
+      if (!seen.has(type)) { groups[bucket][type] = (groups[bucket][type] || 0) + 1; seen.add(type); }
+    });
+  });
+  return Object.entries(groups).map(([group, types]) => ({
+    group,
+    crimeTypes: Object.entries(types).sort((a, b) => b[1] - a[1])
       .map(([label, count]) => ({ label, count })),
   }));
 }
@@ -543,7 +571,7 @@ export function getPhysicalProfileByCharge(log) {
     const race   = normalizeRace(entry.race);
     const seen   = new Set();
     (entry.charges || []).forEach(c => {
-      const cat = normalizeCharge(c.violation);
+      const cat = resolveEffectiveCategory(c.violation, c.addDesc);
       if (seen.has(cat)) return;
       seen.add(cat);
       const key = `${sex}|||${cat}`;
@@ -569,6 +597,39 @@ export function getPhysicalProfileByCharge(log) {
   });
   Object.keys(bySex).forEach(sex => bySex[sex].sort((a, b) => b.n - a.n));
   return bySex;
+}
+
+/**
+ * What is the original charge behind Failure to Appear bookings?
+ * FTA is a procedural charge — the roster's "Add. Desc." field usually names
+ * the underlying offense the person failed to appear for. Returns the
+ * resolved breakdown plus how much of it we can actually account for.
+ */
+export function getFtaOriginalCharges(log, n = 12) {
+  const counts = {};
+  let ftaTotal = 0;
+  let resolved = 0;
+  log.forEach(entry => {
+    const seen = new Set();
+    (entry.charges || []).forEach(c => {
+      if (normalizeCharge(c.violation) !== 'Failure to Appear') return;
+      if (seen.has('fta')) return; // dedupe multiple FTA charges per booking
+      seen.add('fta');
+      ftaTotal++;
+      const underlying = c.addDesc ? normalizeCharge(c.addDesc) : null;
+      if (underlying && underlying !== 'Other' && underlying !== 'Unknown' && !MASKING_CATEGORIES.has(underlying)) {
+        counts[underlying] = (counts[underlying] || 0) + 1;
+        resolved++;
+      }
+    });
+  });
+  return {
+    ftaTotal,
+    resolved,
+    unresolved: ftaTotal - resolved,
+    pctResolved: ftaTotal > 0 ? +((resolved / ftaTotal) * 100).toFixed(1) : 0,
+    topOriginalCharges: topN(counts, n),
+  };
 }
 
 /**
@@ -628,7 +689,9 @@ export function buildStats(log) {
     agencyBreakdown: getAgencyBreakdown(log),
     bailOnRelease: getBailOnReleaseStats(log),
     chargesByAgeGroup: getChargesByAgeGroup(log),
+    crimeTypeByAgeGroup: getCrimeTypeByAgeGroup(log),
     physicalProfile: getPhysicalProfileByCharge(log),
     bookingsByYear: getBookingsByYear(log),
+    ftaOriginalCharges: getFtaOriginalCharges(log),
   };
 }
