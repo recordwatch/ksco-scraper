@@ -124071,9 +124071,9 @@
     "charges": [
       {
         "violation": "46.61.522(2) - VEHICULAR ASSAULT",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
@@ -124085,9 +124085,9 @@
       }
     ],
     "totalBond": null,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "08/31/2026, 14:33:48",
-    "releasedAt": null
+    "releasedAt": "09/19/2026, 07:41:48"
   },
   "2026003900": {
     "bookingNumber": "2026003900",
@@ -135020,9 +135020,9 @@
     "charges": [
       {
         "violation": "72.09.310 - COMMUNITY CUSTODY VIOLATOR",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "VCC 3 DAY SANCTION",
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
@@ -135059,9 +135059,9 @@
     "charges": [
       {
         "violation": "72.09.310 - COMMUNITY CUSTODY VIOLATOR",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
@@ -135073,9 +135073,9 @@
       }
     ],
     "totalBond": null,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "09/16/2026, 16:45:06",
-    "releasedAt": null
+    "releasedAt": "09/19/2026, 07:41:49"
   },
   "2026004150": {
     "bookingNumber": "2026004150",
@@ -136449,9 +136449,9 @@
     "charges": [
       {
         "violation": "NONE - FAILURE TO COMPLY -  W/TERMS OF SENTENCE - FELONY",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
@@ -137060,7 +137060,7 @@
     "detailUrl": "https://incustody.kitsap.gov/Home/BookingSearchResult?LastName=%25&FirstName=&BookingFrom=&BookingTo=&ValidSearch=&sort=BookingDate&sortdir=DESC&page=18&BookingNumber=3",
     "inmateId": "30039737",
     "schedRelease": null,
-    "age": "39",
+    "age": "49",
     "height": "509",
     "weight": "160",
     "hair": "BRO",
@@ -137084,6 +137084,59 @@
     "totalBond": null,
     "status": "in_custody",
     "firstSeen": "09/19/2026, 00:11:17",
+    "releasedAt": null
+  },
+  "2026004192": {
+    "bookingNumber": "2026004192",
+    "firstName": "DARRIEN",
+    "lastName": "SUFFERN",
+    "middleName": "",
+    "race": "",
+    "sex": "",
+    "bookingDate": "",
+    "releaseDate": "",
+    "schReleaseDate": "",
+    "detailUrl": "https://incustody.kitsap.gov/Home/BookingSearchResult?LastName=%25&FirstName=&BookingFrom=&BookingTo=&ValidSearch=&sort=BookingDate&sortdir=DESC&page=18&BookingNumber=2",
+    "inmateId": "50005439",
+    "schedRelease": null,
+    "age": "21",
+    "height": null,
+    "weight": null,
+    "hair": "Eyes",
+    "eyes": "Height",
+    "charges": [
+      {
+        "violation": "46.61.024(1) - ATTEMPT TO ELUDE",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 20000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "09/21/2026",
+        "arrestAgency": "WASHINGTON STATE PATROL",
+        "arrestDate": "09/19/2026",
+        "courtType": "SC"
+      },
+      {
+        "violation": "46.61.500(1) - RECKLESS DRIVING",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 5000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "09/21/2026",
+        "arrestAgency": "WASHINGTON STATE PATROL",
+        "arrestDate": "09/19/2026",
+        "courtType": "SC"
+      }
+    ],
+    "totalBond": 25000,
+    "status": "in_custody",
+    "firstSeen": "09/19/2026, 07:41:48",
     "releasedAt": null
   }
 }

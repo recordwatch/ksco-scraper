@@ -1,6 +1,54 @@
 [
   {
     "type": "BOOKED",
+    "bookingNumber": "2026004192",
+    "name": "SUFFERN, DARRIEN",
+    "bookingDate": "",
+    "charges": [
+      {
+        "violation": "46.61.024(1) - ATTEMPT TO ELUDE",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 20000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "09/21/2026",
+        "arrestAgency": "WASHINGTON STATE PATROL",
+        "arrestDate": "09/19/2026",
+        "courtType": "SC"
+      },
+      {
+        "violation": "46.61.500(1) - RECKLESS DRIVING",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 5000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "09/21/2026",
+        "arrestAgency": "WASHINGTON STATE PATROL",
+        "arrestDate": "09/19/2026",
+        "courtType": "SC"
+      }
+    ],
+    "age": "21",
+    "sex": "",
+    "race": "",
+    "height": null,
+    "weight": null,
+    "hair": "Eyes",
+    "eyes": "Height",
+    "inmateId": "50005439",
+    "schedRelease": null,
+    "firstSeen": "09/19/2026, 07:41:48",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
     "bookingNumber": "2026004191",
     "name": "SMITH, JUSTIN LEE",
     "bookingDate": "",
@@ -20,7 +68,7 @@
         "courtType": "PO"
       }
     ],
-    "age": "39",
+    "age": "49",
     "sex": "M",
     "race": "W",
     "height": "509",
@@ -609,9 +657,9 @@
     "charges": [
       {
         "violation": "NONE - FAILURE TO COMPLY -  W/TERMS OF SENTENCE - FELONY",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
@@ -1841,9 +1889,9 @@
     "charges": [
       {
         "violation": "72.09.310 - COMMUNITY CUSTODY VIOLATOR",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
@@ -1864,8 +1912,8 @@
     "inmateId": "40070049",
     "schedRelease": "09/19/2026",
     "firstSeen": "09/16/2026, 16:45:06",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "09/19/2026, 07:41:49",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -1875,9 +1923,9 @@
     "charges": [
       {
         "violation": "72.09.310 - COMMUNITY CUSTODY VIOLATOR",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "VCC 3 DAY SANCTION",
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
@@ -11895,9 +11943,9 @@
     "charges": [
       {
         "violation": "46.61.522(2) - VEHICULAR ASSAULT",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
@@ -11918,8 +11966,8 @@
     "inmateId": "50004192",
     "schedRelease": "09/19/2026",
     "firstSeen": "08/31/2026, 14:33:48",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "09/19/2026, 07:41:48",
+    "status": "released"
   },
   {
     "type": "BOOKED",
