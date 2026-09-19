@@ -1,6 +1,87 @@
 [
   {
     "type": "BOOKED",
+    "bookingNumber": "2026004189",
+    "name": "SANTOS, IGNACIO ROSARIO",
+    "bookingDate": "",
+    "charges": [],
+    "age": "59",
+    "sex": "M",
+    "race": "A",
+    "height": "511",
+    "weight": "235",
+    "hair": "BLK",
+    "eyes": "BRO",
+    "inmateId": "40000619",
+    "schedRelease": null,
+    "firstSeen": "09/18/2026, 23:33:47",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
+    "bookingNumber": "2026004187",
+    "name": "MCCUISTON, CAMERON PAUL",
+    "bookingDate": "",
+    "charges": [
+      {
+        "violation": "9A.56.160(2) - POSSESS STOLEN PROPERTY-2",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 25000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "09/21/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "09/18/2026",
+        "courtType": "SC"
+      },
+      {
+        "violation": "9A.56.160(2) - POSSESS STOLEN PROPERTY-2",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "09/21/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "09/18/2026",
+        "courtType": "SC"
+      },
+      {
+        "violation": "9A.52.100(2) - VEHICLE PROWLING-2",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "09/21/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "09/18/2026",
+        "courtType": "SC"
+      }
+    ],
+    "age": "25",
+    "sex": "M",
+    "race": "W",
+    "height": "509",
+    "weight": "160",
+    "hair": "BRO",
+    "eyes": "HAZ",
+    "inmateId": "40665574",
+    "schedRelease": null,
+    "firstSeen": "09/18/2026, 23:33:47",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
     "bookingNumber": "2026004184",
     "name": "ROWLAND, TODD B",
     "bookingDate": "",
@@ -20,11 +101,11 @@
         "courtType": "BM"
       }
     ],
-    "age": "55",
+    "age": "61",
     "sex": "M",
     "race": "W",
     "height": "511",
-    "weight": "220",
+    "weight": "200",
     "hair": "GRY",
     "eyes": "BRO",
     "inmateId": "40705037",
@@ -41,9 +122,9 @@
     "charges": [
       {
         "violation": "9A.52.070(2) - CRIMINAL TRESPASS-1",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "BR",
         "bondBailType": "C/B",
         "bondAmount": 7000,
         "cashAmount": null,
@@ -55,9 +136,9 @@
       },
       {
         "violation": "9A.56.050(2) - THEFT-3",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "BR",
         "bondBailType": "C/B",
         "bondAmount": null,
         "cashAmount": null,
@@ -69,9 +150,9 @@
       },
       {
         "violation": "9A.76.040(2) - RESISTING ARREST",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "BR",
         "bondBailType": "C/B",
         "bondAmount": null,
         "cashAmount": 500,
@@ -92,8 +173,8 @@
     "inmateId": "50002767",
     "schedRelease": null,
     "firstSeen": "09/18/2026, 18:27:11",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "09/18/2026, 23:33:48",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -182,7 +263,7 @@
     "sex": "F",
     "race": "W",
     "height": "503",
-    "weight": "230",
+    "weight": "250",
     "hair": "BLK",
     "eyes": "BRO",
     "inmateId": "40578383",
@@ -877,9 +958,9 @@
     "charges": [
       {
         "violation": "9A.52.025(2) - RESIDENTIAL BURGLARY - DV",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": 50000,
         "cashAmount": null,
@@ -905,9 +986,9 @@
       },
       {
         "violation": "9A.36.150(3) - INTERFERENCE W/RPT DOMESTIC VIOL",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": null,
         "cashAmount": null,
@@ -933,9 +1014,9 @@
       },
       {
         "violation": "9A.46.020(2)(A) - HARASSMENT - DV",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "FELONY HARASS DV",
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": null,
         "cashAmount": null,
@@ -947,9 +1028,9 @@
       },
       {
         "violation": "9A.46.020(2)(B) - HARASSMENT PREV CONV OR THREAT TO KILL",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "FELONY HARASS DV",
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": null,
         "cashAmount": null,
@@ -970,8 +1051,8 @@
     "inmateId": "50005434",
     "schedRelease": null,
     "firstSeen": "09/17/2026, 14:58:04",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "09/18/2026, 23:33:47",
+    "status": "released"
   },
   {
     "type": "BOOKED",
