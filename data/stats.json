@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-09-19T07:08:13.981Z",
+  "generatedAt": "2026-09-19T07:14:06.242Z",
   "bookingCounts": {
-    "total": 2855,
-    "inCustody": 252,
+    "total": 2857,
+    "inCustody": 254,
     "released": 2603
   },
   "gender": [
     {
       "label": "Male",
-      "count": 1948,
-      "pct": 68.2
+      "count": 1950,
+      "pct": 68.3
     },
     {
       "label": "Female",
@@ -25,7 +25,7 @@
   "race": [
     {
       "label": "White",
-      "count": 2027,
+      "count": 2029,
       "pct": 71
     },
     {
@@ -65,7 +65,7 @@
       },
       {
         "label": "36–45",
-        "count": 855
+        "count": 856
       },
       {
         "label": "46–55",
@@ -77,7 +77,7 @@
       },
       {
         "label": "65+",
-        "count": 77
+        "count": 78
       }
     ]
   },
@@ -96,7 +96,7 @@
     },
     {
       "label": "Driving While License Suspended",
-      "count": 352
+      "count": 353
     },
     {
       "label": "Drug Offense",
@@ -150,7 +150,7 @@
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
-      "count": 1962
+      "count": 1963
     },
     {
       "label": "PORT ORCHARD POLICE DEPARTMENT",
@@ -186,11 +186,11 @@
     }
   ],
   "bail": {
-    "mean": 32035.5,
+    "mean": 32029.62,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 2047
+    "count": 2048
   },
   "stay": {
     "mean": 22.1,
@@ -489,6 +489,12 @@
       "count": 4
     },
     {
+      "category": "Driving While License Suspended",
+      "medianBail": 2500,
+      "meanBail": 5032.75,
+      "count": 200
+    },
+    {
       "category": "Failure to Appear",
       "medianBail": 2500,
       "meanBail": 9176.54,
@@ -499,12 +505,6 @@
       "medianBail": 2500,
       "meanBail": 3992.42,
       "count": 99
-    },
-    {
-      "category": "Driving While License Suspended",
-      "medianBail": 2500,
-      "meanBail": 4957.54,
-      "count": 199
     },
     {
       "category": "Making False Statements",
@@ -550,44 +550,8 @@
     }
   ],
   "chargesByRace": {
-    "Asian / Pacific Islander": {
-      "Community Custody Violation": 2,
-      "DUI": 21,
-      "Vehicle Prowling": 2,
-      "Drug Offense": 8,
-      "Weapons": 4,
-      "DOC Warrant": 3,
-      "Domestic Violence": 24,
-      "Protection Order Violation": 8,
-      "Ignition Interlock Violation": 5,
-      "Failure to Appear": 18,
-      "Making False Statements": 1,
-      "Hit and Run": 2,
-      "Criminal Trespass": 8,
-      "Harassment": 3,
-      "Resisting Arrest": 4,
-      "Theft (3rd Degree)": 7,
-      "Fugitive from Justice": 1,
-      "Driving While License Suspended": 12,
-      "Kidnapping / Unlawful Imprisonment": 1,
-      "Assault": 6,
-      "PR / Bail Revocation": 1,
-      "Other": 2,
-      "Indecent Exposure": 1,
-      "Theft (1st Degree)": 1,
-      "Malicious Mischief": 2,
-      "Obstruction": 2,
-      "Reckless Driving": 1,
-      "Attempt to Elude": 1,
-      "Criminal Impersonation": 1,
-      "Motor Vehicle Theft": 2,
-      "Theft (2nd Degree)": 1,
-      "Residential Burglary": 1,
-      "Forgery": 1,
-      "Possession of Stolen Vehicle": 1,
-      "Traffic Violation": 1
-    },
     "White": {
+      "Driving While License Suspended": 245,
       "Possession of Stolen Property": 18,
       "Vehicle Prowling": 15,
       "DUI": 377,
@@ -606,7 +570,6 @@
       "Hit and Run": 52,
       "Domestic Violence": 433,
       "Interference with DV Reporting": 24,
-      "Driving While License Suspended": 244,
       "Obstruction": 105,
       "Homicide": 19,
       "Attempt to Elude": 26,
@@ -651,6 +614,43 @@
       "Incest": 1,
       "Theft": 1,
       "Bribery": 1
+    },
+    "Asian / Pacific Islander": {
+      "Community Custody Violation": 2,
+      "DUI": 21,
+      "Vehicle Prowling": 2,
+      "Drug Offense": 8,
+      "Weapons": 4,
+      "DOC Warrant": 3,
+      "Domestic Violence": 24,
+      "Protection Order Violation": 8,
+      "Ignition Interlock Violation": 5,
+      "Failure to Appear": 18,
+      "Making False Statements": 1,
+      "Hit and Run": 2,
+      "Criminal Trespass": 8,
+      "Harassment": 3,
+      "Resisting Arrest": 4,
+      "Theft (3rd Degree)": 7,
+      "Fugitive from Justice": 1,
+      "Driving While License Suspended": 12,
+      "Kidnapping / Unlawful Imprisonment": 1,
+      "Assault": 6,
+      "PR / Bail Revocation": 1,
+      "Other": 2,
+      "Indecent Exposure": 1,
+      "Theft (1st Degree)": 1,
+      "Malicious Mischief": 2,
+      "Obstruction": 2,
+      "Reckless Driving": 1,
+      "Attempt to Elude": 1,
+      "Criminal Impersonation": 1,
+      "Motor Vehicle Theft": 2,
+      "Theft (2nd Degree)": 1,
+      "Residential Burglary": 1,
+      "Forgery": 1,
+      "Possession of Stolen Vehicle": 1,
+      "Traffic Violation": 1
     },
     "Black": {
       "DOC Warrant": 21,
@@ -789,6 +789,7 @@
   },
   "chargesBySex": {
     "Male": {
+      "Driving While License Suspended": 257,
       "Possession of Stolen Property": 18,
       "Vehicle Prowling": 19,
       "DUI": 347,
@@ -806,7 +807,6 @@
       "Burglary (1st Degree)": 14,
       "Domestic Violence": 401,
       "Interference with DV Reporting": 21,
-      "Driving While License Suspended": 256,
       "Harassment": 89,
       "Failure to Appear": 435,
       "Homicide": 24,
@@ -999,7 +999,7 @@
   "recidivism": {
     "rate": 14.1,
     "repeatBookerCount": 338,
-    "totalIndividuals": 2397,
+    "totalIndividuals": 2399,
     "repeatBookers": [
       {
         "name": "SCHWEITZER, BRIAN A",
@@ -1605,13 +1605,13 @@
     },
     {
       "month": "2026-09",
-      "count": 233
+      "count": 235
     }
   ],
   "crimeTypes": [
     {
       "label": "Traffic / DUI",
-      "count": 874,
+      "count": 875,
       "pct": 19.9
     },
     {
@@ -1663,7 +1663,7 @@
   "severity": [
     {
       "label": "Misdemeanor",
-      "count": 2139,
+      "count": 2140,
       "pct": 33.8
     },
     {
@@ -1690,7 +1690,7 @@
   "stayByCharge": [
     {
       "category": "Sex Offense",
-      "avgDays": 192.6,
+      "avgDays": 192.7,
       "medianDays": 40,
       "count": 7
     },
@@ -1809,7 +1809,7 @@
     },
     {
       "name": "Bremerton PD",
-      "count": 1962,
+      "count": 1963,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -1822,7 +1822,7 @@
         },
         {
           "label": "Driving While License Suspended",
-          "count": 167
+          "count": 168
         },
         {
           "label": "Criminal Trespass",
@@ -2344,15 +2344,15 @@
           "count": 17
         },
         {
+          "label": "Driving While License Suspended",
+          "count": 8
+        },
+        {
           "label": "Criminal Trespass",
           "count": 8
         },
         {
           "label": "Assault",
-          "count": 7
-        },
-        {
-          "label": "Driving While License Suspended",
           "count": 7
         }
       ]
@@ -2585,7 +2585,7 @@
       "crimeTypes": [
         {
           "label": "Traffic / DUI",
-          "count": 31
+          "count": 32
         },
         {
           "label": "Violent",
@@ -2650,7 +2650,7 @@
         "avgWeight": 183,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 249
+        "n": 250
       },
       {
         "charge": "Drug Offense",
@@ -3289,14 +3289,14 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 2852
+      "count": 2854
     }
   ],
   "ftaOriginalCharges": {
-    "ftaTotal": 1075,
-    "resolved": 598,
+    "ftaTotal": 1076,
+    "resolved": 599,
     "unresolved": 477,
-    "pctResolved": 55.6,
+    "pctResolved": 55.7,
     "topOriginalCharges": [
       {
         "label": "Domestic Violence",
@@ -3308,7 +3308,7 @@
       },
       {
         "label": "Driving While License Suspended",
-        "count": 93
+        "count": 94
       },
       {
         "label": "Theft (3rd Degree)",
