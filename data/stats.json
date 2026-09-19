@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T07:14:06.242Z",
+  "generatedAt": "2026-09-19T11:28:39.259Z",
   "bookingCounts": {
     "total": 2857,
     "inCustody": 254,
@@ -84,7 +84,7 @@
   "topCharges": [
     {
       "label": "Domestic Violence",
-      "count": 620
+      "count": 621
     },
     {
       "label": "Failure to Appear",
@@ -124,7 +124,7 @@
     },
     {
       "label": "DOC Warrant",
-      "count": 155
+      "count": 156
     },
     {
       "label": "Obstruction",
@@ -150,11 +150,11 @@
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
-      "count": 1963
+      "count": 1964
     },
     {
       "label": "PORT ORCHARD POLICE DEPARTMENT",
-      "count": 327
+      "count": 328
     },
     {
       "label": "POULSBO POLICE DEPARTMENT",
@@ -551,6 +551,7 @@
   ],
   "chargesByRace": {
     "White": {
+      "Domestic Violence": 434,
       "Driving While License Suspended": 245,
       "Possession of Stolen Property": 18,
       "Vehicle Prowling": 15,
@@ -568,7 +569,6 @@
       "Failure to Appear": 481,
       "Harassment": 75,
       "Hit and Run": 52,
-      "Domestic Violence": 433,
       "Interference with DV Reporting": 24,
       "Obstruction": 105,
       "Homicide": 19,
@@ -616,12 +616,12 @@
       "Bribery": 1
     },
     "Asian / Pacific Islander": {
+      "DOC Warrant": 4,
       "Community Custody Violation": 2,
       "DUI": 21,
       "Vehicle Prowling": 2,
       "Drug Offense": 8,
       "Weapons": 4,
-      "DOC Warrant": 3,
       "Domestic Violence": 24,
       "Protection Order Violation": 8,
       "Ignition Interlock Violation": 5,
@@ -789,7 +789,9 @@
   },
   "chargesBySex": {
     "Male": {
+      "Domestic Violence": 402,
       "Driving While License Suspended": 257,
+      "DOC Warrant": 125,
       "Possession of Stolen Property": 18,
       "Vehicle Prowling": 19,
       "DUI": 347,
@@ -797,7 +799,6 @@
       "Resisting Arrest": 55,
       "PR / Bail Revocation": 16,
       "Malicious Mischief": 56,
-      "DOC Warrant": 124,
       "Assault": 151,
       "Failure to Comply (Sentence)": 45,
       "Theft (3rd Degree)": 126,
@@ -805,7 +806,6 @@
       "Weapons": 49,
       "Hit and Run": 51,
       "Burglary (1st Degree)": 14,
-      "Domestic Violence": 401,
       "Interference with DV Reporting": 21,
       "Harassment": 89,
       "Failure to Appear": 435,
@@ -1616,12 +1616,12 @@
     },
     {
       "label": "Violent",
-      "count": 834,
+      "count": 835,
       "pct": 19
     },
     {
       "label": "Court / Supervision",
-      "count": 825,
+      "count": 826,
       "pct": 18.8
     },
     {
@@ -1632,7 +1632,7 @@
     {
       "label": "Other",
       "count": 402,
-      "pct": 9.2
+      "pct": 9.1
     },
     {
       "label": "Order Violations",
@@ -1668,12 +1668,12 @@
     },
     {
       "label": "Gross Misdemeanor",
-      "count": 1845,
+      "count": 1846,
       "pct": 29.1
     },
     {
       "label": "Felony",
-      "count": 1312,
+      "count": 1313,
       "pct": 20.7
     },
     {
@@ -1809,7 +1809,7 @@
     },
     {
       "name": "Bremerton PD",
-      "count": 1963,
+      "count": 1964,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -1836,12 +1836,12 @@
     },
     {
       "name": "Port Orchard PD",
-      "count": 328,
+      "count": 329,
       "topCharge": "Domestic Violence",
       "chargeBreakdown": [
         {
           "label": "Domestic Violence",
-          "count": 56
+          "count": 57
         },
         {
           "label": "Failure to Appear",
@@ -2266,7 +2266,7 @@
         },
         {
           "label": "Domestic Violence",
-          "count": 189
+          "count": 190
         },
         {
           "label": "DUI",
@@ -2458,7 +2458,7 @@
         },
         {
           "label": "Violent",
-          "count": 241
+          "count": 242
         },
         {
           "label": "Traffic / DUI",
@@ -2551,12 +2551,12 @@
           "count": 51
         },
         {
-          "label": "Property",
+          "label": "Court / Supervision",
           "count": 37
         },
         {
-          "label": "Court / Supervision",
-          "count": 36
+          "label": "Property",
+          "count": 37
         },
         {
           "label": "Other",
@@ -2636,7 +2636,7 @@
         "avgWeight": 188,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 390
+        "n": 391
       },
       {
         "charge": "DUI",
@@ -2692,7 +2692,7 @@
         "avgWeight": 183,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 123
+        "n": 124
       },
       {
         "charge": "Other",
