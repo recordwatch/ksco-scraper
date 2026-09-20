@@ -132600,9 +132600,9 @@
     "charges": [
       {
         "violation": "9A.44.079(2) - RAPE OF A CHILD-3",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": 250000,
         "cashAmount": null,
@@ -132614,9 +132614,9 @@
       }
     ],
     "totalBond": null,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "09/12/2026, 04:08:06",
-    "releasedAt": null
+    "releasedAt": "09/19/2026, 17:17:28"
   },
   "2026004083": {
     "bookingNumber": "2026004083",
@@ -137191,9 +137191,9 @@
     "detailUrl": "https://incustody.kitsap.gov/Home/BookingSearchResult?LastName=%25&FirstName=&BookingFrom=&BookingTo=&ValidSearch=&sort=BookingDate&sortdir=DESC&page=17&BookingNumber=15",
     "inmateId": "40244554",
     "schedRelease": null,
-    "age": "35",
+    "age": "36",
     "height": "509",
-    "weight": "165",
+    "weight": "150",
     "hair": "BRO",
     "eyes": "BRO",
     "charges": [
@@ -137408,6 +137408,59 @@
     "totalBond": 100000,
     "status": "in_custody",
     "firstSeen": "09/19/2026, 15:25:21",
+    "releasedAt": null
+  },
+  "2026004196": {
+    "bookingNumber": "2026004196",
+    "firstName": "LEWELLYN",
+    "lastName": "GROWING THUNDER",
+    "middleName": "",
+    "race": "I",
+    "sex": "M",
+    "bookingDate": "09/19/2026",
+    "releaseDate": "",
+    "schReleaseDate": "",
+    "detailUrl": "https://incustody.kitsap.gov/Home/BookingSearchResult?LastName=%25&FirstName=&BookingFrom=&BookingTo=&ValidSearch=&sort=BookingDate&sortdir=DESC&page=1&BookingNumber=5",
+    "inmateId": "50005440",
+    "schedRelease": null,
+    "age": "36",
+    "height": "508",
+    "weight": "250",
+    "hair": "BLK",
+    "eyes": "BLK",
+    "charges": [
+      {
+        "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 7000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "09/21/2026",
+        "arrestAgency": "WASHINGTON STATE PATROL",
+        "arrestDate": "09/19/2026",
+        "courtType": "DS"
+      },
+      {
+        "violation": "9A.36.050(2) - RECKLESS ENDANGERMENT",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "09/21/2026",
+        "arrestAgency": "WASHINGTON STATE PATROL",
+        "arrestDate": "09/19/2026",
+        "courtType": "DS"
+      }
+    ],
+    "totalBond": 7000,
+    "status": "in_custody",
+    "firstSeen": "09/19/2026, 17:17:28",
     "releasedAt": null
   }
 }

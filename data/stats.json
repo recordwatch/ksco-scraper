@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-09-19T22:28:05.121Z",
+  "generatedAt": "2026-09-20T00:20:04.072Z",
   "bookingCounts": {
-    "total": 2861,
+    "total": 2862,
     "inCustody": 254,
-    "released": 2607
+    "released": 2608
   },
   "gender": [
     {
       "label": "Male",
-      "count": 1952,
+      "count": 1953,
       "pct": 68.2
     },
     {
@@ -26,7 +26,7 @@
     {
       "label": "White",
       "count": 2030,
-      "pct": 71
+      "pct": 70.9
     },
     {
       "label": "Unknown",
@@ -45,8 +45,8 @@
     },
     {
       "label": "Native American",
-      "count": 87,
-      "pct": 3
+      "count": 88,
+      "pct": 3.1
     }
   ],
   "age": {
@@ -61,11 +61,11 @@
       },
       {
         "label": "26–35",
-        "count": 788
+        "count": 787
       },
       {
         "label": "36–45",
-        "count": 856
+        "count": 858
       },
       {
         "label": "46–55",
@@ -92,7 +92,7 @@
     },
     {
       "label": "DUI",
-      "count": 541
+      "count": 542
     },
     {
       "label": "Driving While License Suspended",
@@ -104,7 +104,7 @@
     },
     {
       "label": "Assault",
-      "count": 218
+      "count": 219
     },
     {
       "label": "Criminal Trespass",
@@ -162,7 +162,7 @@
     },
     {
       "label": "WASHINGTON STATE PATROL",
-      "count": 219
+      "count": 221
     },
     {
       "label": "GIG HARBOR POLICE DEPARTMENT",
@@ -186,18 +186,18 @@
     }
   ],
   "bail": {
-    "mean": 32149.57,
+    "mean": 32137.35,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 2057
+    "count": 2058
   },
   "stay": {
     "mean": 22.1,
-    "median": 1.9,
+    "median": 2,
     "min": 0,
     "max": 1233.4,
-    "count": 2563,
+    "count": 2564,
     "histogram": [
       {
         "label": "< 1 day",
@@ -213,7 +213,7 @@
       },
       {
         "label": "1–2 weeks",
-        "count": 126
+        "count": 127
       },
       {
         "label": "2–4 weeks",
@@ -419,8 +419,8 @@
     {
       "category": "DUI",
       "medianBail": 5000,
-      "meanBail": 18692.81,
-      "count": 278
+      "meanBail": 18650.9,
+      "count": 279
     },
     {
       "category": "Reckless Driving",
@@ -556,6 +556,40 @@
     }
   ],
   "chargesByRace": {
+    "Native American": {
+      "DUI": 12,
+      "Assault": 12,
+      "Theft (1st Degree)": 3,
+      "Malicious Mischief": 5,
+      "Local / Tribal Code": 17,
+      "Domestic Violence": 12,
+      "Motor Vehicle Theft": 1,
+      "Kidnapping / Unlawful Imprisonment": 1,
+      "Protection Order Violation": 4,
+      "Failure to Appear": 28,
+      "Criminal Trespass": 8,
+      "Drug Offense": 8,
+      "Obstruction": 6,
+      "Harassment": 3,
+      "DOC Warrant": 4,
+      "Driving While License Suspended": 11,
+      "Theft (3rd Degree)": 7,
+      "Other": 3,
+      "Hit and Run": 3,
+      "Failure to Comply (Sentence)": 2,
+      "Resisting Arrest": 2,
+      "Identity Theft": 1,
+      "Vehicle Prowling": 1,
+      "Attempt to Elude": 1,
+      "Making False Statements": 1,
+      "Residential Burglary": 1,
+      "Theft (2nd Degree)": 2,
+      "Ignition Interlock Violation": 1,
+      "Homicide": 1,
+      "Community Custody Violation": 1,
+      "PR / Bail Revocation": 1,
+      "Burglary (2nd Degree)": 1
+    },
     "Black": {
       "DUI": 41,
       "Failure to Appear": 52,
@@ -757,52 +791,18 @@
       "Forgery": 1,
       "Possession of Stolen Vehicle": 1,
       "Traffic Violation": 1
-    },
-    "Native American": {
-      "Theft (1st Degree)": 3,
-      "Malicious Mischief": 5,
-      "Local / Tribal Code": 17,
-      "Domestic Violence": 12,
-      "Motor Vehicle Theft": 1,
-      "Kidnapping / Unlawful Imprisonment": 1,
-      "Protection Order Violation": 4,
-      "Failure to Appear": 28,
-      "Criminal Trespass": 8,
-      "Drug Offense": 8,
-      "Assault": 11,
-      "Obstruction": 6,
-      "Harassment": 3,
-      "DOC Warrant": 4,
-      "DUI": 11,
-      "Driving While License Suspended": 11,
-      "Theft (3rd Degree)": 7,
-      "Other": 3,
-      "Hit and Run": 3,
-      "Failure to Comply (Sentence)": 2,
-      "Resisting Arrest": 2,
-      "Identity Theft": 1,
-      "Vehicle Prowling": 1,
-      "Attempt to Elude": 1,
-      "Making False Statements": 1,
-      "Residential Burglary": 1,
-      "Theft (2nd Degree)": 2,
-      "Ignition Interlock Violation": 1,
-      "Homicide": 1,
-      "Community Custody Violation": 1,
-      "PR / Bail Revocation": 1,
-      "Burglary (2nd Degree)": 1
     }
   },
   "chargesBySex": {
     "Male": {
-      "DUI": 348,
+      "DUI": 349,
+      "Assault": 153,
       "Failure to Appear": 436,
       "Making False Statements": 47,
       "Possession of Stolen Vehicle": 24,
       "Weapons": 50,
       "Possession of Stolen Property": 19,
       "DOC Warrant": 126,
-      "Assault": 152,
       "Kidnapping / Unlawful Imprisonment": 9,
       "Harassment": 90,
       "Domestic Violence": 402,
@@ -963,7 +963,7 @@
     },
     {
       "label": "Released (Unknown Reason)",
-      "count": 685
+      "count": 686
     },
     {
       "label": "Released",
@@ -1005,7 +1005,7 @@
   "recidivism": {
     "rate": 14.1,
     "repeatBookerCount": 338,
-    "totalIndividuals": 2402,
+    "totalIndividuals": 2403,
     "repeatBookers": [
       {
         "name": "SCHWEITZER, BRIAN A",
@@ -1611,18 +1611,18 @@
     },
     {
       "month": "2026-09",
-      "count": 239
+      "count": 240
     }
   ],
   "crimeTypes": [
     {
       "label": "Traffic / DUI",
-      "count": 877,
+      "count": 878,
       "pct": 19.9
     },
     {
       "label": "Violent",
-      "count": 837,
+      "count": 838,
       "pct": 19
     },
     {
@@ -1670,11 +1670,11 @@
     {
       "label": "Misdemeanor",
       "count": 2144,
-      "pct": 33.8
+      "pct": 33.7
     },
     {
       "label": "Gross Misdemeanor",
-      "count": 1849,
+      "count": 1850,
       "pct": 29.1
     },
     {
@@ -1684,7 +1684,7 @@
     },
     {
       "label": "Unknown",
-      "count": 1039,
+      "count": 1040,
       "pct": 16.4
     }
   ],
@@ -1702,9 +1702,9 @@
     },
     {
       "category": "Child Sex Offense",
-      "avgDays": 137.5,
-      "medianDays": 122.7,
-      "count": 9
+      "avgDays": 124.5,
+      "medianDays": 65.2,
+      "count": 10
     },
     {
       "category": "Child Exploitation / CSAM",
@@ -1896,12 +1896,12 @@
     },
     {
       "name": "WASHINGTON STATE PATROL",
-      "count": 219,
+      "count": 221,
       "topCharge": "DUI",
       "chargeBreakdown": [
         {
           "label": "DUI",
-          "count": 78
+          "count": 79
         },
         {
           "label": "Driving While License Suspended",
@@ -2208,8 +2208,8 @@
     }
   ],
   "bailOnRelease": {
-    "total": 2607,
-    "withBail": 1224,
+    "total": 2608,
+    "withBail": 1225,
     "pct": 47
   },
   "chargesByAgeGroup": [
@@ -2276,7 +2276,7 @@
         },
         {
           "label": "DUI",
-          "count": 128
+          "count": 129
         },
         {
           "label": "Driving While License Suspended",
@@ -2415,19 +2415,19 @@
       "crimeTypes": [
         {
           "label": "Court / Supervision",
-          "count": 252
-        },
-        {
-          "label": "Violent",
-          "count": 249
+          "count": 251
         },
         {
           "label": "Traffic / DUI",
           "count": 249
         },
         {
+          "label": "Violent",
+          "count": 248
+        },
+        {
           "label": "Property",
-          "count": 161
+          "count": 160
         },
         {
           "label": "Other",
@@ -2435,7 +2435,7 @@
         },
         {
           "label": "Order Violations",
-          "count": 95
+          "count": 94
         },
         {
           "label": "Drug",
@@ -2443,11 +2443,11 @@
         },
         {
           "label": "Fraud / Identity",
-          "count": 28
+          "count": 27
         },
         {
           "label": "Weapons",
-          "count": 26
+          "count": 25
         },
         {
           "label": "Sex Offense",
@@ -2460,19 +2460,19 @@
       "crimeTypes": [
         {
           "label": "Court / Supervision",
-          "count": 312
+          "count": 313
         },
         {
           "label": "Violent",
-          "count": 241
+          "count": 243
         },
         {
           "label": "Traffic / DUI",
-          "count": 230
+          "count": 231
         },
         {
           "label": "Property",
-          "count": 223
+          "count": 224
         },
         {
           "label": "Other",
@@ -2484,11 +2484,11 @@
         },
         {
           "label": "Order Violations",
-          "count": 100
+          "count": 101
         },
         {
           "label": "Fraud / Identity",
-          "count": 30
+          "count": 31
         },
         {
           "label": "Sex Offense",
@@ -2496,7 +2496,7 @@
         },
         {
           "label": "Weapons",
-          "count": 11
+          "count": 12
         }
       ]
     },
@@ -2646,10 +2646,10 @@
       },
       {
         "charge": "DUI",
-        "avgWeight": 181,
+        "avgWeight": 182,
         "avgHeight": "5'9\"",
         "topRace": "White",
-        "n": 328
+        "n": 329
       },
       {
         "charge": "Driving While License Suspended",
@@ -2677,7 +2677,7 @@
         "avgWeight": 187,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 148
+        "n": 149
       },
       {
         "charge": "Protection Order Violation",
@@ -2716,7 +2716,7 @@
       },
       {
         "charge": "Harassment",
-        "avgWeight": 186,
+        "avgWeight": 185,
         "avgHeight": "5'11\"",
         "topRace": "White",
         "n": 88
@@ -2758,14 +2758,14 @@
       },
       {
         "charge": "Weapons",
-        "avgWeight": 185,
+        "avgWeight": 184,
         "avgHeight": "5'11\"",
         "topRace": "White",
         "n": 49
       },
       {
         "charge": "Making False Statements",
-        "avgWeight": 177,
+        "avgWeight": 176,
         "avgHeight": "5'9\"",
         "topRace": "White",
         "n": 45
@@ -2814,7 +2814,7 @@
       },
       {
         "charge": "Possession of Stolen Vehicle",
-        "avgWeight": 175,
+        "avgWeight": 174,
         "avgHeight": "5'10\"",
         "topRace": "White",
         "n": 23
@@ -2863,7 +2863,7 @@
       },
       {
         "charge": "Possession of Stolen Property",
-        "avgWeight": 190,
+        "avgWeight": 189,
         "avgHeight": "5'10\"",
         "topRace": "White",
         "n": 19
@@ -2947,7 +2947,7 @@
       },
       {
         "charge": "Kidnapping / Unlawful Imprisonment",
-        "avgWeight": 175,
+        "avgWeight": 173,
         "avgHeight": "5'8\"",
         "topRace": "White",
         "n": 8
@@ -3295,7 +3295,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 2858
+      "count": 2859
     }
   ],
   "ftaOriginalCharges": {
