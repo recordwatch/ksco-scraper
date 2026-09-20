@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-20T14:10:17.247Z",
+  "generatedAt": "2026-09-20T17:38:18.144Z",
   "bookingCounts": {
     "total": 2868,
-    "inCustody": 258,
-    "released": 2610
+    "inCustody": 256,
+    "released": 2612
   },
   "gender": [
     {
@@ -88,7 +88,7 @@
     },
     {
       "label": "Failure to Appear",
-      "count": 605
+      "count": 606
     },
     {
       "label": "DUI",
@@ -154,7 +154,7 @@
     },
     {
       "label": "PORT ORCHARD POLICE DEPARTMENT",
-      "count": 329
+      "count": 330
     },
     {
       "label": "POULSBO POLICE DEPARTMENT",
@@ -186,22 +186,22 @@
     }
   ],
   "bail": {
-    "mean": 32186.28,
+    "mean": 32045.4,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 2065
+    "count": 2063
   },
   "stay": {
     "mean": 22.1,
-    "median": 2,
+    "median": 1.9,
     "min": 0,
     "max": 1233.4,
-    "count": 2566,
+    "count": 2567,
     "histogram": [
       {
         "label": "< 1 day",
-        "count": 926
+        "count": 927
       },
       {
         "label": "1–3 days",
@@ -315,12 +315,6 @@
       "count": 1
     },
     {
-      "category": "Kidnapping / Unlawful Imprisonment",
-      "medianBail": 40000,
-      "meanBail": 40000,
-      "count": 1
-    },
-    {
       "category": "Burglary (2nd Degree)",
       "medianBail": 30000,
       "meanBail": 47480.77,
@@ -365,14 +359,14 @@
     {
       "category": "Attempt to Elude",
       "medianBail": 13000,
-      "meanBail": 51004.55,
+      "meanBail": 51231.82,
       "count": 22
     },
     {
       "category": "Assault",
       "medianBail": 10000,
-      "meanBail": 82505.81,
-      "count": 86
+      "meanBail": 80666.67,
+      "count": 84
     },
     {
       "category": "Theft (2nd Degree)",
@@ -407,7 +401,7 @@
     {
       "category": "Possession of Stolen Vehicle",
       "medianBail": 7500,
-      "meanBail": 51500,
+      "meanBail": 47055.56,
       "count": 9
     },
     {
@@ -421,12 +415,6 @@
       "medianBail": 5000,
       "meanBail": 18505.67,
       "count": 282
-    },
-    {
-      "category": "Reckless Driving",
-      "medianBail": 5000,
-      "meanBail": 4566.67,
-      "count": 15
     },
     {
       "category": "Domestic Violence",
@@ -471,6 +459,12 @@
       "count": 26
     },
     {
+      "category": "Reckless Driving",
+      "medianBail": 5000,
+      "meanBail": 4535.71,
+      "count": 14
+    },
+    {
       "category": "Public Order",
       "medianBail": 5000,
       "meanBail": 6000,
@@ -503,8 +497,8 @@
     {
       "category": "Failure to Appear",
       "medianBail": 2500,
-      "meanBail": 9241.07,
-      "count": 356
+      "meanBail": 9229.19,
+      "count": 357
     },
     {
       "category": "Making False Statements",
@@ -539,8 +533,8 @@
     {
       "category": "Resisting Arrest",
       "medianBail": 1000,
-      "meanBail": 2071.43,
-      "count": 14
+      "meanBail": 4566.67,
+      "count": 15
     },
     {
       "category": "Traffic / Obstruction",
@@ -560,7 +554,7 @@
       "DUI": 380,
       "Fugitive from Justice": 15,
       "Driving While License Suspended": 246,
-      "Failure to Appear": 482,
+      "Failure to Appear": 483,
       "Theft (2nd Degree)": 71,
       "Possession of Stolen Vehicle": 24,
       "Weapons": 37,
@@ -853,7 +847,7 @@
       "DUI": 351,
       "Assault": 154,
       "Driving While License Suspended": 258,
-      "Failure to Appear": 437,
+      "Failure to Appear": 438,
       "Theft (2nd Degree)": 53,
       "Making False Statements": 47,
       "Possession of Stolen Vehicle": 24,
@@ -959,7 +953,7 @@
   "releaseReasons": [
     {
       "label": "FTA / Contempt Resolved",
-      "count": 895
+      "count": 896
     },
     {
       "label": "Released (Unknown Reason)",
@@ -967,7 +961,7 @@
     },
     {
       "label": "Released",
-      "count": 624
+      "count": 625
     },
     {
       "label": "Scheduled Release / Time Served",
@@ -1627,7 +1621,7 @@
     },
     {
       "label": "Court / Supervision",
-      "count": 830,
+      "count": 831,
       "pct": 18.8
     },
     {
@@ -1669,7 +1663,7 @@
   "severity": [
     {
       "label": "Misdemeanor",
-      "count": 2146,
+      "count": 2147,
       "pct": 33.7
     },
     {
@@ -1842,7 +1836,7 @@
     },
     {
       "name": "Port Orchard PD",
-      "count": 330,
+      "count": 331,
       "topCharge": "Domestic Violence",
       "chargeBreakdown": [
         {
@@ -1851,7 +1845,7 @@
         },
         {
           "label": "Failure to Appear",
-          "count": 32
+          "count": 33
         },
         {
           "label": "DUI",
@@ -2208,8 +2202,8 @@
     }
   ],
   "bailOnRelease": {
-    "total": 2610,
-    "withBail": 1227,
+    "total": 2612,
+    "withBail": 1228,
     "pct": 47
   },
   "chargesByAgeGroup": [
@@ -2293,7 +2287,7 @@
       "topCharges": [
         {
           "label": "Failure to Appear",
-          "count": 96
+          "count": 97
         },
         {
           "label": "Domestic Violence",
@@ -2505,7 +2499,7 @@
       "crimeTypes": [
         {
           "label": "Court / Supervision",
-          "count": 127
+          "count": 128
         },
         {
           "label": "Traffic / DUI",
@@ -2889,7 +2883,7 @@
         "avgWeight": 186,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 435
+        "n": 436
       },
       {
         "charge": "Domestic Violence",
@@ -3299,10 +3293,10 @@
     }
   ],
   "ftaOriginalCharges": {
-    "ftaTotal": 1078,
+    "ftaTotal": 1079,
     "resolved": 601,
-    "unresolved": 477,
-    "pctResolved": 55.8,
+    "unresolved": 478,
+    "pctResolved": 55.7,
     "topOriginalCharges": [
       {
         "label": "Domestic Violence",
