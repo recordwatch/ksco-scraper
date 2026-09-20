@@ -1,6 +1,40 @@
 [
   {
     "type": "BOOKED",
+    "bookingNumber": "2026004202",
+    "name": "BISH, CAMPBELL KAY",
+    "bookingDate": "09/20/2026",
+    "charges": [
+      {
+        "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
+        "cleared": false,
+        "addDesc": "DUI",
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 5000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "09/21/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "09/20/2026",
+        "courtType": "BM"
+      }
+    ],
+    "age": "23",
+    "sex": "F",
+    "race": "W",
+    "height": "505",
+    "weight": "123",
+    "hair": "RED",
+    "eyes": "BRO",
+    "inmateId": "50005445",
+    "schedRelease": null,
+    "firstSeen": "09/20/2026, 07:07:41",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
     "bookingNumber": "2026004201",
     "name": "STOCKER, KELLY CHARLES",
     "bookingDate": "",
@@ -25517,9 +25551,9 @@
       },
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "DUI/DWLS 2",
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,

@@ -109729,9 +109729,9 @@
       },
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "DUI/DWLS 2",
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
@@ -137796,6 +137796,45 @@
     "totalBond": 5000,
     "status": "in_custody",
     "firstSeen": "09/20/2026, 03:00:03",
+    "releasedAt": null
+  },
+  "2026004202": {
+    "bookingNumber": "2026004202",
+    "firstName": "CAMPBELL",
+    "lastName": "BISH",
+    "middleName": "KAY",
+    "race": "W",
+    "sex": "F",
+    "bookingDate": "09/20/2026",
+    "releaseDate": "",
+    "schReleaseDate": "",
+    "detailUrl": "https://incustody.kitsap.gov/Home/BookingSearchResult?LastName=%25&FirstName=&BookingFrom=&BookingTo=&ValidSearch=&sort=BookingDate&sortdir=DESC&page=1&BookingNumber=1",
+    "inmateId": "50005445",
+    "schedRelease": null,
+    "age": "23",
+    "height": "505",
+    "weight": "123",
+    "hair": "RED",
+    "eyes": "BRO",
+    "charges": [
+      {
+        "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
+        "cleared": false,
+        "addDesc": "DUI",
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 5000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "09/21/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "09/20/2026",
+        "courtType": "BM"
+      }
+    ],
+    "totalBond": 5000,
+    "status": "in_custody",
+    "firstSeen": "09/20/2026, 07:07:41",
     "releasedAt": null
   }
 }
