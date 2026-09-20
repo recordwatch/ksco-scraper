@@ -1,6 +1,68 @@
 [
   {
     "type": "BOOKED",
+    "bookingNumber": "2026004204",
+    "name": "JONES, TIMOTHY JAMES",
+    "bookingDate": "",
+    "charges": [
+      {
+        "violation": "46.20.342(1)(C) - DWLS 3 -DRIVE W/LICENSE SUSP OR REVOKED-3 OR REVOKED LIC OR PRIVILEGE",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 1000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "09/21/2026",
+        "arrestAgency": "POULSBO POLICE DEPARTMENT",
+        "arrestDate": "09/20/2026",
+        "courtType": "PMC"
+      },
+      {
+        "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
+        "cleared": false,
+        "addDesc": "FTA RECKLESS ENDANGERMENT",
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 2500,
+        "cashAmount": null,
+        "courtCase": "350419868",
+        "nextCourtDate": "09/21/2026",
+        "arrestAgency": "POULSBO POLICE DEPARTMENT",
+        "arrestDate": "09/20/2026",
+        "courtType": "PO"
+      },
+      {
+        "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
+        "cleared": false,
+        "addDesc": "FTA FAIL TO STOP",
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 1000,
+        "cashAmount": null,
+        "courtCase": "350425388",
+        "nextCourtDate": "09/21/2026",
+        "arrestAgency": "POULSBO POLICE DEPARTMENT",
+        "arrestDate": "09/20/2026",
+        "courtType": "PMC"
+      }
+    ],
+    "age": "44",
+    "sex": "M",
+    "race": "W",
+    "height": "506",
+    "weight": "135",
+    "hair": "GRN",
+    "eyes": "BRO",
+    "inmateId": "40429068",
+    "schedRelease": null,
+    "firstSeen": "09/20/2026, 13:31:17",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
     "bookingNumber": "2026004202",
     "name": "BISH, CAMPBELL KAY",
     "bookingDate": "09/20/2026",
@@ -91,9 +153,9 @@
     "age": "63",
     "sex": "F",
     "race": "W",
-    "height": null,
-    "weight": null,
-    "hair": "Eyes",
+    "height": "506",
+    "weight": "130",
+    "hair": "BRO",
     "eyes": "Height",
     "inmateId": "50005441",
     "schedRelease": null,
@@ -109,9 +171,9 @@
     "charges": [
       {
         "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "C/B",
         "bondBailType": "C/B",
         "bondAmount": 5000,
         "cashAmount": null,
@@ -132,8 +194,8 @@
     "inmateId": "50005442",
     "schedRelease": null,
     "firstSeen": "09/20/2026, 03:00:02",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "09/20/2026, 13:31:18",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -1025,9 +1087,9 @@
     "charges": [
       {
         "violation": "9A.52.030(2) - BURGLARY-2",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "C/B",
         "bondBailType": "C/B",
         "bondAmount": 55000,
         "cashAmount": null,
@@ -1039,9 +1101,9 @@
       },
       {
         "violation": "69.50.4013.1.A - UNLAWFUL POSSESSION OF A CONTROLLED SUBSTANCE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "C/B",
         "bondBailType": "C/B",
         "bondAmount": null,
         "cashAmount": null,
