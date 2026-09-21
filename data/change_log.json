@@ -1,6 +1,40 @@
 [
   {
     "type": "BOOKED",
+    "bookingNumber": "2026004212",
+    "name": "CARPENTER, MITCHEL RYAN",
+    "bookingDate": "",
+    "charges": [
+      {
+        "violation": "46.20.342(1)(B) - DWLS 2 - DRIVE W/LICENSE SUSP OR REVOKED-2",
+        "cleared": true,
+        "addDesc": null,
+        "clearance": "BR",
+        "bondBailType": "C/B",
+        "bondAmount": 5000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "09/22/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "09/21/2026",
+        "courtType": "BM"
+      }
+    ],
+    "age": "32",
+    "sex": "M",
+    "race": "W",
+    "height": "511",
+    "weight": "240",
+    "hair": "BRO",
+    "eyes": "BRO",
+    "inmateId": "50005452",
+    "schedRelease": null,
+    "firstSeen": "09/21/2026, 06:44:47",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
     "bookingNumber": "2026004209",
     "name": "VAN CLEVE, KYLIE RAE",
     "bookingDate": "",
@@ -52,12 +86,69 @@
     "bookingNumber": "2026004211",
     "name": "MATHES, JONATHAN CHARLES",
     "bookingDate": "",
-    "charges": [],
+    "charges": [
+      {
+        "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
+        "cleared": false,
+        "addDesc": "ASLT 4DV",
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 5000,
+        "cashAmount": null,
+        "courtCase": "12898211",
+        "nextCourtDate": "09/21/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "09/20/2026",
+        "courtType": "PO"
+      },
+      {
+        "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
+        "cleared": false,
+        "addDesc": "THEFT 3",
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 2500,
+        "cashAmount": null,
+        "courtCase": "350439086",
+        "nextCourtDate": "09/21/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "09/20/2026",
+        "courtType": "PO"
+      },
+      {
+        "violation": "9A.76.020 - OBSTRUCT LAW ENFORCEMENT OFC",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 1000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "09/21/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "09/20/2026",
+        "courtType": "DS"
+      },
+      {
+        "violation": "9A.76.040(2) - RESISTING ARREST",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 5000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "09/21/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "09/20/2026",
+        "courtType": "DS"
+      }
+    ],
     "age": "53",
     "sex": "M",
     "race": "W",
-    "height": "510",
-    "weight": "195",
+    "height": "511",
+    "weight": "185",
     "hair": "BRO",
     "eyes": "BLU",
     "inmateId": "40048627",
@@ -440,7 +531,7 @@
         "nextCourtDate": "09/21/2026",
         "arrestAgency": "POULSBO POLICE DEPARTMENT",
         "arrestDate": "09/19/2026",
-        "courtType": "DS"
+        "courtType": "SC"
       }
     ],
     "age": "63",
@@ -2024,9 +2115,9 @@
     "charges": [
       {
         "violation": "46.52.020(5) - HIT AND RUN-ATTENDED-PROPERTY DMG",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
@@ -15232,9 +15323,9 @@
     "charges": [
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "UPCS",
-        "clearance": null,
+        "clearance": "RT",
         "bondBailType": "C/B",
         "bondAmount": 1000,
         "cashAmount": null,
@@ -21604,9 +21695,9 @@
       },
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
@@ -21618,9 +21709,9 @@
       },
       {
         "violation": "72.09.310 - COMMUNITY CUSTODY VIOLATOR",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
