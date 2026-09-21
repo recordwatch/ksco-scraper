@@ -1,6 +1,107 @@
 [
   {
     "type": "BOOKED",
+    "bookingNumber": "2026004209",
+    "name": "VAN CLEVE, KYLIE RAE",
+    "bookingDate": "",
+    "charges": [
+      {
+        "violation": "9A.36.041(2) - ASSAULT-4 - DV",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "NOBD",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "09/21/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "09/20/2026",
+        "courtType": "DS"
+      },
+      {
+        "violation": "9A.36.150(3) - INTERFERENCE W/RPT DOMESTIC VIOL",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "NOBD",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "09/21/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "09/20/2026",
+        "courtType": "DS"
+      }
+    ],
+    "age": "29",
+    "sex": "F",
+    "race": "W",
+    "height": "504",
+    "weight": "135",
+    "hair": "BRO",
+    "eyes": "BRO",
+    "inmateId": "50005451",
+    "schedRelease": null,
+    "firstSeen": "09/20/2026, 23:52:42",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
+    "bookingNumber": "2026004211",
+    "name": "MATHES, JONATHAN CHARLES",
+    "bookingDate": "",
+    "charges": [],
+    "age": "53",
+    "sex": "M",
+    "race": "W",
+    "height": "510",
+    "weight": "195",
+    "hair": "BRO",
+    "eyes": "BLU",
+    "inmateId": "40048627",
+    "schedRelease": null,
+    "firstSeen": "09/20/2026, 23:52:42",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
+    "bookingNumber": "2026004210",
+    "name": "FRANKLYN, HAYDEN JAMES",
+    "bookingDate": "09/20/2026",
+    "charges": [
+      {
+        "violation": "7.105.450(1) - PROTECTION ORDER VIOLATION",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "NOBD",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "09/21/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "09/20/2026",
+        "courtType": "BM"
+      }
+    ],
+    "age": "32",
+    "sex": "M",
+    "race": "B",
+    "height": "508",
+    "weight": "180",
+    "hair": "BLK",
+    "eyes": "BRO",
+    "inmateId": "50005430",
+    "schedRelease": null,
+    "firstSeen": "09/20/2026, 23:52:41",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
     "bookingNumber": "2026004206",
     "name": "HUGHES, JACOB JEROME",
     "bookingDate": "",
@@ -37,8 +138,8 @@
     "age": "32",
     "sex": "M",
     "race": "B",
-    "height": "500",
-    "weight": "140",
+    "height": "505",
+    "weight": "170",
     "hair": "BLK",
     "eyes": "BRO",
     "inmateId": "50005116",
@@ -55,9 +156,9 @@
     "charges": [
       {
         "violation": "9A.46.020(2)(B) - HARASSMENT PREV CONV OR THREAT TO KILL",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "FELONY HARASSMENT",
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": 15000,
         "cashAmount": null,
@@ -69,9 +170,9 @@
       },
       {
         "violation": "69.41.030(2)(B) - UNLAWFUL KNOWING POSSESSION OF ANY LEGEND DRUG",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "PCS",
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": null,
         "cashAmount": null,
@@ -92,8 +193,8 @@
     "inmateId": "30055000",
     "schedRelease": null,
     "firstSeen": "09/20/2026, 18:24:51",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "09/20/2026, 23:52:43",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -1765,9 +1866,9 @@
       },
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "THEFT 3",
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": 2500,
         "cashAmount": null,
@@ -1788,8 +1889,8 @@
     "inmateId": "40184751",
     "schedRelease": null,
     "firstSeen": "09/17/2026, 22:23:13",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "09/20/2026, 23:52:42",
+    "status": "released"
   },
   {
     "type": "BOOKED",
