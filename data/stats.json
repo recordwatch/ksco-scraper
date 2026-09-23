@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-09-23T21:20:55.987Z",
+  "generatedAt": "2026-09-23T23:55:57.479Z",
   "bookingCounts": {
-    "total": 2911,
-    "inCustody": 260,
+    "total": 2912,
+    "inCustody": 261,
     "released": 2651
   },
   "gender": [
     {
       "label": "Male",
-      "count": 1990,
+      "count": 1991,
       "pct": 68.4
     },
     {
@@ -30,7 +30,7 @@
     },
     {
       "label": "Unknown",
-      "count": 344,
+      "count": 345,
       "pct": 11.8
     },
     {
@@ -73,7 +73,7 @@
       },
       {
         "label": "56–65",
-        "count": 207
+        "count": 208
       },
       {
         "label": "65+",
@@ -146,7 +146,7 @@
   "topAgencies": [
     {
       "label": "KITSAP COUNTY SHERIFFS OFFICE",
-      "count": 2569
+      "count": 2570
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
@@ -186,11 +186,11 @@
     }
   ],
   "bail": {
-    "mean": 31552.12,
+    "mean": 31428.95,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 2089
+    "count": 2092
   },
   "stay": {
     "mean": 21.9,
@@ -257,7 +257,7 @@
     {
       "category": "Robbery",
       "medianBail": 177500,
-      "meanBail": 391500,
+      "meanBail": 396500,
       "count": 10
     },
     {
@@ -363,16 +363,22 @@
       "count": 7
     },
     {
-      "category": "Assault",
+      "category": "Protection Order Violation",
       "medianBail": 10000,
-      "meanBail": 80258.82,
-      "count": 85
+      "meanBail": 23916.67,
+      "count": 48
     },
     {
       "category": "Harassment",
       "medianBail": 10000,
       "meanBail": 33847.22,
       "count": 36
+    },
+    {
+      "category": "Assault",
+      "medianBail": 10000,
+      "meanBail": 78238.1,
+      "count": 84
     },
     {
       "category": "Theft (2nd Degree)",
@@ -385,12 +391,6 @@
       "medianBail": 10000,
       "meanBail": 52480.95,
       "count": 21
-    },
-    {
-      "category": "Protection Order Violation",
-      "medianBail": 10000,
-      "meanBail": 24847.83,
-      "count": 46
     },
     {
       "category": "Assault (Child)",
@@ -419,8 +419,8 @@
     {
       "category": "Domestic Violence",
       "medianBail": 5000,
-      "meanBail": 58040.98,
-      "count": 205
+      "meanBail": 57890.29,
+      "count": 206
     },
     {
       "category": "Public Order",
@@ -491,8 +491,8 @@
     {
       "category": "Failure to Appear",
       "medianBail": 2500,
-      "meanBail": 9193.93,
-      "count": 359
+      "meanBail": 9182.28,
+      "count": 360
     },
     {
       "category": "Theft (3rd Degree)",
@@ -550,6 +550,54 @@
     }
   ],
   "chargesByRace": {
+    "Unknown": {
+      "Residential Burglary": 2,
+      "Criminal Trespass": 14,
+      "Reckless Driving": 6,
+      "Assault": 28,
+      "Theft (3rd Degree)": 13,
+      "Robbery": 1,
+      "Attempt to Elude": 8,
+      "Domestic Violence": 80,
+      "DUI": 91,
+      "Other": 33,
+      "Hit and Run": 11,
+      "Failure to Appear": 24,
+      "Driving While License Suspended": 39,
+      "Protection Order Violation": 9,
+      "Obstruction": 14,
+      "Theft (1st Degree)": 2,
+      "Child Sex Offense": 4,
+      "Incest": 1,
+      "Assault (Child)": 1,
+      "DOC Warrant": 6,
+      "Possession of Stolen Vehicle": 2,
+      "Drug Offense": 21,
+      "Making False Statements": 8,
+      "Ignition Interlock Violation": 9,
+      "Sex Offense": 6,
+      "Fugitive from Justice": 2,
+      "Harassment": 10,
+      "Local / Tribal Code": 5,
+      "Malicious Mischief": 5,
+      "Resisting Arrest": 5,
+      "Indecent Exposure": 2,
+      "Homicide": 2,
+      "Criminal Impersonation": 1,
+      "Burglary (1st Degree)": 1,
+      "Kidnapping / Unlawful Imprisonment": 2,
+      "Interference with DV Reporting": 3,
+      "Weapons": 4,
+      "Child Exploitation / CSAM": 3,
+      "Theft (2nd Degree)": 6,
+      "Traffic / Obstruction": 3,
+      "Motor Vehicle Theft": 2,
+      "Burglary (2nd Degree)": 2,
+      "PR / Bail Revocation": 1,
+      "Stalking": 1,
+      "Failure to Comply (Sentence)": 1,
+      "Public Order": 1
+    },
     "White": {
       "Failure to Appear": 489,
       "DOC Warrant": 125,
@@ -614,54 +662,6 @@
       "Incest": 1,
       "Theft": 1,
       "Bribery": 1
-    },
-    "Unknown": {
-      "Residential Burglary": 2,
-      "Criminal Trespass": 14,
-      "Reckless Driving": 6,
-      "Assault": 28,
-      "Theft (3rd Degree)": 13,
-      "Robbery": 1,
-      "Attempt to Elude": 8,
-      "Domestic Violence": 80,
-      "DUI": 91,
-      "Other": 33,
-      "Hit and Run": 11,
-      "Failure to Appear": 24,
-      "Driving While License Suspended": 39,
-      "Protection Order Violation": 9,
-      "Obstruction": 14,
-      "Theft (1st Degree)": 2,
-      "Child Sex Offense": 4,
-      "Incest": 1,
-      "Assault (Child)": 1,
-      "DOC Warrant": 6,
-      "Possession of Stolen Vehicle": 2,
-      "Drug Offense": 21,
-      "Making False Statements": 8,
-      "Ignition Interlock Violation": 9,
-      "Sex Offense": 6,
-      "Fugitive from Justice": 2,
-      "Harassment": 10,
-      "Local / Tribal Code": 5,
-      "Malicious Mischief": 5,
-      "Resisting Arrest": 5,
-      "Indecent Exposure": 2,
-      "Homicide": 2,
-      "Criminal Impersonation": 1,
-      "Burglary (1st Degree)": 1,
-      "Kidnapping / Unlawful Imprisonment": 2,
-      "Interference with DV Reporting": 3,
-      "Weapons": 4,
-      "Child Exploitation / CSAM": 3,
-      "Theft (2nd Degree)": 6,
-      "Traffic / Obstruction": 3,
-      "Motor Vehicle Theft": 2,
-      "Burglary (2nd Degree)": 2,
-      "PR / Bail Revocation": 1,
-      "Stalking": 1,
-      "Failure to Comply (Sentence)": 1,
-      "Public Order": 1
     },
     "Black": {
       "Driving While License Suspended": 48,
@@ -1001,7 +1001,7 @@
   "recidivism": {
     "rate": 14.3,
     "repeatBookerCount": 348,
-    "totalIndividuals": 2437,
+    "totalIndividuals": 2438,
     "repeatBookers": [
       {
         "name": "SCHWEITZER, BRIAN A",
@@ -1607,7 +1607,7 @@
     },
     {
       "month": "2026-09",
-      "count": 289
+      "count": 290
     }
   ],
   "crimeTypes": [
@@ -1665,8 +1665,8 @@
   "severity": [
     {
       "label": "Misdemeanor",
-      "count": 2188,
-      "pct": 33.9
+      "count": 2189,
+      "pct": 34
     },
     {
       "label": "Gross Misdemeanor",
@@ -1784,7 +1784,7 @@
   "agencyBreakdown": [
     {
       "name": "Kitsap County Sheriff",
-      "count": 2580,
+      "count": 2581,
       "topCharge": "Domestic Violence",
       "chargeBreakdown": [
         {
@@ -1793,7 +1793,7 @@
         },
         {
           "label": "Failure to Appear",
-          "count": 396
+          "count": 397
         },
         {
           "label": "DUI",
@@ -3295,7 +3295,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 2908
+      "count": 2909
     }
   ],
   "ftaOriginalCharges": {
