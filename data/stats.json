@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-23T07:34:37.457Z",
+  "generatedAt": "2026-09-23T13:29:42.604Z",
   "bookingCounts": {
     "total": 2904,
-    "inCustody": 261,
-    "released": 2643
+    "inCustody": 260,
+    "released": 2644
   },
   "gender": [
     {
@@ -57,11 +57,11 @@
     "histogram": [
       {
         "label": "18–25",
-        "count": 411
+        "count": 410
       },
       {
         "label": "26–35",
-        "count": 801
+        "count": 802
       },
       {
         "label": "36–45",
@@ -162,7 +162,7 @@
     },
     {
       "label": "WASHINGTON STATE PATROL",
-      "count": 223
+      "count": 224
     },
     {
       "label": "GIG HARBOR POLICE DEPARTMENT",
@@ -186,22 +186,22 @@
     }
   ],
   "bail": {
-    "mean": 31513.79,
+    "mean": 31501.13,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 2093
+    "count": 2094
   },
   "stay": {
     "mean": 21.9,
     "median": 2,
     "min": 0,
     "max": 1233.4,
-    "count": 2593,
+    "count": 2594,
     "histogram": [
       {
         "label": "< 1 day",
-        "count": 935
+        "count": 936
       },
       {
         "label": "1–3 days",
@@ -411,6 +411,12 @@
       "count": 2
     },
     {
+      "category": "Reckless Driving",
+      "medianBail": 5000,
+      "meanBail": 4566.67,
+      "count": 15
+    },
+    {
       "category": "Domestic Violence",
       "medianBail": 5000,
       "meanBail": 58040.98,
@@ -463,12 +469,6 @@
       "medianBail": 5000,
       "meanBail": 8942.31,
       "count": 26
-    },
-    {
-      "category": "Reckless Driving",
-      "medianBail": 5000,
-      "meanBail": 4535.71,
-      "count": 14
     },
     {
       "category": "Burglary Tools",
@@ -552,11 +552,11 @@
   "chargesByRace": {
     "Unknown": {
       "Residential Burglary": 2,
+      "Reckless Driving": 6,
       "Assault": 28,
       "Theft (3rd Degree)": 13,
       "Robbery": 1,
       "Attempt to Elude": 8,
-      "Reckless Driving": 5,
       "Domestic Violence": 80,
       "DUI": 91,
       "Other": 33,
@@ -791,10 +791,10 @@
   "chargesBySex": {
     "Unknown": {
       "Residential Burglary": 2,
+      "Reckless Driving": 5,
       "Assault": 21,
       "Robbery": 1,
       "Attempt to Elude": 7,
-      "Reckless Driving": 4,
       "DUI": 72,
       "Other": 27,
       "Domestic Violence": 59,
@@ -959,7 +959,7 @@
     },
     {
       "label": "Released (Unknown Reason)",
-      "count": 697
+      "count": 698
     },
     {
       "label": "Released",
@@ -1613,7 +1613,7 @@
   "crimeTypes": [
     {
       "label": "Traffic / DUI",
-      "count": 897,
+      "count": 898,
       "pct": 20
     },
     {
@@ -1666,11 +1666,11 @@
     {
       "label": "Misdemeanor",
       "count": 2182,
-      "pct": 33.9
+      "pct": 33.8
     },
     {
       "label": "Gross Misdemeanor",
-      "count": 1881,
+      "count": 1882,
       "pct": 29.2
     },
     {
@@ -1892,7 +1892,7 @@
     },
     {
       "name": "WASHINGTON STATE PATROL",
-      "count": 223,
+      "count": 224,
       "topCharge": "DUI",
       "chargeBreakdown": [
         {
@@ -2204,8 +2204,8 @@
     }
   ],
   "bailOnRelease": {
-    "total": 2643,
-    "withBail": 1239,
+    "total": 2644,
+    "withBail": 1240,
     "pct": 46.9
   },
   "chargesByAgeGroup": [
@@ -2366,7 +2366,7 @@
       "crimeTypes": [
         {
           "label": "Traffic / DUI",
-          "count": 150
+          "count": 151
         },
         {
           "label": "Violent",
@@ -2386,7 +2386,7 @@
         },
         {
           "label": "Order Violations",
-          "count": 46
+          "count": 45
         },
         {
           "label": "Drug",
@@ -2431,7 +2431,7 @@
         },
         {
           "label": "Order Violations",
-          "count": 96
+          "count": 97
         },
         {
           "label": "Drug",

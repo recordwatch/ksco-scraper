@@ -13,11 +13,11 @@
         "bondBailType": "C/B",
         "bondAmount": 50000,
         "cashAmount": null,
-        "courtCase": "K26006984",
-        "nextCourtDate": null,
+        "courtCase": null,
+        "nextCourtDate": "09/23/2026",
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "09/22/2026",
-        "courtType": null
+        "courtType": "SC"
       }
     ],
     "age": null,
@@ -38,7 +38,22 @@
     "bookingNumber": "2026004240",
     "name": "LYTLE, KOBE",
     "bookingDate": "",
-    "charges": [],
+    "charges": [
+      {
+        "violation": "46.61.500(1) - RECKLESS DRIVING",
+        "cleared": true,
+        "addDesc": null,
+        "clearance": "BR",
+        "bondBailType": "C/B",
+        "bondAmount": 5000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "09/23/2026",
+        "arrestAgency": "WASHINGTON STATE PATROL",
+        "arrestDate": "09/22/2026",
+        "courtType": "DS"
+      }
+    ],
     "age": "20",
     "sex": "",
     "race": "",
@@ -49,8 +64,8 @@
     "inmateId": "50005457",
     "schedRelease": null,
     "firstSeen": "09/23/2026, 00:31:45",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "09/23/2026, 06:27:10",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -73,7 +88,7 @@
         "courtType": "DS"
       }
     ],
-    "age": "25",
+    "age": "27",
     "sex": "M",
     "race": "W",
     "height": "602",
@@ -101,10 +116,10 @@
         "bondAmount": null,
         "cashAmount": null,
         "courtCase": "438573",
-        "nextCourtDate": null,
+        "nextCourtDate": "09/23/2026",
         "arrestAgency": "BREMERTON POLICE DEPARTMENT",
         "arrestDate": "09/22/2026",
-        "courtType": null
+        "courtType": "DOC"
       }
     ],
     "age": "28",
@@ -856,9 +871,9 @@
     "charges": [
       {
         "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "DUI/ RECKLESS ENDANGERMENT",
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
@@ -9920,7 +9935,7 @@
         "bondBailType": "C/B",
         "bondAmount": 1000,
         "cashAmount": null,
-        "courtCase": null,
+        "courtCase": "350442724",
         "nextCourtDate": "09/23/2026",
         "arrestAgency": "POULSBO POLICE DEPARTMENT",
         "arrestDate": "09/07/2026",
@@ -13660,9 +13675,9 @@
     "charges": [
       {
         "violation": "DOCWT - DEPARTMENT OF CORRECTIONS WARRANT",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "CCV",
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
