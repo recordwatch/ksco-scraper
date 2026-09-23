@@ -135668,9 +135668,9 @@
       }
     ],
     "totalBond": null,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "09/17/2026, 11:52:15",
-    "releasedAt": null
+    "releasedAt": "09/23/2026, 00:31:46"
   },
   "2026004159": {
     "bookingNumber": "2026004159",
@@ -139613,11 +139613,26 @@
     "weight": "220",
     "hair": "BLK",
     "eyes": "BRO",
-    "charges": [],
+    "charges": [
+      {
+        "violation": "46.20.342(1)(A) - DWLS 1 - DRIVE W/LICENSE SUSP OR REVOKED-1 HABITUAL TRAFFIC OFFENDER",
+        "cleared": true,
+        "addDesc": null,
+        "clearance": "BR",
+        "bondBailType": "C/B",
+        "bondAmount": 5000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "09/23/2026",
+        "arrestAgency": "WASHINGTON STATE PATROL",
+        "arrestDate": "09/22/2026",
+        "courtType": "DS"
+      }
+    ],
     "totalBond": null,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "09/22/2026, 16:11:29",
-    "releasedAt": null
+    "releasedAt": "09/23/2026, 00:31:47"
   },
   "2026004236": {
     "bookingNumber": "2026004236",
@@ -139640,9 +139655,9 @@
     "charges": [
       {
         "violation": "9A.56.050(2) - THEFT-3",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "BR",
         "bondBailType": "C/B",
         "bondAmount": 10000,
         "cashAmount": null,
@@ -139654,9 +139669,9 @@
       },
       {
         "violation": "46.20.342(1)(C) - DWLS 3 -DRIVE W/LICENSE SUSP OR REVOKED-3 OR REVOKED LIC OR PRIVILEGE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "BR",
         "bondBailType": "C/B",
         "bondAmount": null,
         "cashAmount": null,
@@ -139668,8 +139683,149 @@
       }
     ],
     "totalBond": 10000,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "09/22/2026, 18:41:16",
+    "releasedAt": "09/23/2026, 00:31:47"
+  },
+  "2026004237": {
+    "bookingNumber": "2026004237",
+    "firstName": "MICHAEL",
+    "lastName": "KEPPERT",
+    "middleName": "PATRICK",
+    "race": "W",
+    "sex": "M",
+    "bookingDate": "",
+    "releaseDate": "",
+    "schReleaseDate": "",
+    "detailUrl": "https://incustody.kitsap.gov/Home/BookingSearchResult?LastName=%25&FirstName=&BookingFrom=&BookingTo=&ValidSearch=&sort=BookingDate&sortdir=DESC&page=18&BookingNumber=8",
+    "inmateId": "40508114",
+    "schedRelease": null,
+    "age": "25",
+    "height": "602",
+    "weight": "160",
+    "hair": "BLN",
+    "eyes": "BLU",
+    "charges": [
+      {
+        "violation": "7.105.450(1) - PROTECTION ORDER VIOLATION",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "NOBD",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "09/23/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "09/22/2026",
+        "courtType": "DS"
+      }
+    ],
+    "totalBond": null,
+    "status": "in_custody",
+    "firstSeen": "09/23/2026, 00:31:44",
+    "releasedAt": null
+  },
+  "2026004238": {
+    "bookingNumber": "2026004238",
+    "firstName": "DANIEL",
+    "lastName": "TARTT",
+    "middleName": "WESLEY",
+    "race": "W",
+    "sex": "M",
+    "bookingDate": "09/23/2026",
+    "releaseDate": "",
+    "schReleaseDate": "",
+    "detailUrl": "https://incustody.kitsap.gov/Home/BookingSearchResult?LastName=%25&FirstName=&BookingFrom=&BookingTo=&ValidSearch=&sort=BookingDate&sortdir=DESC&page=1&BookingNumber=1",
+    "inmateId": "40722924",
+    "schedRelease": null,
+    "age": "28",
+    "height": "602",
+    "weight": "232",
+    "hair": "BLK",
+    "eyes": "BRO",
+    "charges": [
+      {
+        "violation": "DOCWT - DEPARTMENT OF CORRECTIONS WARRANT",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "NOBD",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": "438573",
+        "nextCourtDate": null,
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "09/22/2026",
+        "courtType": null
+      }
+    ],
+    "totalBond": null,
+    "status": "in_custody",
+    "firstSeen": "09/23/2026, 00:31:44",
+    "releasedAt": null
+  },
+  "2026004239": {
+    "bookingNumber": "2026004239",
+    "firstName": "KENENETH",
+    "lastName": "THOMAS",
+    "middleName": "",
+    "race": "",
+    "sex": "",
+    "bookingDate": "",
+    "releaseDate": "",
+    "schReleaseDate": "",
+    "detailUrl": "https://incustody.kitsap.gov/Home/BookingSearchResult?LastName=%25&FirstName=&BookingFrom=&BookingTo=&ValidSearch=&sort=BookingDate&sortdir=DESC&page=18&BookingNumber=10",
+    "inmateId": "50005456",
+    "schedRelease": null,
+    "age": null,
+    "height": null,
+    "weight": null,
+    "hair": "Eyes",
+    "eyes": "Height",
+    "charges": [
+      {
+        "violation": "9A.52.025(2) - RESIDENTIAL BURGLARY",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 50000,
+        "cashAmount": null,
+        "courtCase": "K26006984",
+        "nextCourtDate": null,
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "09/22/2026",
+        "courtType": null
+      }
+    ],
+    "totalBond": 50000,
+    "status": "in_custody",
+    "firstSeen": "09/23/2026, 00:31:46",
+    "releasedAt": null
+  },
+  "2026004240": {
+    "bookingNumber": "2026004240",
+    "firstName": "KOBE",
+    "lastName": "LYTLE",
+    "middleName": "",
+    "race": "",
+    "sex": "",
+    "bookingDate": "",
+    "releaseDate": "",
+    "schReleaseDate": "",
+    "detailUrl": "https://incustody.kitsap.gov/Home/BookingSearchResult?LastName=%25&FirstName=&BookingFrom=&BookingTo=&ValidSearch=&sort=BookingDate&sortdir=DESC&page=18&BookingNumber=9",
+    "inmateId": "50005457",
+    "schedRelease": null,
+    "age": "20",
+    "height": null,
+    "weight": null,
+    "hair": "Eyes",
+    "eyes": "Height",
+    "charges": [],
+    "totalBond": null,
+    "status": "in_custody",
+    "firstSeen": "09/23/2026, 00:31:45",
     "releasedAt": null
   }
 }

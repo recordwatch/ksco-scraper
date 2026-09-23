@@ -1,15 +1,136 @@
 [
   {
     "type": "BOOKED",
+    "bookingNumber": "2026004239",
+    "name": "THOMAS, KENENETH",
+    "bookingDate": "",
+    "charges": [
+      {
+        "violation": "9A.52.025(2) - RESIDENTIAL BURGLARY",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 50000,
+        "cashAmount": null,
+        "courtCase": "K26006984",
+        "nextCourtDate": null,
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "09/22/2026",
+        "courtType": null
+      }
+    ],
+    "age": null,
+    "sex": "",
+    "race": "",
+    "height": null,
+    "weight": null,
+    "hair": "Eyes",
+    "eyes": "Height",
+    "inmateId": "50005456",
+    "schedRelease": null,
+    "firstSeen": "09/23/2026, 00:31:46",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
+    "bookingNumber": "2026004240",
+    "name": "LYTLE, KOBE",
+    "bookingDate": "",
+    "charges": [],
+    "age": "20",
+    "sex": "",
+    "race": "",
+    "height": null,
+    "weight": null,
+    "hair": "Eyes",
+    "eyes": "Height",
+    "inmateId": "50005457",
+    "schedRelease": null,
+    "firstSeen": "09/23/2026, 00:31:45",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
+    "bookingNumber": "2026004237",
+    "name": "KEPPERT, MICHAEL PATRICK",
+    "bookingDate": "",
+    "charges": [
+      {
+        "violation": "7.105.450(1) - PROTECTION ORDER VIOLATION",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "NOBD",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "09/23/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "09/22/2026",
+        "courtType": "DS"
+      }
+    ],
+    "age": "25",
+    "sex": "M",
+    "race": "W",
+    "height": "602",
+    "weight": "160",
+    "hair": "BLN",
+    "eyes": "BLU",
+    "inmateId": "40508114",
+    "schedRelease": null,
+    "firstSeen": "09/23/2026, 00:31:44",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
+    "bookingNumber": "2026004238",
+    "name": "TARTT, DANIEL WESLEY",
+    "bookingDate": "09/23/2026",
+    "charges": [
+      {
+        "violation": "DOCWT - DEPARTMENT OF CORRECTIONS WARRANT",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "NOBD",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": "438573",
+        "nextCourtDate": null,
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "09/22/2026",
+        "courtType": null
+      }
+    ],
+    "age": "28",
+    "sex": "M",
+    "race": "W",
+    "height": "602",
+    "weight": "232",
+    "hair": "BLK",
+    "eyes": "BRO",
+    "inmateId": "40722924",
+    "schedRelease": null,
+    "firstSeen": "09/23/2026, 00:31:44",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
     "bookingNumber": "2026004236",
     "name": "SEVERSON, BRANDON SCOTT",
     "bookingDate": "",
     "charges": [
       {
         "violation": "9A.56.050(2) - THEFT-3",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "BR",
         "bondBailType": "C/B",
         "bondAmount": 10000,
         "cashAmount": null,
@@ -21,9 +142,9 @@
       },
       {
         "violation": "46.20.342(1)(C) - DWLS 3 -DRIVE W/LICENSE SUSP OR REVOKED-3 OR REVOKED LIC OR PRIVILEGE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "BR",
         "bondBailType": "C/B",
         "bondAmount": null,
         "cashAmount": null,
@@ -44,15 +165,30 @@
     "inmateId": "40098060",
     "schedRelease": null,
     "firstSeen": "09/22/2026, 18:41:16",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "09/23/2026, 00:31:47",
+    "status": "released"
   },
   {
     "type": "BOOKED",
     "bookingNumber": "2026004235",
     "name": "MERRIWEATHER, ANDRE DION",
     "bookingDate": "",
-    "charges": [],
+    "charges": [
+      {
+        "violation": "46.20.342(1)(A) - DWLS 1 - DRIVE W/LICENSE SUSP OR REVOKED-1 HABITUAL TRAFFIC OFFENDER",
+        "cleared": true,
+        "addDesc": null,
+        "clearance": "BR",
+        "bondBailType": "C/B",
+        "bondAmount": 5000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "09/23/2026",
+        "arrestAgency": "WASHINGTON STATE PATROL",
+        "arrestDate": "09/22/2026",
+        "courtType": "DS"
+      }
+    ],
     "age": "33",
     "sex": "M",
     "race": "B",
@@ -63,8 +199,8 @@
     "inmateId": "50001090",
     "schedRelease": null,
     "firstSeen": "09/22/2026, 16:11:29",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "09/23/2026, 00:31:47",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -3737,8 +3873,8 @@
     "inmateId": "40053384",
     "schedRelease": null,
     "firstSeen": "09/17/2026, 11:52:15",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "09/23/2026, 00:31:46",
+    "status": "released"
   },
   {
     "type": "BOOKED",
