@@ -139039,7 +139039,7 @@
         "addDesc": "ASLT 4 DV",
         "clearance": null,
         "bondBailType": "C/B",
-        "bondAmount": 7500,
+        "bondAmount": 500,
         "cashAmount": null,
         "courtCase": "22327104",
         "nextCourtDate": "09/24/2026",
@@ -139053,7 +139053,7 @@
         "addDesc": "MAL MISCH 3RD, UNLAWFUL TRANSIT CONDUCT",
         "clearance": null,
         "bondBailType": "C/B",
-        "bondAmount": 500,
+        "bondAmount": 7500,
         "cashAmount": null,
         "courtCase": "350441015",
         "nextCourtDate": "09/24/2026",
@@ -139412,9 +139412,9 @@
       }
     ],
     "totalBond": null,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "09/22/2026, 13:25:12",
-    "releasedAt": null
+    "releasedAt": "09/23/2026, 17:38:50"
   },
   "2026004234": {
     "bookingNumber": "2026004234",
@@ -140035,10 +140035,49 @@
     "weight": "137",
     "hair": "GRY",
     "eyes": "BLU",
-    "charges": [],
+    "charges": [
+      {
+        "violation": "9A.46.020(2)(B) - HARASSMENT PREV CONV OR THREAT TO KILL",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 30000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "09/24/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "09/23/2026",
+        "courtType": "SC"
+      }
+    ],
     "totalBond": null,
     "status": "in_custody",
     "firstSeen": "09/23/2026, 16:53:36",
+    "releasedAt": null
+  },
+  "2026004249": {
+    "bookingNumber": "2026004249",
+    "firstName": "DEWITT",
+    "lastName": "WOODWORTH",
+    "middleName": "DONALD",
+    "race": "W",
+    "sex": "M",
+    "bookingDate": "",
+    "releaseDate": "",
+    "schReleaseDate": "",
+    "detailUrl": "https://incustody.kitsap.gov/Home/BookingSearchResult?LastName=%25&FirstName=&BookingFrom=&BookingTo=&ValidSearch=&sort=BookingDate&sortdir=DESC&page=18&BookingNumber=10",
+    "inmateId": "50001596",
+    "schedRelease": null,
+    "age": "59",
+    "height": "511",
+    "weight": "175",
+    "hair": "GRY",
+    "eyes": "BRO",
+    "charges": [],
+    "totalBond": null,
+    "status": "in_custody",
+    "firstSeen": "09/23/2026, 17:38:50",
     "releasedAt": null
   }
 }

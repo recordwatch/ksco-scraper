@@ -1,10 +1,44 @@
 [
   {
     "type": "BOOKED",
+    "bookingNumber": "2026004249",
+    "name": "WOODWORTH, DEWITT DONALD",
+    "bookingDate": "",
+    "charges": [],
+    "age": "59",
+    "sex": "M",
+    "race": "W",
+    "height": "511",
+    "weight": "175",
+    "hair": "GRY",
+    "eyes": "BRO",
+    "inmateId": "50001596",
+    "schedRelease": null,
+    "firstSeen": "09/23/2026, 17:38:50",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
     "bookingNumber": "2026004248",
     "name": "BROWNING, LOUIS VINCENT",
     "bookingDate": "",
-    "charges": [],
+    "charges": [
+      {
+        "violation": "9A.46.020(2)(B) - HARASSMENT PREV CONV OR THREAT TO KILL",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 30000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "09/24/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "09/23/2026",
+        "courtType": "SC"
+      }
+    ],
     "age": "65",
     "sex": "M",
     "race": "",
@@ -580,8 +614,8 @@
     "inmateId": "40528442",
     "schedRelease": null,
     "firstSeen": "09/22/2026, 13:25:12",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "09/23/2026, 17:38:50",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -953,7 +987,7 @@
         "addDesc": "ASLT 4 DV",
         "clearance": null,
         "bondBailType": "C/B",
-        "bondAmount": 7500,
+        "bondAmount": 500,
         "cashAmount": null,
         "courtCase": "22327104",
         "nextCourtDate": "09/24/2026",
@@ -967,7 +1001,7 @@
         "addDesc": "MAL MISCH 3RD, UNLAWFUL TRANSIT CONDUCT",
         "clearance": null,
         "bondBailType": "C/B",
-        "bondAmount": 500,
+        "bondAmount": 7500,
         "cashAmount": null,
         "courtCase": "350441015",
         "nextCourtDate": "09/24/2026",

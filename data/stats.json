@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-09-23T23:55:57.479Z",
+  "generatedAt": "2026-09-24T00:41:12.115Z",
   "bookingCounts": {
-    "total": 2912,
+    "total": 2913,
     "inCustody": 261,
-    "released": 2651
+    "released": 2652
   },
   "gender": [
     {
       "label": "Male",
-      "count": 1991,
+      "count": 1992,
       "pct": 68.4
     },
     {
       "label": "Female",
       "count": 651,
-      "pct": 22.4
+      "pct": 22.3
     },
     {
       "label": "Unknown",
@@ -25,7 +25,7 @@
   "race": [
     {
       "label": "White",
-      "count": 2064,
+      "count": 2065,
       "pct": 70.9
     },
     {
@@ -51,7 +51,7 @@
   ],
   "age": {
     "mean": 38.7,
-    "median": 37,
+    "median": 37.5,
     "min": 18,
     "max": 87,
     "histogram": [
@@ -73,7 +73,7 @@
       },
       {
         "label": "56–65",
-        "count": 208
+        "count": 209
       },
       {
         "label": "65+",
@@ -132,7 +132,7 @@
     },
     {
       "label": "Harassment",
-      "count": 117
+      "count": 118
     },
     {
       "label": "Ignition Interlock Violation",
@@ -146,7 +146,7 @@
   "topAgencies": [
     {
       "label": "KITSAP COUNTY SHERIFFS OFFICE",
-      "count": 2570
+      "count": 2571
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
@@ -186,18 +186,18 @@
     }
   ],
   "bail": {
-    "mean": 31428.95,
+    "mean": 31428.27,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 2092
+    "count": 2093
   },
   "stay": {
     "mean": 21.9,
     "median": 2,
     "min": 0,
     "max": 1233.4,
-    "count": 2599,
+    "count": 2600,
     "histogram": [
       {
         "label": "< 1 day",
@@ -205,7 +205,7 @@
       },
       {
         "label": "1–3 days",
-        "count": 574
+        "count": 575
       },
       {
         "label": "4–7 days",
@@ -363,16 +363,16 @@
       "count": 7
     },
     {
+      "category": "Harassment",
+      "medianBail": 10000,
+      "meanBail": 33743.24,
+      "count": 37
+    },
+    {
       "category": "Protection Order Violation",
       "medianBail": 10000,
       "meanBail": 23916.67,
       "count": 48
-    },
-    {
-      "category": "Harassment",
-      "medianBail": 10000,
-      "meanBail": 33847.22,
-      "count": 36
     },
     {
       "category": "Assault",
@@ -419,13 +419,13 @@
     {
       "category": "Domestic Violence",
       "medianBail": 5000,
-      "meanBail": 57890.29,
+      "meanBail": 57856.31,
       "count": 206
     },
     {
       "category": "Public Order",
       "medianBail": 5000,
-      "meanBail": 5083.33,
+      "meanBail": 6250,
       "count": 6
     },
     {
@@ -550,54 +550,6 @@
     }
   ],
   "chargesByRace": {
-    "Unknown": {
-      "Residential Burglary": 2,
-      "Criminal Trespass": 14,
-      "Reckless Driving": 6,
-      "Assault": 28,
-      "Theft (3rd Degree)": 13,
-      "Robbery": 1,
-      "Attempt to Elude": 8,
-      "Domestic Violence": 80,
-      "DUI": 91,
-      "Other": 33,
-      "Hit and Run": 11,
-      "Failure to Appear": 24,
-      "Driving While License Suspended": 39,
-      "Protection Order Violation": 9,
-      "Obstruction": 14,
-      "Theft (1st Degree)": 2,
-      "Child Sex Offense": 4,
-      "Incest": 1,
-      "Assault (Child)": 1,
-      "DOC Warrant": 6,
-      "Possession of Stolen Vehicle": 2,
-      "Drug Offense": 21,
-      "Making False Statements": 8,
-      "Ignition Interlock Violation": 9,
-      "Sex Offense": 6,
-      "Fugitive from Justice": 2,
-      "Harassment": 10,
-      "Local / Tribal Code": 5,
-      "Malicious Mischief": 5,
-      "Resisting Arrest": 5,
-      "Indecent Exposure": 2,
-      "Homicide": 2,
-      "Criminal Impersonation": 1,
-      "Burglary (1st Degree)": 1,
-      "Kidnapping / Unlawful Imprisonment": 2,
-      "Interference with DV Reporting": 3,
-      "Weapons": 4,
-      "Child Exploitation / CSAM": 3,
-      "Theft (2nd Degree)": 6,
-      "Traffic / Obstruction": 3,
-      "Motor Vehicle Theft": 2,
-      "Burglary (2nd Degree)": 2,
-      "PR / Bail Revocation": 1,
-      "Stalking": 1,
-      "Failure to Comply (Sentence)": 1,
-      "Public Order": 1
-    },
     "White": {
       "Failure to Appear": 489,
       "DOC Warrant": 125,
@@ -662,6 +614,54 @@
       "Incest": 1,
       "Theft": 1,
       "Bribery": 1
+    },
+    "Unknown": {
+      "Harassment": 11,
+      "Residential Burglary": 2,
+      "Criminal Trespass": 14,
+      "Reckless Driving": 6,
+      "Assault": 28,
+      "Theft (3rd Degree)": 13,
+      "Robbery": 1,
+      "Attempt to Elude": 8,
+      "Domestic Violence": 80,
+      "DUI": 91,
+      "Other": 33,
+      "Hit and Run": 11,
+      "Failure to Appear": 24,
+      "Driving While License Suspended": 39,
+      "Protection Order Violation": 9,
+      "Obstruction": 14,
+      "Theft (1st Degree)": 2,
+      "Child Sex Offense": 4,
+      "Incest": 1,
+      "Assault (Child)": 1,
+      "DOC Warrant": 6,
+      "Possession of Stolen Vehicle": 2,
+      "Drug Offense": 21,
+      "Making False Statements": 8,
+      "Ignition Interlock Violation": 9,
+      "Sex Offense": 6,
+      "Fugitive from Justice": 2,
+      "Local / Tribal Code": 5,
+      "Malicious Mischief": 5,
+      "Resisting Arrest": 5,
+      "Indecent Exposure": 2,
+      "Homicide": 2,
+      "Criminal Impersonation": 1,
+      "Burglary (1st Degree)": 1,
+      "Kidnapping / Unlawful Imprisonment": 2,
+      "Interference with DV Reporting": 3,
+      "Weapons": 4,
+      "Child Exploitation / CSAM": 3,
+      "Theft (2nd Degree)": 6,
+      "Traffic / Obstruction": 3,
+      "Motor Vehicle Theft": 2,
+      "Burglary (2nd Degree)": 2,
+      "PR / Bail Revocation": 1,
+      "Stalking": 1,
+      "Failure to Comply (Sentence)": 1,
+      "Public Order": 1
     },
     "Black": {
       "Driving While License Suspended": 48,
@@ -790,6 +790,7 @@
   },
   "chargesBySex": {
     "Male": {
+      "Harassment": 92,
       "Failure to Appear": 449,
       "DOC Warrant": 130,
       "Drug Offense": 214,
@@ -810,7 +811,6 @@
       "Obstruction": 106,
       "Resisting Arrest": 56,
       "Malicious Mischief": 56,
-      "Harassment": 91,
       "Theft (2nd Degree)": 54,
       "Possession of Stolen Property": 18,
       "Ignition Interlock Violation": 72,
@@ -959,7 +959,7 @@
     },
     {
       "label": "Released (Unknown Reason)",
-      "count": 699
+      "count": 700
     },
     {
       "label": "Released",
@@ -1001,7 +1001,7 @@
   "recidivism": {
     "rate": 14.3,
     "repeatBookerCount": 348,
-    "totalIndividuals": 2438,
+    "totalIndividuals": 2439,
     "repeatBookers": [
       {
         "name": "SCHWEITZER, BRIAN A",
@@ -1607,7 +1607,7 @@
     },
     {
       "month": "2026-09",
-      "count": 290
+      "count": 291
     }
   ],
   "crimeTypes": [
@@ -1638,7 +1638,7 @@
     },
     {
       "label": "Order Violations",
-      "count": 328,
+      "count": 329,
       "pct": 7.3
     },
     {
@@ -1666,11 +1666,11 @@
     {
       "label": "Misdemeanor",
       "count": 2189,
-      "pct": 34
+      "pct": 33.9
     },
     {
       "label": "Gross Misdemeanor",
-      "count": 1884,
+      "count": 1885,
       "pct": 29.2
     },
     {
@@ -1758,9 +1758,9 @@
     },
     {
       "category": "Protection Order Violation",
-      "avgDays": 14.2,
+      "avgDays": 13.9,
       "medianDays": 1.6,
-      "count": 57
+      "count": 58
     },
     {
       "category": "Burglary (2nd Degree)",
@@ -1784,7 +1784,7 @@
   "agencyBreakdown": [
     {
       "name": "Kitsap County Sheriff",
-      "count": 2581,
+      "count": 2582,
       "topCharge": "Domestic Violence",
       "chargeBreakdown": [
         {
@@ -2208,8 +2208,8 @@
     }
   ],
   "bailOnRelease": {
-    "total": 2651,
-    "withBail": 1241,
+    "total": 2652,
+    "withBail": 1242,
     "pct": 46.8
   },
   "chargesByAgeGroup": [
@@ -2566,7 +2566,7 @@
         },
         {
           "label": "Order Violations",
-          "count": 24
+          "count": 25
         },
         {
           "label": "Other",
@@ -3295,7 +3295,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 2909
+      "count": 2910
     }
   ],
   "ftaOriginalCharges": {
