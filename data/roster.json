@@ -137844,9 +137844,9 @@
       },
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
-        "cleared": true,
+        "cleared": false,
         "addDesc": "FTA RECKLESS ENDANGERMENT",
-        "clearance": "POST",
+        "clearance": null,
         "bondBailType": "C/B",
         "bondAmount": 1000,
         "cashAmount": null,
@@ -140646,9 +140646,9 @@
       }
     ],
     "totalBond": 5000,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "09/24/2026, 02:07:16",
-    "releasedAt": null
+    "releasedAt": "09/24/2026, 22:58:51"
   },
   "2026004261": {
     "bookingNumber": "2026004261",
@@ -140924,10 +140924,10 @@
     "schReleaseDate": "",
     "detailUrl": "https://incustody.kitsap.gov/Home/BookingSearchResult?LastName=%25&FirstName=&BookingFrom=&BookingTo=&ValidSearch=&sort=BookingDate&sortdir=DESC&page=18&BookingNumber=7",
     "inmateId": "50002685",
-    "schedRelease": "12/23/2026",
-    "age": "19",
-    "height": "506",
-    "weight": "140",
+    "schedRelease": "11/23/2026",
+    "age": "20",
+    "height": "507",
+    "weight": "150",
     "hair": "BLK",
     "eyes": "BRO",
     "charges": [
@@ -141134,9 +141134,9 @@
     "charges": [
       {
         "violation": "46.20.342(1)(B) - DWLS 2 - DRIVE W/LICENSE SUSP OR REVOKED-2",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "BR",
         "bondBailType": "C/B",
         "bondAmount": 5000,
         "cashAmount": null,
@@ -141148,9 +141148,9 @@
       },
       {
         "violation": "46.20.740(2) - IGNITION INTERLOCK VIOL-NOTATION ON DR REC-VERIFY INTERLOCK",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "BR",
         "bondBailType": "C/B",
         "bondAmount": 5000,
         "cashAmount": null,
@@ -141162,9 +141162,9 @@
       }
     ],
     "totalBond": 10000,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "09/24/2026, 17:42:24",
-    "releasedAt": null
+    "releasedAt": "09/24/2026, 22:58:51"
   },
   "2026004271": {
     "bookingNumber": "2026004271",
@@ -141179,12 +141179,41 @@
     "detailUrl": "https://incustody.kitsap.gov/Home/BookingSearchResult?LastName=%25&FirstName=&BookingFrom=&BookingTo=&ValidSearch=&sort=BookingDate&sortdir=DESC&page=18&BookingNumber=1",
     "inmateId": "50005464",
     "schedRelease": null,
-    "age": null,
+    "age": "124",
     "height": null,
     "weight": null,
     "hair": "Eyes",
     "eyes": "Height",
-    "charges": [],
+    "charges": [
+      {
+        "violation": "9A.76.020 - OBSTRUCT LAW ENFORCEMENT OFC",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 5000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "09/25/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "09/24/2026",
+        "courtType": "BM"
+      },
+      {
+        "violation": "9A.52.080(2) - CRIMINAL TRESPASS-2",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 2500,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "09/25/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "09/24/2026",
+        "courtType": "BM"
+      }
+    ],
     "totalBond": null,
     "status": "in_custody",
     "firstSeen": "09/24/2026, 17:42:24",

@@ -7,9 +7,9 @@
     "charges": [
       {
         "violation": "46.20.342(1)(B) - DWLS 2 - DRIVE W/LICENSE SUSP OR REVOKED-2",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "BR",
         "bondBailType": "C/B",
         "bondAmount": 5000,
         "cashAmount": null,
@@ -21,9 +21,9 @@
       },
       {
         "violation": "46.20.740(2) - IGNITION INTERLOCK VIOL-NOTATION ON DR REC-VERIFY INTERLOCK",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "BR",
         "bondBailType": "C/B",
         "bondAmount": 5000,
         "cashAmount": null,
@@ -44,16 +44,45 @@
     "inmateId": "40720287",
     "schedRelease": null,
     "firstSeen": "09/24/2026, 17:42:24",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "09/24/2026, 22:58:51",
+    "status": "released"
   },
   {
     "type": "BOOKED",
     "bookingNumber": "2026004271",
     "name": "DOE, JANE",
     "bookingDate": "",
-    "charges": [],
-    "age": null,
+    "charges": [
+      {
+        "violation": "9A.76.020 - OBSTRUCT LAW ENFORCEMENT OFC",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 5000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "09/25/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "09/24/2026",
+        "courtType": "BM"
+      },
+      {
+        "violation": "9A.52.080(2) - CRIMINAL TRESPASS-2",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 2500,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "09/25/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "09/24/2026",
+        "courtType": "BM"
+      }
+    ],
+    "age": "124",
     "sex": "",
     "race": "",
     "height": null,
@@ -121,15 +150,15 @@
         "courtType": null
       }
     ],
-    "age": "19",
+    "age": "20",
     "sex": "M",
     "race": "B",
-    "height": "506",
-    "weight": "140",
+    "height": "507",
+    "weight": "150",
     "hair": "BLK",
     "eyes": "BRO",
     "inmateId": "50002685",
-    "schedRelease": "12/23/2026",
+    "schedRelease": "11/23/2026",
     "firstSeen": "09/24/2026, 15:06:37",
     "releasedAt": null,
     "status": "in_custody"
@@ -549,8 +578,8 @@
     "inmateId": "50005461",
     "schedRelease": null,
     "firstSeen": "09/24/2026, 02:07:16",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "09/24/2026, 22:58:51",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -3005,9 +3034,9 @@
       },
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
-        "cleared": true,
+        "cleared": false,
         "addDesc": "FTA RECKLESS ENDANGERMENT",
-        "clearance": "POST",
+        "clearance": null,
         "bondBailType": "C/B",
         "bondAmount": 1000,
         "cashAmount": null,

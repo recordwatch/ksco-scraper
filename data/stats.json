@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-25T00:45:01.689Z",
+  "generatedAt": "2026-09-25T06:01:31.895Z",
   "bookingCounts": {
     "total": 2935,
-    "inCustody": 258,
-    "released": 2677
+    "inCustody": 256,
+    "released": 2679
   },
   "gender": [
     {
@@ -108,7 +108,7 @@
     },
     {
       "label": "Criminal Trespass",
-      "count": 211
+      "count": 212
     },
     {
       "label": "Theft (3rd Degree)",
@@ -128,7 +128,7 @@
     },
     {
       "label": "Obstruction",
-      "count": 148
+      "count": 149
     },
     {
       "label": "Harassment",
@@ -150,7 +150,7 @@
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
-      "count": 2030
+      "count": 2032
     },
     {
       "label": "PORT ORCHARD POLICE DEPARTMENT",
@@ -186,22 +186,22 @@
     }
   ],
   "bail": {
-    "mean": 31218.31,
+    "mean": 31192.25,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 2106
+    "count": 2108
   },
   "stay": {
     "mean": 21.9,
     "median": 1.9,
     "min": 0,
     "max": 1233.4,
-    "count": 2625,
+    "count": 2627,
     "histogram": [
       {
         "label": "< 1 day",
-        "count": 951
+        "count": 953
       },
       {
         "label": "1–3 days",
@@ -417,6 +417,12 @@
       "count": 26
     },
     {
+      "category": "Obstruction",
+      "medianBail": 5000,
+      "meanBail": 4846.59,
+      "count": 44
+    },
+    {
       "category": "Malicious Mischief",
       "medianBail": 5000,
       "meanBail": 8669.64,
@@ -427,12 +433,6 @@
       "medianBail": 5000,
       "meanBail": 57592.51,
       "count": 207
-    },
-    {
-      "category": "Obstruction",
-      "medianBail": 5000,
-      "meanBail": 4843.02,
-      "count": 43
     },
     {
       "category": "DUI",
@@ -525,16 +525,16 @@
       "count": 9
     },
     {
+      "category": "Criminal Trespass",
+      "medianBail": 1000,
+      "meanBail": 3009.26,
+      "count": 108
+    },
+    {
       "category": "Resisting Arrest",
       "medianBail": 1000,
       "meanBail": 3529.41,
       "count": 17
-    },
-    {
-      "category": "Criminal Trespass",
-      "medianBail": 1000,
-      "meanBail": 3014.02,
-      "count": 107
     },
     {
       "category": "Local / Tribal Code",
@@ -616,7 +616,8 @@
       "Bribery": 1
     },
     "Unknown": {
-      "Obstruction": 15,
+      "Obstruction": 16,
+      "Criminal Trespass": 14,
       "Malicious Mischief": 7,
       "Domestic Violence": 82,
       "Vehicle Prowling": 1,
@@ -645,7 +646,6 @@
       "Sex Offense": 6,
       "Fugitive from Justice": 2,
       "Local / Tribal Code": 5,
-      "Criminal Trespass": 13,
       "Resisting Arrest": 5,
       "Indecent Exposure": 2,
       "Homicide": 2,
@@ -855,11 +855,12 @@
       "Theft": 1
     },
     "Unknown": {
+      "Obstruction": 16,
+      "Criminal Trespass": 9,
       "Harassment": 10,
       "Malicious Mischief": 6,
       "Domestic Violence": 62,
       "Failure to Appear": 18,
-      "Obstruction": 15,
       "Vehicle Prowling": 1,
       "Driving While License Suspended": 26,
       "Protection Order Violation": 9,
@@ -882,7 +883,6 @@
       "Theft (3rd Degree)": 11,
       "Sex Offense": 3,
       "Local / Tribal Code": 4,
-      "Criminal Trespass": 8,
       "Hit and Run": 9,
       "Indecent Exposure": 1,
       "Ignition Interlock Violation": 5,
@@ -961,11 +961,11 @@
     },
     {
       "label": "Released (Unknown Reason)",
-      "count": 704
+      "count": 705
     },
     {
       "label": "Released",
-      "count": 638
+      "count": 639
     },
     {
       "label": "Scheduled Release / Time Served",
@@ -1635,12 +1635,12 @@
     },
     {
       "label": "Property",
-      "count": 635,
-      "pct": 14
+      "count": 636,
+      "pct": 14.1
     },
     {
       "label": "Other",
-      "count": 410,
+      "count": 411,
       "pct": 9.1
     },
     {
@@ -1672,12 +1672,12 @@
   "severity": [
     {
       "label": "Misdemeanor",
-      "count": 2209,
-      "pct": 34
+      "count": 2210,
+      "pct": 34.1
     },
     {
       "label": "Gross Misdemeanor",
-      "count": 1900,
+      "count": 1901,
       "pct": 29.3
     },
     {
@@ -1818,7 +1818,7 @@
     },
     {
       "name": "Bremerton PD",
-      "count": 2030,
+      "count": 2032,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -1835,7 +1835,7 @@
         },
         {
           "label": "Criminal Trespass",
-          "count": 150
+          "count": 151
         },
         {
           "label": "Drug Offense",
@@ -2215,8 +2215,8 @@
     }
   ],
   "bailOnRelease": {
-    "total": 2677,
-    "withBail": 1254,
+    "total": 2679,
+    "withBail": 1255,
     "pct": 46.8
   },
   "chargesByAgeGroup": [
