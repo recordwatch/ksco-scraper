@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-09-25T11:44:10.784Z",
+  "generatedAt": "2026-09-25T13:37:28.717Z",
   "bookingCounts": {
-    "total": 2935,
-    "inCustody": 256,
+    "total": 2936,
+    "inCustody": 257,
     "released": 2679
   },
   "gender": [
     {
       "label": "Male",
-      "count": 2004,
+      "count": 2005,
       "pct": 68.3
     },
     {
@@ -25,7 +25,7 @@
   "race": [
     {
       "label": "White",
-      "count": 2076,
+      "count": 2077,
       "pct": 70.7
     },
     {
@@ -57,7 +57,7 @@
     "histogram": [
       {
         "label": "18–25",
-        "count": 416
+        "count": 417
       },
       {
         "label": "26–35",
@@ -92,7 +92,7 @@
     },
     {
       "label": "DUI",
-      "count": 553
+      "count": 554
     },
     {
       "label": "Driving While License Suspended",
@@ -162,7 +162,7 @@
     },
     {
       "label": "WASHINGTON STATE PATROL",
-      "count": 227
+      "count": 228
     },
     {
       "label": "GIG HARBOR POLICE DEPARTMENT",
@@ -186,11 +186,11 @@
     }
   ],
   "bail": {
-    "mean": 31192.25,
+    "mean": 31179.83,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 2108
+    "count": 2109
   },
   "stay": {
     "mean": 21.9,
@@ -411,6 +411,12 @@
       "count": 2
     },
     {
+      "category": "DUI",
+      "medianBail": 5000,
+      "meanBail": 18445.77,
+      "count": 284
+    },
+    {
       "category": "Ignition Interlock Violation",
       "medianBail": 5000,
       "meanBail": 5942.31,
@@ -433,12 +439,6 @@
       "medianBail": 5000,
       "meanBail": 57592.51,
       "count": 207
-    },
-    {
-      "category": "DUI",
-      "medianBail": 5000,
-      "meanBail": 18493.29,
-      "count": 283
     },
     {
       "category": "Reckless Driving",
@@ -551,13 +551,13 @@
   ],
   "chargesByRace": {
     "White": {
+      "DUI": 388,
       "Driving While License Suspended": 256,
       "Ignition Interlock Violation": 70,
       "Failure to Appear": 490,
       "DOC Warrant": 127,
       "Drug Offense": 226,
       "Resisting Arrest": 54,
-      "DUI": 387,
       "Protection Order Violation": 140,
       "Theft (3rd Degree)": 167,
       "Hit and Run": 54,
@@ -791,6 +791,7 @@
   },
   "chargesBySex": {
     "Male": {
+      "DUI": 358,
       "Driving While License Suspended": 270,
       "Ignition Interlock Violation": 73,
       "Failure to Appear": 452,
@@ -798,7 +799,6 @@
       "DOC Warrant": 132,
       "Drug Offense": 216,
       "Resisting Arrest": 57,
-      "DUI": 357,
       "Protection Order Violation": 140,
       "Theft (3rd Degree)": 131,
       "Hit and Run": 53,
@@ -1003,7 +1003,7 @@
   "recidivism": {
     "rate": 14.3,
     "repeatBookerCount": 351,
-    "totalIndividuals": 2455,
+    "totalIndividuals": 2456,
     "repeatBookers": [
       {
         "name": "SCHWEITZER, BRIAN A",
@@ -1614,13 +1614,13 @@
     },
     {
       "month": "2026-09",
-      "count": 313
+      "count": 314
     }
   ],
   "crimeTypes": [
     {
       "label": "Traffic / DUI",
-      "count": 906,
+      "count": 907,
       "pct": 20
     },
     {
@@ -1677,7 +1677,7 @@
     },
     {
       "label": "Gross Misdemeanor",
-      "count": 1901,
+      "count": 1902,
       "pct": 29.3
     },
     {
@@ -1899,12 +1899,12 @@
     },
     {
       "name": "WASHINGTON STATE PATROL",
-      "count": 227,
+      "count": 228,
       "topCharge": "DUI",
       "chargeBreakdown": [
         {
           "label": "DUI",
-          "count": 79
+          "count": 80
         },
         {
           "label": "Driving While License Suspended",
@@ -2225,7 +2225,7 @@
       "topCharges": [
         {
           "label": "DUI",
-          "count": 111
+          "count": 112
         },
         {
           "label": "Domestic Violence",
@@ -2377,7 +2377,7 @@
       "crimeTypes": [
         {
           "label": "Traffic / DUI",
-          "count": 153
+          "count": 154
         },
         {
           "label": "Violent",
@@ -2656,7 +2656,7 @@
         "avgWeight": 182,
         "avgHeight": "5'9\"",
         "topRace": "White",
-        "n": 337
+        "n": 338
       },
       {
         "charge": "Driving While License Suspended",
@@ -3302,7 +3302,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 2932
+      "count": 2933
     }
   ],
   "ftaOriginalCharges": {
