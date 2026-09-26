@@ -1,6 +1,40 @@
 [
   {
     "type": "BOOKED",
+    "bookingNumber": "2026004294",
+    "name": "MELSON, TRAVIS LEIGH",
+    "bookingDate": "09/26/2026",
+    "charges": [
+      {
+        "violation": "PGTC05.01.01 - ASSAULT 3",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "NOBD",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "09/28/2026",
+        "arrestAgency": "PORT GAMBLE POLICE DEPARTMENT",
+        "arrestDate": "09/26/2026",
+        "courtType": "PGT"
+      }
+    ],
+    "age": "21",
+    "sex": "M",
+    "race": "W",
+    "height": "508",
+    "weight": "140",
+    "hair": "BRO",
+    "eyes": "BLU",
+    "inmateId": "50005471",
+    "schedRelease": null,
+    "firstSeen": "09/26/2026, 09:37:21",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
     "bookingNumber": "2026004291",
     "name": "GHAN, RENEE FAITH",
     "bookingDate": "",
@@ -494,7 +528,7 @@
     "hair": "BLK",
     "eyes": "GRN",
     "inmateId": "30057414",
-    "schedRelease": "10/09/2026",
+    "schedRelease": "10/06/2026",
     "firstSeen": "09/25/2026, 16:26:14",
     "releasedAt": null,
     "status": "in_custody"
@@ -530,8 +564,8 @@
     "inmateId": "50001152",
     "schedRelease": "09/26/2026",
     "firstSeen": "09/25/2026, 13:19:32",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "09/26/2026, 09:37:23",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -2118,8 +2152,8 @@
     "inmateId": "10010808",
     "schedRelease": "09/26/2026",
     "firstSeen": "09/23/2026, 10:55:50",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "09/26/2026, 09:37:22",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -10827,8 +10861,8 @@
     "inmateId": "40060713",
     "schedRelease": "09/26/2026",
     "firstSeen": "09/09/2026, 12:22:56",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "09/26/2026, 09:37:22",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -17906,9 +17940,9 @@
     "charges": [
       {
         "violation": "DOCWT - DEPARTMENT OF CORRECTIONS WARRANT",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
@@ -58650,8 +58684,8 @@
     "inmateId": "40156712",
     "schedRelease": "09/26/2026",
     "firstSeen": "06/30/2026, 09:37:07",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "09/26/2026, 09:37:21",
+    "status": "released"
   },
   {
     "type": "BOOKED",

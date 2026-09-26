@@ -77626,9 +77626,9 @@
       }
     ],
     "totalBond": 16250,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "06/30/2026, 09:37:07",
-    "releasedAt": null
+    "releasedAt": "09/26/2026, 09:37:21"
   },
   "2026002940": {
     "bookingNumber": "2026002940",
@@ -122480,9 +122480,9 @@
     "charges": [
       {
         "violation": "DOCWT - DEPARTMENT OF CORRECTIONS WARRANT",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
@@ -130460,9 +130460,9 @@
       }
     ],
     "totalBond": null,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "09/09/2026, 12:22:56",
-    "releasedAt": null
+    "releasedAt": "09/26/2026, 09:37:22"
   },
   "2026004042": {
     "bookingNumber": "2026004042",
@@ -139794,9 +139794,9 @@
       }
     ],
     "totalBond": null,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "09/23/2026, 10:55:50",
-    "releasedAt": null
+    "releasedAt": "09/26/2026, 09:37:22"
   },
   "2026004242": {
     "bookingNumber": "2026004242",
@@ -141508,9 +141508,9 @@
       }
     ],
     "totalBond": null,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "09/25/2026, 13:19:32",
-    "releasedAt": null
+    "releasedAt": "09/26/2026, 09:37:23"
   },
   "2026004279": {
     "bookingNumber": "2026004279",
@@ -141641,7 +141641,7 @@
     "schReleaseDate": "10/09/2026",
     "detailUrl": "https://incustody.kitsap.gov/Home/BookingSearchResult?LastName=%25&FirstName=&BookingFrom=&BookingTo=&ValidSearch=&sort=BookingDate&sortdir=DESC&page=1&BookingNumber=3",
     "inmateId": "30057414",
-    "schedRelease": "10/09/2026",
+    "schedRelease": "10/06/2026",
     "age": "42",
     "height": "510",
     "weight": "190",
@@ -142143,6 +142143,45 @@
     "totalBond": null,
     "status": "in_custody",
     "firstSeen": "09/26/2026, 05:21:49",
+    "releasedAt": null
+  },
+  "2026004294": {
+    "bookingNumber": "2026004294",
+    "firstName": "TRAVIS",
+    "lastName": "MELSON",
+    "middleName": "LEIGH",
+    "race": "W",
+    "sex": "M",
+    "bookingDate": "09/26/2026",
+    "releaseDate": "",
+    "schReleaseDate": "",
+    "detailUrl": "https://incustody.kitsap.gov/Home/BookingSearchResult?LastName=%25&FirstName=&BookingFrom=&BookingTo=&ValidSearch=&sort=BookingDate&sortdir=DESC&page=1&BookingNumber=4",
+    "inmateId": "50005471",
+    "schedRelease": null,
+    "age": "21",
+    "height": "508",
+    "weight": "140",
+    "hair": "BRO",
+    "eyes": "BLU",
+    "charges": [
+      {
+        "violation": "PGTC05.01.01 - ASSAULT 3",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "NOBD",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "09/28/2026",
+        "arrestAgency": "PORT GAMBLE POLICE DEPARTMENT",
+        "arrestDate": "09/26/2026",
+        "courtType": "PGT"
+      }
+    ],
+    "totalBond": null,
+    "status": "in_custody",
+    "firstSeen": "09/26/2026, 09:37:21",
     "releasedAt": null
   }
 }
