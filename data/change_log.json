@@ -1,6 +1,102 @@
 [
   {
     "type": "BOOKED",
+    "bookingNumber": "2026004310",
+    "name": "DEGREGORIO, ROBERT ANTHONY",
+    "bookingDate": "09/27/2026",
+    "charges": [
+      {
+        "violation": "9A.52.070(2) - CRIMINAL TRESPASS-1",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 5000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "09/28/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "09/27/2026",
+        "courtType": "DS"
+      },
+      {
+        "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
+        "cleared": false,
+        "addDesc": "FTA POV DV",
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 7500,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "09/28/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "09/27/2026",
+        "courtType": "GH"
+      }
+    ],
+    "age": "54",
+    "sex": "M",
+    "race": "W",
+    "height": "510",
+    "weight": "150",
+    "hair": "BRO",
+    "eyes": "BRO",
+    "inmateId": "50004569",
+    "schedRelease": null,
+    "firstSeen": "09/27/2026, 16:52:53",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
+    "bookingNumber": "2026004312",
+    "name": "BROWN, ARTHUR JAY",
+    "bookingDate": "09/27/2026",
+    "charges": [
+      {
+        "violation": "DOCWT - DEPARTMENT OF CORRECTIONS WARRANT",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "NOBD",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": "448701",
+        "nextCourtDate": "09/28/2026",
+        "arrestAgency": "SUQUAMISH TRIBAL POLICE DEPARTMENT",
+        "arrestDate": "09/27/2026",
+        "courtType": "DOC"
+      },
+      {
+        "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
+        "cleared": false,
+        "addDesc": "DRUG PARA",
+        "clearance": null,
+        "bondBailType": "CBO",
+        "bondAmount": 500,
+        "cashAmount": null,
+        "courtCase": "260301CR",
+        "nextCourtDate": "09/28/2026",
+        "arrestAgency": "SUQUAMISH TRIBAL POLICE DEPARTMENT",
+        "arrestDate": "09/27/2026",
+        "courtType": "SUQ"
+      }
+    ],
+    "age": "37",
+    "sex": "M",
+    "race": "I",
+    "height": "508",
+    "weight": "155",
+    "hair": "BRO",
+    "eyes": "BRO",
+    "inmateId": "40127575",
+    "schedRelease": null,
+    "firstSeen": "09/27/2026, 16:52:52",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
     "bookingNumber": "2026004309",
     "name": "HERRERA BAROJAS, ADRIAN",
     "bookingDate": "",
@@ -41,9 +137,9 @@
     "charges": [
       {
         "violation": "9A.56.050(2) - THEFT-3",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "BR",
         "bondBailType": "C/B",
         "bondAmount": 10000,
         "cashAmount": null,
@@ -55,9 +151,9 @@
       },
       {
         "violation": "69.50.4013.1.A - UNLAWFUL POSSESSION OF A CONTROLLED SUBSTANCE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "BR",
         "bondBailType": "C/B",
         "bondAmount": null,
         "cashAmount": null,
@@ -78,8 +174,8 @@
     "inmateId": "50005476",
     "schedRelease": null,
     "firstSeen": "09/27/2026, 14:05:00",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "09/27/2026, 16:52:53",
+    "status": "released"
   },
   {
     "type": "BOOKED",
