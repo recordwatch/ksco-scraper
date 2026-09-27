@@ -141402,9 +141402,9 @@
     "charges": [
       {
         "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "2 DAY COMMITMENT",
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
@@ -141416,9 +141416,9 @@
       },
       {
         "violation": "46.20.342(1)(C) - DWLS 3 -DRIVE W/LICENSE SUSP OR REVOKED-3 OR REVOKED LIC OR PRIVILEGE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "OPER VEH W/OUT IGN INTER",
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
@@ -141430,9 +141430,9 @@
       }
     ],
     "totalBond": null,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "09/25/2026, 09:51:05",
-    "releasedAt": null
+    "releasedAt": "09/27/2026, 02:29:00"
   },
   "2026004276": {
     "bookingNumber": "2026004276",
@@ -142448,7 +142448,7 @@
     "detailUrl": "https://incustody.kitsap.gov/Home/BookingSearchResult?LastName=%25&FirstName=&BookingFrom=&BookingTo=&ValidSearch=&sort=BookingDate&sortdir=DESC&page=18&BookingNumber=6",
     "inmateId": "50000795",
     "schedRelease": null,
-    "age": "40",
+    "age": "41",
     "height": "511",
     "weight": "150",
     "hair": "BRO",
@@ -142568,7 +142568,7 @@
     "detailUrl": "https://incustody.kitsap.gov/Home/BookingSearchResult?LastName=%25&FirstName=&BookingFrom=&BookingTo=&ValidSearch=&sort=BookingDate&sortdir=DESC&page=18&BookingNumber=11",
     "inmateId": "50002820",
     "schedRelease": null,
-    "age": "36",
+    "age": "37",
     "height": "505",
     "weight": "185",
     "hair": "BLN",
@@ -142673,6 +142673,45 @@
     "totalBond": null,
     "status": "in_custody",
     "firstSeen": "09/27/2026, 05:53:56",
+    "releasedAt": null
+  },
+  "2026004306": {
+    "bookingNumber": "2026004306",
+    "firstName": "JOHN",
+    "lastName": "LITTFIN",
+    "middleName": "STEPHEN",
+    "race": "W",
+    "sex": "M",
+    "bookingDate": "",
+    "releaseDate": "",
+    "schReleaseDate": "",
+    "detailUrl": "https://incustody.kitsap.gov/Home/BookingSearchResult?LastName=%25&FirstName=&BookingFrom=&BookingTo=&ValidSearch=&sort=BookingDate&sortdir=DESC&page=18&BookingNumber=11",
+    "inmateId": "40273357",
+    "schedRelease": null,
+    "age": "46",
+    "height": "601",
+    "weight": "175",
+    "hair": "BRO",
+    "eyes": "HAZ",
+    "charges": [
+      {
+        "violation": "9A.76.175 - MAKE FALSE/MISLEADING STMNT PUB SRVNT",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 5000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "09/28/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "09/27/2026",
+        "courtType": "BM"
+      }
+    ],
+    "totalBond": 5000,
+    "status": "in_custody",
+    "firstSeen": "09/27/2026, 10:35:32",
     "releasedAt": null
   }
 }

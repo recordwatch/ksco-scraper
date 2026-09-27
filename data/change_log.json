@@ -1,6 +1,40 @@
 [
   {
     "type": "BOOKED",
+    "bookingNumber": "2026004306",
+    "name": "LITTFIN, JOHN STEPHEN",
+    "bookingDate": "",
+    "charges": [
+      {
+        "violation": "9A.76.175 - MAKE FALSE/MISLEADING STMNT PUB SRVNT",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 5000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "09/28/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "09/27/2026",
+        "courtType": "BM"
+      }
+    ],
+    "age": "46",
+    "sex": "M",
+    "race": "W",
+    "height": "601",
+    "weight": "175",
+    "hair": "BRO",
+    "eyes": "HAZ",
+    "inmateId": "40273357",
+    "schedRelease": null,
+    "firstSeen": "09/27/2026, 10:35:32",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
     "bookingNumber": "2026004303",
     "name": "WALNO, BRITTNEY LOREN",
     "bookingDate": "",
@@ -62,7 +96,7 @@
         "courtType": "PO"
       }
     ],
-    "age": "36",
+    "age": "37",
     "sex": "F",
     "race": "W",
     "height": "505",
@@ -302,7 +336,7 @@
         "courtType": "PMC"
       }
     ],
-    "age": "40",
+    "age": "41",
     "sex": "M",
     "race": "W",
     "height": "511",
@@ -1213,9 +1247,9 @@
     "charges": [
       {
         "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "2 DAY COMMITMENT",
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
@@ -1227,9 +1261,9 @@
       },
       {
         "violation": "46.20.342(1)(C) - DWLS 3 -DRIVE W/LICENSE SUSP OR REVOKED-3 OR REVOKED LIC OR PRIVILEGE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "OPER VEH W/OUT IGN INTER",
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
@@ -1250,8 +1284,8 @@
     "inmateId": "50001732",
     "schedRelease": "09/27/2026",
     "firstSeen": "09/25/2026, 09:51:05",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "09/27/2026, 02:29:00",
+    "status": "released"
   },
   {
     "type": "BOOKED",
