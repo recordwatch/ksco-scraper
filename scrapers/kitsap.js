@@ -18,8 +18,30 @@ const HEADERS = {
   'Accept-Language': 'en-US,en;q=0.5'
 };
 
+// Per-request cap. Sheriff's site occasionally accepts a TCP connection then
+// stalls indefinitely; without this the whole scrape can hang for hours.
+const REQUEST_TIMEOUT_MS = 30_000;
+
 async function delay(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+// Retry wrapper for critical requests. Backoff: 2s, 5s, 10s.
+async function getWithRetry(url, config = {}, attempts = 3) {
+  const backoff = [2000, 5000, 10000];
+  let lastErr;
+  for (let i = 0; i < attempts; i++) {
+    try {
+      return await axios.get(url, { timeout: REQUEST_TIMEOUT_MS, ...config });
+    } catch (err) {
+      lastErr = err;
+      if (i < attempts - 1) {
+        console.error(`  Request failed (attempt ${i + 1}/${attempts}): ${err.message} — retrying in ${backoff[i] / 1000}s`);
+        await delay(backoff[i]);
+      }
+    }
+  }
+  throw lastErr;
 }
 
 export async function fetchRoster() {
@@ -27,7 +49,7 @@ export async function fetchRoster() {
   let page = 1;
 
   while (true) {
-    const response = await axios.get(ROSTER_URL, {
+    const response = await getWithRetry(ROSTER_URL, {
       params: {
         LastName: '%',
         FirstName: '',
@@ -66,6 +88,10 @@ export async function fetchRoster() {
 
     if (rows.length < 15) break;
     page++;
+    if (page > 100) {
+      console.error(`  Roster pagination exceeded 100 pages — bailing to prevent runaway loop.`);
+      break;
+    }
     await delay(300);
   }
 
@@ -75,7 +101,7 @@ export async function fetchRoster() {
 export async function fetchDetail(detailUrl) {
   try {
     await delay(500);
-    const response = await axios.get(detailUrl, { headers: HEADERS });
+    const response = await axios.get(detailUrl, { headers: HEADERS, timeout: REQUEST_TIMEOUT_MS });
     const $ = cheerio.load(response.data);
 
     // Physical description — pull from full body text
@@ -237,7 +263,7 @@ export async function fetchDetail(detailUrl) {
 // sourced from the sheriff's released-last-24-hours XML feed.
 export async function fetchRecentReleases() {
   try {
-    const response = await axios.get(RELEASES_XML_URL, { headers: HEADERS });
+    const response = await axios.get(RELEASES_XML_URL, { headers: HEADERS, timeout: REQUEST_TIMEOUT_MS });
     const $ = cheerio.load(response.data, { xmlMode: true });
     const releases = {};
 
