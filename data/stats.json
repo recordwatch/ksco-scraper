@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-28T14:13:46.314Z",
+  "generatedAt": "2026-09-28T14:29:11.412Z",
   "bookingCounts": {
     "total": 2969,
-    "inCustody": 267,
-    "released": 2702
+    "inCustody": 263,
+    "released": 2706
   },
   "gender": [
     {
@@ -186,18 +186,18 @@
     }
   ],
   "bail": {
-    "mean": 31215.6,
+    "mean": 31227.88,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 2136
+    "count": 2135
   },
   "stay": {
     "mean": 21.8,
     "median": 1.9,
     "min": 0,
     "max": 1233.4,
-    "count": 2650,
+    "count": 2654,
     "histogram": [
       {
         "label": "< 1 day",
@@ -209,7 +209,7 @@
       },
       {
         "label": "4–7 days",
-        "count": 217
+        "count": 218
       },
       {
         "label": "1–2 weeks",
@@ -217,11 +217,11 @@
       },
       {
         "label": "2–4 weeks",
-        "count": 257
+        "count": 258
       },
       {
         "label": "1–3 months",
-        "count": 339
+        "count": 341
       },
       {
         "label": "3+ months",
@@ -501,16 +501,16 @@
       "count": 105
     },
     {
-      "category": "Making False Statements",
-      "medianBail": 2500,
-      "meanBail": 4421.05,
-      "count": 19
-    },
-    {
       "category": "Driving While License Suspended",
       "medianBail": 2500,
       "meanBail": 5065.35,
       "count": 215
+    },
+    {
+      "category": "Making False Statements",
+      "medianBail": 2500,
+      "meanBail": 4388.89,
+      "count": 18
     },
     {
       "category": "Drug Offense",
@@ -957,7 +957,7 @@
   "releaseReasons": [
     {
       "label": "FTA / Contempt Resolved",
-      "count": 925
+      "count": 927
     },
     {
       "label": "Released (Unknown Reason)",
@@ -965,11 +965,11 @@
     },
     {
       "label": "Released",
-      "count": 644
+      "count": 645
     },
     {
       "label": "Scheduled Release / Time Served",
-      "count": 179
+      "count": 180
     },
     {
       "label": "DOC Transfer / Detainer",
@@ -2220,9 +2220,9 @@
     }
   ],
   "bailOnRelease": {
-    "total": 2702,
-    "withBail": 1266,
-    "pct": 46.9
+    "total": 2706,
+    "withBail": 1267,
+    "pct": 46.8
   },
   "chargesByAgeGroup": [
     {
