@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-09-29T04:59:28.373Z",
+  "generatedAt": "2026-09-29T11:15:37.210Z",
   "bookingCounts": {
-    "total": 2976,
-    "inCustody": 260,
+    "total": 2978,
+    "inCustody": 262,
     "released": 2716
   },
   "gender": [
     {
       "label": "Male",
-      "count": 2033,
+      "count": 2034,
       "pct": 68.3
     },
     {
       "label": "Female",
-      "count": 664,
+      "count": 665,
       "pct": 22.3
     },
     {
@@ -25,7 +25,7 @@
   "race": [
     {
       "label": "White",
-      "count": 2107,
+      "count": 2109,
       "pct": 70.8
     },
     {
@@ -57,7 +57,7 @@
     "histogram": [
       {
         "label": "18–25",
-        "count": 423
+        "count": 424
       },
       {
         "label": "26–35",
@@ -65,7 +65,7 @@
       },
       {
         "label": "36–45",
-        "count": 893
+        "count": 894
       },
       {
         "label": "46–55",
@@ -92,7 +92,7 @@
     },
     {
       "label": "DUI",
-      "count": 562
+      "count": 563
     },
     {
       "label": "Driving While License Suspended",
@@ -100,7 +100,7 @@
     },
     {
       "label": "Drug Offense",
-      "count": 298
+      "count": 299
     },
     {
       "label": "Assault",
@@ -150,7 +150,7 @@
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
-      "count": 2056
+      "count": 2057
     },
     {
       "label": "PORT ORCHARD POLICE DEPARTMENT",
@@ -170,7 +170,7 @@
     },
     {
       "label": "SUQUAMISH TRIBAL POLICE DEPARTMENT",
-      "count": 70
+      "count": 72
     },
     {
       "label": "BAINBRIDGE ISLAND POLICE DEPARTMENT",
@@ -186,11 +186,11 @@
     }
   ],
   "bail": {
-    "mean": 30877.4,
+    "mean": 30840.76,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 2143
+    "count": 2146
   },
   "stay": {
     "mean": 21.8,
@@ -411,16 +411,16 @@
       "count": 2
     },
     {
+      "category": "DUI",
+      "medianBail": 5000,
+      "meanBail": 17898.95,
+      "count": 286
+    },
+    {
       "category": "Domestic Violence",
       "medianBail": 5000,
       "meanBail": 57881.8,
       "count": 206
-    },
-    {
-      "category": "DUI",
-      "medianBail": 5000,
-      "meanBail": 17944.21,
-      "count": 285
     },
     {
       "category": "Malicious Mischief",
@@ -489,6 +489,12 @@
       "count": 4
     },
     {
+      "category": "Drug Offense",
+      "medianBail": 2500,
+      "meanBail": 5359.38,
+      "count": 128
+    },
+    {
       "category": "Making False Statements",
       "medianBail": 2500,
       "meanBail": 4684.21,
@@ -511,12 +517,6 @@
       "medianBail": 2500,
       "meanBail": 4091.98,
       "count": 106
-    },
-    {
-      "category": "Drug Offense",
-      "medianBail": 2250,
-      "meanBail": 5373.02,
-      "count": 126
     },
     {
       "category": "Indecent Exposure",
@@ -551,6 +551,8 @@
   ],
   "chargesByRace": {
     "White": {
+      "Drug Offense": 230,
+      "DUI": 395,
       "PR / Bail Revocation": 18,
       "DOC Warrant": 130,
       "Making False Statements": 50,
@@ -558,7 +560,6 @@
       "Burglary (2nd Degree)": 51,
       "Attempt to Elude": 27,
       "Failure to Appear": 497,
-      "Drug Offense": 229,
       "Criminal Trespass": 163,
       "Domestic Violence": 445,
       "Assault": 143,
@@ -566,7 +567,6 @@
       "Obstruction": 110,
       "Resisting Arrest": 56,
       "Harassment": 78,
-      "DUI": 394,
       "Protection Order Violation": 142,
       "Malicious Mischief": 48,
       "Driving While License Suspended": 260,
@@ -791,9 +791,9 @@
   },
   "chargesBySex": {
     "Female": {
+      "Drug Offense": 64,
       "PR / Bail Revocation": 9,
       "Failure to Appear": 156,
-      "Drug Offense": 63,
       "Theft (3rd Degree)": 70,
       "Obstruction": 29,
       "Resisting Arrest": 18,
@@ -846,6 +846,7 @@
       "Bribery": 1
     },
     "Male": {
+      "DUI": 363,
       "DOC Warrant": 136,
       "Making False Statements": 50,
       "Weapons": 52,
@@ -859,7 +860,6 @@
       "Criminal Trespass": 158,
       "Assault": 162,
       "Harassment": 93,
-      "DUI": 362,
       "Protection Order Violation": 142,
       "Obstruction": 108,
       "Resisting Arrest": 58,
@@ -1001,9 +1001,9 @@
     }
   ],
   "recidivism": {
-    "rate": 14.6,
-    "repeatBookerCount": 362,
-    "totalIndividuals": 2476,
+    "rate": 14.7,
+    "repeatBookerCount": 363,
+    "totalIndividuals": 2477,
     "repeatBookers": [
       {
         "name": "LITTFIN, JOHN STEPHEN",
@@ -1619,13 +1619,13 @@
     },
     {
       "month": "2026-09",
-      "count": 354
+      "count": 356
     }
   ],
   "crimeTypes": [
     {
       "label": "Traffic / DUI",
-      "count": 922,
+      "count": 923,
       "pct": 20.1
     },
     {
@@ -1655,7 +1655,7 @@
     },
     {
       "label": "Drug",
-      "count": 298,
+      "count": 299,
       "pct": 6.5
     },
     {
@@ -1677,12 +1677,12 @@
   "severity": [
     {
       "label": "Misdemeanor",
-      "count": 2239,
+      "count": 2240,
       "pct": 34.1
     },
     {
       "label": "Gross Misdemeanor",
-      "count": 1924,
+      "count": 1925,
       "pct": 29.3
     },
     {
@@ -1692,7 +1692,7 @@
     },
     {
       "label": "Unknown",
-      "count": 1048,
+      "count": 1049,
       "pct": 16
     }
   ],
@@ -1823,7 +1823,7 @@
     },
     {
       "name": "Bremerton PD",
-      "count": 2056,
+      "count": 2057,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -1958,7 +1958,7 @@
     },
     {
       "name": "Suquamish Tribal Police",
-      "count": 70,
+      "count": 72,
       "topCharge": "Local / Tribal Code",
       "chargeBreakdown": [
         {
@@ -1970,16 +1970,16 @@
           "count": 13
         },
         {
+          "label": "Drug Offense",
+          "count": 5
+        },
+        {
           "label": "DOC Warrant",
           "count": 5
         },
         {
           "label": "Other",
           "count": 5
-        },
-        {
-          "label": "Criminal Trespass",
-          "count": 4
         }
       ]
     },
@@ -2230,7 +2230,7 @@
       "topCharges": [
         {
           "label": "DUI",
-          "count": 113
+          "count": 114
         },
         {
           "label": "Domestic Violence",
@@ -2296,7 +2296,7 @@
         },
         {
           "label": "Drug Offense",
-          "count": 114
+          "count": 115
         }
       ]
     },
@@ -2382,7 +2382,7 @@
       "crimeTypes": [
         {
           "label": "Traffic / DUI",
-          "count": 156
+          "count": 157
         },
         {
           "label": "Violent",
@@ -2492,7 +2492,7 @@
         },
         {
           "label": "Drug",
-          "count": 114
+          "count": 115
         },
         {
           "label": "Order Violations",
@@ -2682,7 +2682,7 @@
         "avgWeight": 150,
         "avgHeight": "5'4\"",
         "topRace": "White",
-        "n": 63
+        "n": 64
       },
       {
         "charge": "Criminal Trespass",
@@ -2915,7 +2915,7 @@
         "avgWeight": 181,
         "avgHeight": "5'9\"",
         "topRace": "White",
-        "n": 341
+        "n": 342
       },
       {
         "charge": "Driving While License Suspended",
@@ -3307,14 +3307,14 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 2973
+      "count": 2975
     }
   ],
   "ftaOriginalCharges": {
-    "ftaTotal": 1120,
-    "resolved": 624,
+    "ftaTotal": 1121,
+    "resolved": 625,
     "unresolved": 496,
-    "pctResolved": 55.7,
+    "pctResolved": 55.8,
     "topOriginalCharges": [
       {
         "label": "Domestic Violence",
@@ -3338,7 +3338,7 @@
       },
       {
         "label": "Drug Offense",
-        "count": 19
+        "count": 20
       },
       {
         "label": "Assault",
