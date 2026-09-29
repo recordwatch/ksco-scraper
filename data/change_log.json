@@ -1,6 +1,136 @@
 [
   {
     "type": "BOOKED",
+    "bookingNumber": "2026004328",
+    "name": "WARSALLA, ELIZABETH MARIE",
+    "bookingDate": "",
+    "charges": [
+      {
+        "violation": "NONE - REVOCATION OF PR/BAIL",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 10000,
+        "cashAmount": null,
+        "courtCase": "2610043418",
+        "nextCourtDate": "09/29/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "09/28/2026",
+        "courtType": "SC"
+      }
+    ],
+    "age": "41",
+    "sex": "F",
+    "race": "W",
+    "height": "506",
+    "weight": "160",
+    "hair": "BLN",
+    "eyes": "HAZ",
+    "inmateId": "40223926",
+    "schedRelease": null,
+    "firstSeen": "09/28/2026, 21:56:50",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
+    "bookingNumber": "2026004329",
+    "name": "SHREEVE, SCOTTY LEWIS ANTHONY",
+    "bookingDate": "09/28/2026",
+    "charges": [
+      {
+        "violation": "DOCWT - DEPARTMENT OF CORRECTIONS WARRANT",
+        "cleared": false,
+        "addDesc": "VEH ASLT",
+        "clearance": null,
+        "bondBailType": "NOBD",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": "453270",
+        "nextCourtDate": "09/29/2026",
+        "arrestAgency": "WASHINGTON STATE PATROL",
+        "arrestDate": "09/28/2026",
+        "courtType": "DOC"
+      }
+    ],
+    "age": "27",
+    "sex": "M",
+    "race": "W",
+    "height": "601",
+    "weight": "185",
+    "hair": "BRO",
+    "eyes": "BLU",
+    "inmateId": "40425434",
+    "schedRelease": null,
+    "firstSeen": "09/28/2026, 21:56:49",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
+    "bookingNumber": "2026004327",
+    "name": "HOPPER, JUSTIN EDWARD",
+    "bookingDate": "09/28/2026",
+    "charges": [
+      {
+        "violation": "DOCWT - DEPARTMENT OF CORRECTIONS WARRANT",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "NOBD",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": "380389",
+        "nextCourtDate": "09/29/2026",
+        "arrestAgency": "PORT ORCHARD POLICE DEPARTMENT",
+        "arrestDate": "09/28/2026",
+        "courtType": "DOC"
+      },
+      {
+        "violation": "9A.76.175 - MAKE FALSE/MISLEADING STMNT PUB SRVNT",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 10000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "09/29/2026",
+        "arrestAgency": "PORT ORCHARD POLICE DEPARTMENT",
+        "arrestDate": "09/28/2026",
+        "courtType": "PO"
+      },
+      {
+        "violation": "9.41.000 - FIREARMS/DANGEROUS WEAPON VIOL INCLUDES CONCEAL W/O LIC, ALIEN POSS FIREARM",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "09/29/2026",
+        "arrestAgency": "PORT ORCHARD POLICE DEPARTMENT",
+        "arrestDate": "09/28/2026",
+        "courtType": "PO"
+      }
+    ],
+    "age": "38",
+    "sex": "M",
+    "race": "W",
+    "height": "508",
+    "weight": "220",
+    "hair": "BRO",
+    "eyes": "HAZ",
+    "inmateId": "40042245",
+    "schedRelease": null,
+    "firstSeen": "09/28/2026, 21:56:48",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
     "bookingNumber": "2026004326",
     "name": "CHEE, MICHAEL MAX",
     "bookingDate": "",
@@ -250,8 +380,8 @@
     "inmateId": "50005477",
     "schedRelease": null,
     "firstSeen": "09/28/2026, 07:11:00",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "09/28/2026, 21:56:51",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -261,9 +391,9 @@
     "charges": [
       {
         "violation": "9A.52.080(2) - CRIMINAL TRESPASS-2",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "C/B",
         "bondBailType": "C/B",
         "bondAmount": 1500,
         "cashAmount": null,
@@ -275,9 +405,9 @@
       },
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "POV DV",
-        "clearance": null,
+        "clearance": "C/B",
         "bondBailType": "C/B",
         "bondAmount": 7500,
         "cashAmount": null,
@@ -298,8 +428,8 @@
     "inmateId": "50004569",
     "schedRelease": null,
     "firstSeen": "09/27/2026, 16:52:53",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "09/28/2026, 21:56:50",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -549,9 +679,9 @@
     "charges": [
       {
         "violation": "9A.46.020(2)(B) - HARASSMENT PREV CONV OR THREAT TO KILL",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": 10000,
         "cashAmount": null,
@@ -572,8 +702,8 @@
     "inmateId": "50005475",
     "schedRelease": null,
     "firstSeen": "09/27/2026, 05:53:56",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "09/28/2026, 21:56:50",
+    "status": "released"
   },
   {
     "type": "BOOKED",
