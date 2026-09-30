@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-09-30T06:26:46.927Z",
+  "generatedAt": "2026-09-30T12:56:58.171Z",
   "bookingCounts": {
-    "total": 2988,
-    "inCustody": 267,
+    "total": 2990,
+    "inCustody": 269,
     "released": 2721
   },
   "gender": [
     {
       "label": "Male",
-      "count": 2043,
+      "count": 2044,
       "pct": 68.4
     },
     {
       "label": "Female",
-      "count": 666,
+      "count": 667,
       "pct": 22.3
     },
     {
@@ -25,7 +25,7 @@
   "race": [
     {
       "label": "White",
-      "count": 2115,
+      "count": 2117,
       "pct": 70.8
     },
     {
@@ -61,11 +61,11 @@
       },
       {
         "label": "26–35",
-        "count": 829
+        "count": 830
       },
       {
         "label": "36–45",
-        "count": 898
+        "count": 899
       },
       {
         "label": "46–55",
@@ -116,7 +116,7 @@
     },
     {
       "label": "Protection Order Violation",
-      "count": 195
+      "count": 196
     },
     {
       "label": "DOC Warrant",
@@ -150,7 +150,7 @@
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
-      "count": 2067
+      "count": 2070
     },
     {
       "label": "PORT ORCHARD POLICE DEPARTMENT",
@@ -186,11 +186,11 @@
     }
   ],
   "bail": {
-    "mean": 30788.36,
+    "mean": 30820.53,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 2151
+    "count": 2152
   },
   "stay": {
     "mean": 21.8,
@@ -315,16 +315,16 @@
       "count": 1
     },
     {
+      "category": "Burglary (2nd Degree)",
+      "medianBail": 30000,
+      "meanBail": 49425.93,
+      "count": 27
+    },
+    {
       "category": "Sex Offense",
       "medianBail": 30000,
       "meanBail": 130714.29,
       "count": 7
-    },
-    {
-      "category": "Burglary (2nd Degree)",
-      "medianBail": 30000,
-      "meanBail": 47480.77,
-      "count": 26
     },
     {
       "category": "Court Hold",
@@ -551,6 +551,9 @@
   ],
   "chargesByRace": {
     "White": {
+      "Burglary (2nd Degree)": 52,
+      "Trafficking Stolen Property": 9,
+      "Protection Order Violation": 143,
       "Failure to Appear": 501,
       "Theft (3rd Degree)": 171,
       "Driving While License Suspended": 261,
@@ -562,14 +565,12 @@
       "PR / Bail Revocation": 18,
       "Making False Statements": 50,
       "Weapons": 39,
-      "Burglary (2nd Degree)": 51,
       "Attempt to Elude": 27,
       "Criminal Trespass": 163,
       "Assault": 142,
       "Obstruction": 110,
       "Resisting Arrest": 56,
       "Harassment": 78,
-      "Protection Order Violation": 142,
       "Malicious Mischief": 48,
       "Sex Offense": 20,
       "Kidnapping / Unlawful Imprisonment": 8,
@@ -590,7 +591,6 @@
       "Motor Vehicle Theft": 21,
       "Theft (1st Degree)": 18,
       "Child Sex Offense": 24,
-      "Trafficking Stolen Property": 8,
       "Local / Tribal Code": 16,
       "Burglary Tools": 7,
       "Community Custody Violation": 14,
@@ -791,6 +791,8 @@
   },
   "chargesBySex": {
     "Male": {
+      "Burglary (2nd Degree)": 45,
+      "Trafficking Stolen Property": 7,
       "Failure to Appear": 462,
       "Theft (3rd Degree)": 134,
       "Driving While License Suspended": 276,
@@ -805,7 +807,6 @@
       "Making False Statements": 50,
       "Weapons": 52,
       "Local / Tribal Code": 37,
-      "Burglary (2nd Degree)": 44,
       "Attempt to Elude": 31,
       "Criminal Trespass": 158,
       "Assault": 161,
@@ -831,7 +832,6 @@
       "Community Custody Violation": 15,
       "Theft (1st Degree)": 19,
       "Child Sex Offense": 26,
-      "Trafficking Stolen Property": 6,
       "Burglary Tools": 8,
       "Fugitive from Justice": 11,
       "Incest": 2,
@@ -855,6 +855,7 @@
       "Theft": 1
     },
     "Female": {
+      "Protection Order Violation": 44,
       "Domestic Violence": 166,
       "Drug Offense": 65,
       "PR / Bail Revocation": 9,
@@ -865,7 +866,6 @@
       "DUI": 127,
       "Driving While License Suspended": 73,
       "Criminal Trespass": 47,
-      "Protection Order Violation": 43,
       "Public Order": 4,
       "Interference with DV Reporting": 5,
       "Fugitive from Justice": 5,
@@ -1001,8 +1001,8 @@
     }
   ],
   "recidivism": {
-    "rate": 14.7,
-    "repeatBookerCount": 365,
+    "rate": 14.8,
+    "repeatBookerCount": 367,
     "totalIndividuals": 2481,
     "repeatBookers": [
       {
@@ -1619,7 +1619,7 @@
     },
     {
       "month": "2026-09",
-      "count": 366
+      "count": 368
     }
   ],
   "crimeTypes": [
@@ -1640,7 +1640,7 @@
     },
     {
       "label": "Property",
-      "count": 645,
+      "count": 646,
       "pct": 14
     },
     {
@@ -1650,7 +1650,7 @@
     },
     {
       "label": "Order Violations",
-      "count": 337,
+      "count": 338,
       "pct": 7.3
     },
     {
@@ -1682,12 +1682,12 @@
     },
     {
       "label": "Gross Misdemeanor",
-      "count": 1930,
+      "count": 1931,
       "pct": 29.3
     },
     {
       "label": "Felony",
-      "count": 1364,
+      "count": 1366,
       "pct": 20.7
     },
     {
@@ -1823,7 +1823,7 @@
     },
     {
       "name": "Bremerton PD",
-      "count": 2067,
+      "count": 2070,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -2447,7 +2447,7 @@
         },
         {
           "label": "Order Violations",
-          "count": 97
+          "count": 98
         },
         {
           "label": "Drug",
@@ -2484,7 +2484,7 @@
         },
         {
           "label": "Property",
-          "count": 234
+          "count": 235
         },
         {
           "label": "Other",
@@ -2794,7 +2794,7 @@
         "avgWeight": 170,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 44
+        "n": 45
       },
       {
         "charge": "Local / Tribal Code",
@@ -2986,18 +2986,18 @@
         "n": 8
       },
       {
+        "charge": "Trafficking Stolen Property",
+        "avgWeight": 204,
+        "avgHeight": "5'11\"",
+        "topRace": "White",
+        "n": 7
+      },
+      {
         "charge": "Forgery",
         "avgWeight": 171,
         "avgHeight": "5'10\"",
         "topRace": "White",
         "n": 7
-      },
-      {
-        "charge": "Trafficking Stolen Property",
-        "avgWeight": 215,
-        "avgHeight": "5'11\"",
-        "topRace": "White",
-        "n": 6
       },
       {
         "charge": "Public Order",
@@ -3093,6 +3093,13 @@
         "n": 65
       },
       {
+        "charge": "Protection Order Violation",
+        "avgWeight": 159,
+        "avgHeight": "5'5\"",
+        "topRace": "White",
+        "n": 44
+      },
+      {
         "charge": "Criminal Trespass",
         "avgWeight": 142,
         "avgHeight": "5'4\"",
@@ -3105,13 +3112,6 @@
         "avgHeight": "5'5\"",
         "topRace": "White",
         "n": 44
-      },
-      {
-        "charge": "Protection Order Violation",
-        "avgWeight": 159,
-        "avgHeight": "5'5\"",
-        "topRace": "White",
-        "n": 43
       },
       {
         "charge": "Theft (2nd Degree)",
@@ -3307,7 +3307,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 2985
+      "count": 2987
     }
   ],
   "ftaOriginalCharges": {
