@@ -66507,7 +66507,7 @@
         "cleared": true,
         "addDesc": null,
         "clearance": "CD",
-        "bondBailType": "CD",
+        "bondBailType": "NG",
         "bondAmount": null,
         "cashAmount": null,
         "courtCase": "2510045218",
@@ -66521,7 +66521,7 @@
         "cleared": true,
         "addDesc": null,
         "clearance": "NG",
-        "bondBailType": "CD",
+        "bondBailType": "NG",
         "bondAmount": null,
         "cashAmount": null,
         "courtCase": "2510045218",
@@ -66535,7 +66535,7 @@
         "cleared": true,
         "addDesc": null,
         "clearance": "CD",
-        "bondBailType": "CD",
+        "bondBailType": "NG",
         "bondAmount": null,
         "cashAmount": null,
         "courtCase": "2510045218",
@@ -122335,9 +122335,9 @@
       }
     ],
     "totalBond": 6000,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "08/29/2026, 01:45:28",
-    "releasedAt": null
+    "releasedAt": "09/29/2026, 19:22:50"
   },
   "2026003867": {
     "bookingNumber": "2026003867",
@@ -142208,9 +142208,9 @@
       }
     ],
     "totalBond": null,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "09/26/2026, 09:37:21",
-    "releasedAt": null
+    "releasedAt": "09/29/2026, 19:22:51"
   },
   "2026004295": {
     "bookingNumber": "2026004295",
@@ -142505,7 +142505,7 @@
         "bondAmount": 5000,
         "cashAmount": null,
         "courtCase": "2610065118",
-        "nextCourtDate": "09/29/2026",
+        "nextCourtDate": "09/30/2026",
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "09/26/2026",
         "courtType": "SC"
@@ -143130,7 +143130,7 @@
         "bondAmount": 5000,
         "cashAmount": null,
         "courtCase": "2110069518",
-        "nextCourtDate": "09/29/2026",
+        "nextCourtDate": "10/28/2026",
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "09/28/2026",
         "courtType": "SC"
@@ -143180,10 +143180,10 @@
         "addDesc": null,
         "clearance": null,
         "bondBailType": "C/B",
-        "bondAmount": 60000,
+        "bondAmount": 15000,
         "cashAmount": null,
         "courtCase": "2610068418",
-        "nextCourtDate": "09/29/2026",
+        "nextCourtDate": "10/28/2026",
         "arrestAgency": "PORT ORCHARD POLICE DEPARTMENT",
         "arrestDate": "09/28/2026",
         "courtType": "SC"
@@ -143226,6 +143226,20 @@
         "arrestAgency": "SUQUAMISH TRIBAL POLICE DEPARTMENT",
         "arrestDate": "09/28/2026",
         "courtType": "SUQ"
+      },
+      {
+        "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
+        "cleared": true,
+        "addDesc": null,
+        "clearance": "RL",
+        "bondBailType": "OOC",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": "51731201",
+        "nextCourtDate": "09/30/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "09/29/2026",
+        "courtType": "BM"
       }
     ],
     "totalBond": 2500,
@@ -143673,7 +143687,7 @@
     "age": "48",
     "height": "506",
     "weight": "178",
-    "hair": "BRO",
+    "hair": "GRY",
     "eyes": "BRO",
     "charges": [
       {
@@ -143761,6 +143775,165 @@
     "totalBond": 10000,
     "status": "in_custody",
     "firstSeen": "09/29/2026, 14:20:27",
+    "releasedAt": null
+  },
+  "2026004337": {
+    "bookingNumber": "2026004337",
+    "firstName": "BRADLEY",
+    "lastName": "BERKLE",
+    "middleName": "",
+    "race": "W",
+    "sex": "M",
+    "bookingDate": "09/29/2026",
+    "releaseDate": "",
+    "schReleaseDate": "",
+    "detailUrl": "https://incustody.kitsap.gov/Home/BookingSearchResult?LastName=%25&FirstName=&BookingFrom=&BookingTo=&ValidSearch=&sort=BookingDate&sortdir=DESC&page=1&BookingNumber=2",
+    "inmateId": "40454200",
+    "schedRelease": null,
+    "age": "31",
+    "height": "507",
+    "weight": "145",
+    "hair": "BRO",
+    "eyes": "HAZ",
+    "charges": [
+      {
+        "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
+        "cleared": false,
+        "addDesc": "PCS",
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 2500,
+        "cashAmount": null,
+        "courtCase": "350438867",
+        "nextCourtDate": "09/30/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "09/29/2026",
+        "courtType": "PMC"
+      }
+    ],
+    "totalBond": 2500,
+    "status": "in_custody",
+    "firstSeen": "09/29/2026, 19:22:48",
+    "releasedAt": null
+  },
+  "2026004338": {
+    "bookingNumber": "2026004338",
+    "firstName": "JOHN GABRIEL",
+    "lastName": "MURRIETTA",
+    "middleName": "JOSE",
+    "race": "W",
+    "sex": "M",
+    "bookingDate": "",
+    "releaseDate": "",
+    "schReleaseDate": "",
+    "detailUrl": "https://incustody.kitsap.gov/Home/BookingSearchResult?LastName=%25&FirstName=&BookingFrom=&BookingTo=&ValidSearch=&sort=BookingDate&sortdir=DESC&page=18&BookingNumber=14",
+    "inmateId": "40279797",
+    "schedRelease": null,
+    "age": "30",
+    "height": "600",
+    "weight": "170",
+    "hair": "BRO",
+    "eyes": "BRO",
+    "charges": [
+      {
+        "violation": "DOCWT - DEPARTMENT OF CORRECTIONS WARRANT",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "NOBD",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": "417874",
+        "nextCourtDate": "09/30/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "09/29/2026",
+        "courtType": "DOC"
+      }
+    ],
+    "totalBond": null,
+    "status": "in_custody",
+    "firstSeen": "09/29/2026, 19:22:50",
+    "releasedAt": null
+  },
+  "2026004339": {
+    "bookingNumber": "2026004339",
+    "firstName": "CETRIC",
+    "lastName": "COLEMAN",
+    "middleName": "JAMES",
+    "race": "B",
+    "sex": "M",
+    "bookingDate": "",
+    "releaseDate": "",
+    "schReleaseDate": "",
+    "detailUrl": "https://incustody.kitsap.gov/Home/BookingSearchResult?LastName=%25&FirstName=&BookingFrom=&BookingTo=&ValidSearch=&sort=BookingDate&sortdir=DESC&page=18&BookingNumber=12",
+    "inmateId": "30055611",
+    "schedRelease": null,
+    "age": "44",
+    "height": "508",
+    "weight": "211",
+    "hair": "BLK",
+    "eyes": "BRO",
+    "charges": [
+      {
+        "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
+        "cleared": false,
+        "addDesc": "DWLS 3",
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 500,
+        "cashAmount": null,
+        "courtCase": "1A0676754",
+        "nextCourtDate": "09/30/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "09/29/2026",
+        "courtType": "DS"
+      },
+      {
+        "violation": "9A.36.041(2) - ASSAULT-4 - DV",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "NOBD",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "09/30/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "09/29/2026",
+        "courtType": "SC"
+      },
+      {
+        "violation": "9A.46.020(2)(B) - HARASSMENT PREV CONV OR THREAT TO KILL",
+        "cleared": false,
+        "addDesc": "DV",
+        "clearance": null,
+        "bondBailType": "NOBD",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "09/30/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "09/29/2026",
+        "courtType": "SC"
+      },
+      {
+        "violation": "9A.40.040(2) - UNLAWFUL IMPRISONMENT -DV",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "NOBD",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "09/30/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "09/29/2026",
+        "courtType": "SC"
+      }
+    ],
+    "totalBond": 500,
+    "status": "in_custody",
+    "firstSeen": "09/29/2026, 19:22:49",
     "releasedAt": null
   }
 }
