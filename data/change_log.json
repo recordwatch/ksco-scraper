@@ -1,6 +1,88 @@
 [
   {
     "type": "BOOKED",
+    "bookingNumber": "2026004367",
+    "name": "HEIN, BRANDON MICHAEL",
+    "bookingDate": "",
+    "charges": [
+      {
+        "violation": "9A.36.041(2) - ASSAULT-4 - DV",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "NOBD",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "10/05/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "10/02/2026",
+        "courtType": "BM"
+      },
+      {
+        "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 1000,
+        "cashAmount": null,
+        "courtCase": "5A0315023",
+        "nextCourtDate": "10/05/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "10/02/2026",
+        "courtType": "PO"
+      }
+    ],
+    "age": "31",
+    "sex": "M",
+    "race": "W",
+    "height": "510",
+    "weight": "185",
+    "hair": "BRO",
+    "eyes": "BLU",
+    "inmateId": "40611051",
+    "schedRelease": null,
+    "firstSeen": "10/02/2026, 06:01:03",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
+    "bookingNumber": "2026004366",
+    "name": "HUGILL, KYLE ANDREW",
+    "bookingDate": "10/02/2026",
+    "charges": [
+      {
+        "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 7500,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "10/02/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "10/01/2026",
+        "courtType": "BM"
+      }
+    ],
+    "age": "41",
+    "sex": "M",
+    "race": "W",
+    "height": "511",
+    "weight": "170",
+    "hair": "BRO",
+    "eyes": "BRO",
+    "inmateId": "30054477",
+    "schedRelease": null,
+    "firstSeen": "10/02/2026, 06:01:02",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
     "bookingNumber": "2026004365",
     "name": "FLOOD-MANN, CHRISTOPHER",
     "bookingDate": "",
@@ -62,7 +144,7 @@
     "hair": "BLK",
     "eyes": "BRO",
     "inmateId": "40617173",
-    "schedRelease": "10/06/2026",
+    "schedRelease": "10/05/2026",
     "firstSeen": "10/01/2026, 17:05:05",
     "releasedAt": null,
     "status": "in_custody"
@@ -896,6 +978,20 @@
         "arrestAgency": "BREMERTON POLICE DEPARTMENT",
         "arrestDate": "09/30/2026",
         "courtType": "SC"
+      },
+      {
+        "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
+        "cleared": true,
+        "addDesc": null,
+        "clearance": "RL",
+        "bondBailType": "OOC",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": "51277603",
+        "nextCourtDate": "10/02/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "10/02/2026",
+        "courtType": "BM"
       }
     ],
     "age": "42",
@@ -1524,7 +1620,7 @@
         "bondAmount": 4000,
         "cashAmount": null,
         "courtCase": "5A0264872",
-        "nextCourtDate": "09/30/2026",
+        "nextCourtDate": "10/05/2026",
         "arrestAgency": "SUQUAMISH TRIBAL POLICE DEPARTMENT",
         "arrestDate": "09/29/2026",
         "courtType": "OTJ"
