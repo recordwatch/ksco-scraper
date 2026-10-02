@@ -19383,6 +19383,20 @@
         "arrestAgency": "BREMERTON POLICE DEPARTMENT",
         "arrestDate": "03/20/2026",
         "courtType": "SC"
+      },
+      {
+        "violation": "9A.36.021(2)(A) - ASSAULT-2 -DV",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 50000,
+        "cashAmount": null,
+        "courtCase": "2610020118",
+        "nextCourtDate": "10/08/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "03/20/2026",
+        "courtType": "BHC"
       }
     ],
     "status": "in_custody",
@@ -142948,7 +142962,7 @@
         "bondBailType": "C/B",
         "bondAmount": 5000,
         "cashAmount": null,
-        "courtCase": "2610065118",
+        "courtCase": "2510089918",
         "nextCourtDate": "10/12/2026",
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "09/27/2026",
@@ -144457,9 +144471,9 @@
       }
     ],
     "totalBond": 1000,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "09/30/2026, 11:18:53",
-    "releasedAt": null
+    "releasedAt": "10/01/2026, 23:01:02"
   },
   "2026004349": {
     "bookingNumber": "2026004349",
@@ -144563,9 +144577,9 @@
       }
     ],
     "totalBond": 55000,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "09/30/2026, 15:29:18",
-    "releasedAt": null
+    "releasedAt": "10/01/2026, 23:01:02"
   },
   "2026004351": {
     "bookingNumber": "2026004351",
@@ -144680,9 +144694,9 @@
     "charges": [
       {
         "violation": "9.41.040(1)(B) - FIREARM POSSESSION UNLAWFUL-1",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "UPF 1ST",
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": 5000,
         "cashAmount": null,
@@ -144708,9 +144722,9 @@
       },
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "DWLS 1",
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": 5000,
         "cashAmount": null,
@@ -144736,9 +144750,9 @@
       }
     ],
     "totalBond": 20000,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "09/30/2026, 18:28:46",
-    "releasedAt": null
+    "releasedAt": "10/01/2026, 23:01:03"
   },
   "2026004354": {
     "bookingNumber": "2026004354",
@@ -144881,9 +144895,9 @@
     "charges": [
       {
         "violation": "9A.52.020(2) - BURGLARY-1",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": 20000,
         "cashAmount": null,
@@ -144923,9 +144937,9 @@
       }
     ],
     "totalBond": 600000,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "10/01/2026, 00:41:33",
-    "releasedAt": null
+    "releasedAt": "10/01/2026, 23:01:04"
   },
   "2026004357": {
     "bookingNumber": "2026004357",
@@ -145190,16 +145204,70 @@
     "schReleaseDate": "",
     "detailUrl": "https://incustody.kitsap.gov/Home/BookingSearchResult?LastName=%25&FirstName=&BookingFrom=&BookingTo=&ValidSearch=&sort=BookingDate&sortdir=DESC&page=18&BookingNumber=15",
     "inmateId": "40617173",
-    "schedRelease": null,
-    "age": "23",
+    "schedRelease": "10/06/2026",
+    "age": "27",
     "height": "506",
     "weight": "115",
     "hair": "BLK",
     "eyes": "BRO",
-    "charges": [],
+    "charges": [
+      {
+        "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "GL",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": "51324002",
+        "nextCourtDate": null,
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "10/01/2026",
+        "courtType": null
+      }
+    ],
     "totalBond": null,
     "status": "in_custody",
     "firstSeen": "10/01/2026, 17:05:05",
+    "releasedAt": null
+  },
+  "2026004365": {
+    "bookingNumber": "2026004365",
+    "firstName": "CHRISTOPHER",
+    "lastName": "FLOOD-MANN",
+    "middleName": "",
+    "race": "W",
+    "sex": "M",
+    "bookingDate": "",
+    "releaseDate": "",
+    "schReleaseDate": "",
+    "detailUrl": "https://incustody.kitsap.gov/Home/BookingSearchResult?LastName=%25&FirstName=&BookingFrom=&BookingTo=&ValidSearch=&sort=BookingDate&sortdir=DESC&page=18&BookingNumber=12",
+    "inmateId": "50005488",
+    "schedRelease": null,
+    "age": "31",
+    "height": "600",
+    "weight": "150",
+    "hair": "BRO",
+    "eyes": "HAZ",
+    "charges": [
+      {
+        "violation": "9A.36.021(2)(A) - ASSAULT-2",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 10000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "10/02/2026",
+        "arrestAgency": "POULSBO POLICE DEPARTMENT",
+        "arrestDate": "10/01/2026",
+        "courtType": "SC"
+      }
+    ],
+    "totalBond": 10000,
+    "status": "in_custody",
+    "firstSeen": "10/01/2026, 23:01:02",
     "releasedAt": null
   }
 }

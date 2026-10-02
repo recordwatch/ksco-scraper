@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-10-02T00:07:59.516Z",
+  "generatedAt": "2026-10-02T06:03:48.047Z",
   "bookingCounts": {
-    "total": 3007,
-    "inCustody": 266,
-    "released": 2741
+    "total": 3008,
+    "inCustody": 263,
+    "released": 2745
   },
   "gender": [
     {
       "label": "Male",
-      "count": 2058,
-      "pct": 68.4
+      "count": 2059,
+      "pct": 68.5
     },
     {
       "label": "Female",
@@ -25,7 +25,7 @@
   "race": [
     {
       "label": "White",
-      "count": 2128,
+      "count": 2129,
       "pct": 70.8
     },
     {
@@ -57,11 +57,11 @@
     "histogram": [
       {
         "label": "18–25",
-        "count": 426
+        "count": 425
       },
       {
         "label": "26–35",
-        "count": 833
+        "count": 835
       },
       {
         "label": "36–45",
@@ -92,7 +92,7 @@
     },
     {
       "label": "DUI",
-      "count": 565
+      "count": 566
     },
     {
       "label": "Driving While License Suspended",
@@ -104,7 +104,7 @@
     },
     {
       "label": "Assault",
-      "count": 230
+      "count": 231
     },
     {
       "label": "Theft (3rd Degree)",
@@ -146,11 +146,11 @@
   "topAgencies": [
     {
       "label": "KITSAP COUNTY SHERIFFS OFFICE",
-      "count": 2637
+      "count": 2638
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
-      "count": 2088
+      "count": 2089
     },
     {
       "label": "PORT ORCHARD POLICE DEPARTMENT",
@@ -158,7 +158,7 @@
     },
     {
       "label": "POULSBO POLICE DEPARTMENT",
-      "count": 261
+      "count": 262
     },
     {
       "label": "WASHINGTON STATE PATROL",
@@ -186,26 +186,26 @@
     }
   ],
   "bail": {
-    "mean": 31017.61,
+    "mean": 31016.67,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 2159
+    "count": 2161
   },
   "stay": {
     "mean": 21.8,
     "median": 2,
     "min": 0,
     "max": 1233.4,
-    "count": 2682,
+    "count": 2686,
     "histogram": [
       {
         "label": "< 1 day",
-        "count": 968
+        "count": 969
       },
       {
         "label": "1–3 days",
-        "count": 591
+        "count": 594
       },
       {
         "label": "4–7 days",
@@ -369,6 +369,12 @@
       "count": 22
     },
     {
+      "category": "Assault",
+      "medianBail": 10000,
+      "meanBail": 77082.35,
+      "count": 85
+    },
+    {
       "category": "Theft (2nd Degree)",
       "medianBail": 10000,
       "meanBail": 20675,
@@ -385,12 +391,6 @@
       "medianBail": 10000,
       "meanBail": 23153.85,
       "count": 52
-    },
-    {
-      "category": "Assault",
-      "medianBail": 10000,
-      "meanBail": 77880.95,
-      "count": 84
     },
     {
       "category": "Harassment",
@@ -413,8 +413,8 @@
     {
       "category": "Domestic Violence",
       "medianBail": 5000,
-      "meanBail": 58550.24,
-      "count": 212
+      "meanBail": 58510.09,
+      "count": 213
     },
     {
       "category": "DUI",
@@ -551,6 +551,8 @@
   ],
   "chargesByRace": {
     "White": {
+      "Assault": 143,
+      "DUI": 397,
       "Child Exploitation / CSAM": 18,
       "Theft (2nd Degree)": 73,
       "Failure to Appear": 508,
@@ -566,12 +568,10 @@
       "Trafficking Stolen Property": 9,
       "Protection Order Violation": 143,
       "Arson": 9,
-      "DUI": 396,
       "PR / Bail Revocation": 18,
       "Making False Statements": 50,
       "Attempt to Elude": 27,
       "Criminal Trespass": 163,
-      "Assault": 142,
       "Obstruction": 110,
       "Resisting Arrest": 56,
       "Harassment": 78,
@@ -791,13 +791,14 @@
   },
   "chargesBySex": {
     "Male": {
+      "Assault": 163,
+      "DUI": 365,
       "Child Exploitation / CSAM": 19,
       "Theft (2nd Degree)": 55,
       "Failure to Appear": 467,
       "Criminal Trespass": 159,
       "Domestic Violence": 422,
       "Burglary (1st Degree)": 15,
-      "Assault": 162,
       "Theft (3rd Degree)": 136,
       "PR / Bail Revocation": 18,
       "Weapons": 53,
@@ -811,7 +812,6 @@
       "Harassment": 94,
       "Protection Order Violation": 143,
       "Arson": 9,
-      "DUI": 364,
       "Making False Statements": 50,
       "Local / Tribal Code": 37,
       "Attempt to Elude": 31,
@@ -958,11 +958,11 @@
   "releaseReasons": [
     {
       "label": "FTA / Contempt Resolved",
-      "count": 942
+      "count": 944
     },
     {
       "label": "Released (Unknown Reason)",
-      "count": 714
+      "count": 716
     },
     {
       "label": "Released",
@@ -1004,7 +1004,7 @@
   "recidivism": {
     "rate": 14.9,
     "repeatBookerCount": 371,
-    "totalIndividuals": 2491,
+    "totalIndividuals": 2492,
     "repeatBookers": [
       {
         "name": "LITTFIN, JOHN STEPHEN",
@@ -1624,13 +1624,13 @@
     },
     {
       "month": "2026-10",
-      "count": 8
+      "count": 9
     }
   ],
   "crimeTypes": [
     {
       "label": "Traffic / DUI",
-      "count": 929,
+      "count": 930,
       "pct": 20
     },
     {
@@ -1640,8 +1640,8 @@
     },
     {
       "label": "Violent",
-      "count": 879,
-      "pct": 18.9
+      "count": 880,
+      "pct": 19
     },
     {
       "label": "Property",
@@ -1687,12 +1687,12 @@
     },
     {
       "label": "Gross Misdemeanor",
-      "count": 1936,
+      "count": 1937,
       "pct": 29.1
     },
     {
       "label": "Felony",
-      "count": 1383,
+      "count": 1385,
       "pct": 20.8
     },
     {
@@ -1769,9 +1769,9 @@
     },
     {
       "category": "Failure to Appear",
-      "avgDays": 14.2,
+      "avgDays": 14.1,
       "medianDays": 1.7,
-      "count": 183
+      "count": 184
     },
     {
       "category": "Protection Order Violation",
@@ -1801,7 +1801,7 @@
   "agencyBreakdown": [
     {
       "name": "Kitsap County Sheriff",
-      "count": 2648,
+      "count": 2649,
       "topCharge": "Domestic Violence",
       "chargeBreakdown": [
         {
@@ -1814,7 +1814,7 @@
         },
         {
           "label": "DUI",
-          "count": 273
+          "count": 274
         },
         {
           "label": "Driving While License Suspended",
@@ -1828,7 +1828,7 @@
     },
     {
       "name": "Bremerton PD",
-      "count": 2088,
+      "count": 2089,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -1837,7 +1837,7 @@
         },
         {
           "label": "Domestic Violence",
-          "count": 221
+          "count": 222
         },
         {
           "label": "Driving While License Suspended",
@@ -1882,7 +1882,7 @@
     },
     {
       "name": "Poulsbo PD",
-      "count": 266,
+      "count": 267,
       "topCharge": "DUI",
       "chargeBreakdown": [
         {
@@ -2225,8 +2225,8 @@
     }
   ],
   "bailOnRelease": {
-    "total": 2741,
-    "withBail": 1274,
+    "total": 2745,
+    "withBail": 1277,
     "pct": 46.5
   },
   "chargesByAgeGroup": [
@@ -2268,7 +2268,7 @@
         },
         {
           "label": "DUI",
-          "count": 159
+          "count": 160
         },
         {
           "label": "Driving While License Suspended",
@@ -2436,11 +2436,11 @@
         },
         {
           "label": "Traffic / DUI",
-          "count": 267
+          "count": 268
         },
         {
           "label": "Violent",
-          "count": 259
+          "count": 260
         },
         {
           "label": "Property",
@@ -2663,10 +2663,10 @@
       },
       {
         "charge": "DUI",
-        "avgWeight": 182,
+        "avgWeight": 181,
         "avgHeight": "5'9\"",
         "topRace": "White",
-        "n": 343
+        "n": 344
       },
       {
         "charge": "Driving While License Suspended",
@@ -2683,15 +2683,15 @@
         "n": 220
       },
       {
-        "charge": "Criminal Trespass",
-        "avgWeight": 181,
-        "avgHeight": "5'10\"",
-        "topRace": "White",
-        "n": 157
-      },
-      {
         "charge": "Assault",
         "avgWeight": 187,
+        "avgHeight": "5'10\"",
+        "topRace": "White",
+        "n": 158
+      },
+      {
+        "charge": "Criminal Trespass",
+        "avgWeight": 181,
         "avgHeight": "5'10\"",
         "topRace": "White",
         "n": 157
@@ -3312,7 +3312,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 3004
+      "count": 3005
     }
   ],
   "ftaOriginalCharges": {
