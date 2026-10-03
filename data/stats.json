@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-03T20:48:58.748Z",
+  "generatedAt": "2026-10-03T23:39:10.412Z",
   "bookingCounts": {
-    "total": 3040,
+    "total": 3042,
     "inCustody": 279,
-    "released": 2761
+    "released": 2763
   },
   "gender": [
     {
       "label": "Male",
-      "count": 2079,
+      "count": 2081,
       "pct": 68.4
     },
     {
@@ -25,7 +25,7 @@
   "race": [
     {
       "label": "White",
-      "count": 2148,
+      "count": 2150,
       "pct": 70.7
     },
     {
@@ -65,7 +65,7 @@
       },
       {
         "label": "36–45",
-        "count": 911
+        "count": 913
       },
       {
         "label": "46–55",
@@ -132,7 +132,7 @@
     },
     {
       "label": "Harassment",
-      "count": 121
+      "count": 122
     },
     {
       "label": "Ignition Interlock Violation",
@@ -150,7 +150,7 @@
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
-      "count": 2119
+      "count": 2124
     },
     {
       "label": "PORT ORCHARD POLICE DEPARTMENT",
@@ -186,22 +186,22 @@
     }
   ],
   "bail": {
-    "mean": 30659.6,
+    "mean": 30721.88,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 2190
+    "count": 2195
   },
   "stay": {
     "mean": 21.7,
     "median": 1.9,
     "min": 0,
     "max": 1233.4,
-    "count": 2701,
+    "count": 2703,
     "histogram": [
       {
         "label": "< 1 day",
-        "count": 978
+        "count": 980
       },
       {
         "label": "1–3 days",
@@ -279,10 +279,22 @@
       "count": 15
     },
     {
+      "category": "Residential Burglary",
+      "medianBail": 62500,
+      "meanBail": 87500,
+      "count": 6
+    },
+    {
       "category": "PR / Bail Revocation",
       "medianBail": 62500,
       "meanBail": 68500,
       "count": 10
+    },
+    {
+      "category": "Burglary (1st Degree)",
+      "medianBail": 50000,
+      "meanBail": 68750,
+      "count": 8
     },
     {
       "category": "Theft (1st Degree)",
@@ -295,12 +307,6 @@
       "medianBail": 50000,
       "meanBail": 67611.11,
       "count": 9
-    },
-    {
-      "category": "Residential Burglary",
-      "medianBail": 50000,
-      "meanBail": 85000,
-      "count": 5
     },
     {
       "category": "Witness Tampering",
@@ -339,12 +345,6 @@
       "count": 10
     },
     {
-      "category": "Burglary (1st Degree)",
-      "medianBail": 25000,
-      "meanBail": 64285.71,
-      "count": 7
-    },
-    {
       "category": "Possession of Stolen Property",
       "medianBail": 20000,
       "meanBail": 21700,
@@ -361,6 +361,12 @@
       "medianBail": 17500,
       "meanBail": 30555.56,
       "count": 18
+    },
+    {
+      "category": "Harassment",
+      "medianBail": 10000,
+      "meanBail": 34289.47,
+      "count": 38
     },
     {
       "category": "Attempt to Elude",
@@ -385,12 +391,6 @@
       "medianBail": 10000,
       "meanBail": 7000,
       "count": 3
-    },
-    {
-      "category": "Harassment",
-      "medianBail": 10000,
-      "meanBail": 34657.14,
-      "count": 35
     },
     {
       "category": "Theft (2nd Degree)",
@@ -551,6 +551,9 @@
   ],
   "chargesByRace": {
     "White": {
+      "Burglary (1st Degree)": 9,
+      "Harassment": 79,
+      "Residential Burglary": 17,
       "Theft (3rd Degree)": 173,
       "Criminal Trespass": 165,
       "Driving While License Suspended": 266,
@@ -577,7 +580,6 @@
       "Protection Order Violation": 143,
       "Arson": 9,
       "PR / Bail Revocation": 18,
-      "Harassment": 78,
       "Malicious Mischief": 48,
       "Sex Offense": 20,
       "Kidnapping / Unlawful Imprisonment": 8,
@@ -596,7 +598,6 @@
       "Local / Tribal Code": 16,
       "Burglary Tools": 7,
       "Court Hold": 8,
-      "Residential Burglary": 16,
       "Indecent Exposure": 9,
       "Assault (Child)": 6,
       "Traffic / Obstruction": 9,
@@ -605,7 +606,6 @@
       "Witness Tampering": 3,
       "Forgery": 7,
       "Tampering with Evidence": 3,
-      "Burglary (1st Degree)": 8,
       "Stalking": 9,
       "Traffic Violation": 6,
       "Identity Theft": 4,
@@ -791,13 +791,15 @@
   },
   "chargesBySex": {
     "Male": {
+      "Burglary (1st Degree)": 16,
+      "Harassment": 96,
+      "Residential Burglary": 18,
       "Theft (3rd Degree)": 137,
       "Failure to Appear": 474,
       "Criminal Trespass": 161,
       "Driving While License Suspended": 281,
       "Attempt to Elude": 32,
       "Domestic Violence": 428,
-      "Harassment": 95,
       "Weapons": 54,
       "DUI": 373,
       "Interference with DV Reporting": 22,
@@ -808,7 +810,6 @@
       "Assault": 163,
       "Child Exploitation / CSAM": 19,
       "Theft (2nd Degree)": 55,
-      "Burglary (1st Degree)": 15,
       "PR / Bail Revocation": 18,
       "Drug Offense": 220,
       "Community Custody Violation": 17,
@@ -837,7 +838,6 @@
       "Fugitive from Justice": 11,
       "Incest": 2,
       "Court Hold": 9,
-      "Residential Burglary": 17,
       "Indecent Exposure": 15,
       "Stalking": 12,
       "Assault (Child)": 5,
@@ -958,7 +958,7 @@
   "releaseReasons": [
     {
       "label": "FTA / Contempt Resolved",
-      "count": 945
+      "count": 946
     },
     {
       "label": "Released (Unknown Reason)",
@@ -966,7 +966,7 @@
     },
     {
       "label": "Released",
-      "count": 659
+      "count": 660
     },
     {
       "label": "Scheduled Release / Time Served",
@@ -1002,9 +1002,9 @@
     }
   ],
   "recidivism": {
-    "rate": 15,
-    "repeatBookerCount": 378,
-    "totalIndividuals": 2514,
+    "rate": 15.1,
+    "repeatBookerCount": 379,
+    "totalIndividuals": 2515,
     "repeatBookers": [
       {
         "name": "LITTFIN, JOHN STEPHEN",
@@ -1624,7 +1624,7 @@
     },
     {
       "month": "2026-10",
-      "count": 41
+      "count": 43
     }
   ],
   "crimeTypes": [
@@ -1641,12 +1641,12 @@
     {
       "label": "Violent",
       "count": 889,
-      "pct": 19
+      "pct": 18.9
     },
     {
       "label": "Property",
-      "count": 658,
-      "pct": 14
+      "count": 660,
+      "pct": 14.1
     },
     {
       "label": "Other",
@@ -1655,7 +1655,7 @@
     },
     {
       "label": "Order Violations",
-      "count": 343,
+      "count": 344,
       "pct": 7.3
     },
     {
@@ -1687,18 +1687,18 @@
     },
     {
       "label": "Gross Misdemeanor",
-      "count": 1967,
+      "count": 1970,
       "pct": 29.3
     },
     {
       "label": "Felony",
-      "count": 1393,
+      "count": 1395,
       "pct": 20.7
     },
     {
       "label": "Unknown",
       "count": 1065,
-      "pct": 15.9
+      "pct": 15.8
     }
   ],
   "avgCharges": {
@@ -1769,9 +1769,9 @@
     },
     {
       "category": "Failure to Appear",
-      "avgDays": 14.1,
-      "medianDays": 1.7,
-      "count": 184
+      "avgDays": 14,
+      "medianDays": 1.6,
+      "count": 185
     },
     {
       "category": "Protection Order Violation",
@@ -1828,7 +1828,7 @@
     },
     {
       "name": "Bremerton PD",
-      "count": 2119,
+      "count": 2124,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -2225,8 +2225,8 @@
     }
   ],
   "bailOnRelease": {
-    "total": 2761,
-    "withBail": 1284,
+    "total": 2763,
+    "withBail": 1286,
     "pct": 46.5
   },
   "chargesByAgeGroup": [
@@ -2489,7 +2489,7 @@
         },
         {
           "label": "Property",
-          "count": 238
+          "count": 240
         },
         {
           "label": "Other",
@@ -2501,7 +2501,7 @@
         },
         {
           "label": "Order Violations",
-          "count": 110
+          "count": 111
         },
         {
           "label": "Fraud / Identity",
@@ -2736,7 +2736,7 @@
         "avgWeight": 184,
         "avgHeight": "5'11\"",
         "topRace": "White",
-        "n": 92
+        "n": 93
       },
       {
         "charge": "Ignition Interlock Violation",
@@ -2900,6 +2900,13 @@
         "n": 19
       },
       {
+        "charge": "Residential Burglary",
+        "avgWeight": 186,
+        "avgHeight": "5'9\"",
+        "topRace": "White",
+        "n": 18
+      },
+      {
         "charge": "PR / Bail Revocation",
         "avgWeight": 180,
         "avgHeight": "5'11\"",
@@ -2914,11 +2921,11 @@
         "n": 17
       },
       {
-        "charge": "Residential Burglary",
-        "avgWeight": 188,
+        "charge": "Burglary (1st Degree)",
+        "avgWeight": 177,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 17
+        "n": 15
       },
       {
         "charge": "Indecent Exposure",
@@ -2926,13 +2933,6 @@
         "avgHeight": "5'9\"",
         "topRace": "White",
         "n": 15
-      },
-      {
-        "charge": "Burglary (1st Degree)",
-        "avgWeight": 177,
-        "avgHeight": "5'10\"",
-        "topRace": "White",
-        "n": 14
       },
       {
         "charge": "Failure to Register (Sex Offender)",
@@ -3312,7 +3312,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 3037
+      "count": 3039
     }
   ],
   "ftaOriginalCharges": {
