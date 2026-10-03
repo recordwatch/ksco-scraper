@@ -1,6 +1,40 @@
 [
   {
     "type": "BOOKED",
+    "bookingNumber": "2026004398",
+    "name": "DARKOW, TYLER WAYNE",
+    "bookingDate": "",
+    "charges": [
+      {
+        "violation": "9A.56.050(2) - THEFT-3",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 15000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "10/05/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "10/03/2026",
+        "courtType": "BM"
+      }
+    ],
+    "age": "33",
+    "sex": "M",
+    "race": "W",
+    "height": "505",
+    "weight": "167",
+    "hair": "BLK",
+    "eyes": "GRN",
+    "inmateId": "40182772",
+    "schedRelease": null,
+    "firstSeen": "10/03/2026, 13:45:55",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
     "bookingNumber": "2026004396",
     "name": "RANDALL, NANCY LYNN",
     "bookingDate": "",
@@ -247,9 +281,9 @@
     "charges": [
       {
         "violation": "46.61.502(6) - DUI - FB - DRIVING UNDER THE INFLUENCE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": 5000,
         "cashAmount": null,
@@ -613,10 +647,10 @@
     "age": "31",
     "sex": "",
     "race": "",
-    "height": null,
-    "weight": null,
-    "hair": "Eyes",
-    "eyes": "Height",
+    "height": "411",
+    "weight": "120",
+    "hair": "BLK",
+    "eyes": "BLK",
     "inmateId": "50005494",
     "schedRelease": null,
     "firstSeen": "10/03/2026, 00:46:51",
@@ -879,9 +913,9 @@
     "charges": [
       {
         "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "DUI 1 DAY COMMIT",
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
@@ -902,8 +936,8 @@
     "inmateId": "50005215",
     "schedRelease": "10/03/2026",
     "firstSeen": "10/02/2026, 15:51:22",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "10/03/2026, 13:45:56",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -947,9 +981,9 @@
     "charges": [
       {
         "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "DUI 1 DAY COMMIT",
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
@@ -970,8 +1004,8 @@
     "inmateId": "50004830",
     "schedRelease": "10/03/2026",
     "firstSeen": "10/02/2026, 15:51:21",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "10/03/2026, 13:45:55",
+    "status": "released"
   },
   {
     "type": "BOOKED",

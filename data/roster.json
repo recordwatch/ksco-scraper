@@ -145668,9 +145668,9 @@
     "charges": [
       {
         "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "DUI 1 DAY COMMIT",
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
@@ -145682,9 +145682,9 @@
       }
     ],
     "totalBond": null,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "10/02/2026, 15:51:21",
-    "releasedAt": null
+    "releasedAt": "10/03/2026, 13:45:55"
   },
   "2026004372": {
     "bookingNumber": "2026004372",
@@ -145863,9 +145863,9 @@
     "charges": [
       {
         "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "DUI 1 DAY COMMIT",
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
@@ -145877,9 +145877,9 @@
       }
     ],
     "totalBond": null,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "10/02/2026, 15:51:22",
-    "releasedAt": null
+    "releasedAt": "10/03/2026, 13:45:56"
   },
   "2026004377": {
     "bookingNumber": "2026004377",
@@ -146562,10 +146562,10 @@
     "inmateId": "50005494",
     "schedRelease": null,
     "age": "31",
-    "height": null,
-    "weight": null,
-    "hair": "Eyes",
-    "eyes": "Height",
+    "height": "411",
+    "weight": "120",
+    "hair": "BLK",
+    "eyes": "BLK",
     "charges": [
       {
         "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
@@ -146901,9 +146901,9 @@
     "charges": [
       {
         "violation": "46.61.502(6) - DUI - FB - DRIVING UNDER THE INFLUENCE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": 5000,
         "cashAmount": null,
@@ -146995,6 +146995,45 @@
     "totalBond": 500,
     "status": "in_custody",
     "firstSeen": "10/03/2026, 10:31:30",
+    "releasedAt": null
+  },
+  "2026004398": {
+    "bookingNumber": "2026004398",
+    "firstName": "TYLER",
+    "lastName": "DARKOW",
+    "middleName": "WAYNE",
+    "race": "W",
+    "sex": "M",
+    "bookingDate": "",
+    "releaseDate": "",
+    "schReleaseDate": "",
+    "detailUrl": "https://incustody.kitsap.gov/Home/BookingSearchResult?LastName=%25&FirstName=&BookingFrom=&BookingTo=&ValidSearch=&sort=BookingDate&sortdir=DESC&page=19&BookingNumber=8",
+    "inmateId": "40182772",
+    "schedRelease": null,
+    "age": "33",
+    "height": "505",
+    "weight": "167",
+    "hair": "BLK",
+    "eyes": "GRN",
+    "charges": [
+      {
+        "violation": "9A.56.050(2) - THEFT-3",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 15000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "10/05/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "10/03/2026",
+        "courtType": "BM"
+      }
+    ],
+    "totalBond": 15000,
+    "status": "in_custody",
+    "firstSeen": "10/03/2026, 13:45:55",
     "releasedAt": null
   }
 }
