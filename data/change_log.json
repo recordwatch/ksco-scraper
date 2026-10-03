@@ -1,6 +1,88 @@
 [
   {
     "type": "BOOKED",
+    "bookingNumber": "2026004381",
+    "name": "WILSON, JASON IAN",
+    "bookingDate": "",
+    "charges": [
+      {
+        "violation": "9A.36.041(2) - ASSAULT-4 - DV",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "NOBD",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "10/05/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "10/02/2026",
+        "courtType": "BM"
+      }
+    ],
+    "age": "44",
+    "sex": "M",
+    "race": "W",
+    "height": "602",
+    "weight": "280",
+    "hair": "BRO",
+    "eyes": "HAZ",
+    "inmateId": "30047499",
+    "schedRelease": null,
+    "firstSeen": "10/02/2026, 18:47:22",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
+    "bookingNumber": "2026004380",
+    "name": "BRESETTE, PATRICK PAUL",
+    "bookingDate": "",
+    "charges": [
+      {
+        "violation": "9A.56.160(2) - POSSESS STOLEN PROPERTY-2",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 10000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "10/05/2026",
+        "arrestAgency": "PORT ORCHARD POLICE DEPARTMENT",
+        "arrestDate": "10/02/2026",
+        "courtType": "SC"
+      },
+      {
+        "violation": "9A.82.050(2) - TRAFFICKING STOLEN PROPERTY-1",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 10000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "10/05/2026",
+        "arrestAgency": "PORT ORCHARD POLICE DEPARTMENT",
+        "arrestDate": "10/02/2026",
+        "courtType": "SC"
+      }
+    ],
+    "age": "42",
+    "sex": "M",
+    "race": "W",
+    "height": "506",
+    "weight": "125",
+    "hair": "BRO",
+    "eyes": "BRO",
+    "inmateId": "30053197",
+    "schedRelease": null,
+    "firstSeen": "10/02/2026, 18:47:21",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
     "bookingNumber": "2026004376",
     "name": "SACKETT, RYAN",
     "bookingDate": "",
@@ -88,7 +170,7 @@
         "courtType": null
       }
     ],
-    "age": "48",
+    "age": "49",
     "sex": "M",
     "race": "W",
     "height": "601",
@@ -204,24 +286,10 @@
     "bookingDate": "",
     "charges": [
       {
-        "violation": "9A.36.031(2) - ASSAULT-3",
-        "cleared": false,
+        "violation": "9A.36.041(2) - ASSAULT-4",
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
-        "bondBailType": "C/B",
-        "bondAmount": 30000,
-        "cashAmount": null,
-        "courtCase": null,
-        "nextCourtDate": "10/05/2026",
-        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
-        "arrestDate": "10/02/2026",
-        "courtType": "SC"
-      },
-      {
-        "violation": "9A.48.090(2) - MALICIOUS MISCHIEF-3",
-        "cleared": false,
-        "addDesc": null,
-        "clearance": null,
+        "clearance": "BR",
         "bondBailType": "C/B",
         "bondAmount": 5000,
         "cashAmount": null,
@@ -229,16 +297,30 @@
         "nextCourtDate": "10/05/2026",
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "10/02/2026",
-        "courtType": "SC"
+        "courtType": "DS"
+      },
+      {
+        "violation": "9A.48.090(2) - MALICIOUS MISCHIEF-3",
+        "cleared": true,
+        "addDesc": null,
+        "clearance": "BR",
+        "bondBailType": "C/B",
+        "bondAmount": 5000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "10/05/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "10/02/2026",
+        "courtType": "DS"
       }
     ],
     "age": "18",
     "sex": "",
     "race": "",
-    "height": null,
-    "weight": null,
-    "hair": "Eyes",
-    "eyes": "Height",
+    "height": "508",
+    "weight": "185",
+    "hair": "BLK",
+    "eyes": "BRO",
     "inmateId": "50005490",
     "schedRelease": null,
     "firstSeen": "10/02/2026, 15:51:19",
@@ -286,9 +368,9 @@
     "bookingDate": "",
     "charges": [
       {
-        "violation": "9A.76.020 - OBSTRUCT LAW ENFORCEMENT OFC",
+        "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
         "cleared": false,
-        "addDesc": null,
+        "addDesc": "OBSTRUCT L/E",
         "clearance": null,
         "bondBailType": "C/B",
         "bondAmount": 5000,
@@ -368,7 +450,7 @@
         "courtType": "BM"
       }
     ],
-    "age": "30",
+    "age": "39",
     "sex": "F",
     "race": "A",
     "height": "505",
@@ -635,9 +717,9 @@
     "charges": [
       {
         "violation": "9.68A.070(1)(B) - POSSESS DEPICTIONS OF A MINOR 1 ENGAGED IN SEXUALLY EXPLICIT CONDUCT",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "PR",
         "bondBailType": "PR",
         "bondAmount": null,
         "cashAmount": null,
@@ -686,8 +768,8 @@
     "inmateId": "50005487",
     "schedRelease": null,
     "firstSeen": "10/01/2026, 13:26:14",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "10/02/2026, 18:47:22",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -3525,9 +3607,9 @@
       },
       {
         "violation": "NONE - REVOCATION OF PR/BAIL",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "HIT AND RUN, UNLAWFUL POSSESSION",
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": 2500,
         "cashAmount": null,
