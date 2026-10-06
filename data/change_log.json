@@ -1,15 +1,96 @@
 [
   {
     "type": "BOOKED",
+    "bookingNumber": "2026004428",
+    "name": "HETRICK, DUSTIN MICHAEL",
+    "bookingDate": "",
+    "charges": [
+      {
+        "violation": "9A.36.031(2) - ASSAULT-3",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 35000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "10/06/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "10/05/2026",
+        "courtType": "SC"
+      },
+      {
+        "violation": "9A.76.040(2) - RESISTING ARREST",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "CC",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "10/06/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "10/05/2026",
+        "courtType": "SC"
+      },
+      {
+        "violation": "9A.84.030(2) - DISORDERLY CONDUCT INCLUDES ABUSIVE LANGUAGE/PROVOKE ASSAULT/OBSTRUCT VEHICLE OR PEDESTRIAN TRAFFIC",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "CC",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "10/06/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "10/05/2026",
+        "courtType": "SC"
+      }
+    ],
+    "age": "37",
+    "sex": "M",
+    "race": "W",
+    "height": "509",
+    "weight": "165",
+    "hair": "BRO",
+    "eyes": "GRN",
+    "inmateId": "40019991",
+    "schedRelease": null,
+    "firstSeen": "10/06/2026, 03:41:12",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
+    "bookingNumber": "2026004433",
+    "name": "ALEXANDER, RICKY",
+    "bookingDate": "",
+    "charges": [],
+    "age": "18",
+    "sex": "M",
+    "race": "W",
+    "height": "510",
+    "weight": "142",
+    "hair": "BRO",
+    "eyes": "BRO",
+    "inmateId": "50005165",
+    "schedRelease": null,
+    "firstSeen": "10/06/2026, 03:41:11",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
     "bookingNumber": "2026004426",
     "name": "HOPE, KATIE LYNN",
     "bookingDate": "",
     "charges": [
       {
         "violation": "46.20.342(1)(C) - DWLS 3 -DRIVE W/LICENSE SUSP OR REVOKED-3 OR REVOKED LIC OR PRIVILEGE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "BR",
         "bondBailType": "PR",
         "bondAmount": null,
         "cashAmount": null,
@@ -30,8 +111,8 @@
     "inmateId": "50002270",
     "schedRelease": null,
     "firstSeen": "10/05/2026, 20:13:23",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "10/06/2026, 03:41:13",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -131,10 +212,10 @@
     "charges": [
       {
         "violation": "9A.56.050(2) - THEFT-3",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
-        "bondBailType": "C/B",
+        "clearance": "PR",
+        "bondBailType": "PR",
         "bondAmount": 1000,
         "cashAmount": null,
         "courtCase": null,
@@ -154,8 +235,8 @@
     "inmateId": "40273357",
     "schedRelease": null,
     "firstSeen": "10/05/2026, 16:05:05",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "10/06/2026, 03:41:12",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -487,9 +568,9 @@
     "charges": [
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "ASLT 4 DV",
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": 2500,
         "cashAmount": null,
@@ -510,8 +591,8 @@
     "inmateId": "40034115",
     "schedRelease": null,
     "firstSeen": "10/04/2026, 15:26:40",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "10/06/2026, 03:41:12",
+    "status": "released"
   },
   {
     "type": "BOOKED",
