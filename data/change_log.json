@@ -1,6 +1,102 @@
 [
   {
     "type": "BOOKED",
+    "bookingNumber": "2026004460",
+    "name": "MCCONAGHY, JOHNNY RAY",
+    "bookingDate": "",
+    "charges": [
+      {
+        "violation": "69.50.4013.1.A - UNLAWFUL POSSESSION OF A CONTROLLED SUBSTANCE",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 5000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "10/08/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "10/07/2026",
+        "courtType": "BM"
+      },
+      {
+        "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 1000,
+        "cashAmount": null,
+        "courtCase": "350428287",
+        "nextCourtDate": "10/08/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "10/07/2026",
+        "courtType": "DS"
+      },
+      {
+        "violation": "DOCWT - DEPARTMENT OF CORRECTIONS WARRANT",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "NOBD",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "10/08/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "10/07/2026",
+        "courtType": "DOC"
+      }
+    ],
+    "age": "33",
+    "sex": "M",
+    "race": "W",
+    "height": "510",
+    "weight": "160",
+    "hair": "BRO",
+    "eyes": "BRO",
+    "inmateId": "40498233",
+    "schedRelease": null,
+    "firstSeen": "10/08/2026, 00:06:34",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
+    "bookingNumber": "2026004463",
+    "name": "NAILON, ALIYAH MARIE",
+    "bookingDate": "10/07/2026",
+    "charges": [
+      {
+        "violation": "7.105.450(1) - PROTECTION ORDER VIOLATION",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "NOBD",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "10/08/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "10/07/2026",
+        "courtType": "DS"
+      }
+    ],
+    "age": "19",
+    "sex": "F",
+    "race": "B",
+    "height": "503",
+    "weight": "120",
+    "hair": "BLK",
+    "eyes": "BRO",
+    "inmateId": "50005508",
+    "schedRelease": null,
+    "firstSeen": "10/08/2026, 00:06:33",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
     "bookingNumber": "2026004456",
     "name": "STEENERSON, KYLE JACOB",
     "bookingDate": "",
@@ -170,9 +266,9 @@
     "bookingDate": "",
     "charges": [
       {
-        "violation": "9.35.020(2) - IDENTITY THEFT-1",
+        "violation": "9.35.020(3) - IDENTITY THEFT-2",
         "cleared": false,
-        "addDesc": "ID THFT 1",
+        "addDesc": null,
         "clearance": null,
         "bondBailType": "C/B",
         "bondAmount": 10000,
@@ -897,9 +993,9 @@
     "charges": [
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "DUI / DWLS 2",
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": 20000,
         "cashAmount": null,
@@ -911,9 +1007,9 @@
       },
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "DWLS 2",
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": 7500,
         "cashAmount": null,
@@ -934,8 +1030,8 @@
     "inmateId": "40203765",
     "schedRelease": null,
     "firstSeen": "10/06/2026, 10:04:20",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "10/08/2026, 00:06:34",
+    "status": "released"
   },
   {
     "type": "BOOKED",

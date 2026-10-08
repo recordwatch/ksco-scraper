@@ -148544,9 +148544,9 @@
     "charges": [
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "DUI / DWLS 2",
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": 20000,
         "cashAmount": null,
@@ -148558,9 +148558,9 @@
       },
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "DWLS 2",
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": 7500,
         "cashAmount": null,
@@ -148572,9 +148572,9 @@
       }
     ],
     "totalBond": null,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "10/06/2026, 10:04:20",
-    "releasedAt": null
+    "releasedAt": "10/08/2026, 00:06:34"
   },
   "2026004439": {
     "bookingNumber": "2026004439",
@@ -149321,9 +149321,9 @@
     "eyes": "BLU",
     "charges": [
       {
-        "violation": "9.35.020(2) - IDENTITY THEFT-1",
+        "violation": "9.35.020(3) - IDENTITY THEFT-2",
         "cleared": false,
-        "addDesc": "ID THFT 1",
+        "addDesc": null,
         "clearance": null,
         "bondBailType": "C/B",
         "bondAmount": 10000,
@@ -149564,6 +149564,112 @@
     "totalBond": null,
     "status": "in_custody",
     "firstSeen": "10/07/2026, 13:43:08",
+    "releasedAt": null
+  },
+  "2026004460": {
+    "bookingNumber": "2026004460",
+    "firstName": "JOHNNY",
+    "lastName": "MCCONAGHY",
+    "middleName": "RAY",
+    "race": "W",
+    "sex": "M",
+    "bookingDate": "",
+    "releaseDate": "",
+    "schReleaseDate": "",
+    "detailUrl": "https://incustody.kitsap.gov/Home/BookingSearchResult?LastName=%25&FirstName=&BookingFrom=&BookingTo=&ValidSearch=&sort=BookingDate&sortdir=DESC&page=19&BookingNumber=2",
+    "inmateId": "40498233",
+    "schedRelease": null,
+    "age": "33",
+    "height": "510",
+    "weight": "160",
+    "hair": "BRO",
+    "eyes": "BRO",
+    "charges": [
+      {
+        "violation": "69.50.4013.1.A - UNLAWFUL POSSESSION OF A CONTROLLED SUBSTANCE",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 5000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "10/08/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "10/07/2026",
+        "courtType": "BM"
+      },
+      {
+        "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 1000,
+        "cashAmount": null,
+        "courtCase": "350428287",
+        "nextCourtDate": "10/08/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "10/07/2026",
+        "courtType": "DS"
+      },
+      {
+        "violation": "DOCWT - DEPARTMENT OF CORRECTIONS WARRANT",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "NOBD",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "10/08/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "10/07/2026",
+        "courtType": "DOC"
+      }
+    ],
+    "totalBond": 6000,
+    "status": "in_custody",
+    "firstSeen": "10/08/2026, 00:06:34",
+    "releasedAt": null
+  },
+  "2026004463": {
+    "bookingNumber": "2026004463",
+    "firstName": "ALIYAH",
+    "lastName": "NAILON",
+    "middleName": "MARIE",
+    "race": "B",
+    "sex": "F",
+    "bookingDate": "10/07/2026",
+    "releaseDate": "",
+    "schReleaseDate": "",
+    "detailUrl": "https://incustody.kitsap.gov/Home/BookingSearchResult?LastName=%25&FirstName=&BookingFrom=&BookingTo=&ValidSearch=&sort=BookingDate&sortdir=DESC&page=1&BookingNumber=9",
+    "inmateId": "50005508",
+    "schedRelease": null,
+    "age": "19",
+    "height": "503",
+    "weight": "120",
+    "hair": "BLK",
+    "eyes": "BRO",
+    "charges": [
+      {
+        "violation": "7.105.450(1) - PROTECTION ORDER VIOLATION",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "NOBD",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "10/08/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "10/07/2026",
+        "courtType": "DS"
+      }
+    ],
+    "totalBond": null,
+    "status": "in_custody",
+    "firstSeen": "10/08/2026, 00:06:33",
     "releasedAt": null
   }
 }
