@@ -1,6 +1,175 @@
 [
   {
     "type": "BOOKED",
+    "bookingNumber": "2026004499",
+    "name": "TORRES, CHRISTIAN RAYMOND",
+    "bookingDate": "",
+    "charges": [],
+    "age": "35",
+    "sex": "M",
+    "race": "W",
+    "height": "511",
+    "weight": "170",
+    "hair": "BRO",
+    "eyes": "BLU",
+    "inmateId": "50005435",
+    "schedRelease": null,
+    "firstSeen": "10/10/2026, 05:54:47",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
+    "bookingNumber": "2026004498",
+    "name": "PAYNE, KATIE L",
+    "bookingDate": "",
+    "charges": [
+      {
+        "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 5000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "10/13/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "10/10/2026",
+        "courtType": "DS"
+      }
+    ],
+    "age": "53",
+    "sex": "",
+    "race": "",
+    "height": null,
+    "weight": null,
+    "hair": "Eyes",
+    "eyes": "Height",
+    "inmateId": "50005525",
+    "schedRelease": null,
+    "firstSeen": "10/10/2026, 05:54:46",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
+    "bookingNumber": "2026004497",
+    "name": "PARKER, NEHEMIAH",
+    "bookingDate": "",
+    "charges": [
+      {
+        "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 5000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "10/13/2026",
+        "arrestAgency": "WASHINGTON STATE PATROL",
+        "arrestDate": "10/10/2026",
+        "courtType": "DS"
+      }
+    ],
+    "age": "19",
+    "sex": "M",
+    "race": "",
+    "height": null,
+    "weight": null,
+    "hair": "Eyes",
+    "eyes": "Height",
+    "inmateId": "50005524",
+    "schedRelease": null,
+    "firstSeen": "10/10/2026, 05:54:46",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
+    "bookingNumber": "2026004496",
+    "name": "MARTINES, KION E",
+    "bookingDate": "",
+    "charges": [
+      {
+        "violation": "9A.36.021(2)(A) - ASSAULT-2",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 250000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "10/13/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "10/10/2026",
+        "courtType": "SC"
+      }
+    ],
+    "age": "18",
+    "sex": "",
+    "race": "",
+    "height": null,
+    "weight": null,
+    "hair": "Eyes",
+    "eyes": "Height",
+    "inmateId": "50005523",
+    "schedRelease": null,
+    "firstSeen": "10/10/2026, 05:54:45",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
+    "bookingNumber": "2026004495",
+    "name": "JOHNSON, TENEZ",
+    "bookingDate": "",
+    "charges": [
+      {
+        "violation": "9A.36.041(2) - ASSAULT-4 - DV",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "NOBD",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "10/13/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "10/09/2026",
+        "courtType": "BM"
+      },
+      {
+        "violation": "9A.48.090(2) - MALICIOUS MISCHIEF-3 - DV",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "NOBD",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "10/13/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "10/09/2026",
+        "courtType": "BM"
+      }
+    ],
+    "age": "27",
+    "sex": "",
+    "race": "",
+    "height": null,
+    "weight": null,
+    "hair": "Eyes",
+    "eyes": "Height",
+    "inmateId": "50005522",
+    "schedRelease": null,
+    "firstSeen": "10/10/2026, 05:54:45",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
     "bookingNumber": "2026004494",
     "name": "SANCHEZ, SANDRA",
     "bookingDate": "",
@@ -40,9 +209,9 @@
     "bookingDate": "",
     "charges": [
       {
-        "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
+        "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
         "cleared": false,
-        "addDesc": null,
+        "addDesc": "DUI",
         "clearance": null,
         "bondBailType": "C/B",
         "bondAmount": 5000,
@@ -51,7 +220,7 @@
         "nextCourtDate": "10/13/2026",
         "arrestAgency": "BREMERTON POLICE DEPARTMENT",
         "arrestDate": "10/09/2026",
-        "courtType": "BM"
+        "courtType": "DS"
       },
       {
         "violation": "72.09.310 - COMMUNITY CUSTODY VIOLATOR",
@@ -178,7 +347,7 @@
         "courtType": "SC"
       }
     ],
-    "age": "43",
+    "age": "46",
     "sex": "F",
     "race": "W",
     "height": "505",
@@ -230,7 +399,7 @@
     "sex": "F",
     "race": "W",
     "height": "503",
-    "weight": "170",
+    "weight": "200",
     "hair": "BLN",
     "eyes": "BLU",
     "inmateId": "50005520",
@@ -254,7 +423,7 @@
         "bondAmount": 5000,
         "cashAmount": null,
         "courtCase": "350428541",
-        "nextCourtDate": "10/12/2026",
+        "nextCourtDate": "10/13/2026",
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "10/09/2026",
         "courtType": "PO"
@@ -268,7 +437,7 @@
         "bondAmount": null,
         "cashAmount": null,
         "courtCase": null,
-        "nextCourtDate": "10/12/2026",
+        "nextCourtDate": "10/13/2026",
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "10/09/2026",
         "courtType": "SC"
@@ -282,7 +451,7 @@
         "bondAmount": null,
         "cashAmount": null,
         "courtCase": null,
-        "nextCourtDate": "10/12/2026",
+        "nextCourtDate": "10/13/2026",
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "10/09/2026",
         "courtType": "SC"
@@ -296,10 +465,10 @@
         "bondAmount": 5000,
         "cashAmount": null,
         "courtCase": null,
-        "nextCourtDate": "10/12/2026",
+        "nextCourtDate": "10/13/2026",
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "10/09/2026",
-        "courtType": "DS"
+        "courtType": "SC"
       }
     ],
     "age": "58",
@@ -520,9 +689,37 @@
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "10/09/2026",
         "courtType": null
+      },
+      {
+        "violation": "46.20.342(1)(C) - DWLS 3 -DRIVE W/LICENSE SUSP OR REVOKED-3 OR REVOKED LIC OR PRIVILEGE",
+        "cleared": true,
+        "addDesc": null,
+        "clearance": "RL",
+        "bondBailType": "GL",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": "4A0132064",
+        "nextCourtDate": null,
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "10/09/2026",
+        "courtType": null
+      },
+      {
+        "violation": "46.20.342(1)(C) - DWLS 3 -DRIVE W/LICENSE SUSP OR REVOKED-3 OR REVOKED LIC OR PRIVILEGE",
+        "cleared": true,
+        "addDesc": null,
+        "clearance": "RL",
+        "bondBailType": "GL",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": "4A0570507",
+        "nextCourtDate": null,
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "10/09/2026",
+        "courtType": null
       }
     ],
-    "age": "46",
+    "age": "48",
     "sex": "M",
     "race": "W",
     "height": "600",
@@ -632,7 +829,7 @@
         "courtType": "PO"
       }
     ],
-    "age": "46",
+    "age": "47",
     "sex": "M",
     "race": "W",
     "height": "507",
