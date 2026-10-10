@@ -1,10 +1,121 @@
 [
   {
     "type": "BOOKED",
+    "bookingNumber": "2026004501",
+    "name": "VALENCIA REYES, MIGUEL A",
+    "bookingDate": "",
+    "charges": [
+      {
+        "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
+        "cleared": false,
+        "addDesc": "POSS CONTRL SUB",
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 1500,
+        "cashAmount": null,
+        "courtCase": "350429921",
+        "nextCourtDate": "10/12/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "10/10/2026",
+        "courtType": "DS"
+      },
+      {
+        "violation": "9A.76.175 - MAKE FALSE/MISLEADING STMNT PUB SRVNT",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 5000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "10/12/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "10/10/2026",
+        "courtType": "BM"
+      }
+    ],
+    "age": "29",
+    "sex": "M",
+    "race": "W",
+    "height": null,
+    "weight": null,
+    "hair": "Eyes",
+    "eyes": "Height",
+    "inmateId": "50003082",
+    "schedRelease": null,
+    "firstSeen": "10/10/2026, 10:41:48",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
+    "bookingNumber": "2026004500",
+    "name": "SUBROSA, ERICKA",
+    "bookingDate": "",
+    "charges": [
+      {
+        "violation": "9A.84.030(2) - DISORDERLY CONDUCT INCLUDES ABUSIVE LANGUAGE/PROVOKE ASSAULT/OBSTRUCT VEHICLE OR PEDESTRIAN TRAFFIC",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 5000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "10/13/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "10/10/2026",
+        "courtType": "BM"
+      },
+      {
+        "violation": "9A.48.090(2) - MALICIOUS MISCHIEF-3",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 5000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "10/13/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "10/10/2026",
+        "courtType": "BM"
+      }
+    ],
+    "age": "30",
+    "sex": "M",
+    "race": "W",
+    "height": "601",
+    "weight": "230",
+    "hair": "BRO",
+    "eyes": "HAZ",
+    "inmateId": "50005526",
+    "schedRelease": null,
+    "firstSeen": "10/10/2026, 10:41:48",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
     "bookingNumber": "2026004499",
     "name": "TORRES, CHRISTIAN RAYMOND",
     "bookingDate": "",
-    "charges": [],
+    "charges": [
+      {
+        "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
+        "cleared": true,
+        "addDesc": "THEFT 3, RESISTING ARREST, CONT SUB KNOW POSS",
+        "clearance": "BR",
+        "bondBailType": "C/B",
+        "bondAmount": 5000,
+        "cashAmount": null,
+        "courtCase": "6A0357447",
+        "nextCourtDate": "10/12/2026",
+        "arrestAgency": "GIG HARBOR POLICE DEPARTMENT",
+        "arrestDate": "10/10/2026",
+        "courtType": "GH"
+      }
+    ],
     "age": "35",
     "sex": "M",
     "race": "W",
@@ -15,8 +126,8 @@
     "inmateId": "50005435",
     "schedRelease": null,
     "firstSeen": "10/10/2026, 05:54:47",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "10/10/2026, 01:58:00",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -60,14 +171,14 @@
     "charges": [
       {
         "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": 5000,
         "cashAmount": null,
         "courtCase": null,
-        "nextCourtDate": "10/13/2026",
+        "nextCourtDate": "10/12/2026",
         "arrestAgency": "WASHINGTON STATE PATROL",
         "arrestDate": "10/10/2026",
         "courtType": "DS"
@@ -83,8 +194,8 @@
     "inmateId": "50005524",
     "schedRelease": null,
     "firstSeen": "10/10/2026, 05:54:46",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "10/10/2026, 02:03:00",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -158,10 +269,10 @@
     "age": "27",
     "sex": "",
     "race": "",
-    "height": null,
-    "weight": null,
-    "hair": "Eyes",
-    "eyes": "Height",
+    "height": "504",
+    "weight": "150",
+    "hair": "BLK",
+    "eyes": "BRO",
     "inmateId": "50005522",
     "schedRelease": null,
     "firstSeen": "10/10/2026, 05:54:45",
@@ -192,10 +303,10 @@
     "age": "63",
     "sex": "",
     "race": "",
-    "height": null,
-    "weight": null,
-    "hair": "Eyes",
-    "eyes": "Height",
+    "height": "507",
+    "weight": "275",
+    "hair": "BLK",
+    "eyes": "BLK",
     "inmateId": "50005521",
     "schedRelease": null,
     "firstSeen": "10/09/2026, 23:14:21",
@@ -6524,9 +6635,9 @@
     "charges": [
       {
         "violation": "46.20.740(2) - IGNITION INTERLOCK VIOL-NOTATION ON DR REC-VERIFY INTERLOCK",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
@@ -6547,8 +6658,8 @@
     "inmateId": "40535980",
     "schedRelease": "10/10/2026",
     "firstSeen": "09/30/2026, 11:18:53",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "10/10/2026, 24:47:00",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -7040,9 +7151,9 @@
       },
       {
         "violation": "DOCWT - DEPARTMENT OF CORRECTIONS WARRANT",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
@@ -40842,9 +40953,9 @@
     "charges": [
       {
         "violation": "72.09.310 - COMMUNITY CUSTODY VIOLATOR",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
@@ -40865,8 +40976,8 @@
     "inmateId": "40305642",
     "schedRelease": "10/10/2026",
     "firstSeen": "08/06/2026, 17:25:09",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "10/10/2026, 24:47:00",
+    "status": "released"
   },
   {
     "type": "BOOKED",
