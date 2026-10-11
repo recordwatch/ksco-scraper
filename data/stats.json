@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-11T13:21:05.486Z",
+  "generatedAt": "2026-10-11T18:23:15.333Z",
   "bookingCounts": {
     "total": 3133,
-    "inCustody": 282,
-    "released": 2851
+    "inCustody": 280,
+    "released": 2853
   },
   "gender": [
     {
@@ -61,7 +61,7 @@
       },
       {
         "label": "26–35",
-        "count": 876
+        "count": 877
       },
       {
         "label": "36–45",
@@ -84,15 +84,15 @@
   "topCharges": [
     {
       "label": "Domestic Violence",
-      "count": 678
+      "count": 677
     },
     {
       "label": "Failure to Appear",
-      "count": 665
+      "count": 664
     },
     {
       "label": "DUI",
-      "count": 600
+      "count": 601
     },
     {
       "label": "Driving While License Suspended",
@@ -104,7 +104,7 @@
     },
     {
       "label": "Assault",
-      "count": 235
+      "count": 236
     },
     {
       "label": "Theft (3rd Degree)",
@@ -162,7 +162,7 @@
     },
     {
       "label": "WASHINGTON STATE PATROL",
-      "count": 248
+      "count": 249
     },
     {
       "label": "GIG HARBOR POLICE DEPARTMENT",
@@ -186,18 +186,18 @@
     }
   ],
   "bail": {
-    "mean": 30828.83,
+    "mean": 30841.54,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 2229
+    "count": 2231
   },
   "stay": {
     "mean": 21.9,
-    "median": 1.9,
+    "median": 2,
     "min": 0,
     "max": 1233.4,
-    "count": 2787,
+    "count": 2788,
     "histogram": [
       {
         "label": "< 1 day",
@@ -213,7 +213,7 @@
       },
       {
         "label": "1–2 weeks",
-        "count": 139
+        "count": 140
       },
       {
         "label": "2–4 weeks",
@@ -285,12 +285,6 @@
       "count": 10
     },
     {
-      "category": "Possession of Stolen Vehicle",
-      "medianBail": 50000,
-      "meanBail": 56681.82,
-      "count": 11
-    },
-    {
       "category": "Failure to Comply (Sentence)",
       "medianBail": 50000,
       "meanBail": 91764.71,
@@ -351,6 +345,12 @@
       "count": 1
     },
     {
+      "category": "Possession of Stolen Vehicle",
+      "medianBail": 20000,
+      "meanBail": 53954.55,
+      "count": 11
+    },
+    {
       "category": "Fugitive from Justice",
       "medianBail": 20000,
       "meanBail": 17500,
@@ -377,8 +377,8 @@
     {
       "category": "Assault",
       "medianBail": 10000,
-      "meanBail": 81678.57,
-      "count": 84
+      "meanBail": 80894.12,
+      "count": 85
     },
     {
       "category": "Theft (2nd Degree)",
@@ -423,16 +423,10 @@
       "count": 3
     },
     {
-      "category": "Other",
-      "medianBail": 5000,
-      "meanBail": 14979.45,
-      "count": 73
-    },
-    {
       "category": "DUI",
       "medianBail": 5000,
-      "meanBail": 17364.12,
-      "count": 301
+      "meanBail": 17596.04,
+      "count": 303
     },
     {
       "category": "Obstruction",
@@ -457,6 +451,12 @@
       "medianBail": 5000,
       "meanBail": 14846.77,
       "count": 31
+    },
+    {
+      "category": "Other",
+      "medianBail": 5000,
+      "meanBail": 15152.78,
+      "count": 72
     },
     {
       "category": "Ignition Interlock Violation",
@@ -503,14 +503,14 @@
     {
       "category": "Driving While License Suspended",
       "medianBail": 2500,
-      "meanBail": 5054.52,
-      "count": 221
+      "meanBail": 5042.83,
+      "count": 223
     },
     {
       "category": "Failure to Appear",
       "medianBail": 2500,
-      "meanBail": 8427.3,
-      "count": 389
+      "meanBail": 8457.93,
+      "count": 387
     },
     {
       "category": "Making False Statements",
@@ -563,19 +563,20 @@
   ],
   "chargesByRace": {
     "White": {
+      "DUI": 423,
       "Driving While License Suspended": 276,
       "Other": 112,
-      "Failure to Appear": 525,
-      "Domestic Violence": 471,
+      "Domestic Violence": 470,
       "Criminal Trespass": 168,
+      "Failure to Appear": 524,
       "Making False Statements": 52,
       "Obstruction": 117,
       "Malicious Mischief": 51,
       "Drug Offense": 241,
-      "DUI": 422,
       "Community Custody Violation": 17,
       "Protection Order Violation": 148,
       "Possession of Stolen Vehicle": 26,
+      "Assault": 146,
       "Harassment": 81,
       "Child Exploitation / CSAM": 19,
       "Ignition Interlock Violation": 75,
@@ -592,7 +593,6 @@
       "DOC Warrant": 135,
       "Interference with DV Reporting": 27,
       "Stalking": 10,
-      "Assault": 145,
       "Resisting Arrest": 58,
       "Local / Tribal Code": 17,
       "Reckless Driving": 28,
@@ -805,12 +805,12 @@
   },
   "chargesBySex": {
     "Male": {
+      "DUI": 389,
       "Driving While License Suspended": 292,
       "Other": 123,
-      "Failure to Appear": 483,
       "Domestic Violence": 439,
-      "DUI": 388,
       "Criminal Trespass": 164,
+      "Failure to Appear": 482,
       "Making False Statements": 51,
       "Obstruction": 115,
       "Malicious Mischief": 60,
@@ -918,9 +918,10 @@
       "Failure to Appear": 164,
       "Possession of Stolen Vehicle": 4,
       "DUI": 134,
-      "Domestic Violence": 171,
+      "Assault": 47,
       "Protection Order Violation": 47,
       "Failure to Comply (Sentence)": 7,
+      "Domestic Violence": 170,
       "Theft (3rd Degree)": 72,
       "Local / Tribal Code": 5,
       "Driving While License Suspended": 75,
@@ -937,7 +938,6 @@
       "Interference with DV Reporting": 5,
       "Fugitive from Justice": 5,
       "Burglary (2nd Degree)": 16,
-      "Assault": 46,
       "Harassment": 17,
       "Community Custody Violation": 7,
       "Malicious Mischief": 7,
@@ -977,11 +977,11 @@
     },
     {
       "label": "Released (Unknown Reason)",
-      "count": 745
+      "count": 746
     },
     {
       "label": "Released",
-      "count": 680
+      "count": 681
     },
     {
       "label": "Scheduled Release / Time Served",
@@ -1650,12 +1650,12 @@
   "crimeTypes": [
     {
       "label": "Traffic / DUI",
-      "count": 977,
+      "count": 978,
       "pct": 20.2
     },
     {
       "label": "Court / Supervision",
-      "count": 918,
+      "count": 917,
       "pct": 19
     },
     {
@@ -1707,7 +1707,7 @@
     },
     {
       "label": "Gross Misdemeanor",
-      "count": 2039,
+      "count": 2040,
       "pct": 29.5
     },
     {
@@ -1826,7 +1826,7 @@
       "chargeBreakdown": [
         {
           "label": "Domestic Violence",
-          "count": 505
+          "count": 504
         },
         {
           "label": "Failure to Appear",
@@ -1842,7 +1842,7 @@
         },
         {
           "label": "Assault",
-          "count": 128
+          "count": 129
         }
       ]
     },
@@ -1929,20 +1929,16 @@
     },
     {
       "name": "WASHINGTON STATE PATROL",
-      "count": 248,
+      "count": 249,
       "topCharge": "DUI",
       "chargeBreakdown": [
         {
           "label": "DUI",
-          "count": 91
+          "count": 92
         },
         {
           "label": "Driving While License Suspended",
-          "count": 32
-        },
-        {
-          "label": "Failure to Appear",
-          "count": 15
+          "count": 34
         },
         {
           "label": "Hit and Run",
@@ -1950,6 +1946,10 @@
         },
         {
           "label": "Other",
+          "count": 13
+        },
+        {
+          "label": "Failure to Appear",
           "count": 13
         }
       ]
@@ -2245,9 +2245,9 @@
     }
   ],
   "bailOnRelease": {
-    "total": 2851,
-    "withBail": 1324,
-    "pct": 46.4
+    "total": 2853,
+    "withBail": 1326,
+    "pct": 46.5
   },
   "chargesByAgeGroup": [
     {
@@ -2284,11 +2284,11 @@
         },
         {
           "label": "Failure to Appear",
-          "count": 200
+          "count": 199
         },
         {
           "label": "DUI",
-          "count": 168
+          "count": 170
         },
         {
           "label": "Driving While License Suspended",
@@ -2309,7 +2309,7 @@
         },
         {
           "label": "Domestic Violence",
-          "count": 205
+          "count": 204
         },
         {
           "label": "DUI",
@@ -2452,11 +2452,11 @@
       "crimeTypes": [
         {
           "label": "Court / Supervision",
-          "count": 285
+          "count": 284
         },
         {
           "label": "Traffic / DUI",
-          "count": 278
+          "count": 280
         },
         {
           "label": "Violent",
@@ -2672,7 +2672,7 @@
         "avgWeight": 185,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 480
+        "n": 479
       },
       {
         "charge": "Domestic Violence",
@@ -2686,7 +2686,7 @@
         "avgWeight": 181,
         "avgHeight": "5'9\"",
         "topRace": "White",
-        "n": 366
+        "n": 367
       },
       {
         "charge": "Driving While License Suspended",
@@ -3084,10 +3084,10 @@
       },
       {
         "charge": "Domestic Violence",
-        "avgWeight": 157,
+        "avgWeight": 156,
         "avgHeight": "5'4\"",
         "topRace": "White",
-        "n": 160
+        "n": 159
       },
       {
         "charge": "DUI",
@@ -3125,16 +3125,16 @@
         "n": 47
       },
       {
+        "charge": "Assault",
+        "avgWeight": 158,
+        "avgHeight": "5'5\"",
+        "topRace": "White",
+        "n": 45
+      },
+      {
         "charge": "Criminal Trespass",
         "avgWeight": 142,
         "avgHeight": "5'4\"",
-        "topRace": "White",
-        "n": 44
-      },
-      {
-        "charge": "Assault",
-        "avgWeight": 157,
-        "avgHeight": "5'5\"",
         "topRace": "White",
         "n": 44
       },
@@ -3337,9 +3337,9 @@
   ],
   "ftaOriginalCharges": {
     "ftaTotal": 1178,
-    "resolved": 649,
-    "unresolved": 529,
-    "pctResolved": 55.1,
+    "resolved": 650,
+    "unresolved": 528,
+    "pctResolved": 55.2,
     "topOriginalCharges": [
       {
         "label": "Domestic Violence",
@@ -3351,7 +3351,7 @@
       },
       {
         "label": "Driving While License Suspended",
-        "count": 106
+        "count": 107
       },
       {
         "label": "Theft (3rd Degree)",

@@ -4,7 +4,22 @@
     "bookingNumber": "2026004510",
     "name": "PROM, PATRICK JAMES",
     "bookingDate": "",
-    "charges": [],
+    "charges": [
+      {
+        "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
+        "cleared": true,
+        "addDesc": null,
+        "clearance": "POST",
+        "bondBailType": "C/B",
+        "bondAmount": 5000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "10/12/2026",
+        "arrestAgency": "WASHINGTON STATE PATROL",
+        "arrestDate": "10/11/2026",
+        "courtType": "DS"
+      }
+    ],
     "age": "31",
     "sex": "M",
     "race": "W",
@@ -15,8 +30,8 @@
     "inmateId": "50005530",
     "schedRelease": null,
     "firstSeen": "10/11/2026, 06:18:34",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "10/11/2026, 24:44:00",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -30,13 +45,13 @@
         "addDesc": null,
         "clearance": null,
         "bondBailType": "C/B",
-        "bondAmount": 2500,
+        "bondAmount": 5000,
         "cashAmount": null,
         "courtCase": null,
-        "nextCourtDate": null,
+        "nextCourtDate": "10/12/2026",
         "arrestAgency": "WASHINGTON STATE PATROL",
         "arrestDate": "10/11/2026",
-        "courtType": null
+        "courtType": "DS"
       },
       {
         "violation": "46.12.650(7) - FAIL OR NEGLECT TO APPLY FOR A TRANSFER OF OWNERSHIP",
@@ -44,44 +59,44 @@
         "addDesc": null,
         "clearance": null,
         "bondBailType": "C/B",
-        "bondAmount": 2500,
+        "bondAmount": null,
         "cashAmount": null,
         "courtCase": null,
-        "nextCourtDate": null,
+        "nextCourtDate": "10/12/2026",
         "arrestAgency": "WASHINGTON STATE PATROL",
         "arrestDate": "10/11/2026",
-        "courtType": null
+        "courtType": "DS"
       },
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
         "cleared": false,
-        "addDesc": null,
+        "addDesc": "FTA DWLS 3",
         "clearance": null,
         "bondBailType": "C/B",
         "bondAmount": 2500,
         "cashAmount": null,
-        "courtCase": null,
-        "nextCourtDate": null,
+        "courtCase": "350436685",
+        "nextCourtDate": "10/12/2026",
         "arrestAgency": "WASHINGTON STATE PATROL",
         "arrestDate": "10/11/2026",
-        "courtType": null
+        "courtType": "DS"
       },
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
         "cleared": false,
-        "addDesc": null,
+        "addDesc": "FTA DWLS 2",
         "clearance": null,
         "bondBailType": "C/B",
         "bondAmount": 2500,
         "cashAmount": null,
-        "courtCase": null,
-        "nextCourtDate": null,
+        "courtCase": "3504343538",
+        "nextCourtDate": "10/12/2026",
         "arrestAgency": "WASHINGTON STATE PATROL",
         "arrestDate": "10/11/2026",
-        "courtType": null
+        "courtType": "PMC"
       }
     ],
-    "age": "34",
+    "age": "35",
     "sex": "M",
     "race": "W",
     "height": "600",
@@ -115,13 +130,13 @@
         "courtType": "BI"
       }
     ],
-    "age": null,
+    "age": "35",
     "sex": "",
     "race": "",
-    "height": null,
-    "weight": null,
-    "hair": "Eyes",
-    "eyes": "Height",
+    "height": "510",
+    "weight": "165",
+    "hair": "BRO",
+    "eyes": "BLU",
     "inmateId": "50005529",
     "schedRelease": null,
     "firstSeen": "10/11/2026, 06:18:33",
@@ -748,7 +763,7 @@
         "addDesc": null,
         "clearance": null,
         "bondBailType": "C/B",
-        "bondAmount": 50000,
+        "bondAmount": 20000,
         "cashAmount": null,
         "courtCase": null,
         "nextCourtDate": "10/12/2026",
@@ -791,12 +806,12 @@
         "courtType": "PMC"
       },
       {
-        "violation": "9A.36.041(2) - ASSAULT-4 - DV",
+        "violation": "9A.36.041(2) - ASSAULT 4",
         "cleared": false,
         "addDesc": null,
         "clearance": null,
-        "bondBailType": "NOBD",
-        "bondAmount": null,
+        "bondBailType": "C/B",
+        "bondAmount": 15000,
         "cashAmount": null,
         "courtCase": null,
         "nextCourtDate": "10/12/2026",
@@ -868,9 +883,9 @@
       },
       {
         "violation": "69.50.4013.1.A - UNLAWFUL POSSESSION OF A CONTROLLED SUBSTANCE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "RF",
         "bondBailType": "C/B",
         "bondAmount": 5000,
         "cashAmount": null,
@@ -1407,8 +1422,8 @@
         "cleared": false,
         "addDesc": null,
         "clearance": null,
-        "bondBailType": "NOBD",
-        "bondAmount": null,
+        "bondBailType": "C/B",
+        "bondAmount": 100000,
         "cashAmount": null,
         "courtCase": null,
         "nextCourtDate": "10/12/2026",
@@ -7930,9 +7945,9 @@
       },
       {
         "violation": "46.61.024(1) - ATTEMPT TO ELUDE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": 15000,
         "cashAmount": null,
@@ -7953,8 +7968,8 @@
     "inmateId": "10010808",
     "schedRelease": null,
     "firstSeen": "09/28/2026, 16:46:04",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "10/11/2026, 01:57:00",
+    "status": "released"
   },
   {
     "type": "BOOKED",
