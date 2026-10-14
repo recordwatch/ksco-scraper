@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-14T11:29:35.365Z",
+  "generatedAt": "2026-10-14T15:58:25.301Z",
   "bookingCounts": {
     "total": 3166,
-    "inCustody": 278,
-    "released": 2888
+    "inCustody": 276,
+    "released": 2890
   },
   "gender": [
     {
@@ -146,7 +146,7 @@
   "topAgencies": [
     {
       "label": "KITSAP COUNTY SHERIFFS OFFICE",
-      "count": 2800
+      "count": 2802
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
@@ -186,18 +186,18 @@
     }
   ],
   "bail": {
-    "mean": 30897.58,
+    "mean": 30931.61,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 2242
+    "count": 2239
   },
   "stay": {
     "mean": 21.8,
     "median": 1.9,
     "min": 0,
     "max": 1233.4,
-    "count": 2821,
+    "count": 2823,
     "histogram": [
       {
         "label": "< 1 day",
@@ -221,11 +221,11 @@
       },
       {
         "label": "1–3 months",
-        "count": 362
+        "count": 363
       },
       {
         "label": "3+ months",
-        "count": 166
+        "count": 167
       }
     ]
   },
@@ -449,8 +449,8 @@
     {
       "category": "Obstruction",
       "medianBail": 5000,
-      "meanBail": 4941.86,
-      "count": 43
+      "meanBail": 5047.62,
+      "count": 42
     },
     {
       "category": "Malicious Mischief",
@@ -503,14 +503,14 @@
     {
       "category": "Theft (3rd Degree)",
       "medianBail": 2500,
-      "meanBail": 4212.27,
-      "count": 110
+      "meanBail": 4241.74,
+      "count": 109
     },
     {
       "category": "Failure to Appear",
       "medianBail": 2500,
-      "meanBail": 8438.29,
-      "count": 387
+      "meanBail": 8457.56,
+      "count": 386
     },
     {
       "category": "Driving While License Suspended",
@@ -551,7 +551,7 @@
     {
       "category": "Criminal Trespass",
       "medianBail": 1000,
-      "meanBail": 3159.48,
+      "meanBail": 3038.79,
       "count": 116
     },
     {
@@ -974,7 +974,7 @@
   "releaseReasons": [
     {
       "label": "FTA / Contempt Resolved",
-      "count": 980
+      "count": 981
     },
     {
       "label": "Released (Unknown Reason)",
@@ -986,7 +986,7 @@
     },
     {
       "label": "Scheduled Release / Time Served",
-      "count": 195
+      "count": 196
     },
     {
       "label": "DOC Transfer / Detainer",
@@ -1708,13 +1708,13 @@
   "severity": [
     {
       "label": "Misdemeanor",
-      "count": 2376,
-      "pct": 33.9
+      "count": 2378,
+      "pct": 34
     },
     {
       "label": "Gross Misdemeanor",
-      "count": 2069,
-      "pct": 29.6
+      "count": 2068,
+      "pct": 29.5
     },
     {
       "label": "Felony",
@@ -1723,8 +1723,8 @@
     },
     {
       "label": "Unknown",
-      "count": 1102,
-      "pct": 15.7
+      "count": 1103,
+      "pct": 15.8
     }
   ],
   "avgCharges": {
@@ -1827,7 +1827,7 @@
   "agencyBreakdown": [
     {
       "name": "Kitsap County Sheriff",
-      "count": 2811,
+      "count": 2813,
       "topCharge": "Domestic Violence",
       "chargeBreakdown": [
         {
@@ -1836,7 +1836,7 @@
         },
         {
           "label": "Failure to Appear",
-          "count": 420
+          "count": 422
         },
         {
           "label": "DUI",
@@ -2251,8 +2251,8 @@
     }
   ],
   "bailOnRelease": {
-    "total": 2888,
-    "withBail": 1340,
+    "total": 2890,
+    "withBail": 1341,
     "pct": 46.4
   },
   "chargesByAgeGroup": [
