@@ -1,6 +1,74 @@
 [
   {
     "type": "BOOKED",
+    "bookingNumber": "2026004585",
+    "name": "SUAREZ, JAMES MICHAEL",
+    "bookingDate": "",
+    "charges": [
+      {
+        "violation": "PGTC05.01.01 - ASSAULT 2",
+        "cleared": false,
+        "addDesc": "ASLT 2 DV",
+        "clearance": null,
+        "bondBailType": "CBO",
+        "bondAmount": 500,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "10/16/2026",
+        "arrestAgency": "SUQUAMISH TRIBAL POLICE DEPARTMENT",
+        "arrestDate": "10/15/2026",
+        "courtType": "SUQ"
+      }
+    ],
+    "age": "22",
+    "sex": "M",
+    "race": "I",
+    "height": "510",
+    "weight": "220",
+    "hair": "BLK",
+    "eyes": "BRO",
+    "inmateId": "40273992",
+    "schedRelease": null,
+    "firstSeen": "10/15/2026, 16:47:24",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
+    "bookingNumber": "2026004584",
+    "name": "FOSTER, BRADLEY ROBERT",
+    "bookingDate": "",
+    "charges": [
+      {
+        "violation": "9.41.040(1)(B) - FIREARM POSSESSION UNLAWFUL-1",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 25000,
+        "cashAmount": null,
+        "courtCase": "2610062718",
+        "nextCourtDate": "10/16/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "10/15/2026",
+        "courtType": "SC"
+      }
+    ],
+    "age": "46",
+    "sex": "M",
+    "race": "",
+    "height": "601",
+    "weight": "225",
+    "hair": "BRO",
+    "eyes": "HAZ",
+    "inmateId": "30037098",
+    "schedRelease": null,
+    "firstSeen": "10/15/2026, 16:47:23",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
     "bookingNumber": "2026004581",
     "name": "SMITH, SAMUEL P",
     "bookingDate": "",
@@ -228,8 +296,8 @@
     "inmateId": "50005547",
     "schedRelease": null,
     "firstSeen": "10/15/2026, 05:47:02",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "10/15/2026, 16:47:25",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -288,7 +356,7 @@
         "bondAmount": null,
         "cashAmount": null,
         "courtCase": "2610059118",
-        "nextCourtDate": "10/15/2026",
+        "nextCourtDate": "10/19/2026",
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "10/15/2026",
         "courtType": "SC"
@@ -318,11 +386,11 @@
         "cleared": false,
         "addDesc": "UNLAWFUL CULTIVATION OR DISTRIBUTION OF A CONTRL SUB WITHIN 1000 FT OF SCHOOL",
         "clearance": null,
-        "bondBailType": "NOBD",
-        "bondAmount": null,
+        "bondBailType": "C/B",
+        "bondAmount": 100000,
         "cashAmount": null,
         "courtCase": "2610073818",
-        "nextCourtDate": "10/15/2026",
+        "nextCourtDate": "11/13/2026",
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "10/14/2026",
         "courtType": "SC"
@@ -367,10 +435,10 @@
         "addDesc": null,
         "clearance": null,
         "bondBailType": "C/B",
-        "bondAmount": 50000,
+        "bondAmount": 5000,
         "cashAmount": null,
         "courtCase": "2610073718",
-        "nextCourtDate": "10/15/2026",
+        "nextCourtDate": "11/12/2026",
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "10/14/2026",
         "courtType": "SC"
@@ -511,10 +579,10 @@
         "addDesc": null,
         "clearance": null,
         "bondBailType": "C/B",
-        "bondAmount": 560000,
+        "bondAmount": 45000,
         "cashAmount": null,
         "courtCase": "2610073618",
-        "nextCourtDate": "10/15/2026",
+        "nextCourtDate": "11/10/2026",
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "10/14/2026",
         "courtType": "SC"
@@ -568,7 +636,7 @@
         "courtType": "BM"
       }
     ],
-    "age": "38",
+    "age": "65",
     "sex": "M",
     "race": "W",
     "height": "510",
@@ -589,28 +657,28 @@
     "charges": [
       {
         "violation": "9A.44.050(2) - RAPE-2",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
-        "bondBailType": "C/B",
-        "bondAmount": 200000,
+        "clearance": "PR",
+        "bondBailType": "PR",
+        "bondAmount": null,
         "cashAmount": null,
         "courtCase": "2610071218",
-        "nextCourtDate": "10/15/2026",
+        "nextCourtDate": "11/30/2026",
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "10/14/2026",
         "courtType": "SC"
       },
       {
         "violation": "9A.36.021(2)(A) - ASSAULT-2",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
-        "bondBailType": "C/B",
+        "clearance": "PR",
+        "bondBailType": "PR",
         "bondAmount": null,
         "cashAmount": null,
         "courtCase": "2610071218",
-        "nextCourtDate": "10/15/2026",
+        "nextCourtDate": "11/30/2026",
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "10/14/2026",
         "courtType": "SC"
@@ -1104,7 +1172,7 @@
         "bondAmount": 40000,
         "cashAmount": null,
         "courtCase": "2510077918",
-        "nextCourtDate": "10/15/2026",
+        "nextCourtDate": "11/10/2026",
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "10/14/2026",
         "courtType": "SC"
@@ -1138,7 +1206,7 @@
         "bondAmount": null,
         "cashAmount": null,
         "courtCase": "2610029918",
-        "nextCourtDate": "10/15/2026",
+        "nextCourtDate": "10/21/2026",
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "10/14/2026",
         "courtType": "SC"
@@ -1152,7 +1220,7 @@
         "bondAmount": null,
         "cashAmount": null,
         "courtCase": "2610033818",
-        "nextCourtDate": "10/15/2026",
+        "nextCourtDate": "10/21/2026",
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "10/14/2026",
         "courtType": "SC"
@@ -13958,8 +14026,8 @@
     "inmateId": "50005456",
     "schedRelease": "10/09/2026",
     "firstSeen": "09/23/2026, 00:31:46",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "10/15/2026, 16:47:25",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -16382,8 +16450,8 @@
     "inmateId": "30039737",
     "schedRelease": "09/26/2026",
     "firstSeen": "09/19/2026, 00:11:17",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "10/15/2026, 16:47:24",
+    "status": "released"
   },
   {
     "type": "BOOKED",
