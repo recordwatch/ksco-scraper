@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-15T07:11:03.827Z",
+  "generatedAt": "2026-10-15T12:49:46.377Z",
   "bookingCounts": {
-    "total": 3185,
-    "inCustody": 281,
+    "total": 3187,
+    "inCustody": 283,
     "released": 2904
   },
   "gender": [
     {
       "label": "Male",
-      "count": 2177,
+      "count": 2179,
       "pct": 68.4
     },
     {
@@ -19,13 +19,13 @@
     {
       "label": "Unknown",
       "count": 301,
-      "pct": 9.5
+      "pct": 9.4
     }
   ],
   "race": [
     {
       "label": "White",
-      "count": 2249,
+      "count": 2251,
       "pct": 70.6
     },
     {
@@ -36,7 +36,7 @@
     {
       "label": "Black",
       "count": 352,
-      "pct": 11.1
+      "pct": 11
     },
     {
       "label": "Asian / Pacific Islander",
@@ -61,11 +61,11 @@
       },
       {
         "label": "26–35",
-        "count": 893
+        "count": 892
       },
       {
         "label": "36–45",
-        "count": 941
+        "count": 944
       },
       {
         "label": "46–55",
@@ -92,7 +92,7 @@
     },
     {
       "label": "DUI",
-      "count": 607
+      "count": 608
     },
     {
       "label": "Driving While License Suspended",
@@ -100,7 +100,7 @@
     },
     {
       "label": "Drug Offense",
-      "count": 322
+      "count": 323
     },
     {
       "label": "Assault",
@@ -150,7 +150,7 @@
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
-      "count": 2231
+      "count": 2234
     },
     {
       "label": "PORT ORCHARD POLICE DEPARTMENT",
@@ -158,7 +158,7 @@
     },
     {
       "label": "POULSBO POLICE DEPARTMENT",
-      "count": 275
+      "count": 276
     },
     {
       "label": "WASHINGTON STATE PATROL",
@@ -186,11 +186,11 @@
     }
   ],
   "bail": {
-    "mean": 31106.99,
+    "mean": 31110.44,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 2255
+    "count": 2257
   },
   "stay": {
     "mean": 21.7,
@@ -279,15 +279,15 @@
       "count": 4
     },
     {
+      "category": "Residential Burglary",
+      "medianBail": 65000,
+      "meanBail": 75000,
+      "count": 9
+    },
+    {
       "category": "Sex Offense",
       "medianBail": 65000,
       "meanBail": 123750,
-      "count": 8
-    },
-    {
-      "category": "Residential Burglary",
-      "medianBail": 62500,
-      "meanBail": 76250,
       "count": 8
     },
     {
@@ -425,8 +425,8 @@
     {
       "category": "DUI",
       "medianBail": 5000,
-      "meanBail": 17266.01,
-      "count": 303
+      "meanBail": 17225.66,
+      "count": 304
     },
     {
       "category": "Other",
@@ -563,12 +563,14 @@
   ],
   "chargesByRace": {
     "White": {
+      "Residential Burglary": 21,
+      "Burglary (2nd Degree)": 54,
+      "Drug Offense": 250,
+      "DUI": 430,
       "Domestic Violence": 477,
       "Resisting Arrest": 59,
       "Fugitive from Justice": 16,
-      "Drug Offense": 249,
       "Theft (2nd Degree)": 78,
-      "DUI": 429,
       "Assault": 149,
       "Harassment": 85,
       "Sex Offense": 21,
@@ -585,12 +587,10 @@
       "Making False Statements": 52,
       "Obstruction": 117,
       "Malicious Mischief": 51,
-      "Residential Burglary": 20,
       "Motor Vehicle Theft": 22,
       "Child Exploitation / CSAM": 19,
       "Ignition Interlock Violation": 75,
       "Failure to Comply (Sentence)": 43,
-      "Burglary (2nd Degree)": 53,
       "Burglary Tools": 8,
       "Trafficking Stolen Property": 12,
       "Theft (1st Degree)": 20,
@@ -806,12 +806,14 @@
   },
   "chargesBySex": {
     "Male": {
+      "Residential Burglary": 21,
+      "Burglary (2nd Degree)": 47,
+      "Drug Offense": 235,
+      "DUI": 395,
       "Domestic Violence": 445,
       "Resisting Arrest": 62,
       "Fugitive from Justice": 12,
-      "Drug Offense": 234,
       "Theft (2nd Degree)": 58,
-      "DUI": 394,
       "Harassment": 103,
       "Assault": 168,
       "Sex Offense": 24,
@@ -832,9 +834,7 @@
       "Child Exploitation / CSAM": 20,
       "Ignition Interlock Violation": 78,
       "Failure to Comply (Sentence)": 50,
-      "Burglary (2nd Degree)": 46,
       "Burglary Tools": 9,
-      "Residential Burglary": 20,
       "Trafficking Stolen Property": 10,
       "Theft (1st Degree)": 21,
       "Possession of Stolen Property": 20,
@@ -1018,9 +1018,9 @@
     }
   ],
   "recidivism": {
-    "rate": 15.6,
+    "rate": 15.5,
     "repeatBookerCount": 407,
-    "totalIndividuals": 2616,
+    "totalIndividuals": 2618,
     "repeatBookers": [
       {
         "name": "LITTFIN, JOHN STEPHEN",
@@ -1650,13 +1650,13 @@
     },
     {
       "month": "2026-10",
-      "count": 186
+      "count": 188
     }
   ],
   "crimeTypes": [
     {
       "label": "Traffic / DUI",
-      "count": 987,
+      "count": 988,
       "pct": 20.1
     },
     {
@@ -1671,7 +1671,7 @@
     },
     {
       "label": "Property",
-      "count": 689,
+      "count": 690,
       "pct": 14
     },
     {
@@ -1686,7 +1686,7 @@
     },
     {
       "label": "Drug",
-      "count": 322,
+      "count": 323,
       "pct": 6.6
     },
     {
@@ -1713,17 +1713,17 @@
     },
     {
       "label": "Gross Misdemeanor",
-      "count": 2074,
+      "count": 2075,
       "pct": 29.5
     },
     {
       "label": "Felony",
-      "count": 1460,
-      "pct": 20.7
+      "count": 1462,
+      "pct": 20.8
     },
     {
       "label": "Unknown",
-      "count": 1109,
+      "count": 1110,
       "pct": 15.8
     }
   ],
@@ -1854,7 +1854,7 @@
     },
     {
       "name": "Bremerton PD",
-      "count": 2231,
+      "count": 2234,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -1871,7 +1871,7 @@
         },
         {
           "label": "Drug Offense",
-          "count": 164
+          "count": 165
         },
         {
           "label": "Criminal Trespass",
@@ -1908,12 +1908,12 @@
     },
     {
       "name": "Poulsbo PD",
-      "count": 280,
+      "count": 281,
       "topCharge": "DUI",
       "chargeBreakdown": [
         {
           "label": "DUI",
-          "count": 50
+          "count": 51
         },
         {
           "label": "Driving While License Suspended",
@@ -2302,7 +2302,7 @@
         },
         {
           "label": "Drug Offense",
-          "count": 97
+          "count": 96
         }
       ]
     },
@@ -2319,7 +2319,7 @@
         },
         {
           "label": "DUI",
-          "count": 144
+          "count": 145
         },
         {
           "label": "Driving While License Suspended",
@@ -2327,7 +2327,7 @@
         },
         {
           "label": "Drug Offense",
-          "count": 122
+          "count": 124
         }
       ]
     },
@@ -2458,7 +2458,7 @@
       "crimeTypes": [
         {
           "label": "Court / Supervision",
-          "count": 288
+          "count": 287
         },
         {
           "label": "Traffic / DUI",
@@ -2482,7 +2482,7 @@
         },
         {
           "label": "Drug",
-          "count": 97
+          "count": 96
         },
         {
           "label": "Fraud / Identity",
@@ -2503,7 +2503,7 @@
       "crimeTypes": [
         {
           "label": "Court / Supervision",
-          "count": 350
+          "count": 351
         },
         {
           "label": "Violent",
@@ -2511,11 +2511,11 @@
         },
         {
           "label": "Traffic / DUI",
-          "count": 260
+          "count": 261
         },
         {
           "label": "Property",
-          "count": 246
+          "count": 247
         },
         {
           "label": "Other",
@@ -2523,7 +2523,7 @@
         },
         {
           "label": "Drug",
-          "count": 122
+          "count": 124
         },
         {
           "label": "Order Violations",
@@ -2693,10 +2693,10 @@
       },
       {
         "charge": "DUI",
-        "avgWeight": 181,
+        "avgWeight": 182,
         "avgHeight": "5'9\"",
         "topRace": "White",
-        "n": 372
+        "n": 373
       },
       {
         "charge": "Driving While License Suspended",
@@ -2710,7 +2710,7 @@
         "avgWeight": 184,
         "avgHeight": "5'11\"",
         "topRace": "White",
-        "n": 234
+        "n": 235
       },
       {
         "charge": "Criminal Trespass",
@@ -2829,7 +2829,7 @@
         "avgWeight": 170,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 46
+        "n": 47
       },
       {
         "charge": "Local / Tribal Code",
@@ -2888,6 +2888,13 @@
         "n": 22
       },
       {
+        "charge": "Residential Burglary",
+        "avgWeight": 187,
+        "avgHeight": "5'10\"",
+        "topRace": "White",
+        "n": 21
+      },
+      {
         "charge": "Theft (1st Degree)",
         "avgWeight": 180,
         "avgHeight": "5'9\"",
@@ -2911,13 +2918,6 @@
       {
         "charge": "Child Exploitation / CSAM",
         "avgWeight": 204,
-        "avgHeight": "5'10\"",
-        "topRace": "White",
-        "n": 20
-      },
-      {
-        "charge": "Residential Burglary",
-        "avgWeight": 188,
         "avgHeight": "5'10\"",
         "topRace": "White",
         "n": 20
@@ -2973,7 +2973,7 @@
       },
       {
         "charge": "Fugitive from Justice",
-        "avgWeight": 207,
+        "avgWeight": 208,
         "avgHeight": "5'11\"",
         "topRace": "White",
         "n": 12
@@ -3136,10 +3136,10 @@
       },
       {
         "charge": "Assault",
-        "avgWeight": 157,
+        "avgWeight": 156,
         "avgHeight": "5'5\"",
         "topRace": "White",
-        "n": 45
+        "n": 46
       },
       {
         "charge": "Criminal Trespass",
@@ -3349,7 +3349,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 3182
+      "count": 3184
     }
   ],
   "ftaOriginalCharges": {
