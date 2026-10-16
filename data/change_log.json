@@ -1,19 +1,115 @@
 [
   {
     "type": "BOOKED",
+    "bookingNumber": "2026004588",
+    "name": "SALTER, CHARLES ARTHUR",
+    "bookingDate": "",
+    "charges": [
+      {
+        "violation": "7.105.450(5)(A) - PROTECTION ORDER VIO PREV CONV ATTEMPT",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "NOBD",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "10/16/2026",
+        "arrestAgency": "PORT ORCHARD POLICE DEPARTMENT",
+        "arrestDate": "10/15/2026",
+        "courtType": "SC"
+      },
+      {
+        "violation": "7.105.450(5)(A) - PROTECTION ORDER VIO PREV CONV ATTEMPT",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "NOBD",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "10/16/2026",
+        "arrestAgency": "PORT ORCHARD POLICE DEPARTMENT",
+        "arrestDate": "10/15/2026",
+        "courtType": "SC"
+      },
+      {
+        "violation": "46.20.342(1)(C) - DWLS 3 -DRIVE W/LICENSE SUSP OR REVOKED-3 OR REVOKED LIC OR PRIVILEGE",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 1000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "10/16/2026",
+        "arrestAgency": "PORT ORCHARD POLICE DEPARTMENT",
+        "arrestDate": "10/15/2026",
+        "courtType": "SC"
+      }
+    ],
+    "age": "49",
+    "sex": "M",
+    "race": "W",
+    "height": "602",
+    "weight": "235",
+    "hair": "RED",
+    "eyes": "HAZ",
+    "inmateId": "40748825",
+    "schedRelease": null,
+    "firstSeen": "10/15/2026, 20:45:23",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
+    "bookingNumber": "2026004589",
+    "name": "JOSLIN, WADE MEREL",
+    "bookingDate": "",
+    "charges": [
+      {
+        "violation": "7.105.450(1) - PROTECTION ORDER VIOLATION",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "NOBD",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "10/16/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "10/15/2026",
+        "courtType": "BM"
+      }
+    ],
+    "age": "41",
+    "sex": "M",
+    "race": "W",
+    "height": "507",
+    "weight": "185",
+    "hair": "BRO",
+    "eyes": "BRO",
+    "inmateId": "30055916",
+    "schedRelease": null,
+    "firstSeen": "10/15/2026, 20:45:22",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
     "bookingNumber": "2026004585",
     "name": "SUAREZ, JAMES MICHAEL",
     "bookingDate": "",
     "charges": [
       {
-        "violation": "PGTC05.01.01 - ASSAULT 2",
+        "violation": "STC - 14.1.39",
         "cleared": false,
         "addDesc": "ASLT 2 DV",
         "clearance": null,
         "bondBailType": "CBO",
         "bondAmount": 500,
         "cashAmount": null,
-        "courtCase": null,
+        "courtCase": "241201-CR",
         "nextCourtDate": "10/16/2026",
         "arrestAgency": "SUQUAMISH TRIBAL POLICE DEPARTMENT",
         "arrestDate": "10/15/2026",
@@ -75,9 +171,9 @@
     "charges": [
       {
         "violation": "46.20.342(1)(C) - DWLS 3 -DRIVE W/LICENSE SUSP OR REVOKED-3 OR REVOKED LIC OR PRIVILEGE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "DWLS 3",
-        "clearance": null,
+        "clearance": "BR",
         "bondBailType": "C/B",
         "bondAmount": 1000,
         "cashAmount": null,
@@ -98,8 +194,8 @@
     "inmateId": "50005548",
     "schedRelease": null,
     "firstSeen": "10/15/2026, 14:04:40",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "10/15/2026, 20:45:24",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -109,9 +205,9 @@
     "charges": [
       {
         "violation": "46.20.342(1)(C) - DWLS 3 -DRIVE W/LICENSE SUSP OR REVOKED-3 OR REVOKED LIC OR PRIVILEGE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "DWLS 3",
-        "clearance": null,
+        "clearance": "BR",
         "bondBailType": "C/B",
         "bondAmount": 1000,
         "cashAmount": null,
@@ -132,8 +228,8 @@
     "inmateId": "40143073",
     "schedRelease": null,
     "firstSeen": "10/15/2026, 14:04:40",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "10/15/2026, 20:45:25",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -694,8 +790,8 @@
     "inmateId": "50005543",
     "schedRelease": null,
     "firstSeen": "10/15/2026, 00:08:00",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "10/15/2026, 20:45:24",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -10825,7 +10921,7 @@
         "bondAmount": 250,
         "cashAmount": null,
         "courtCase": "51731201",
-        "nextCourtDate": "10/27/2026",
+        "nextCourtDate": "10/16/2026",
         "arrestAgency": "BREMERTON POLICE DEPARTMENT",
         "arrestDate": "09/29/2026",
         "courtType": "BM"
@@ -20694,8 +20790,8 @@
     "inmateId": "50000677",
     "schedRelease": "10/02/2026",
     "firstSeen": "09/11/2026, 23:16:13",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "10/15/2026, 20:45:23",
+    "status": "released"
   },
   {
     "type": "BOOKED",
