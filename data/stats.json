@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-17T14:23:00.973Z",
+  "generatedAt": "2026-10-17T17:30:20.525Z",
   "bookingCounts": {
-    "total": 3221,
-    "inCustody": 283,
-    "released": 2938
+    "total": 3222,
+    "inCustody": 282,
+    "released": 2940
   },
   "gender": [
     {
       "label": "Male",
-      "count": 2204,
+      "count": 2205,
       "pct": 68.4
     },
     {
@@ -25,7 +25,7 @@
   "race": [
     {
       "label": "White",
-      "count": 2276,
+      "count": 2277,
       "pct": 70.7
     },
     {
@@ -57,7 +57,7 @@
     "histogram": [
       {
         "label": "18–25",
-        "count": 457
+        "count": 458
       },
       {
         "label": "26–35",
@@ -186,22 +186,22 @@
     }
   ],
   "bail": {
-    "mean": 30632.64,
+    "mean": 30645.76,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 2260
+    "count": 2259
   },
   "stay": {
     "mean": 21.7,
     "median": 1.9,
     "min": 0,
     "max": 1233.4,
-    "count": 2863,
+    "count": 2864,
     "histogram": [
       {
         "label": "< 1 day",
-        "count": 1031
+        "count": 1032
       },
       {
         "label": "1–3 days",
@@ -423,12 +423,6 @@
       "count": 58
     },
     {
-      "category": "Hit and Run",
-      "medianBail": 5000,
-      "meanBail": 14886.36,
-      "count": 33
-    },
-    {
       "category": "Obstruction",
       "medianBail": 5000,
       "meanBail": 5267.44,
@@ -457,6 +451,12 @@
       "medianBail": 5000,
       "meanBail": 17378.22,
       "count": 303
+    },
+    {
+      "category": "Hit and Run",
+      "medianBail": 5000,
+      "meanBail": 15320.31,
+      "count": 32
     },
     {
       "category": "Ignition Interlock Violation",
@@ -562,43 +562,6 @@
     }
   ],
   "chargesByRace": {
-    "Asian / Pacific Islander": {
-      "Hit and Run": 3,
-      "DUI": 24,
-      "Driving While License Suspended": 15,
-      "Ignition Interlock Violation": 7,
-      "DOC Warrant": 6,
-      "Protection Order Violation": 12,
-      "Failure to Appear": 20,
-      "Harassment": 4,
-      "Obstruction": 4,
-      "Domestic Violence": 28,
-      "Drug Offense": 10,
-      "Theft (3rd Degree)": 8,
-      "Community Custody Violation": 2,
-      "Vehicle Prowling": 2,
-      "Weapons": 4,
-      "Making False Statements": 1,
-      "Criminal Trespass": 8,
-      "Resisting Arrest": 4,
-      "Fugitive from Justice": 1,
-      "Kidnapping / Unlawful Imprisonment": 1,
-      "Assault": 6,
-      "PR / Bail Revocation": 1,
-      "Other": 2,
-      "Indecent Exposure": 1,
-      "Theft (1st Degree)": 1,
-      "Malicious Mischief": 2,
-      "Reckless Driving": 1,
-      "Attempt to Elude": 1,
-      "Criminal Impersonation": 1,
-      "Motor Vehicle Theft": 2,
-      "Theft (2nd Degree)": 1,
-      "Residential Burglary": 1,
-      "Forgery": 1,
-      "Possession of Stolen Vehicle": 1,
-      "Traffic Violation": 1
-    },
     "White": {
       "DUI": 437,
       "Resisting Arrest": 60,
@@ -663,6 +626,43 @@
       "Incest": 1,
       "Theft": 1,
       "Bribery": 1
+    },
+    "Asian / Pacific Islander": {
+      "Hit and Run": 3,
+      "DUI": 24,
+      "Driving While License Suspended": 15,
+      "Ignition Interlock Violation": 7,
+      "DOC Warrant": 6,
+      "Protection Order Violation": 12,
+      "Failure to Appear": 20,
+      "Harassment": 4,
+      "Obstruction": 4,
+      "Domestic Violence": 28,
+      "Drug Offense": 10,
+      "Theft (3rd Degree)": 8,
+      "Community Custody Violation": 2,
+      "Vehicle Prowling": 2,
+      "Weapons": 4,
+      "Making False Statements": 1,
+      "Criminal Trespass": 8,
+      "Resisting Arrest": 4,
+      "Fugitive from Justice": 1,
+      "Kidnapping / Unlawful Imprisonment": 1,
+      "Assault": 6,
+      "PR / Bail Revocation": 1,
+      "Other": 2,
+      "Indecent Exposure": 1,
+      "Theft (1st Degree)": 1,
+      "Malicious Mischief": 2,
+      "Reckless Driving": 1,
+      "Attempt to Elude": 1,
+      "Criminal Impersonation": 1,
+      "Motor Vehicle Theft": 2,
+      "Theft (2nd Degree)": 1,
+      "Residential Burglary": 1,
+      "Forgery": 1,
+      "Possession of Stolen Vehicle": 1,
+      "Traffic Violation": 1
     },
     "Unknown": {
       "DUI": 102,
@@ -978,7 +978,7 @@
     },
     {
       "label": "Released (Unknown Reason)",
-      "count": 763
+      "count": 764
     },
     {
       "label": "Released",
@@ -986,7 +986,7 @@
     },
     {
       "label": "Scheduled Release / Time Served",
-      "count": 201
+      "count": 202
     },
     {
       "label": "DOC Transfer / Detainer",
@@ -1020,7 +1020,7 @@
   "recidivism": {
     "rate": 15.6,
     "repeatBookerCount": 413,
-    "totalIndividuals": 2640,
+    "totalIndividuals": 2641,
     "repeatBookers": [
       {
         "name": "LITTFIN, JOHN STEPHEN",
@@ -1655,7 +1655,7 @@
     },
     {
       "month": "2026-10",
-      "count": 222
+      "count": 223
     }
   ],
   "crimeTypes": [
@@ -2256,7 +2256,7 @@
     }
   ],
   "bailOnRelease": {
-    "total": 2938,
+    "total": 2940,
     "withBail": 1355,
     "pct": 46.1
   },
@@ -3354,7 +3354,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 3218
+      "count": 3219
     }
   ],
   "ftaOriginalCharges": {

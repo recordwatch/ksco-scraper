@@ -1,17 +1,36 @@
 [
   {
     "type": "BOOKED",
+    "bookingNumber": "2026004622",
+    "name": "TROCHE, NASIERR J",
+    "bookingDate": "",
+    "charges": [],
+    "age": "22",
+    "sex": "M",
+    "race": "W",
+    "height": null,
+    "weight": null,
+    "hair": "Eyes",
+    "eyes": "Height",
+    "inmateId": "50005555",
+    "schedRelease": null,
+    "firstSeen": "10/17/2026, 10:27:29",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
     "bookingNumber": "2026004621",
     "name": "PANGILINAN, MICHAEL RAYVEN",
     "bookingDate": "",
     "charges": [
       {
         "violation": "46.52.010(3) - HIT/RUN UNATTENDED VEHICLE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "HIT AND RUN",
-        "clearance": null,
-        "bondBailType": "C/B",
-        "bondAmount": 1000,
+        "clearance": "BR",
+        "bondBailType": "PR",
+        "bondAmount": null,
         "cashAmount": null,
         "courtCase": null,
         "nextCourtDate": "10/19/2026",
@@ -30,8 +49,8 @@
     "inmateId": "50004540",
     "schedRelease": null,
     "firstSeen": "10/17/2026, 07:19:59",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "10/17/2026, 24:45:00",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -82,7 +101,7 @@
         "courtType": "DS"
       }
     ],
-    "age": "39",
+    "age": "40",
     "sex": "F",
     "race": "W",
     "height": "504",
@@ -480,7 +499,7 @@
     "hair": "BRO",
     "eyes": "GRN",
     "inmateId": "50004570",
-    "schedRelease": "11/06/2026",
+    "schedRelease": "11/04/2026",
     "firstSeen": "10/16/2026, 18:27:58",
     "releasedAt": null,
     "status": "in_custody"
@@ -657,9 +676,9 @@
     "charges": [
       {
         "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "DUI",
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "NOBD",
         "bondAmount": null,
         "cashAmount": null,
@@ -680,8 +699,8 @@
     "inmateId": "50003796",
     "schedRelease": "10/17/2026",
     "firstSeen": "10/16/2026, 10:51:32",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "10/17/2026, 01:16:00",
+    "status": "released"
   },
   {
     "type": "BOOKED",
