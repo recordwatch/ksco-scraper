@@ -155535,9 +155535,9 @@
       }
     ],
     "totalBond": 25000,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "10/15/2026, 16:47:23",
-    "releasedAt": null
+    "releasedAt": "10/17/2026, 15:02:53"
   },
   "2026004585": {
     "bookingNumber": "2026004585",
@@ -156592,9 +156592,9 @@
     "charges": [
       {
         "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "1 DAY COMMITMENT",
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": null,
         "bondAmount": null,
         "cashAmount": null,
@@ -156606,9 +156606,9 @@
       }
     ],
     "totalBond": null,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "10/16/2026, 18:27:59",
-    "releasedAt": null
+    "releasedAt": "10/17/2026, 15:02:53"
   },
   "2026004612": {
     "bookingNumber": "2026004612",
@@ -157055,11 +157055,11 @@
     "charges": [
       {
         "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "DUI",
-        "clearance": null,
-        "bondBailType": "C/B",
-        "bondAmount": 5000,
+        "clearance": "POST",
+        "bondBailType": "POST",
+        "bondAmount": null,
         "cashAmount": null,
         "courtCase": null,
         "nextCourtDate": "10/19/2026",
@@ -157069,8 +157069,75 @@
       }
     ],
     "totalBond": null,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "10/17/2026, 10:27:29",
+    "releasedAt": "10/17/2026, 15:02:54"
+  },
+  "2026004623": {
+    "bookingNumber": "2026004623",
+    "firstName": "BRYANT",
+    "lastName": "WALKER",
+    "middleName": "N",
+    "race": "W",
+    "sex": "M",
+    "bookingDate": "",
+    "releaseDate": "",
+    "schReleaseDate": "",
+    "detailUrl": "https://incustody.kitsap.gov/Home/BookingSearchResult?LastName=%25&FirstName=&BookingFrom=&BookingTo=&ValidSearch=&sort=BookingDate&sortdir=DESC&page=19&BookingNumber=15",
+    "inmateId": "40016766",
+    "schedRelease": null,
+    "age": "37",
+    "height": "510",
+    "weight": "190",
+    "hair": "BAL",
+    "eyes": "BLU",
+    "charges": [
+      {
+        "violation": "9A.48.070(2) - MALICIOUS MISCHIEF-1",
+        "cleared": false,
+        "addDesc": "MAL MIS 1",
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 50000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "10/19/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "10/17/2026",
+        "courtType": "BM"
+      },
+      {
+        "violation": "9A.46.110 - STALKING",
+        "cleared": false,
+        "addDesc": "STALKING DV",
+        "clearance": null,
+        "bondBailType": "NOBD",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "10/19/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "10/17/2026",
+        "courtType": "BM"
+      },
+      {
+        "violation": "9A.46.110 - STALKING",
+        "cleared": false,
+        "addDesc": "STALK",
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 5000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "10/19/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "10/17/2026",
+        "courtType": "BM"
+      }
+    ],
+    "totalBond": 55000,
+    "status": "in_custody",
+    "firstSeen": "10/17/2026, 15:02:53",
     "releasedAt": null
   }
 }

@@ -1,17 +1,79 @@
 [
   {
     "type": "BOOKED",
+    "bookingNumber": "2026004623",
+    "name": "WALKER, BRYANT N",
+    "bookingDate": "",
+    "charges": [
+      {
+        "violation": "9A.48.070(2) - MALICIOUS MISCHIEF-1",
+        "cleared": false,
+        "addDesc": "MAL MIS 1",
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 50000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "10/19/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "10/17/2026",
+        "courtType": "BM"
+      },
+      {
+        "violation": "9A.46.110 - STALKING",
+        "cleared": false,
+        "addDesc": "STALKING DV",
+        "clearance": null,
+        "bondBailType": "NOBD",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "10/19/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "10/17/2026",
+        "courtType": "BM"
+      },
+      {
+        "violation": "9A.46.110 - STALKING",
+        "cleared": false,
+        "addDesc": "STALK",
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 5000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "10/19/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "10/17/2026",
+        "courtType": "BM"
+      }
+    ],
+    "age": "37",
+    "sex": "M",
+    "race": "W",
+    "height": "510",
+    "weight": "190",
+    "hair": "BAL",
+    "eyes": "BLU",
+    "inmateId": "40016766",
+    "schedRelease": null,
+    "firstSeen": "10/17/2026, 15:02:53",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
     "bookingNumber": "2026004622",
     "name": "TROCHE, NASIERR J",
     "bookingDate": "",
     "charges": [
       {
         "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "DUI",
-        "clearance": null,
-        "bondBailType": "C/B",
-        "bondAmount": 5000,
+        "clearance": "POST",
+        "bondBailType": "POST",
+        "bondAmount": null,
         "cashAmount": null,
         "courtCase": null,
         "nextCourtDate": "10/19/2026",
@@ -30,8 +92,8 @@
     "inmateId": "50005555",
     "schedRelease": null,
     "firstSeen": "10/17/2026, 10:27:29",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "10/17/2026, 15:02:54",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -425,9 +487,9 @@
     "charges": [
       {
         "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "1 DAY COMMITMENT",
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": null,
         "bondAmount": null,
         "cashAmount": null,
@@ -448,8 +510,8 @@
     "inmateId": "50004997",
     "schedRelease": "10/17/2026",
     "firstSeen": "10/16/2026, 18:27:59",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "10/17/2026, 15:02:53",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -1414,8 +1476,8 @@
     "inmateId": "30037098",
     "schedRelease": null,
     "firstSeen": "10/15/2026, 16:47:23",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "10/17/2026, 15:02:53",
+    "status": "released"
   },
   {
     "type": "BOOKED",

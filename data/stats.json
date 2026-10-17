@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-17T19:42:39.369Z",
+  "generatedAt": "2026-10-17T22:06:02.515Z",
   "bookingCounts": {
-    "total": 3222,
-    "inCustody": 282,
-    "released": 2940
+    "total": 3223,
+    "inCustody": 280,
+    "released": 2943
   },
   "gender": [
     {
       "label": "Male",
-      "count": 2205,
+      "count": 2206,
       "pct": 68.4
     },
     {
@@ -25,7 +25,7 @@
   "race": [
     {
       "label": "White",
-      "count": 2277,
+      "count": 2278,
       "pct": 70.7
     },
     {
@@ -65,7 +65,7 @@
       },
       {
         "label": "36–45",
-        "count": 954
+        "count": 955
       },
       {
         "label": "46–55",
@@ -150,7 +150,7 @@
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
-      "count": 2248
+      "count": 2251
     },
     {
       "label": "PORT ORCHARD POLICE DEPARTMENT",
@@ -186,26 +186,26 @@
     }
   ],
   "bail": {
-    "mean": 30634.41,
+    "mean": 30642.98,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 2260
+    "count": 2261
   },
   "stay": {
     "mean": 21.7,
     "median": 1.9,
     "min": 0,
     "max": 1233.4,
-    "count": 2864,
+    "count": 2867,
     "histogram": [
       {
         "label": "< 1 day",
-        "count": 1032
+        "count": 1034
       },
       {
         "label": "1–3 days",
-        "count": 641
+        "count": 642
       },
       {
         "label": "4–7 days",
@@ -231,12 +231,6 @@
   },
   "bailByCharge": [
     {
-      "category": "Stalking",
-      "medianBail": 1000000,
-      "meanBail": 1000000,
-      "count": 1
-    },
-    {
       "category": "Homicide",
       "medianBail": 1000000,
       "meanBail": 1400000,
@@ -246,6 +240,12 @@
       "category": "Human Trafficking",
       "medianBail": 625000,
       "meanBail": 625000,
+      "count": 2
+    },
+    {
+      "category": "Stalking",
+      "medianBail": 502500,
+      "meanBail": 502500,
       "count": 2
     },
     {
@@ -423,10 +423,10 @@
       "count": 58
     },
     {
-      "category": "DUI",
+      "category": "Malicious Mischief",
       "medianBail": 5000,
-      "meanBail": 17337.5,
-      "count": 304
+      "meanBail": 9757.58,
+      "count": 33
     },
     {
       "category": "Obstruction",
@@ -441,16 +441,16 @@
       "count": 74
     },
     {
-      "category": "Malicious Mischief",
-      "medianBail": 5000,
-      "meanBail": 8500,
-      "count": 32
-    },
-    {
       "category": "Domestic Violence",
       "medianBail": 5000,
       "meanBail": 57243.75,
       "count": 216
+    },
+    {
+      "category": "DUI",
+      "medianBail": 5000,
+      "meanBail": 17378.22,
+      "count": 303
     },
     {
       "category": "Hit and Run",
@@ -563,15 +563,15 @@
   ],
   "chargesByRace": {
     "White": {
+      "Malicious Mischief": 53,
+      "Stalking": 12,
       "DUI": 438,
       "Resisting Arrest": 60,
       "Obstruction": 120,
       "Domestic Violence": 485,
       "Other": 114,
       "Driving While License Suspended": 283,
-      "Malicious Mischief": 52,
       "Assault": 151,
-      "Stalking": 11,
       "Protection Order Violation": 153,
       "DOC Warrant": 138,
       "Failure to Comply (Sentence)": 46,
@@ -806,13 +806,13 @@
   },
   "chargesBySex": {
     "Male": {
+      "Malicious Mischief": 62,
+      "Stalking": 15,
       "DUI": 405,
       "Hit and Run": 63,
       "Other": 125,
       "Driving While License Suspended": 300,
-      "Malicious Mischief": 61,
       "Obstruction": 119,
-      "Stalking": 14,
       "Protection Order Violation": 157,
       "Domestic Violence": 452,
       "DOC Warrant": 145,
@@ -978,15 +978,15 @@
     },
     {
       "label": "Released (Unknown Reason)",
-      "count": 764
+      "count": 765
     },
     {
       "label": "Released",
-      "count": 705
+      "count": 706
     },
     {
       "label": "Scheduled Release / Time Served",
-      "count": 202
+      "count": 203
     },
     {
       "label": "DOC Transfer / Detainer",
@@ -1020,7 +1020,7 @@
   "recidivism": {
     "rate": 15.6,
     "repeatBookerCount": 413,
-    "totalIndividuals": 2641,
+    "totalIndividuals": 2642,
     "repeatBookers": [
       {
         "name": "LITTFIN, JOHN STEPHEN",
@@ -1655,7 +1655,7 @@
     },
     {
       "month": "2026-10",
-      "count": 223
+      "count": 224
     }
   ],
   "crimeTypes": [
@@ -1676,7 +1676,7 @@
     },
     {
       "label": "Property",
-      "count": 693,
+      "count": 694,
       "pct": 14
     },
     {
@@ -1686,7 +1686,7 @@
     },
     {
       "label": "Order Violations",
-      "count": 370,
+      "count": 371,
       "pct": 7.5
     },
     {
@@ -1718,18 +1718,18 @@
     },
     {
       "label": "Gross Misdemeanor",
-      "count": 2108,
+      "count": 2109,
       "pct": 29.6
     },
     {
       "label": "Felony",
-      "count": 1473,
+      "count": 1475,
       "pct": 20.7
     },
     {
       "label": "Unknown",
       "count": 1120,
-      "pct": 15.8
+      "pct": 15.7
     }
   ],
   "avgCharges": {
@@ -1859,7 +1859,7 @@
     },
     {
       "name": "Bremerton PD",
-      "count": 2248,
+      "count": 2251,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -2256,8 +2256,8 @@
     }
   ],
   "bailOnRelease": {
-    "total": 2940,
-    "withBail": 1355,
+    "total": 2943,
+    "withBail": 1356,
     "pct": 46.1
   },
   "chargesByAgeGroup": [
@@ -2520,7 +2520,7 @@
         },
         {
           "label": "Property",
-          "count": 249
+          "count": 250
         },
         {
           "label": "Other",
@@ -2532,7 +2532,7 @@
         },
         {
           "label": "Order Violations",
-          "count": 115
+          "count": 116
         },
         {
           "label": "Fraud / Identity",
@@ -2799,7 +2799,7 @@
         "avgWeight": 188,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 59
+        "n": 60
       },
       {
         "charge": "Theft (2nd Degree)",
@@ -2974,7 +2974,7 @@
         "avgWeight": 188,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 13
+        "n": 14
       },
       {
         "charge": "Fugitive from Justice",
@@ -3354,7 +3354,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 3219
+      "count": 3220
     }
   ],
   "ftaOriginalCharges": {
