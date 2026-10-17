@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T17:30:20.525Z",
+  "generatedAt": "2026-10-17T19:42:39.369Z",
   "bookingCounts": {
     "total": 3222,
     "inCustody": 282,
@@ -92,7 +92,7 @@
     },
     {
       "label": "DUI",
-      "count": 620
+      "count": 621
     },
     {
       "label": "Driving While License Suspended",
@@ -162,7 +162,7 @@
     },
     {
       "label": "WASHINGTON STATE PATROL",
-      "count": 260
+      "count": 261
     },
     {
       "label": "GIG HARBOR POLICE DEPARTMENT",
@@ -186,11 +186,11 @@
     }
   ],
   "bail": {
-    "mean": 30645.76,
+    "mean": 30634.41,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 2259
+    "count": 2260
   },
   "stay": {
     "mean": 21.7,
@@ -423,6 +423,12 @@
       "count": 58
     },
     {
+      "category": "DUI",
+      "medianBail": 5000,
+      "meanBail": 17337.5,
+      "count": 304
+    },
+    {
       "category": "Obstruction",
       "medianBail": 5000,
       "meanBail": 5267.44,
@@ -445,12 +451,6 @@
       "medianBail": 5000,
       "meanBail": 57243.75,
       "count": 216
-    },
-    {
-      "category": "DUI",
-      "medianBail": 5000,
-      "meanBail": 17378.22,
-      "count": 303
     },
     {
       "category": "Hit and Run",
@@ -563,7 +563,7 @@
   ],
   "chargesByRace": {
     "White": {
-      "DUI": 437,
+      "DUI": 438,
       "Resisting Arrest": 60,
       "Obstruction": 120,
       "Domestic Violence": 485,
@@ -806,8 +806,8 @@
   },
   "chargesBySex": {
     "Male": {
+      "DUI": 405,
       "Hit and Run": 63,
-      "DUI": 404,
       "Other": 125,
       "Driving While License Suspended": 300,
       "Malicious Mischief": 61,
@@ -1661,7 +1661,7 @@
   "crimeTypes": [
     {
       "label": "Traffic / DUI",
-      "count": 1006,
+      "count": 1007,
       "pct": 20.3
     },
     {
@@ -1718,7 +1718,7 @@
     },
     {
       "label": "Gross Misdemeanor",
-      "count": 2107,
+      "count": 2108,
       "pct": 29.6
     },
     {
@@ -1940,12 +1940,12 @@
     },
     {
       "name": "WASHINGTON STATE PATROL",
-      "count": 260,
+      "count": 261,
       "topCharge": "DUI",
       "chargeBreakdown": [
         {
           "label": "DUI",
-          "count": 97
+          "count": 98
         },
         {
           "label": "Driving While License Suspended",
@@ -2266,7 +2266,7 @@
       "topCharges": [
         {
           "label": "DUI",
-          "count": 125
+          "count": 126
         },
         {
           "label": "Domestic Violence",
@@ -2418,7 +2418,7 @@
       "crimeTypes": [
         {
           "label": "Traffic / DUI",
-          "count": 173
+          "count": 174
         },
         {
           "label": "Violent",
@@ -2698,10 +2698,10 @@
       },
       {
         "charge": "DUI",
-        "avgWeight": 181,
+        "avgWeight": 182,
         "avgHeight": "5'9\"",
         "topRace": "White",
-        "n": 381
+        "n": 382
       },
       {
         "charge": "Driving While License Suspended",

@@ -155521,9 +155521,9 @@
     "charges": [
       {
         "violation": "9.41.040(1)(B) - FIREARM POSSESSION UNLAWFUL-1",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "C/B",
         "bondBailType": "C/B",
         "bondAmount": 5000,
         "cashAmount": null,
@@ -157048,11 +157048,26 @@
     "inmateId": "50005555",
     "schedRelease": null,
     "age": "22",
-    "height": null,
-    "weight": null,
-    "hair": "Eyes",
-    "eyes": "Height",
-    "charges": [],
+    "height": "506",
+    "weight": "210",
+    "hair": "BLK",
+    "eyes": "BRO",
+    "charges": [
+      {
+        "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
+        "cleared": false,
+        "addDesc": "DUI",
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 5000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "10/19/2026",
+        "arrestAgency": "WASHINGTON STATE PATROL",
+        "arrestDate": "10/17/2026",
+        "courtType": "DS"
+      }
+    ],
     "totalBond": null,
     "status": "in_custody",
     "firstSeen": "10/17/2026, 10:27:29",
