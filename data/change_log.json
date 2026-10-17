@@ -1,6 +1,68 @@
 [
   {
     "type": "BOOKED",
+    "bookingNumber": "2026004615",
+    "name": "KENNEDY, RICHARD STEVEN",
+    "bookingDate": "",
+    "charges": [
+      {
+        "violation": "9A.48.090(2) - MALICIOUS MISCHIEF-3",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 11000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "10/19/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "10/16/2026",
+        "courtType": "DS"
+      },
+      {
+        "violation": "9A.84.030(2) - DISORDERLY CONDUCT INCLUDES ABUSIVE LANGUAGE/PROVOKE ASSAULT/OBSTRUCT VEHICLE OR PEDESTRIAN TRAFFIC",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "CC",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "10/19/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "10/16/2026",
+        "courtType": "DS"
+      },
+      {
+        "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "CC",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "10/19/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "10/16/2026",
+        "courtType": "DS"
+      }
+    ],
+    "age": "55",
+    "sex": "M",
+    "race": "W",
+    "height": "508",
+    "weight": "170",
+    "hair": "GRY",
+    "eyes": "GRN",
+    "inmateId": "40050579",
+    "schedRelease": null,
+    "firstSeen": "10/16/2026, 23:01:05",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
     "bookingNumber": "2026004610",
     "name": "WESTBROOK, RYAN LOWELL",
     "bookingDate": "",
@@ -20,7 +82,7 @@
         "courtType": null
       }
     ],
-    "age": "33",
+    "age": "40",
     "sex": "M",
     "race": "W",
     "height": "600",
@@ -100,7 +162,7 @@
     "sex": "F",
     "race": "W",
     "height": "504",
-    "weight": "145",
+    "weight": "135",
     "hair": "BRO",
     "eyes": "BLU",
     "inmateId": "50004983",
@@ -130,7 +192,7 @@
         "courtType": null
       }
     ],
-    "age": "36",
+    "age": "37",
     "sex": "M",
     "race": "W",
     "height": "600",
@@ -151,9 +213,9 @@
     "charges": [
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "ASSAULT 4 / OBSTRUCT",
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": 2500,
         "cashAmount": null,
@@ -174,16 +236,31 @@
     "inmateId": "40118924",
     "schedRelease": null,
     "firstSeen": "10/16/2026, 18:27:59",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "10/16/2026, 23:01:05",
+    "status": "released"
   },
   {
     "type": "BOOKED",
     "bookingNumber": "2026004613",
     "name": "ALLISON, KAYDEN DOUGLAS",
     "bookingDate": "",
-    "charges": [],
-    "age": "22",
+    "charges": [
+      {
+        "violation": "9A.46.110(5)(A) - STALKING",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "GL",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": "350437289",
+        "nextCourtDate": "10/20/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "10/16/2026",
+        "courtType": "PO"
+      }
+    ],
+    "age": "23",
     "sex": "M",
     "race": "W",
     "height": "604",
@@ -191,7 +268,7 @@
     "hair": "BRO",
     "eyes": "GRN",
     "inmateId": "50004570",
-    "schedRelease": null,
+    "schedRelease": "11/06/2026",
     "firstSeen": "10/16/2026, 18:27:58",
     "releasedAt": null,
     "status": "in_custody"
@@ -727,8 +804,8 @@
     "inmateId": "40323739",
     "schedRelease": null,
     "firstSeen": "10/16/2026, 01:50:49",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "10/16/2026, 23:01:05",
+    "status": "released"
   },
   {
     "type": "BOOKED",
