@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-17T06:03:54.343Z",
+  "generatedAt": "2026-10-17T11:06:48.022Z",
   "bookingCounts": {
-    "total": 3216,
+    "total": 3217,
     "inCustody": 279,
-    "released": 2937
+    "released": 2938
   },
   "gender": [
     {
       "label": "Male",
-      "count": 2201,
+      "count": 2202,
       "pct": 68.4
     },
     {
@@ -25,8 +25,8 @@
   "race": [
     {
       "label": "White",
-      "count": 2272,
-      "pct": 70.6
+      "count": 2273,
+      "pct": 70.7
     },
     {
       "label": "Unknown",
@@ -61,7 +61,7 @@
       },
       {
         "label": "26–35",
-        "count": 902
+        "count": 903
       },
       {
         "label": "36–45",
@@ -96,7 +96,7 @@
     },
     {
       "label": "Driving While License Suspended",
-      "count": 401
+      "count": 402
     },
     {
       "label": "Drug Offense",
@@ -124,7 +124,7 @@
     },
     {
       "label": "Other",
-      "count": 176
+      "count": 177
     },
     {
       "label": "Obstruction",
@@ -166,7 +166,7 @@
     },
     {
       "label": "GIG HARBOR POLICE DEPARTMENT",
-      "count": 120
+      "count": 122
     },
     {
       "label": "SUQUAMISH TRIBAL POLICE DEPARTMENT",
@@ -186,22 +186,22 @@
     }
   ],
   "bail": {
-    "mean": 30681.41,
+    "mean": 30668.48,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 2256
+    "count": 2257
   },
   "stay": {
     "mean": 21.7,
     "median": 1.9,
     "min": 0,
     "max": 1233.4,
-    "count": 2862,
+    "count": 2863,
     "histogram": [
       {
         "label": "< 1 day",
-        "count": 1030
+        "count": 1031
       },
       {
         "label": "1–3 days",
@@ -423,6 +423,12 @@
       "count": 58
     },
     {
+      "category": "Other",
+      "medianBail": 5000,
+      "meanBail": 14831.08,
+      "count": 74
+    },
+    {
       "category": "Malicious Mischief",
       "medianBail": 5000,
       "meanBail": 8500,
@@ -445,12 +451,6 @@
       "medianBail": 5000,
       "meanBail": 17378.22,
       "count": 303
-    },
-    {
-      "category": "Other",
-      "medianBail": 5000,
-      "meanBail": 15013.7,
-      "count": 73
     },
     {
       "category": "Hit and Run",
@@ -563,12 +563,13 @@
   ],
   "chargesByRace": {
     "White": {
+      "Other": 114,
+      "Driving While License Suspended": 283,
       "Malicious Mischief": 52,
       "Obstruction": 119,
       "DUI": 435,
       "Assault": 151,
       "Stalking": 11,
-      "Driving While License Suspended": 282,
       "Protection Order Violation": 153,
       "Domestic Violence": 484,
       "DOC Warrant": 138,
@@ -586,7 +587,6 @@
       "Theft (2nd Degree)": 78,
       "Sex Offense": 21,
       "Theft (3rd Degree)": 180,
-      "Other": 113,
       "Hit and Run": 60,
       "Possession of Stolen Vehicle": 27,
       "Making False Statements": 52,
@@ -806,11 +806,12 @@
   },
   "chargesBySex": {
     "Male": {
+      "Other": 125,
+      "Driving While License Suspended": 300,
       "Malicious Mischief": 61,
       "Obstruction": 119,
       "DUI": 403,
       "Stalking": 14,
-      "Driving While License Suspended": 299,
       "Protection Order Violation": 157,
       "Domestic Violence": 452,
       "DOC Warrant": 145,
@@ -830,7 +831,6 @@
       "Theft (2nd Degree)": 58,
       "Assault": 168,
       "Sex Offense": 24,
-      "Other": 124,
       "Hit and Run": 62,
       "Making False Statements": 52,
       "Possession of Stolen Vehicle": 26,
@@ -978,7 +978,7 @@
     },
     {
       "label": "Released (Unknown Reason)",
-      "count": 762
+      "count": 763
     },
     {
       "label": "Released",
@@ -1020,7 +1020,7 @@
   "recidivism": {
     "rate": 15.7,
     "repeatBookerCount": 413,
-    "totalIndividuals": 2636,
+    "totalIndividuals": 2637,
     "repeatBookers": [
       {
         "name": "LITTFIN, JOHN STEPHEN",
@@ -1655,13 +1655,13 @@
     },
     {
       "month": "2026-10",
-      "count": 217
+      "count": 218
     }
   ],
   "crimeTypes": [
     {
       "label": "Traffic / DUI",
-      "count": 1002,
+      "count": 1003,
       "pct": 20.2
     },
     {
@@ -1681,7 +1681,7 @@
     },
     {
       "label": "Other",
-      "count": 442,
+      "count": 443,
       "pct": 8.9
     },
     {
@@ -1713,7 +1713,7 @@
   "severity": [
     {
       "label": "Misdemeanor",
-      "count": 2408,
+      "count": 2409,
       "pct": 33.9
     },
     {
@@ -1728,7 +1728,7 @@
     },
     {
       "label": "Unknown",
-      "count": 1119,
+      "count": 1120,
       "pct": 15.8
     }
   ],
@@ -1967,7 +1967,7 @@
     },
     {
       "name": "Gig Harbor PD",
-      "count": 120,
+      "count": 122,
       "topCharge": "Theft (3rd Degree)",
       "chargeBreakdown": [
         {
@@ -1983,11 +1983,11 @@
           "count": 15
         },
         {
-          "label": "DUI",
-          "count": 13
+          "label": "Driving While License Suspended",
+          "count": 14
         },
         {
-          "label": "Driving While License Suspended",
+          "label": "DUI",
           "count": 13
         }
       ]
@@ -2256,8 +2256,8 @@
     }
   ],
   "bailOnRelease": {
-    "total": 2937,
-    "withBail": 1354,
+    "total": 2938,
+    "withBail": 1355,
     "pct": 46.1
   },
   "chargesByAgeGroup": [
@@ -2303,7 +2303,7 @@
         },
         {
           "label": "Driving While License Suspended",
-          "count": 126
+          "count": 127
         },
         {
           "label": "Drug Offense",
@@ -2462,12 +2462,12 @@
       "group": "26–35",
       "crimeTypes": [
         {
-          "label": "Court / Supervision",
+          "label": "Traffic / DUI",
           "count": 289
         },
         {
-          "label": "Traffic / DUI",
-          "count": 288
+          "label": "Court / Supervision",
+          "count": 289
         },
         {
           "label": "Violent",
@@ -2479,7 +2479,7 @@
         },
         {
           "label": "Other",
-          "count": 139
+          "count": 140
         },
         {
           "label": "Order Violations",
@@ -2708,7 +2708,7 @@
         "avgWeight": 184,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 291
+        "n": 292
       },
       {
         "charge": "Drug Offense",
@@ -2757,7 +2757,7 @@
         "avgWeight": 182,
         "avgHeight": "5'9\"",
         "topRace": "White",
-        "n": 121
+        "n": 122
       },
       {
         "charge": "Obstruction",
@@ -2971,7 +2971,7 @@
       },
       {
         "charge": "Stalking",
-        "avgWeight": 186,
+        "avgWeight": 188,
         "avgHeight": "5'10\"",
         "topRace": "White",
         "n": 13
@@ -3354,7 +3354,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 3213
+      "count": 3214
     }
   ],
   "ftaOriginalCharges": {

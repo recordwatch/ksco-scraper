@@ -1,15 +1,63 @@
 [
   {
     "type": "BOOKED",
+    "bookingNumber": "2026004617",
+    "name": "MCFARLAND, BLAKE EDWARD",
+    "bookingDate": "",
+    "charges": [
+      {
+        "violation": "46.61.504(5) - PHYSICAL CONTROL",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 1500,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "10/19/2026",
+        "arrestAgency": "GIG HARBOR POLICE DEPARTMENT",
+        "arrestDate": "10/16/2026",
+        "courtType": "GH"
+      },
+      {
+        "violation": "46.20.342(1)(C) - DWLS 3 -DRIVE W/LICENSE SUSP OR REVOKED-3 OR REVOKED LIC OR PRIVILEGE",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "CC",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "10/19/2026",
+        "arrestAgency": "GIG HARBOR POLICE DEPARTMENT",
+        "arrestDate": "10/16/2026",
+        "courtType": "GH"
+      }
+    ],
+    "age": "32",
+    "sex": "M",
+    "race": "W",
+    "height": "510",
+    "weight": "175",
+    "hair": "BRO",
+    "eyes": "BRO",
+    "inmateId": "40597718",
+    "schedRelease": null,
+    "firstSeen": "10/17/2026, 04:04:06",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
     "bookingNumber": "2026004615",
     "name": "KENNEDY, RICHARD STEVEN",
     "bookingDate": "",
     "charges": [
       {
         "violation": "9A.48.090(2) - MALICIOUS MISCHIEF-3",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": 11000,
         "cashAmount": null,
@@ -21,9 +69,9 @@
       },
       {
         "violation": "9A.84.030(2) - DISORDERLY CONDUCT INCLUDES ABUSIVE LANGUAGE/PROVOKE ASSAULT/OBSTRUCT VEHICLE OR PEDESTRIAN TRAFFIC",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "CC",
         "bondAmount": null,
         "cashAmount": null,
@@ -35,9 +83,9 @@
       },
       {
         "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "CC",
         "bondAmount": null,
         "cashAmount": null,
@@ -58,8 +106,8 @@
     "inmateId": "40050579",
     "schedRelease": null,
     "firstSeen": "10/16/2026, 23:01:05",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "10/17/2026, 04:04:06",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -200,7 +248,7 @@
     "hair": "BLK",
     "eyes": "BRO",
     "inmateId": "50004997",
-    "schedRelease": null,
+    "schedRelease": "10/17/2026",
     "firstSeen": "10/16/2026, 18:27:59",
     "releasedAt": null,
     "status": "in_custody"
@@ -263,8 +311,8 @@
     "age": "23",
     "sex": "M",
     "race": "W",
-    "height": "604",
-    "weight": "215",
+    "height": "603",
+    "weight": "240",
     "hair": "BRO",
     "eyes": "GRN",
     "inmateId": "50004570",
@@ -284,7 +332,7 @@
         "cleared": false,
         "addDesc": "2 DAY COMMIT",
         "clearance": null,
-        "bondBailType": "NOBD",
+        "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
         "courtCase": "350427000",
@@ -302,7 +350,7 @@
     "hair": "BLK",
     "eyes": "BRO",
     "inmateId": "50002337",
-    "schedRelease": null,
+    "schedRelease": "10/18/2026",
     "firstSeen": "10/16/2026, 16:19:18",
     "releasedAt": null,
     "status": "in_custody"
