@@ -107123,9 +107123,9 @@
       },
       {
         "violation": "DOCWT - DEPARTMENT OF CORRECTIONS WARRANT",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
@@ -107137,9 +107137,9 @@
       }
     ],
     "totalBond": null,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "08/07/2026, 11:12:37",
-    "releasedAt": null
+    "releasedAt": "10/18/2026, 09:48:10"
   },
   "2026003551": {
     "bookingNumber": "2026003551",
@@ -139042,9 +139042,9 @@
     "charges": [
       {
         "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
@@ -139056,9 +139056,9 @@
       }
     ],
     "totalBond": null,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "09/21/2026, 12:24:25",
-    "releasedAt": null
+    "releasedAt": "10/18/2026, 09:48:10"
   },
   "2026004221": {
     "bookingNumber": "2026004221",
@@ -157350,6 +157350,30 @@
     "totalBond": null,
     "status": "in_custody",
     "firstSeen": "10/18/2026, 06:29:16",
+    "releasedAt": null
+  },
+  "2026004632": {
+    "bookingNumber": "2026004632",
+    "firstName": "DENVER",
+    "lastName": "HARDIN",
+    "middleName": "ROBERT",
+    "race": "W",
+    "sex": "M",
+    "bookingDate": "",
+    "releaseDate": "",
+    "schReleaseDate": "",
+    "detailUrl": "https://incustody.kitsap.gov/Home/BookingSearchResult?LastName=%25&FirstName=&BookingFrom=&BookingTo=&ValidSearch=&sort=BookingDate&sortdir=DESC&page=20&BookingNumber=3",
+    "inmateId": "50001008",
+    "schedRelease": null,
+    "age": "47",
+    "height": "600",
+    "weight": "225",
+    "hair": "BRO",
+    "eyes": "BLU",
+    "charges": [],
+    "totalBond": null,
+    "status": "in_custody",
+    "firstSeen": "10/18/2026, 09:48:10",
     "releasedAt": null
   }
 }

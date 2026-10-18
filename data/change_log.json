@@ -1,6 +1,25 @@
 [
   {
     "type": "BOOKED",
+    "bookingNumber": "2026004632",
+    "name": "HARDIN, DENVER ROBERT",
+    "bookingDate": "",
+    "charges": [],
+    "age": "47",
+    "sex": "M",
+    "race": "W",
+    "height": "600",
+    "weight": "225",
+    "hair": "BRO",
+    "eyes": "BLU",
+    "inmateId": "50001008",
+    "schedRelease": null,
+    "firstSeen": "10/18/2026, 09:48:10",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
     "bookingNumber": "2026004631",
     "name": "SAVAGE, CAULIN PATRICK",
     "bookingDate": "10/18/2026",
@@ -16603,9 +16622,9 @@
     "charges": [
       {
         "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
@@ -16626,8 +16645,8 @@
     "inmateId": "50002952",
     "schedRelease": "10/18/2026",
     "firstSeen": "09/21/2026, 12:24:25",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "10/18/2026, 09:48:10",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -45610,9 +45629,9 @@
       },
       {
         "violation": "DOCWT - DEPARTMENT OF CORRECTIONS WARRANT",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
@@ -45633,8 +45652,8 @@
     "inmateId": "50003936",
     "schedRelease": "10/18/2026",
     "firstSeen": "08/07/2026, 11:12:37",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "10/18/2026, 09:48:10",
+    "status": "released"
   },
   {
     "type": "BOOKED",
