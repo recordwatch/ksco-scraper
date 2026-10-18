@@ -1,6 +1,40 @@
 [
   {
     "type": "BOOKED",
+    "bookingNumber": "2026004631",
+    "name": "SAVAGE, CAULIN PATRICK",
+    "bookingDate": "10/18/2026",
+    "charges": [
+      {
+        "violation": "9A.36.041(2) - ASSAULT-4 - DV",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "NOBD",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "10/19/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "10/18/2026",
+        "courtType": "BM"
+      }
+    ],
+    "age": "23",
+    "sex": "M",
+    "race": "W",
+    "height": "511",
+    "weight": "245",
+    "hair": "BLK",
+    "eyes": "GRN",
+    "inmateId": "50005560",
+    "schedRelease": null,
+    "firstSeen": "10/18/2026, 06:29:16",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
     "bookingNumber": "2026004630",
     "name": "ANDRES GREGORIO, NESTOR EDILBERTO",
     "bookingDate": "",
@@ -14404,9 +14438,9 @@
     "charges": [
       {
         "violation": "DOCWT - DEPARTMENT OF CORRECTIONS WARRANT",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
