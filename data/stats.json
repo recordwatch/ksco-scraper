@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-10-20T01:00:26.230Z",
+  "generatedAt": "2026-10-20T05:55:09.428Z",
   "bookingCounts": {
-    "total": 3243,
-    "inCustody": 285,
-    "released": 2958
+    "total": 3246,
+    "inCustody": 286,
+    "released": 2960
   },
   "gender": [
     {
       "label": "Male",
-      "count": 2222,
+      "count": 2224,
       "pct": 68.5
     },
     {
       "label": "Female",
-      "count": 720,
+      "count": 721,
       "pct": 22.2
     },
     {
@@ -25,7 +25,7 @@
   "race": [
     {
       "label": "White",
-      "count": 2296,
+      "count": 2297,
       "pct": 70.8
     },
     {
@@ -35,8 +35,8 @@
     },
     {
       "label": "Black",
-      "count": 355,
-      "pct": 10.9
+      "count": 357,
+      "pct": 11
     },
     {
       "label": "Asian / Pacific Islander",
@@ -65,11 +65,11 @@
       },
       {
         "label": "36–45",
-        "count": 965
+        "count": 966
       },
       {
         "label": "46–55",
-        "count": 479
+        "count": 480
       },
       {
         "label": "56–65",
@@ -77,14 +77,14 @@
       },
       {
         "label": "65+",
-        "count": 90
+        "count": 91
       }
     ]
   },
   "topCharges": [
     {
       "label": "Domestic Violence",
-      "count": 704
+      "count": 705
     },
     {
       "label": "Failure to Appear",
@@ -108,7 +108,7 @@
     },
     {
       "label": "Criminal Trespass",
-      "count": 230
+      "count": 229
     },
     {
       "label": "Theft (3rd Degree)",
@@ -132,11 +132,11 @@
     },
     {
       "label": "Harassment",
-      "count": 132
+      "count": 133
     },
     {
       "label": "Theft (2nd Degree)",
-      "count": 98
+      "count": 99
     },
     {
       "label": "Ignition Interlock Violation",
@@ -146,7 +146,7 @@
   "topAgencies": [
     {
       "label": "KITSAP COUNTY SHERIFFS OFFICE",
-      "count": 2868
+      "count": 2872
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
@@ -174,7 +174,7 @@
     },
     {
       "label": "BAINBRIDGE ISLAND POLICE DEPARTMENT",
-      "count": 70
+      "count": 71
     },
     {
       "label": "OTHER AGENCY",
@@ -186,22 +186,22 @@
     }
   ],
   "bail": {
-    "mean": 30513.72,
+    "mean": 30524.46,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 2279
+    "count": 2280
   },
   "stay": {
     "mean": 21.7,
     "median": 1.9,
     "min": 0,
     "max": 1233.4,
-    "count": 2882,
+    "count": 2884,
     "histogram": [
       {
         "label": "< 1 day",
-        "count": 1034
+        "count": 1035
       },
       {
         "label": "1–3 days",
@@ -209,7 +209,7 @@
       },
       {
         "label": "4–7 days",
-        "count": 242
+        "count": 243
       },
       {
         "label": "1–2 weeks",
@@ -383,8 +383,8 @@
     {
       "category": "Theft (2nd Degree)",
       "medianBail": 10000,
-      "meanBail": 23260,
-      "count": 35
+      "meanBail": 24141.67,
+      "count": 36
     },
     {
       "category": "Protection Order Violation",
@@ -562,14 +562,70 @@
     }
   ],
   "chargesByRace": {
+    "Black": {
+      "Theft (2nd Degree)": 9,
+      "Domestic Violence": 81,
+      "DUI": 43,
+      "Driving While License Suspended": 51,
+      "Obstruction": 19,
+      "Failure to Appear": 68,
+      "Criminal Trespass": 22,
+      "Assault": 40,
+      "Making False Statements": 9,
+      "Theft (3rd Degree)": 18,
+      "Protection Order Violation": 34,
+      "Failure to Comply (Sentence)": 12,
+      "DOC Warrant": 23,
+      "Court Hold": 3,
+      "Kidnapping / Unlawful Imprisonment": 1,
+      "Resisting Arrest": 14,
+      "Harassment": 26,
+      "Weapons": 15,
+      "PR / Bail Revocation": 6,
+      "Drug Offense": 31,
+      "Hit and Run": 8,
+      "Attempt to Elude": 7,
+      "Malicious Mischief": 9,
+      "Burglary (1st Degree)": 6,
+      "Community Custody Violation": 5,
+      "Other": 24,
+      "Stalking": 2,
+      "Ignition Interlock Violation": 6,
+      "Arson": 1,
+      "Robbery": 8,
+      "Local / Tribal Code": 6,
+      "Homicide": 7,
+      "Burglary (2nd Degree)": 8,
+      "Possession of Stolen Property": 3,
+      "Child Sex Offense": 2,
+      "Indecent Exposure": 6,
+      "Vehicle Prowling": 2,
+      "Child Exploitation / CSAM": 1,
+      "Public Order": 1,
+      "Burglary Tools": 1,
+      "Failure to Register (Sex Offender)": 3,
+      "Fugitive from Justice": 1,
+      "Reckless Driving": 3,
+      "Traffic / Obstruction": 2,
+      "Theft (1st Degree)": 2,
+      "Human Trafficking": 2,
+      "Motor Vehicle Theft": 3,
+      "Witness Tampering": 1,
+      "Residential Burglary": 2,
+      "Possession of Stolen Vehicle": 1,
+      "Interference with DV Reporting": 1,
+      "Sex Offense": 1
+    },
     "White": {
+      "Harassment": 88,
+      "Domestic Violence": 493,
       "Driving While License Suspended": 286,
       "Other": 116,
       "Theft (2nd Degree)": 79,
-      "Criminal Trespass": 176,
+      "Trafficking Stolen Property": 13,
       "Failure to Appear": 538,
       "Theft (3rd Degree)": 181,
-      "Domestic Violence": 492,
+      "Criminal Trespass": 175,
       "Drug Offense": 253,
       "Protection Order Violation": 156,
       "Obstruction": 121,
@@ -584,7 +640,6 @@
       "DOC Warrant": 138,
       "Failure to Comply (Sentence)": 46,
       "Interference with DV Reporting": 28,
-      "Harassment": 87,
       "Fugitive from Justice": 17,
       "Residential Burglary": 21,
       "Burglary (2nd Degree)": 54,
@@ -596,7 +651,6 @@
       "Child Exploitation / CSAM": 19,
       "Ignition Interlock Violation": 75,
       "Burglary Tools": 8,
-      "Trafficking Stolen Property": 12,
       "Theft (1st Degree)": 20,
       "Possession of Stolen Property": 20,
       "Local / Tribal Code": 17,
@@ -626,60 +680,6 @@
       "Incest": 1,
       "Theft": 1,
       "Bribery": 1
-    },
-    "Black": {
-      "Domestic Violence": 81,
-      "DUI": 43,
-      "Driving While License Suspended": 51,
-      "Obstruction": 19,
-      "Failure to Appear": 68,
-      "Criminal Trespass": 22,
-      "Assault": 40,
-      "Making False Statements": 9,
-      "Theft (3rd Degree)": 18,
-      "Protection Order Violation": 34,
-      "Failure to Comply (Sentence)": 12,
-      "DOC Warrant": 23,
-      "Court Hold": 3,
-      "Kidnapping / Unlawful Imprisonment": 1,
-      "Resisting Arrest": 14,
-      "Harassment": 26,
-      "Weapons": 15,
-      "PR / Bail Revocation": 6,
-      "Drug Offense": 31,
-      "Hit and Run": 8,
-      "Attempt to Elude": 7,
-      "Malicious Mischief": 9,
-      "Burglary (1st Degree)": 6,
-      "Community Custody Violation": 5,
-      "Other": 24,
-      "Stalking": 2,
-      "Ignition Interlock Violation": 6,
-      "Arson": 1,
-      "Theft (2nd Degree)": 8,
-      "Robbery": 8,
-      "Local / Tribal Code": 6,
-      "Homicide": 7,
-      "Burglary (2nd Degree)": 8,
-      "Possession of Stolen Property": 3,
-      "Child Sex Offense": 2,
-      "Indecent Exposure": 6,
-      "Vehicle Prowling": 2,
-      "Child Exploitation / CSAM": 1,
-      "Public Order": 1,
-      "Burglary Tools": 1,
-      "Failure to Register (Sex Offender)": 3,
-      "Fugitive from Justice": 1,
-      "Reckless Driving": 3,
-      "Traffic / Obstruction": 2,
-      "Theft (1st Degree)": 2,
-      "Human Trafficking": 2,
-      "Motor Vehicle Theft": 3,
-      "Witness Tampering": 1,
-      "Residential Burglary": 2,
-      "Possession of Stolen Vehicle": 1,
-      "Interference with DV Reporting": 1,
-      "Sex Offense": 1
     },
     "Native American": {
       "Driving While License Suspended": 13,
@@ -806,12 +806,13 @@
   },
   "chargesBySex": {
     "Male": {
+      "Theft (2nd Degree)": 60,
       "Driving While License Suspended": 303,
       "Other": 127,
-      "Theft (2nd Degree)": 59,
-      "Criminal Trespass": 172,
+      "Trafficking Stolen Property": 11,
       "Failure to Appear": 494,
       "Theft (3rd Degree)": 144,
+      "Criminal Trespass": 171,
       "Drug Offense": 239,
       "Domestic Violence": 457,
       "Protection Order Violation": 160,
@@ -839,7 +840,6 @@
       "Possession of Stolen Vehicle": 26,
       "Child Exploitation / CSAM": 20,
       "Burglary Tools": 9,
-      "Trafficking Stolen Property": 10,
       "Theft (1st Degree)": 21,
       "Possession of Stolen Property": 20,
       "Reckless Driving": 26,
@@ -870,7 +870,8 @@
       "Theft": 1
     },
     "Female": {
-      "Domestic Violence": 178,
+      "Harassment": 19,
+      "Domestic Violence": 179,
       "Driving While License Suspended": 77,
       "Failure to Appear": 170,
       "DUI": 138,
@@ -892,7 +893,6 @@
       "Local / Tribal Code": 5,
       "Ignition Interlock Violation": 14,
       "Making False Statements": 13,
-      "Harassment": 18,
       "PR / Bail Revocation": 9,
       "Public Order": 4,
       "Interference with DV Reporting": 5,
@@ -974,11 +974,11 @@
   "releaseReasons": [
     {
       "label": "FTA / Contempt Resolved",
-      "count": 1006
+      "count": 1007
     },
     {
       "label": "Released (Unknown Reason)",
-      "count": 765
+      "count": 766
     },
     {
       "label": "Released",
@@ -1019,8 +1019,8 @@
   ],
   "recidivism": {
     "rate": 15.8,
-    "repeatBookerCount": 419,
-    "totalIndividuals": 2655,
+    "repeatBookerCount": 420,
+    "totalIndividuals": 2657,
     "repeatBookers": [
       {
         "name": "LITTFIN, JOHN STEPHEN",
@@ -1655,7 +1655,7 @@
     },
     {
       "month": "2026-10",
-      "count": 244
+      "count": 247
     }
   ],
   "crimeTypes": [
@@ -1666,7 +1666,7 @@
     },
     {
       "label": "Violent",
-      "count": 946,
+      "count": 947,
       "pct": 18.9
     },
     {
@@ -1676,7 +1676,7 @@
     },
     {
       "label": "Property",
-      "count": 695,
+      "count": 696,
       "pct": 13.9
     },
     {
@@ -1686,7 +1686,7 @@
     },
     {
       "label": "Order Violations",
-      "count": 375,
+      "count": 376,
       "pct": 7.5
     },
     {
@@ -1718,12 +1718,12 @@
     },
     {
       "label": "Gross Misdemeanor",
-      "count": 2125,
+      "count": 2128,
       "pct": 29.7
     },
     {
       "label": "Felony",
-      "count": 1479,
+      "count": 1481,
       "pct": 20.7
     },
     {
@@ -1832,12 +1832,12 @@
   "agencyBreakdown": [
     {
       "name": "Kitsap County Sheriff",
-      "count": 2879,
+      "count": 2883,
       "topCharge": "Domestic Violence",
       "chargeBreakdown": [
         {
           "label": "Domestic Violence",
-          "count": 520
+          "count": 523
         },
         {
           "label": "Failure to Appear",
@@ -2021,7 +2021,7 @@
     },
     {
       "name": "BAINBRIDGE ISLAND POLICE DEPARTMENT",
-      "count": 70,
+      "count": 71,
       "topCharge": "Domestic Violence",
       "chargeBreakdown": [
         {
@@ -2256,8 +2256,8 @@
     }
   ],
   "bailOnRelease": {
-    "total": 2958,
-    "withBail": 1358,
+    "total": 2960,
+    "withBail": 1360,
     "pct": 45.9
   },
   "chargesByAgeGroup": [
@@ -2395,7 +2395,7 @@
         },
         {
           "label": "Domestic Violence",
-          "count": 19
+          "count": 20
         },
         {
           "label": "Criminal Trespass",
@@ -2557,7 +2557,7 @@
         },
         {
           "label": "Property",
-          "count": 131
+          "count": 132
         },
         {
           "label": "Traffic / DUI",
@@ -2647,7 +2647,7 @@
         },
         {
           "label": "Violent",
-          "count": 26
+          "count": 27
         },
         {
           "label": "Property",
@@ -2659,7 +2659,7 @@
         },
         {
           "label": "Order Violations",
-          "count": 8
+          "count": 9
         },
         {
           "label": "Other",
@@ -2722,7 +2722,7 @@
         "avgWeight": 180,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 170
+        "n": 169
       },
       {
         "charge": "Assault",
@@ -2796,10 +2796,10 @@
       },
       {
         "charge": "Theft (2nd Degree)",
-        "avgWeight": 182,
+        "avgWeight": 183,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 59
+        "n": 60
       },
       {
         "charge": "Malicious Mischief",
@@ -2991,18 +2991,18 @@
         "n": 13
       },
       {
+        "charge": "Trafficking Stolen Property",
+        "avgWeight": 186,
+        "avgHeight": "5'11\"",
+        "topRace": "White",
+        "n": 11
+      },
+      {
         "charge": "Kidnapping / Unlawful Imprisonment",
         "avgWeight": 172,
         "avgHeight": "5'8\"",
         "topRace": "White",
         "n": 11
-      },
-      {
-        "charge": "Trafficking Stolen Property",
-        "avgWeight": 190,
-        "avgHeight": "5'11\"",
-        "topRace": "White",
-        "n": 10
       },
       {
         "charge": "Court Hold",
@@ -3102,7 +3102,7 @@
         "avgWeight": 157,
         "avgHeight": "5'4\"",
         "topRace": "White",
-        "n": 166
+        "n": 167
       },
       {
         "charge": "DUI",
@@ -3190,10 +3190,10 @@
       },
       {
         "charge": "Harassment",
-        "avgWeight": 148,
+        "avgWeight": 147,
         "avgHeight": "5'6\"",
         "topRace": "White",
-        "n": 17
+        "n": 18
       },
       {
         "charge": "Burglary (2nd Degree)",
@@ -3354,7 +3354,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 3240
+      "count": 3243
     }
   ],
   "ftaOriginalCharges": {
