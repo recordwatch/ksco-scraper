@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-20T05:55:09.428Z",
+  "generatedAt": "2026-10-20T11:11:02.322Z",
   "bookingCounts": {
     "total": 3246,
-    "inCustody": 286,
-    "released": 2960
+    "inCustody": 285,
+    "released": 2961
   },
   "gender": [
     {
@@ -84,7 +84,7 @@
   "topCharges": [
     {
       "label": "Domestic Violence",
-      "count": 705
+      "count": 706
     },
     {
       "label": "Failure to Appear",
@@ -100,7 +100,7 @@
     },
     {
       "label": "Drug Offense",
-      "count": 326
+      "count": 327
     },
     {
       "label": "Assault",
@@ -162,7 +162,7 @@
     },
     {
       "label": "WASHINGTON STATE PATROL",
-      "count": 262
+      "count": 264
     },
     {
       "label": "GIG HARBOR POLICE DEPARTMENT",
@@ -186,18 +186,18 @@
     }
   ],
   "bail": {
-    "mean": 30524.46,
+    "mean": 30520.71,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 2280
+    "count": 2282
   },
   "stay": {
     "mean": 21.7,
     "median": 1.9,
     "min": 0,
     "max": 1233.4,
-    "count": 2884,
+    "count": 2885,
     "histogram": [
       {
         "label": "< 1 day",
@@ -217,7 +217,7 @@
       },
       {
         "label": "2–4 weeks",
-        "count": 278
+        "count": 279
       },
       {
         "label": "1–3 months",
@@ -423,16 +423,16 @@
       "count": 3
     },
     {
+      "category": "Domestic Violence",
+      "medianBail": 5000,
+      "meanBail": 54998.45,
+      "count": 226
+    },
+    {
       "category": "Other",
       "medianBail": 5000,
       "meanBail": 14646.67,
       "count": 75
-    },
-    {
-      "category": "Domestic Violence",
-      "medianBail": 5000,
-      "meanBail": 55231.78,
-      "count": 225
     },
     {
       "category": "Malicious Mischief",
@@ -507,16 +507,16 @@
       "count": 108
     },
     {
+      "category": "Drug Offense",
+      "medianBail": 2500,
+      "meanBail": 5580.83,
+      "count": 133
+    },
+    {
       "category": "Failure to Appear",
       "medianBail": 2500,
       "meanBail": 8362.77,
       "count": 397
-    },
-    {
-      "category": "Drug Offense",
-      "medianBail": 2500,
-      "meanBail": 5244.32,
-      "count": 132
     },
     {
       "category": "Making False Statements",
@@ -563,8 +563,9 @@
   ],
   "chargesByRace": {
     "Black": {
+      "Domestic Violence": 82,
+      "Drug Offense": 32,
       "Theft (2nd Degree)": 9,
-      "Domestic Violence": 81,
       "DUI": 43,
       "Driving While License Suspended": 51,
       "Obstruction": 19,
@@ -582,7 +583,6 @@
       "Harassment": 26,
       "Weapons": 15,
       "PR / Bail Revocation": 6,
-      "Drug Offense": 31,
       "Hit and Run": 8,
       "Attempt to Elude": 7,
       "Malicious Mischief": 9,
@@ -806,6 +806,8 @@
   },
   "chargesBySex": {
     "Male": {
+      "Domestic Violence": 458,
+      "Drug Offense": 240,
       "Theft (2nd Degree)": 60,
       "Driving While License Suspended": 303,
       "Other": 127,
@@ -813,8 +815,6 @@
       "Failure to Appear": 494,
       "Theft (3rd Degree)": 144,
       "Criminal Trespass": 171,
-      "Drug Offense": 239,
-      "Domestic Violence": 457,
       "Protection Order Violation": 160,
       "Obstruction": 120,
       "DUI": 407,
@@ -978,7 +978,7 @@
     },
     {
       "label": "Released (Unknown Reason)",
-      "count": 766
+      "count": 767
     },
     {
       "label": "Released",
@@ -1666,7 +1666,7 @@
     },
     {
       "label": "Violent",
-      "count": 947,
+      "count": 948,
       "pct": 18.9
     },
     {
@@ -1691,7 +1691,7 @@
     },
     {
       "label": "Drug",
-      "count": 326,
+      "count": 327,
       "pct": 6.5
     },
     {
@@ -1713,7 +1713,7 @@
   "severity": [
     {
       "label": "Misdemeanor",
-      "count": 2427,
+      "count": 2428,
       "pct": 33.9
     },
     {
@@ -1728,7 +1728,7 @@
     },
     {
       "label": "Unknown",
-      "count": 1130,
+      "count": 1131,
       "pct": 15.8
     }
   ],
@@ -1940,7 +1940,7 @@
     },
     {
       "name": "WASHINGTON STATE PATROL",
-      "count": 262,
+      "count": 264,
       "topCharge": "DUI",
       "chargeBreakdown": [
         {
@@ -2256,7 +2256,7 @@
     }
   ],
   "bailOnRelease": {
-    "total": 2960,
+    "total": 2961,
     "withBail": 1360,
     "pct": 45.9
   },
@@ -2320,7 +2320,7 @@
         },
         {
           "label": "Domestic Violence",
-          "count": 213
+          "count": 214
         },
         {
           "label": "DUI",
@@ -2332,7 +2332,7 @@
         },
         {
           "label": "Drug Offense",
-          "count": 124
+          "count": 125
         }
       ]
     },
@@ -2512,7 +2512,7 @@
         },
         {
           "label": "Violent",
-          "count": 274
+          "count": 275
         },
         {
           "label": "Traffic / DUI",
@@ -2528,7 +2528,7 @@
         },
         {
           "label": "Drug",
-          "count": 124
+          "count": 125
         },
         {
           "label": "Order Violations",
@@ -2694,7 +2694,7 @@
         "avgWeight": 189,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 446
+        "n": 447
       },
       {
         "charge": "DUI",
@@ -2715,7 +2715,7 @@
         "avgWeight": 184,
         "avgHeight": "5'11\"",
         "topRace": "White",
-        "n": 239
+        "n": 240
       },
       {
         "charge": "Criminal Trespass",
@@ -3358,14 +3358,14 @@
     }
   ],
   "ftaOriginalCharges": {
-    "ftaTotal": 1213,
-    "resolved": 671,
+    "ftaTotal": 1214,
+    "resolved": 672,
     "unresolved": 542,
-    "pctResolved": 55.3,
+    "pctResolved": 55.4,
     "topOriginalCharges": [
       {
         "label": "Domestic Violence",
-        "count": 198
+        "count": 199
       },
       {
         "label": "DUI",
