@@ -149234,9 +149234,9 @@
       }
     ],
     "totalBond": 11000,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "10/06/2026, 18:15:37",
-    "releasedAt": null
+    "releasedAt": "10/21/2026, 00:16:03"
   },
   "2026004447": {
     "bookingNumber": "2026004447",
@@ -154314,9 +154314,9 @@
     "charges": [
       {
         "violation": "7.105.450(5) - PROTECTION ORDER VIOL PREV CONVICTI",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": 5000,
         "cashAmount": null,
@@ -154328,9 +154328,9 @@
       },
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": 5000,
         "cashAmount": null,
@@ -154342,9 +154342,9 @@
       }
     ],
     "totalBond": null,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "10/13/2026, 22:56:28",
-    "releasedAt": null
+    "releasedAt": "10/21/2026, 00:16:03"
   },
   "2026004552": {
     "bookingNumber": "2026004552",
@@ -157480,9 +157480,9 @@
       }
     ],
     "totalBond": null,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "10/17/2026, 21:58:48",
-    "releasedAt": null
+    "releasedAt": "10/21/2026, 00:16:04"
   },
   "2026004630": {
     "bookingNumber": "2026004630",
@@ -158755,8 +158755,125 @@
       }
     ],
     "totalBond": 1000,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "10/20/2026, 18:52:05",
+    "releasedAt": "10/21/2026, 00:16:04"
+  },
+  "2026004661": {
+    "bookingNumber": "2026004661",
+    "firstName": "SHAWN",
+    "lastName": "FRANCIS",
+    "middleName": "DOMINIQUE",
+    "race": "W",
+    "sex": "M",
+    "bookingDate": "10/20/2026",
+    "releaseDate": "",
+    "schReleaseDate": "",
+    "detailUrl": "https://incustody.kitsap.gov/Home/BookingSearchResult?LastName=%25&FirstName=&BookingFrom=&BookingTo=&ValidSearch=&sort=BookingDate&sortdir=DESC&page=1&BookingNumber=2",
+    "inmateId": "40716506",
+    "schedRelease": null,
+    "age": "49",
+    "height": "510",
+    "weight": "180",
+    "hair": "BRO",
+    "eyes": "BRO",
+    "charges": [
+      {
+        "violation": "9A.36.041(2) - ASSAULT-4 - DV",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "NOBD",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "10/21/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "10/20/2026",
+        "courtType": "BM"
+      }
+    ],
+    "totalBond": null,
+    "status": "in_custody",
+    "firstSeen": "10/21/2026, 00:16:01",
+    "releasedAt": null
+  },
+  "2026004662": {
+    "bookingNumber": "2026004662",
+    "firstName": "TOMMY",
+    "lastName": "DAVIS",
+    "middleName": "EUGENE",
+    "race": "B",
+    "sex": "M",
+    "bookingDate": "",
+    "releaseDate": "",
+    "schReleaseDate": "",
+    "detailUrl": "https://incustody.kitsap.gov/Home/BookingSearchResult?LastName=%25&FirstName=&BookingFrom=&BookingTo=&ValidSearch=&sort=BookingDate&sortdir=DESC&page=19&BookingNumber=8",
+    "inmateId": "50001976",
+    "schedRelease": null,
+    "age": "52",
+    "height": "508",
+    "weight": "175",
+    "hair": "BAL",
+    "eyes": "BRO",
+    "charges": [
+      {
+        "violation": "7.105.450(1) - PROTECTION ORDER VIOLATION",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "NOBD",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "10/21/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "10/20/2026",
+        "courtType": "DS"
+      }
+    ],
+    "totalBond": null,
+    "status": "in_custody",
+    "firstSeen": "10/21/2026, 00:16:02",
+    "releasedAt": null
+  },
+  "2026004663": {
+    "bookingNumber": "2026004663",
+    "firstName": "JORDAN",
+    "lastName": "JOHNSON",
+    "middleName": "R",
+    "race": "W",
+    "sex": "M",
+    "bookingDate": "",
+    "releaseDate": "",
+    "schReleaseDate": "",
+    "detailUrl": "https://incustody.kitsap.gov/Home/BookingSearchResult?LastName=%25&FirstName=&BookingFrom=&BookingTo=&ValidSearch=&sort=BookingDate&sortdir=DESC&page=19&BookingNumber=9",
+    "inmateId": "50005568",
+    "schedRelease": null,
+    "age": "34",
+    "height": "509",
+    "weight": "250",
+    "hair": "BRO",
+    "eyes": "BRO",
+    "charges": [
+      {
+        "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "NOBD",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "10/21/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "10/20/2026",
+        "courtType": "BM"
+      }
+    ],
+    "totalBond": null,
+    "status": "in_custody",
+    "firstSeen": "10/21/2026, 00:16:02",
     "releasedAt": null
   }
 }
