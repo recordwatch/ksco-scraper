@@ -1,6 +1,40 @@
 [
   {
     "type": "BOOKED",
+    "bookingNumber": "2026004659",
+    "name": "HENDERSON, STORMY",
+    "bookingDate": "",
+    "charges": [
+      {
+        "violation": "9A.56.050(2) - THEFT-3",
+        "cleared": true,
+        "addDesc": null,
+        "clearance": "BR",
+        "bondBailType": "C/B",
+        "bondAmount": 1000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "10/21/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "10/20/2026",
+        "courtType": "BM"
+      }
+    ],
+    "age": "45",
+    "sex": "F",
+    "race": "W",
+    "height": "503",
+    "weight": "150",
+    "hair": "BRO",
+    "eyes": "BRO",
+    "inmateId": "30043319",
+    "schedRelease": null,
+    "firstSeen": "10/20/2026, 18:52:05",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
     "bookingNumber": "2026004657",
     "name": "MARSHALL, DAVID ALAN",
     "bookingDate": "",
@@ -140,8 +174,8 @@
     "inmateId": "50005566",
     "schedRelease": null,
     "firstSeen": "10/19/2026, 22:52:33",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "10/20/2026, 18:52:05",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -1133,9 +1167,9 @@
     "charges": [
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "(DV HARASS)",
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": 15000,
         "cashAmount": null,
@@ -1147,9 +1181,9 @@
       },
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "(DV MAL MISC 3)",
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": null,
         "cashAmount": null,
@@ -1161,9 +1195,9 @@
       },
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "(ASLT 4 DV, MAL MISC 3 DV)",
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": null,
         "cashAmount": null,
@@ -1175,9 +1209,9 @@
       },
       {
         "violation": "7.105.450(5) - PROTECTION ORDER VIOL PREV CONVICTI",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": 10000,
         "cashAmount": null,
@@ -8524,9 +8558,9 @@
     "charges": [
       {
         "violation": "9A.82.055(2) - TRAFFICKING STOLEN PROPERTY-2",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "C/B",
         "bondBailType": "C/B",
         "bondAmount": 50000,
         "cashAmount": null,
@@ -8552,9 +8586,9 @@
       },
       {
         "violation": "9A.76.190(3)(A) - FAILURE TO APPEAR / CONTEMPT OF COURT - FELONY",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "BURG 2, THEFT 1",
-        "clearance": null,
+        "clearance": "C/B",
         "bondBailType": "CC",
         "bondAmount": null,
         "cashAmount": null,
@@ -31243,9 +31277,9 @@
     "charges": [
       {
         "violation": "NONE - FAILURE TO COMPLY -  W/TERMS OF SENTENCE - FELONY",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
@@ -31266,8 +31300,8 @@
     "inmateId": "40049516",
     "schedRelease": null,
     "firstSeen": "08/31/2026, 23:38:11",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "10/20/2026, 18:52:05",
+    "status": "released"
   },
   {
     "type": "BOOKED",
