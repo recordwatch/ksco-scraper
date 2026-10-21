@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-21T07:18:43.694Z",
+  "generatedAt": "2026-10-21T13:07:52.238Z",
   "bookingCounts": {
-    "total": 3251,
-    "inCustody": 274,
+    "total": 3252,
+    "inCustody": 275,
     "released": 2977
   },
   "gender": [
     {
       "label": "Male",
-      "count": 2228,
+      "count": 2229,
       "pct": 68.5
     },
     {
@@ -40,8 +40,8 @@
     },
     {
       "label": "Asian / Pacific Islander",
-      "count": 105,
-      "pct": 3.2
+      "count": 106,
+      "pct": 3.3
     },
     {
       "label": "Native American",
@@ -50,7 +50,7 @@
     }
   ],
   "age": {
-    "mean": 38.7,
+    "mean": 38.8,
     "median": 38,
     "min": 18,
     "max": 87,
@@ -77,7 +77,7 @@
       },
       {
         "label": "65+",
-        "count": 91
+        "count": 92
       }
     ]
   },
@@ -136,7 +136,7 @@
     },
     {
       "label": "Theft (2nd Degree)",
-      "count": 99
+      "count": 100
     },
     {
       "label": "Ignition Interlock Violation",
@@ -170,7 +170,7 @@
     },
     {
       "label": "SUQUAMISH TRIBAL POLICE DEPARTMENT",
-      "count": 85
+      "count": 86
     },
     {
       "label": "BAINBRIDGE ISLAND POLICE DEPARTMENT",
@@ -186,11 +186,11 @@
     }
   ],
   "bail": {
-    "mean": 30179.48,
+    "mean": 30170.6,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 2272
+    "count": 2273
   },
   "stay": {
     "mean": 21.7,
@@ -369,6 +369,12 @@
       "count": 1
     },
     {
+      "category": "Theft (2nd Degree)",
+      "medianBail": 10000,
+      "meanBail": 24365.15,
+      "count": 33
+    },
+    {
       "category": "Trafficking Stolen Property",
       "medianBail": 10000,
       "meanBail": 29100,
@@ -391,12 +397,6 @@
       "medianBail": 10000,
       "meanBail": 28676.47,
       "count": 17
-    },
-    {
-      "category": "Theft (2nd Degree)",
-      "medianBail": 10000,
-      "meanBail": 24814.06,
-      "count": 32
     },
     {
       "category": "Harassment",
@@ -562,6 +562,43 @@
     }
   ],
   "chargesByRace": {
+    "Asian / Pacific Islander": {
+      "Theft (2nd Degree)": 2,
+      "Hit and Run": 3,
+      "DUI": 24,
+      "Driving While License Suspended": 15,
+      "Ignition Interlock Violation": 7,
+      "DOC Warrant": 6,
+      "Protection Order Violation": 12,
+      "Failure to Appear": 21,
+      "Harassment": 4,
+      "Obstruction": 4,
+      "Domestic Violence": 29,
+      "Drug Offense": 10,
+      "Theft (3rd Degree)": 8,
+      "Community Custody Violation": 2,
+      "Vehicle Prowling": 2,
+      "Weapons": 4,
+      "Making False Statements": 1,
+      "Criminal Trespass": 8,
+      "Resisting Arrest": 4,
+      "Fugitive from Justice": 1,
+      "Kidnapping / Unlawful Imprisonment": 1,
+      "Assault": 6,
+      "PR / Bail Revocation": 1,
+      "Other": 2,
+      "Indecent Exposure": 1,
+      "Theft (1st Degree)": 1,
+      "Malicious Mischief": 2,
+      "Reckless Driving": 1,
+      "Attempt to Elude": 1,
+      "Criminal Impersonation": 1,
+      "Motor Vehicle Theft": 2,
+      "Residential Burglary": 1,
+      "Forgery": 1,
+      "Possession of Stolen Vehicle": 1,
+      "Traffic Violation": 1
+    },
     "White": {
       "DUI": 443,
       "Domestic Violence": 496,
@@ -716,43 +753,6 @@
       "Community Custody Violation": 1,
       "Burglary (2nd Degree)": 1
     },
-    "Asian / Pacific Islander": {
-      "Hit and Run": 3,
-      "DUI": 24,
-      "Driving While License Suspended": 15,
-      "Ignition Interlock Violation": 7,
-      "DOC Warrant": 6,
-      "Protection Order Violation": 12,
-      "Failure to Appear": 21,
-      "Harassment": 4,
-      "Obstruction": 4,
-      "Domestic Violence": 29,
-      "Drug Offense": 10,
-      "Theft (3rd Degree)": 8,
-      "Community Custody Violation": 2,
-      "Vehicle Prowling": 2,
-      "Weapons": 4,
-      "Making False Statements": 1,
-      "Criminal Trespass": 8,
-      "Resisting Arrest": 4,
-      "Fugitive from Justice": 1,
-      "Kidnapping / Unlawful Imprisonment": 1,
-      "Assault": 6,
-      "PR / Bail Revocation": 1,
-      "Other": 2,
-      "Indecent Exposure": 1,
-      "Theft (1st Degree)": 1,
-      "Malicious Mischief": 2,
-      "Reckless Driving": 1,
-      "Attempt to Elude": 1,
-      "Criminal Impersonation": 1,
-      "Motor Vehicle Theft": 2,
-      "Theft (2nd Degree)": 1,
-      "Residential Burglary": 1,
-      "Forgery": 1,
-      "Possession of Stolen Vehicle": 1,
-      "Traffic Violation": 1
-    },
     "Unknown": {
       "DUI": 102,
       "Weapons": 6,
@@ -806,12 +806,12 @@
   },
   "chargesBySex": {
     "Male": {
+      "Theft (2nd Degree)": 61,
       "DUI": 410,
       "Protection Order Violation": 161,
       "Domestic Violence": 462,
       "DOC Warrant": 146,
       "Drug Offense": 240,
-      "Theft (2nd Degree)": 60,
       "Driving While License Suspended": 304,
       "Other": 128,
       "Trafficking Stolen Property": 11,
@@ -1020,7 +1020,7 @@
   "recidivism": {
     "rate": 15.8,
     "repeatBookerCount": 420,
-    "totalIndividuals": 2659,
+    "totalIndividuals": 2660,
     "repeatBookers": [
       {
         "name": "LITTFIN, JOHN STEPHEN",
@@ -1655,14 +1655,14 @@
     },
     {
       "month": "2026-10",
-      "count": 252
+      "count": 253
     }
   ],
   "crimeTypes": [
     {
       "label": "Traffic / DUI",
       "count": 1017,
-      "pct": 20.3
+      "pct": 20.2
     },
     {
       "label": "Violent",
@@ -1676,7 +1676,7 @@
     },
     {
       "label": "Property",
-      "count": 697,
+      "count": 698,
       "pct": 13.9
     },
     {
@@ -1714,16 +1714,16 @@
     {
       "label": "Misdemeanor",
       "count": 2440,
-      "pct": 34
+      "pct": 33.9
     },
     {
       "label": "Gross Misdemeanor",
       "count": 2131,
-      "pct": 29.7
+      "pct": 29.6
     },
     {
       "label": "Felony",
-      "count": 1483,
+      "count": 1484,
       "pct": 20.6
     },
     {
@@ -1994,7 +1994,7 @@
     },
     {
       "name": "Suquamish Tribal Police",
-      "count": 85,
+      "count": 86,
       "topCharge": "Local / Tribal Code",
       "chargeBreakdown": [
         {
@@ -2651,7 +2651,7 @@
         },
         {
           "label": "Property",
-          "count": 12
+          "count": 13
         },
         {
           "label": "Court / Supervision",
@@ -2788,18 +2788,18 @@
         "n": 62
       },
       {
-        "charge": "Resisting Arrest",
-        "avgWeight": 194,
+        "charge": "Theft (2nd Degree)",
+        "avgWeight": 183,
         "avgHeight": "5'10\"",
         "topRace": "White",
         "n": 61
       },
       {
-        "charge": "Theft (2nd Degree)",
-        "avgWeight": 183,
+        "charge": "Resisting Arrest",
+        "avgWeight": 194,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 60
+        "n": 61
       },
       {
         "charge": "Malicious Mischief",
@@ -3354,7 +3354,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 3248
+      "count": 3249
     }
   ],
   "ftaOriginalCharges": {
