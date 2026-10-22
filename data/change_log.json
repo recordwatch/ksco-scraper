@@ -1,6 +1,54 @@
 [
   {
     "type": "BOOKED",
+    "bookingNumber": "2026004677",
+    "name": "HATCHER, CRYSTAL ELAINE",
+    "bookingDate": "",
+    "charges": [
+      {
+        "violation": "46.20.740(2) - IGNITION INTERLOCK VIOL-NOTATION ON DR REC-VERIFY INTERLOCK",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 5000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "10/22/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "10/21/2026",
+        "courtType": "BM"
+      },
+      {
+        "violation": "46.20.342(1)(C) - DWLS 3 -DRIVE W/LICENSE SUSP OR REVOKED-3 OR REVOKED LIC OR PRIVILEGE",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 1000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "10/22/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "10/21/2026",
+        "courtType": "BM"
+      }
+    ],
+    "age": "40",
+    "sex": "F",
+    "race": "W",
+    "height": "504",
+    "weight": "250",
+    "hair": "BRO",
+    "eyes": "BRO",
+    "inmateId": "40036330",
+    "schedRelease": null,
+    "firstSeen": "10/21/2026, 22:16:24",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
     "bookingNumber": "2026004673",
     "name": "SALAS ORDONEZ, WILSON",
     "bookingDate": "",
@@ -134,7 +182,22 @@
     "bookingNumber": "2026004676",
     "name": "ARCIHEGA, GEN B",
     "bookingDate": "",
-    "charges": [],
+    "charges": [
+      {
+        "violation": "9A.56.350(3) - THEFT-ORGANIZED RETAIL-2",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 10000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "10/22/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "10/21/2026",
+        "courtType": "SC"
+      }
+    ],
     "age": "29",
     "sex": "",
     "race": "W",
@@ -197,7 +260,7 @@
         "courtType": null
       }
     ],
-    "age": "40",
+    "age": "41",
     "sex": "M",
     "race": "W",
     "height": "503",
@@ -218,9 +281,9 @@
     "charges": [
       {
         "violation": "46.20.342(1)(C) - DWLS 3 -DRIVE W/LICENSE SUSP OR REVOKED-3 OR REVOKED LIC OR PRIVILEGE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "BR",
         "bondBailType": "C/B",
         "bondAmount": 1000,
         "cashAmount": null,
@@ -241,8 +304,8 @@
     "inmateId": "40349475",
     "schedRelease": null,
     "firstSeen": "10/21/2026, 14:53:50",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "10/21/2026, 22:16:27",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -252,9 +315,9 @@
     "charges": [
       {
         "violation": "9A.56.040(2) - THEFT-2",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": 5000,
         "cashAmount": null,
@@ -275,8 +338,8 @@
     "inmateId": "50005571",
     "schedRelease": null,
     "firstSeen": "10/21/2026, 14:53:49",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "10/21/2026, 22:16:27",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -498,9 +561,9 @@
     "charges": [
       {
         "violation": "9A.56.040(2) - THEFT-2",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": 10000,
         "cashAmount": null,
@@ -651,8 +714,8 @@
     "inmateId": "40716506",
     "schedRelease": null,
     "firstSeen": "10/21/2026, 00:16:01",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "10/21/2026, 22:16:26",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -1997,8 +2060,8 @@
     "inmateId": "40016766",
     "schedRelease": null,
     "firstSeen": "10/17/2026, 15:02:53",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "10/21/2026, 22:16:26",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -5496,9 +5559,9 @@
     "charges": [
       {
         "violation": "7.105.450(1) - PROTECTION ORDER VIOLATION",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "C/B",
         "bondBailType": "C/B",
         "bondAmount": 2500,
         "cashAmount": null,
@@ -5510,9 +5573,9 @@
       },
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "C/B",
         "bondBailType": "C/B",
         "bondAmount": 1000,
         "cashAmount": null,
@@ -6257,9 +6320,9 @@
     "charges": [
       {
         "violation": "46.20.342(1)(C) - DWLS 3 -DRIVE W/LICENSE SUSP OR REVOKED-3 OR REVOKED LIC OR PRIVILEGE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": 500,
         "cashAmount": null,
@@ -6271,9 +6334,9 @@
       },
       {
         "violation": "46.52.010(3) - HIT/RUN UNATTENDED VEHICLE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": 1000,
         "cashAmount": null,
@@ -6285,9 +6348,9 @@
       },
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "DWLS 3",
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": 500,
         "cashAmount": null,
@@ -6299,9 +6362,9 @@
       },
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "DWLS 2",
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": 500,
         "cashAmount": null,
@@ -6322,8 +6385,8 @@
     "inmateId": "50004311",
     "schedRelease": null,
     "firstSeen": "10/11/2026, 06:18:34",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "10/21/2026, 22:16:25",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -8756,8 +8819,8 @@
     "inmateId": "40081158",
     "schedRelease": null,
     "firstSeen": "10/07/2026, 13:43:10",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "10/21/2026, 22:16:25",
+    "status": "released"
   },
   {
     "type": "BOOKED",
