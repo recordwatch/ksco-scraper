@@ -1,23 +1,153 @@
 [
   {
     "type": "BOOKED",
+    "bookingNumber": "2026004703",
+    "name": "SIMON, STEVEN RAY",
+    "bookingDate": "",
+    "charges": [
+      {
+        "violation": "9A.56.400(2)(B) - THEFT FROM A VULNERABLE ADULT-2",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 10000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "10/26/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "10/23/2026",
+        "courtType": "SC"
+      },
+      {
+        "violation": "9A.76.175 - MAKE FALSE/MISLEADING STMNT PUB SRVNT",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 5000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "10/26/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "10/23/2026",
+        "courtType": "VC"
+      }
+    ],
+    "age": "38",
+    "sex": "M",
+    "race": "W",
+    "height": "607",
+    "weight": "230",
+    "hair": "BRO",
+    "eyes": "BLU",
+    "inmateId": "50000677",
+    "schedRelease": null,
+    "firstSeen": "10/23/2026, 16:55:55",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
+    "bookingNumber": "2026004704",
+    "name": "ORMBERG, SHALEEN DEANN",
+    "bookingDate": "",
+    "charges": [
+      {
+        "violation": "9A.56.030(2) - THEFT-1",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "NOBD",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": "2410035618",
+        "nextCourtDate": null,
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "10/23/2026",
+        "courtType": null
+      },
+      {
+        "violation": "9A.56.030(2) - THEFT-1",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "NOBD",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": "2410035618",
+        "nextCourtDate": null,
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "10/23/2026",
+        "courtType": null
+      }
+    ],
+    "age": "43",
+    "sex": "F",
+    "race": "W",
+    "height": "510",
+    "weight": "130",
+    "hair": "BLN",
+    "eyes": "GRN",
+    "inmateId": "50001632",
+    "schedRelease": null,
+    "firstSeen": "10/23/2026, 16:55:55",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
+    "bookingNumber": "2026004702",
+    "name": "HUTCHERSON, KENDALL J",
+    "bookingDate": "",
+    "charges": [
+      {
+        "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
+        "cleared": false,
+        "addDesc": "2 DAY COMMIT",
+        "clearance": null,
+        "bondBailType": "GL",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": "51685501",
+        "nextCourtDate": null,
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "10/23/2026",
+        "courtType": null
+      }
+    ],
+    "age": "23",
+    "sex": "M",
+    "race": "W",
+    "height": "505",
+    "weight": "155",
+    "hair": "BRO",
+    "eyes": "BLU",
+    "inmateId": "50004481",
+    "schedRelease": "10/24/2026",
+    "firstSeen": "10/23/2026, 16:55:54",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
     "bookingNumber": "2026004700",
     "name": "WILDUNG, EMILY ANN",
     "bookingDate": "",
     "charges": [
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "THEFT 3",
-        "clearance": null,
+        "clearance": "BR",
         "bondBailType": "C/B",
         "bondAmount": 1000,
         "cashAmount": null,
-        "courtCase": "W2601604",
+        "courtCase": "17670115",
         "nextCourtDate": "10/26/2026",
         "arrestAgency": "BREMERTON POLICE DEPARTMENT",
         "arrestDate": "10/23/2026",
-        "courtType": "VC"
+        "courtType": "DS"
       }
     ],
     "age": "37",
@@ -30,8 +160,8 @@
     "inmateId": "40258928",
     "schedRelease": null,
     "firstSeen": "10/23/2026, 14:09:32",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "10/23/2026, 16:55:57",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -82,7 +212,7 @@
         "courtType": "BM"
       }
     ],
-    "age": "41",
+    "age": "55",
     "sex": "F",
     "race": "W",
     "height": "506",
@@ -506,7 +636,7 @@
         "bondAmount": 250000,
         "cashAmount": null,
         "courtCase": "2610076818",
-        "nextCourtDate": "10/23/2026",
+        "nextCourtDate": "11/18/2026",
         "arrestAgency": "BREMERTON POLICE DEPARTMENT",
         "arrestDate": "10/22/2026",
         "courtType": "SC"
@@ -520,7 +650,7 @@
         "bondAmount": null,
         "cashAmount": null,
         "courtCase": "2610076818",
-        "nextCourtDate": "10/23/2026",
+        "nextCourtDate": "11/18/2026",
         "arrestAgency": "BREMERTON POLICE DEPARTMENT",
         "arrestDate": "10/22/2026",
         "courtType": "SC"
@@ -4109,6 +4239,34 @@
         "nextCourtDate": "11/13/2026",
         "arrestAgency": "BREMERTON POLICE DEPARTMENT",
         "arrestDate": "10/15/2026",
+        "courtType": "SC"
+      },
+      {
+        "violation": "9A.76.190(3)(A) - FAILURE TO APPEAR / CONTEMPT OF COURT - FELONY",
+        "cleared": true,
+        "addDesc": null,
+        "clearance": "RL",
+        "bondBailType": "OOC",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": "2410088718",
+        "nextCourtDate": "10/26/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "10/23/2026",
+        "courtType": "SC"
+      },
+      {
+        "violation": "9A.76.190(3)(A) - FAILURE TO APPEAR / CONTEMPT OF COURT - FELONY",
+        "cleared": true,
+        "addDesc": null,
+        "clearance": "RL",
+        "bondBailType": "OOC",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": "2510031918",
+        "nextCourtDate": "10/26/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "10/23/2026",
         "courtType": "SC"
       }
     ],
@@ -10177,8 +10335,8 @@
     "inmateId": "50001354",
     "schedRelease": "10/21/2026",
     "firstSeen": "10/07/2026, 08:18:42",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "10/23/2026, 16:55:57",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -43790,8 +43948,8 @@
     "inmateId": "40048228",
     "schedRelease": "10/21/2026",
     "firstSeen": "08/16/2026, 04:22:41",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "10/23/2026, 16:55:56",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -65431,8 +65589,8 @@
     "inmateId": "40345539",
     "schedRelease": "09/12/2026",
     "firstSeen": "07/14/2026, 17:51:37",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "10/23/2026, 16:55:56",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -128569,7 +128727,7 @@
         "bondAmount": 500000,
         "cashAmount": null,
         "courtCase": "2210063918",
-        "nextCourtDate": "10/23/2026",
+        "nextCourtDate": "10/30/2026",
         "arrestAgency": "PORT ORCHARD POLICE DEPARTMENT",
         "arrestDate": "07/25/2022",
         "courtType": "SC"
@@ -128583,7 +128741,7 @@
         "bondAmount": null,
         "cashAmount": null,
         "courtCase": "2210049718",
-        "nextCourtDate": "10/23/2026",
+        "nextCourtDate": "10/30/2026",
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "06/08/2022",
         "courtType": "SC"
@@ -128611,7 +128769,7 @@
         "bondAmount": null,
         "cashAmount": null,
         "courtCase": "2210063918",
-        "nextCourtDate": "10/23/2026",
+        "nextCourtDate": "10/30/2026",
         "arrestAgency": "PORT ORCHARD POLICE DEPARTMENT",
         "arrestDate": "07/25/2022",
         "courtType": "SC"
@@ -128625,7 +128783,7 @@
         "bondAmount": null,
         "cashAmount": null,
         "courtCase": "2210063918",
-        "nextCourtDate": "10/23/2026",
+        "nextCourtDate": "10/30/2026",
         "arrestAgency": "PORT ORCHARD POLICE DEPARTMENT",
         "arrestDate": "07/25/2022",
         "courtType": "SC"
@@ -128639,7 +128797,7 @@
         "bondAmount": null,
         "cashAmount": null,
         "courtCase": "2210049718",
-        "nextCourtDate": "10/23/2026",
+        "nextCourtDate": "10/30/2026",
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "06/08/2022",
         "courtType": "SC"
@@ -128667,7 +128825,7 @@
         "bondAmount": null,
         "cashAmount": null,
         "courtCase": "2210063918",
-        "nextCourtDate": "10/23/2026",
+        "nextCourtDate": "10/30/2026",
         "arrestAgency": "PORT ORCHARD POLICE DEPARTMENT",
         "arrestDate": "07/25/2022",
         "courtType": "SC"
@@ -128681,7 +128839,7 @@
         "bondAmount": 150000,
         "cashAmount": null,
         "courtCase": "2210002318",
-        "nextCourtDate": "10/23/2026",
+        "nextCourtDate": "10/30/2026",
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "06/08/2022",
         "courtType": "SC"
@@ -128695,7 +128853,7 @@
         "bondAmount": 75000,
         "cashAmount": null,
         "courtCase": "2110063118",
-        "nextCourtDate": "10/23/2026",
+        "nextCourtDate": "10/30/2026",
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "06/08/2022",
         "courtType": "SC"
