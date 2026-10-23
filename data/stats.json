@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-23T12:49:01.256Z",
+  "generatedAt": "2026-10-23T17:49:06.487Z",
   "bookingCounts": {
-    "total": 3279,
-    "inCustody": 272,
-    "released": 3007
+    "total": 3280,
+    "inCustody": 269,
+    "released": 3011
   },
   "gender": [
     {
       "label": "Male",
-      "count": 2246,
+      "count": 2247,
       "pct": 68.5
     },
     {
@@ -25,8 +25,8 @@
   "race": [
     {
       "label": "White",
-      "count": 2323,
-      "pct": 70.8
+      "count": 2324,
+      "pct": 70.9
     },
     {
       "label": "Unknown",
@@ -50,7 +50,7 @@
     }
   ],
   "age": {
-    "mean": 38.7,
+    "mean": 38.8,
     "median": 38,
     "min": 18,
     "max": 87,
@@ -73,7 +73,7 @@
       },
       {
         "label": "56–65",
-        "count": 242
+        "count": 243
       },
       {
         "label": "65+",
@@ -88,7 +88,7 @@
     },
     {
       "label": "Failure to Appear",
-      "count": 693
+      "count": 694
     },
     {
       "label": "DUI",
@@ -108,7 +108,7 @@
     },
     {
       "label": "Theft (3rd Degree)",
-      "count": 229
+      "count": 230
     },
     {
       "label": "Criminal Trespass",
@@ -146,7 +146,7 @@
   "topAgencies": [
     {
       "label": "KITSAP COUNTY SHERIFFS OFFICE",
-      "count": 2908
+      "count": 2910
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
@@ -186,18 +186,18 @@
     }
   ],
   "bail": {
-    "mean": 29799.79,
+    "mean": 29825.24,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 2275
+    "count": 2273
   },
   "stay": {
     "mean": 21.6,
     "median": 2,
     "min": 0,
     "max": 1233.4,
-    "count": 2929,
+    "count": 2931,
     "histogram": [
       {
         "label": "< 1 day",
@@ -217,11 +217,11 @@
       },
       {
         "label": "2–4 weeks",
-        "count": 291
+        "count": 292
       },
       {
         "label": "1–3 months",
-        "count": 374
+        "count": 375
       },
       {
         "label": "3+ months",
@@ -449,8 +449,8 @@
     {
       "category": "Domestic Violence",
       "medianBail": 5000,
-      "meanBail": 56756.45,
-      "count": 217
+      "meanBail": 57007.64,
+      "count": 216
     },
     {
       "category": "Malicious Mischief",
@@ -502,21 +502,21 @@
     },
     {
       "category": "Theft (3rd Degree)",
-      "medianBail": 2750,
-      "meanBail": 4290.28,
-      "count": 108
+      "medianBail": 3000,
+      "meanBail": 4325.7,
+      "count": 107
     },
     {
       "category": "Failure to Appear",
       "medianBail": 2500,
-      "meanBail": 8306.77,
-      "count": 402
+      "meanBail": 8306.63,
+      "count": 403
     },
     {
       "category": "Drug Offense",
       "medianBail": 2500,
-      "meanBail": 5280.08,
-      "count": 133
+      "meanBail": 5267.05,
+      "count": 132
     },
     {
       "category": "Making False Statements",
@@ -563,10 +563,10 @@
   ],
   "chargesByRace": {
     "White": {
+      "Failure to Appear": 548,
       "Domestic Violence": 498,
       "Protection Order Violation": 159,
       "Obstruction": 122,
-      "Failure to Appear": 547,
       "Drug Offense": 256,
       "Community Custody Violation": 17,
       "Harassment": 89,
@@ -641,7 +641,7 @@
       "Obstruction": 19,
       "Criminal Trespass": 22,
       "Making False Statements": 9,
-      "Theft (3rd Degree)": 18,
+      "Theft (3rd Degree)": 19,
       "Failure to Comply (Sentence)": 12,
       "DOC Warrant": 23,
       "Court Hold": 3,
@@ -806,9 +806,9 @@
   },
   "chargesBySex": {
     "Male": {
+      "Failure to Appear": 503,
       "Domestic Violence": 464,
       "Protection Order Violation": 164,
-      "Failure to Appear": 502,
       "Drug Offense": 242,
       "Community Custody Violation": 19,
       "Harassment": 105,
@@ -824,7 +824,7 @@
       "PR / Bail Revocation": 19,
       "Theft (2nd Degree)": 61,
       "Trafficking Stolen Property": 11,
-      "Theft (3rd Degree)": 144,
+      "Theft (3rd Degree)": 145,
       "Criminal Trespass": 171,
       "Obstruction": 120,
       "Witness Tampering": 5,
@@ -974,7 +974,7 @@
   "releaseReasons": [
     {
       "label": "FTA / Contempt Resolved",
-      "count": 1020
+      "count": 1021
     },
     {
       "label": "Released (Unknown Reason)",
@@ -982,15 +982,15 @@
     },
     {
       "label": "Released",
-      "count": 718
+      "count": 719
     },
     {
       "label": "Scheduled Release / Time Served",
-      "count": 207
+      "count": 208
     },
     {
       "label": "DOC Transfer / Detainer",
-      "count": 138
+      "count": 139
     },
     {
       "label": "Failure to Comply",
@@ -1018,8 +1018,8 @@
     }
   ],
   "recidivism": {
-    "rate": 15.9,
-    "repeatBookerCount": 426,
+    "rate": 16,
+    "repeatBookerCount": 427,
     "totalIndividuals": 2676,
     "repeatBookers": [
       {
@@ -1655,7 +1655,7 @@
     },
     {
       "month": "2026-10",
-      "count": 280
+      "count": 281
     }
   ],
   "crimeTypes": [
@@ -1666,8 +1666,8 @@
     },
     {
       "label": "Court / Supervision",
-      "count": 958,
-      "pct": 18.9
+      "count": 959,
+      "pct": 19
     },
     {
       "label": "Violent",
@@ -1676,8 +1676,8 @@
     },
     {
       "label": "Property",
-      "count": 700,
-      "pct": 13.8
+      "count": 701,
+      "pct": 13.9
     },
     {
       "label": "Other",
@@ -1713,13 +1713,13 @@
   "severity": [
     {
       "label": "Misdemeanor",
-      "count": 2462,
+      "count": 2464,
       "pct": 34
     },
     {
       "label": "Gross Misdemeanor",
       "count": 2148,
-      "pct": 29.7
+      "pct": 29.6
     },
     {
       "label": "Felony",
@@ -1832,7 +1832,7 @@
   "agencyBreakdown": [
     {
       "name": "Kitsap County Sheriff",
-      "count": 2919,
+      "count": 2921,
       "topCharge": "Domestic Violence",
       "chargeBreakdown": [
         {
@@ -1841,7 +1841,7 @@
         },
         {
           "label": "Failure to Appear",
-          "count": 435
+          "count": 436
         },
         {
           "label": "DUI",
@@ -2256,8 +2256,8 @@
     }
   ],
   "bailOnRelease": {
-    "total": 3007,
-    "withBail": 1379,
+    "total": 3011,
+    "withBail": 1381,
     "pct": 45.9
   },
   "chargesByAgeGroup": [
@@ -2374,7 +2374,7 @@
         },
         {
           "label": "Failure to Appear",
-          "count": 29
+          "count": 30
         },
         {
           "label": "Driving While License Suspended",
@@ -2475,7 +2475,7 @@
         },
         {
           "label": "Property",
-          "count": 177
+          "count": 178
         },
         {
           "label": "Other",
@@ -2606,7 +2606,7 @@
         },
         {
           "label": "Court / Supervision",
-          "count": 49
+          "count": 50
         },
         {
           "label": "Property",
@@ -2687,7 +2687,7 @@
         "avgWeight": 185,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 499
+        "n": 500
       },
       {
         "charge": "Domestic Violence",
@@ -2750,7 +2750,7 @@
         "avgWeight": 181,
         "avgHeight": "5'11\"",
         "topRace": "White",
-        "n": 144
+        "n": 145
       },
       {
         "charge": "Other",
@@ -3354,13 +3354,13 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 3276
+      "count": 3277
     }
   ],
   "ftaOriginalCharges": {
-    "ftaTotal": 1228,
-    "resolved": 678,
-    "unresolved": 550,
+    "ftaTotal": 1230,
+    "resolved": 679,
+    "unresolved": 551,
     "pctResolved": 55.2,
     "topOriginalCharges": [
       {
@@ -3377,7 +3377,7 @@
       },
       {
         "label": "Theft (3rd Degree)",
-        "count": 89
+        "count": 90
       },
       {
         "label": "Theft (2nd Degree)",
