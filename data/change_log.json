@@ -153,9 +153,9 @@
     "charges": [
       {
         "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": 5000,
         "cashAmount": null,
@@ -176,8 +176,8 @@
     "inmateId": "50005575",
     "schedRelease": null,
     "firstSeen": "10/22/2026, 16:02:52",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "10/22/2026, 18:46:44",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -224,7 +224,7 @@
         "cleared": false,
         "addDesc": null,
         "clearance": null,
-        "bondBailType": "NOBD",
+        "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
         "courtCase": "51497601",
@@ -238,7 +238,7 @@
         "cleared": false,
         "addDesc": null,
         "clearance": null,
-        "bondBailType": "NOBD",
+        "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
         "courtCase": "51497602",
@@ -552,8 +552,8 @@
     "inmateId": "50005573",
     "schedRelease": null,
     "firstSeen": "10/21/2026, 17:29:09",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "10/22/2026, 18:46:44",
+    "status": "released"
   },
   {
     "type": "BOOKED",
