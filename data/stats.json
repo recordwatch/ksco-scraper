@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-24T08:49:37.846Z",
+  "generatedAt": "2026-10-24T13:13:34.432Z",
   "bookingCounts": {
-    "total": 3294,
-    "inCustody": 275,
+    "total": 3296,
+    "inCustody": 277,
     "released": 3019
   },
   "gender": [
     {
       "label": "Male",
-      "count": 2256,
+      "count": 2258,
       "pct": 68.5
     },
     {
@@ -25,8 +25,8 @@
   "race": [
     {
       "label": "White",
-      "count": 2337,
-      "pct": 70.9
+      "count": 2339,
+      "pct": 71
     },
     {
       "label": "Unknown",
@@ -65,11 +65,11 @@
       },
       {
         "label": "36–45",
-        "count": 979
+        "count": 980
       },
       {
         "label": "46–55",
-        "count": 490
+        "count": 491
       },
       {
         "label": "56–65",
@@ -88,7 +88,7 @@
     },
     {
       "label": "Failure to Appear",
-      "count": 698
+      "count": 699
     },
     {
       "label": "DUI",
@@ -108,7 +108,7 @@
     },
     {
       "label": "Theft (3rd Degree)",
-      "count": 233
+      "count": 234
     },
     {
       "label": "Criminal Trespass",
@@ -150,7 +150,7 @@
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
-      "count": 2301
+      "count": 2302
     },
     {
       "label": "PORT ORCHARD POLICE DEPARTMENT",
@@ -166,7 +166,7 @@
     },
     {
       "label": "GIG HARBOR POLICE DEPARTMENT",
-      "count": 127
+      "count": 128
     },
     {
       "label": "SUQUAMISH TRIBAL POLICE DEPARTMENT",
@@ -186,11 +186,11 @@
     }
   ],
   "bail": {
-    "mean": 28786.27,
+    "mean": 28766.54,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 2282
+    "count": 2284
   },
   "stay": {
     "mean": 21.6,
@@ -503,20 +503,20 @@
     {
       "category": "Theft (3rd Degree)",
       "medianBail": 3000,
-      "meanBail": 4307.73,
-      "count": 110
+      "meanBail": 4336.49,
+      "count": 111
+    },
+    {
+      "category": "Failure to Appear",
+      "medianBail": 2500,
+      "meanBail": 8233.01,
+      "count": 408
     },
     {
       "category": "Drug Offense",
       "medianBail": 2500,
       "meanBail": 6129.7,
       "count": 133
-    },
-    {
-      "category": "Failure to Appear",
-      "medianBail": 2500,
-      "meanBail": 8240.96,
-      "count": 407
     },
     {
       "category": "Making False Statements",
@@ -563,17 +563,17 @@
   ],
   "chargesByRace": {
     "White": {
+      "Failure to Appear": 552,
+      "Theft (3rd Degree)": 186,
       "Drug Offense": 257,
       "Weapons": 47,
       "Making False Statements": 55,
       "Other": 122,
-      "Failure to Appear": 551,
       "Domestic Violence": 500,
       "Interference with DV Reporting": 29,
       "Stalking": 14,
       "Homicide": 20,
       "Protection Order Violation": 161,
-      "Theft (3rd Degree)": 185,
       "DOC Warrant": 142,
       "DUI": 449,
       "Theft (1st Degree)": 21,
@@ -806,11 +806,12 @@
   },
   "chargesBySex": {
     "Male": {
+      "Failure to Appear": 507,
+      "Theft (3rd Degree)": 146,
       "Drug Offense": 243,
       "Weapons": 60,
       "Making False Statements": 55,
       "Other": 132,
-      "Failure to Appear": 506,
       "Domestic Violence": 467,
       "Interference with DV Reporting": 27,
       "Stalking": 16,
@@ -828,7 +829,6 @@
       "PR / Bail Revocation": 19,
       "Theft (2nd Degree)": 61,
       "Trafficking Stolen Property": 11,
-      "Theft (3rd Degree)": 145,
       "Criminal Trespass": 171,
       "Obstruction": 120,
       "Witness Tampering": 5,
@@ -1021,7 +1021,7 @@
   "recidivism": {
     "rate": 16,
     "repeatBookerCount": 430,
-    "totalIndividuals": 2685,
+    "totalIndividuals": 2687,
     "repeatBookers": [
       {
         "name": "LITTFIN, JOHN STEPHEN",
@@ -1661,7 +1661,7 @@
     },
     {
       "month": "2026-10",
-      "count": 295
+      "count": 297
     }
   ],
   "crimeTypes": [
@@ -1672,7 +1672,7 @@
     },
     {
       "label": "Court / Supervision",
-      "count": 966,
+      "count": 967,
       "pct": 19
     },
     {
@@ -1682,7 +1682,7 @@
     },
     {
       "label": "Property",
-      "count": 705,
+      "count": 706,
       "pct": 13.9
     },
     {
@@ -1719,7 +1719,7 @@
   "severity": [
     {
       "label": "Misdemeanor",
-      "count": 2475,
+      "count": 2477,
       "pct": 34
     },
     {
@@ -1865,12 +1865,12 @@
     },
     {
       "name": "Bremerton PD",
-      "count": 2301,
+      "count": 2302,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
           "label": "Failure to Appear",
-          "count": 332
+          "count": 333
         },
         {
           "label": "Domestic Violence",
@@ -1973,12 +1973,12 @@
     },
     {
       "name": "Gig Harbor PD",
-      "count": 127,
+      "count": 128,
       "topCharge": "Theft (3rd Degree)",
       "chargeBreakdown": [
         {
           "label": "Theft (3rd Degree)",
-          "count": 21
+          "count": 22
         },
         {
           "label": "Domestic Violence",
@@ -2322,7 +2322,7 @@
       "topCharges": [
         {
           "label": "Failure to Appear",
-          "count": 267
+          "count": 268
         },
         {
           "label": "Domestic Violence",
@@ -2514,7 +2514,7 @@
       "crimeTypes": [
         {
           "label": "Court / Supervision",
-          "count": 361
+          "count": 362
         },
         {
           "label": "Violent",
@@ -2563,7 +2563,7 @@
         },
         {
           "label": "Property",
-          "count": 132
+          "count": 133
         },
         {
           "label": "Traffic / DUI",
@@ -2693,7 +2693,7 @@
         "avgWeight": 185,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 503
+        "n": 504
       },
       {
         "charge": "Domestic Violence",
@@ -2756,7 +2756,7 @@
         "avgWeight": 181,
         "avgHeight": "5'11\"",
         "topRace": "White",
-        "n": 145
+        "n": 146
       },
       {
         "charge": "Other",
@@ -2809,7 +2809,7 @@
       },
       {
         "charge": "Weapons",
-        "avgWeight": 184,
+        "avgWeight": 185,
         "avgHeight": "5'11\"",
         "topRace": "White",
         "n": 59
@@ -2823,7 +2823,7 @@
       },
       {
         "charge": "Making False Statements",
-        "avgWeight": 177,
+        "avgWeight": 178,
         "avgHeight": "5'9\"",
         "topRace": "White",
         "n": 53
@@ -3360,13 +3360,13 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 3291
+      "count": 3293
     }
   ],
   "ftaOriginalCharges": {
-    "ftaTotal": 1236,
-    "resolved": 682,
-    "unresolved": 554,
+    "ftaTotal": 1238,
+    "resolved": 683,
+    "unresolved": 555,
     "pctResolved": 55.2,
     "topOriginalCharges": [
       {
@@ -3383,7 +3383,7 @@
       },
       {
         "label": "Theft (3rd Degree)",
-        "count": 92
+        "count": 93
       },
       {
         "label": "Theft (2nd Degree)",
