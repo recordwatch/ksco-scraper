@@ -161542,9 +161542,9 @@
     "charges": [
       {
         "violation": "46.20.342(1)(C) - DWLS 3 -DRIVE W/LICENSE SUSP OR REVOKED-3 OR REVOKED LIC OR PRIVILEGE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "BR",
         "bondBailType": "C/B",
         "bondAmount": 5000,
         "cashAmount": null,
@@ -161556,9 +161556,9 @@
       }
     ],
     "totalBond": 5000,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "10/24/2026, 22:07:22",
-    "releasedAt": null
+    "releasedAt": "10/25/2026, 03:01:54"
   },
   "2026004722": {
     "bookingNumber": "2026004722",
@@ -161666,10 +161666,10 @@
     "inmateId": "50005583",
     "schedRelease": null,
     "age": "24",
-    "height": null,
-    "weight": null,
-    "hair": "Eyes",
-    "eyes": "Height",
+    "height": "508",
+    "weight": "185",
+    "hair": "BRO",
+    "eyes": "BLU",
     "charges": [
       {
         "violation": "9A.36.041(2) - ASSAULT-4 - DV",
@@ -161697,7 +161697,7 @@
         "nextCourtDate": "10/26/2026",
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "10/24/2026",
-        "courtType": "DS"
+        "courtType": "SC"
       },
       {
         "violation": "9A.40.040(2) - UNLAWFUL IMPRISONMENT -DV",
@@ -161717,6 +161717,123 @@
     "totalBond": null,
     "status": "in_custody",
     "firstSeen": "10/24/2026, 22:07:21",
+    "releasedAt": null
+  },
+  "2026004727": {
+    "bookingNumber": "2026004727",
+    "firstName": "JOSEPH",
+    "lastName": "LAMB",
+    "middleName": "HARROLD",
+    "race": "W",
+    "sex": "M",
+    "bookingDate": "10/24/2026",
+    "releaseDate": "",
+    "schReleaseDate": "",
+    "detailUrl": "https://incustody.kitsap.gov/Home/BookingSearchResult?LastName=%25&FirstName=&BookingFrom=&BookingTo=&ValidSearch=&sort=BookingDate&sortdir=DESC&page=1&BookingNumber=5",
+    "inmateId": "40292021",
+    "schedRelease": null,
+    "age": "41",
+    "height": "510",
+    "weight": "160",
+    "hair": "BRO",
+    "eyes": "BLU",
+    "charges": [
+      {
+        "violation": "DOCWT - DEPARTMENT OF CORRECTIONS WARRANT",
+        "cleared": false,
+        "addDesc": "CRIM MISCHIEF",
+        "clearance": null,
+        "bondBailType": "NOBD",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": "313556",
+        "nextCourtDate": "10/26/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "10/24/2026",
+        "courtType": "DOC"
+      }
+    ],
+    "totalBond": null,
+    "status": "in_custody",
+    "firstSeen": "10/25/2026, 03:01:53",
+    "releasedAt": null
+  },
+  "2026004729": {
+    "bookingNumber": "2026004729",
+    "firstName": "JORGE",
+    "lastName": "BASURTO MILAN",
+    "middleName": "",
+    "race": "W",
+    "sex": "M",
+    "bookingDate": "",
+    "releaseDate": "",
+    "schReleaseDate": "",
+    "detailUrl": "https://incustody.kitsap.gov/Home/BookingSearchResult?LastName=%25&FirstName=&BookingFrom=&BookingTo=&ValidSearch=&sort=BookingDate&sortdir=DESC&page=19&BookingNumber=9",
+    "inmateId": "50005585",
+    "schedRelease": null,
+    "age": "29",
+    "height": "505",
+    "weight": "160",
+    "hair": "BLK",
+    "eyes": "BRO",
+    "charges": [
+      {
+        "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 5000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "10/26/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "10/25/2026",
+        "courtType": "DS"
+      }
+    ],
+    "totalBond": 5000,
+    "status": "in_custody",
+    "firstSeen": "10/25/2026, 03:01:54",
+    "releasedAt": null
+  },
+  "2026004730": {
+    "bookingNumber": "2026004730",
+    "firstName": "GARRICK",
+    "lastName": "APACHE",
+    "middleName": "BRICE S",
+    "race": "A",
+    "sex": "M",
+    "bookingDate": "",
+    "releaseDate": "",
+    "schReleaseDate": "",
+    "detailUrl": "https://incustody.kitsap.gov/Home/BookingSearchResult?LastName=%25&FirstName=&BookingFrom=&BookingTo=&ValidSearch=&sort=BookingDate&sortdir=DESC&page=19&BookingNumber=8",
+    "inmateId": "40106874",
+    "schedRelease": null,
+    "age": "36",
+    "height": "503",
+    "weight": "120",
+    "hair": "BRO",
+    "eyes": "BRO",
+    "charges": [
+      {
+        "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
+        "cleared": false,
+        "addDesc": "DUI",
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 5000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "10/26/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "10/25/2026",
+        "courtType": "DS"
+      }
+    ],
+    "totalBond": 5000,
+    "status": "in_custody",
+    "firstSeen": "10/25/2026, 03:01:53",
     "releasedAt": null
   }
 }
