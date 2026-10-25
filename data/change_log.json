@@ -1,6 +1,122 @@
 [
   {
     "type": "BOOKED",
+    "bookingNumber": "2026004731",
+    "name": "HERNDON, CHRISTIAN R",
+    "bookingDate": "",
+    "charges": [
+      {
+        "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 5000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "10/26/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "10/25/2026",
+        "courtType": "DS"
+      },
+      {
+        "violation": "9A.76.020 - OBSTRUCT LAW ENFORCEMENT OFC",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 5000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "10/26/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "10/25/2026",
+        "courtType": "DS"
+      }
+    ],
+    "age": "28",
+    "sex": "M",
+    "race": "W",
+    "height": "507",
+    "weight": "135",
+    "hair": "BLK",
+    "eyes": "BRO",
+    "inmateId": "40548330",
+    "schedRelease": null,
+    "firstSeen": "10/25/2026, 07:30:15",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
+    "bookingNumber": "2026004732",
+    "name": "MILLER, SAMUEL WILLIAM",
+    "bookingDate": "10/25/2026",
+    "charges": [
+      {
+        "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
+        "cleared": true,
+        "addDesc": null,
+        "clearance": "POST",
+        "bondBailType": "C/B",
+        "bondAmount": 5000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "10/26/2026",
+        "arrestAgency": "POULSBO POLICE DEPARTMENT",
+        "arrestDate": "10/25/2026",
+        "courtType": "DS"
+      }
+    ],
+    "age": "37",
+    "sex": "M",
+    "race": "W",
+    "height": "600",
+    "weight": "180",
+    "hair": "BRO",
+    "eyes": "BRO",
+    "inmateId": "50005586",
+    "schedRelease": null,
+    "firstSeen": "10/25/2026, 07:30:14",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
+    "bookingNumber": "2026004733",
+    "name": "ALVAREZ SALQUIL, TIMOTEO",
+    "bookingDate": "10/25/2026",
+    "charges": [
+      {
+        "violation": "9A.36.041(2) - ASSAULT-4 - DV",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "NOBD",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "10/26/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "10/25/2026",
+        "courtType": "BM"
+      }
+    ],
+    "age": "38",
+    "sex": "M",
+    "race": "W",
+    "height": "505",
+    "weight": "225",
+    "hair": "BLK",
+    "eyes": "BRO",
+    "inmateId": "50005330",
+    "schedRelease": null,
+    "firstSeen": "10/25/2026, 07:30:14",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
     "bookingNumber": "2026004729",
     "name": "BASURTO MILAN, JORGE",
     "bookingDate": "",
@@ -205,9 +321,9 @@
     "charges": [
       {
         "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "DUI",
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": 5000,
         "cashAmount": null,
@@ -218,11 +334,11 @@
         "courtType": "PO"
       }
     ],
-    "age": "30",
+    "age": "33",
     "sex": "M",
     "race": "B",
     "height": "600",
-    "weight": "145",
+    "weight": "156",
     "hair": "BLK",
     "eyes": "BRO",
     "inmateId": "40551887",
@@ -10178,9 +10294,9 @@
     "charges": [
       {
         "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "DUI 30 DAY COMMITMENT",
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
@@ -10192,9 +10308,9 @@
       },
       {
         "violation": "46.52.020(5) - HIT AND RUN-ATTENDED-PROPERTY DMG",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "HIT RUN 30 DAY COMMITMENT",
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
@@ -10215,8 +10331,8 @@
     "inmateId": "40108401",
     "schedRelease": "10/25/2026",
     "firstSeen": "10/08/2026, 13:33:16",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "10/25/2026, 07:30:16",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -18606,9 +18722,9 @@
     "charges": [
       {
         "violation": "DOCWT - DEPARTMENT OF CORRECTIONS WARRANT",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
@@ -24307,9 +24423,9 @@
     "charges": [
       {
         "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": null,
         "bondAmount": null,
         "cashAmount": null,
@@ -24330,8 +24446,8 @@
     "inmateId": "50003409",
     "schedRelease": "10/25/2026",
     "firstSeen": "09/15/2026, 18:33:34",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "10/25/2026, 07:30:15",
+    "status": "released"
   },
   {
     "type": "BOOKED",
