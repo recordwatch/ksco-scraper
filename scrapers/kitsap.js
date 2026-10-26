@@ -259,6 +259,19 @@ export async function fetchDetail(detailUrl) {
   }
 }
 
+// "03/19/2026  3:40PM" → "03/19/2026, 15:40:00", the same shape as nowPST().
+// The feed already gives Pacific wall time, so it is reformatted as-is rather than
+// passed through a Date, which would read it in the server's (UTC) clock.
+export function formatFeedReleaseDate(raw) {
+  const m = raw.match(/^(\d{2})\/(\d{2})\/(\d{4})\s+(\d{1,2}):(\d{2})(AM|PM)$/i);
+  if (!m) return null;
+  const [, month, day, year, hourStr, min, ampm] = m;
+  let hour = parseInt(hourStr, 10);
+  if (ampm.toUpperCase() === 'PM' && hour !== 12) hour += 12;
+  if (ampm.toUpperCase() === 'AM' && hour === 12) hour = 0;
+  return `${month}/${day}/${year}, ${String(hour).padStart(2, '0')}:${min}:00`;
+}
+
 // Returns a map of bookingNumber -> formatted release datetime string
 // sourced from the sheriff's released-last-24-hours XML feed.
 export async function fetchRecentReleases() {
@@ -272,22 +285,8 @@ export async function fetchRecentReleases() {
       const raw     = $(el).find('RELEASEDATE').text().trim();
       if (!bookNum || !raw) return;
 
-      // Parse "03/19/2026  3:40PM" → JS Date
-      const m = raw.match(/^(\d{2})\/(\d{2})\/(\d{4})\s+(\d{1,2}):(\d{2})(AM|PM)$/i);
-      if (!m) return;
-      const [, month, day, year, hourStr, min, ampm] = m;
-      let hour = parseInt(hourStr, 10);
-      if (ampm.toUpperCase() === 'PM' && hour !== 12) hour += 12;
-      if (ampm.toUpperCase() === 'AM' && hour === 12) hour = 0;
-      const date = new Date(parseInt(year), parseInt(month) - 1, parseInt(day), hour, parseInt(min), 0);
-
-      // Format consistently with nowPST()
-      releases[bookNum] = new Intl.DateTimeFormat('en-US', {
-        timeZone: 'America/Los_Angeles',
-        year: 'numeric', month: '2-digit', day: '2-digit',
-        hour: '2-digit', minute: '2-digit', second: '2-digit',
-        hour12: false
-      }).format(date);
+      const formatted = formatFeedReleaseDate(raw);
+      if (formatted) releases[bookNum] = formatted;
     });
 
     return releases;
