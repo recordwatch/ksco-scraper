@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-25T23:07:08.532Z",
+  "generatedAt": "2026-10-26T01:34:05.471Z",
   "bookingCounts": {
-    "total": 3310,
-    "inCustody": 279,
+    "total": 3311,
+    "inCustody": 280,
     "released": 3031
   },
   "gender": [
     {
       "label": "Male",
-      "count": 2270,
+      "count": 2271,
       "pct": 68.6
     },
     {
@@ -25,7 +25,7 @@
   "race": [
     {
       "label": "White",
-      "count": 2349,
+      "count": 2350,
       "pct": 71
     },
     {
@@ -57,7 +57,7 @@
     "histogram": [
       {
         "label": "18–25",
-        "count": 466
+        "count": 467
       },
       {
         "label": "26–35",
@@ -92,7 +92,7 @@
     },
     {
       "label": "DUI",
-      "count": 639
+      "count": 640
     },
     {
       "label": "Driving While License Suspended",
@@ -162,7 +162,7 @@
     },
     {
       "label": "WASHINGTON STATE PATROL",
-      "count": 265
+      "count": 266
     },
     {
       "label": "GIG HARBOR POLICE DEPARTMENT",
@@ -186,11 +186,11 @@
     }
   ],
   "bail": {
-    "mean": 28661.41,
+    "mean": 28649.36,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 2294
+    "count": 2295
   },
   "stay": {
     "mean": 21.6,
@@ -425,8 +425,8 @@
     {
       "category": "DUI",
       "medianBail": 5000,
-      "meanBail": 17723.25,
-      "count": 314
+      "meanBail": 17670.16,
+      "count": 315
     },
     {
       "category": "Domestic Violence",
@@ -562,63 +562,9 @@
     }
   ],
   "chargesByRace": {
-    "Black": {
-      "Domestic Violence": 84,
-      "Interference with DV Reporting": 3,
-      "DUI": 44,
-      "Failure to Appear": 70,
-      "Robbery": 9,
-      "Protection Order Violation": 36,
-      "Assault": 41,
-      "Drug Offense": 32,
-      "Theft (2nd Degree)": 9,
-      "Driving While License Suspended": 51,
-      "Obstruction": 19,
-      "Criminal Trespass": 22,
-      "Making False Statements": 9,
-      "Theft (3rd Degree)": 19,
-      "Failure to Comply (Sentence)": 12,
-      "DOC Warrant": 23,
-      "Court Hold": 3,
-      "Kidnapping / Unlawful Imprisonment": 1,
-      "Resisting Arrest": 14,
-      "Harassment": 26,
-      "Weapons": 15,
-      "PR / Bail Revocation": 6,
-      "Hit and Run": 8,
-      "Attempt to Elude": 7,
-      "Malicious Mischief": 9,
-      "Burglary (1st Degree)": 6,
-      "Community Custody Violation": 5,
-      "Other": 24,
-      "Stalking": 2,
-      "Ignition Interlock Violation": 6,
-      "Arson": 1,
-      "Local / Tribal Code": 6,
-      "Homicide": 7,
-      "Burglary (2nd Degree)": 8,
-      "Possession of Stolen Property": 3,
-      "Child Sex Offense": 2,
-      "Indecent Exposure": 6,
-      "Vehicle Prowling": 2,
-      "Child Exploitation / CSAM": 1,
-      "Public Order": 1,
-      "Burglary Tools": 1,
-      "Failure to Register (Sex Offender)": 3,
-      "Fugitive from Justice": 1,
-      "Reckless Driving": 3,
-      "Traffic / Obstruction": 2,
-      "Theft (1st Degree)": 2,
-      "Human Trafficking": 2,
-      "Motor Vehicle Theft": 3,
-      "Witness Tampering": 1,
-      "Residential Burglary": 2,
-      "Possession of Stolen Vehicle": 1,
-      "Sex Offense": 1
-    },
     "White": {
+      "DUI": 455,
       "DOC Warrant": 144,
-      "DUI": 454,
       "Obstruction": 124,
       "Domestic Violence": 501,
       "Driving While License Suspended": 294,
@@ -680,6 +626,60 @@
       "Incest": 1,
       "Theft": 1,
       "Bribery": 1
+    },
+    "Black": {
+      "Domestic Violence": 84,
+      "Interference with DV Reporting": 3,
+      "DUI": 44,
+      "Failure to Appear": 70,
+      "Robbery": 9,
+      "Protection Order Violation": 36,
+      "Assault": 41,
+      "Drug Offense": 32,
+      "Theft (2nd Degree)": 9,
+      "Driving While License Suspended": 51,
+      "Obstruction": 19,
+      "Criminal Trespass": 22,
+      "Making False Statements": 9,
+      "Theft (3rd Degree)": 19,
+      "Failure to Comply (Sentence)": 12,
+      "DOC Warrant": 23,
+      "Court Hold": 3,
+      "Kidnapping / Unlawful Imprisonment": 1,
+      "Resisting Arrest": 14,
+      "Harassment": 26,
+      "Weapons": 15,
+      "PR / Bail Revocation": 6,
+      "Hit and Run": 8,
+      "Attempt to Elude": 7,
+      "Malicious Mischief": 9,
+      "Burglary (1st Degree)": 6,
+      "Community Custody Violation": 5,
+      "Other": 24,
+      "Stalking": 2,
+      "Ignition Interlock Violation": 6,
+      "Arson": 1,
+      "Local / Tribal Code": 6,
+      "Homicide": 7,
+      "Burglary (2nd Degree)": 8,
+      "Possession of Stolen Property": 3,
+      "Child Sex Offense": 2,
+      "Indecent Exposure": 6,
+      "Vehicle Prowling": 2,
+      "Child Exploitation / CSAM": 1,
+      "Public Order": 1,
+      "Burglary Tools": 1,
+      "Failure to Register (Sex Offender)": 3,
+      "Fugitive from Justice": 1,
+      "Reckless Driving": 3,
+      "Traffic / Obstruction": 2,
+      "Theft (1st Degree)": 2,
+      "Human Trafficking": 2,
+      "Motor Vehicle Theft": 3,
+      "Witness Tampering": 1,
+      "Residential Burglary": 2,
+      "Possession of Stolen Vehicle": 1,
+      "Sex Offense": 1
     },
     "Asian / Pacific Islander": {
       "DUI": 25,
@@ -806,10 +806,10 @@
   },
   "chargesBySex": {
     "Male": {
+      "DUI": 424,
       "Domestic Violence": 469,
       "Interference with DV Reporting": 28,
       "DOC Warrant": 151,
-      "DUI": 423,
       "Obstruction": 121,
       "Driving While License Suspended": 308,
       "Failure to Appear": 507,
@@ -1021,7 +1021,7 @@
   "recidivism": {
     "rate": 16,
     "repeatBookerCount": 432,
-    "totalIndividuals": 2696,
+    "totalIndividuals": 2697,
     "repeatBookers": [
       {
         "name": "LITTFIN, JOHN STEPHEN",
@@ -1661,14 +1661,14 @@
     },
     {
       "month": "2026-10",
-      "count": 311
+      "count": 312
     }
   ],
   "crimeTypes": [
     {
       "label": "Traffic / DUI",
-      "count": 1034,
-      "pct": 20.2
+      "count": 1035,
+      "pct": 20.3
     },
     {
       "label": "Court / Supervision",
@@ -1724,7 +1724,7 @@
     },
     {
       "label": "Gross Misdemeanor",
-      "count": 2164,
+      "count": 2165,
       "pct": 29.6
     },
     {
@@ -1946,12 +1946,12 @@
     },
     {
       "name": "WASHINGTON STATE PATROL",
-      "count": 265,
+      "count": 266,
       "topCharge": "DUI",
       "chargeBreakdown": [
         {
           "label": "DUI",
-          "count": 99
+          "count": 100
         },
         {
           "label": "Driving While License Suspended",
@@ -2272,7 +2272,7 @@
       "topCharges": [
         {
           "label": "DUI",
-          "count": 127
+          "count": 128
         },
         {
           "label": "Domestic Violence",
@@ -2424,7 +2424,7 @@
       "crimeTypes": [
         {
           "label": "Traffic / DUI",
-          "count": 176
+          "count": 177
         },
         {
           "label": "Violent",
@@ -2707,7 +2707,7 @@
         "avgWeight": 181,
         "avgHeight": "5'9\"",
         "topRace": "White",
-        "n": 400
+        "n": 401
       },
       {
         "charge": "Driving While License Suspended",
@@ -3360,7 +3360,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 3307
+      "count": 3308
     }
   ],
   "ftaOriginalCharges": {
