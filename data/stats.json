@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-27T00:03:24.712Z",
+  "generatedAt": "2026-10-27T05:27:39.124Z",
   "bookingCounts": {
     "total": 3321,
-    "inCustody": 272,
-    "released": 3049
+    "inCustody": 263,
+    "released": 3058
   },
   "gender": [
     {
@@ -197,7 +197,7 @@
     "median": 2,
     "min": 0,
     "max": 1233.4,
-    "count": 2968,
+    "count": 2977,
     "histogram": [
       {
         "label": "< 1 day",
@@ -205,15 +205,15 @@
       },
       {
         "label": "1–3 days",
-        "count": 663
+        "count": 667
       },
       {
         "label": "4–7 days",
-        "count": 249
+        "count": 251
       },
       {
         "label": "1–2 weeks",
-        "count": 148
+        "count": 150
       },
       {
         "label": "2–4 weeks",
@@ -221,7 +221,7 @@
       },
       {
         "label": "1–3 months",
-        "count": 382
+        "count": 383
       },
       {
         "label": "3+ months",
@@ -975,15 +975,15 @@
   "releaseReasons": [
     {
       "label": "FTA / Contempt Resolved",
-      "count": 1038
+      "count": 1039
     },
     {
       "label": "Released (Unknown Reason)",
-      "count": 783
+      "count": 784
     },
     {
       "label": "Released",
-      "count": 726
+      "count": 732
     },
     {
       "label": "Scheduled Release / Time Served",
@@ -991,7 +991,7 @@
     },
     {
       "label": "DOC Transfer / Detainer",
-      "count": 140
+      "count": 141
     },
     {
       "label": "Failure to Comply",
@@ -1277,7 +1277,7 @@
           {
             "bookingNumber": "2026004268",
             "firstSeen": "09/24/2026, 15:06:36",
-            "status": "in_custody"
+            "status": "released"
           },
           {
             "bookingNumber": "2026004183",
@@ -2267,9 +2267,9 @@
     }
   ],
   "bailOnRelease": {
-    "total": 3049,
-    "withBail": 1398,
-    "pct": 45.9
+    "total": 3058,
+    "withBail": 1402,
+    "pct": 45.8
   },
   "chargesByAgeGroup": [
     {
