@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-27T20:53:41.307Z",
+  "generatedAt": "2026-10-28T00:21:18.365Z",
   "bookingCounts": {
-    "total": 3328,
-    "inCustody": 264,
-    "released": 3064
+    "total": 3330,
+    "inCustody": 258,
+    "released": 3072
   },
   "gender": [
     {
       "label": "Male",
-      "count": 2283,
+      "count": 2285,
       "pct": 68.6
     },
     {
@@ -25,8 +25,8 @@
   "race": [
     {
       "label": "White",
-      "count": 2361,
-      "pct": 70.9
+      "count": 2363,
+      "pct": 71
     },
     {
       "label": "Unknown",
@@ -61,7 +61,7 @@
       },
       {
         "label": "26–35",
-        "count": 931
+        "count": 932
       },
       {
         "label": "36–45",
@@ -73,7 +73,7 @@
       },
       {
         "label": "56–65",
-        "count": 244
+        "count": 245
       },
       {
         "label": "65+",
@@ -92,15 +92,15 @@
     },
     {
       "label": "DUI",
-      "count": 642
+      "count": 644
     },
     {
       "label": "Driving While License Suspended",
-      "count": 414
+      "count": 415
     },
     {
       "label": "Drug Offense",
-      "count": 332
+      "count": 333
     },
     {
       "label": "Assault",
@@ -146,7 +146,7 @@
   "topAgencies": [
     {
       "label": "KITSAP COUNTY SHERIFFS OFFICE",
-      "count": 2964
+      "count": 2967
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
@@ -166,7 +166,7 @@
     },
     {
       "label": "GIG HARBOR POLICE DEPARTMENT",
-      "count": 133
+      "count": 134
     },
     {
       "label": "SUQUAMISH TRIBAL POLICE DEPARTMENT",
@@ -197,7 +197,7 @@
     "median": 2,
     "min": 0,
     "max": 1233.4,
-    "count": 2983,
+    "count": 2991,
     "histogram": [
       {
         "label": "< 1 day",
@@ -205,7 +205,7 @@
       },
       {
         "label": "1–3 days",
-        "count": 667
+        "count": 669
       },
       {
         "label": "4–7 days",
@@ -213,15 +213,15 @@
       },
       {
         "label": "1–2 weeks",
-        "count": 152
+        "count": 153
       },
       {
         "label": "2–4 weeks",
-        "count": 299
+        "count": 303
       },
       {
         "label": "1–3 months",
-        "count": 383
+        "count": 384
       },
       {
         "label": "3+ months",
@@ -377,8 +377,8 @@
     {
       "category": "Theft (2nd Degree)",
       "medianBail": 10000,
-      "meanBail": 23795.59,
-      "count": 34
+      "meanBail": 24365.15,
+      "count": 33
     },
     {
       "category": "Protection Order Violation",
@@ -425,8 +425,8 @@
     {
       "category": "DUI",
       "medianBail": 5000,
-      "meanBail": 17767.09,
-      "count": 313
+      "meanBail": 17726.43,
+      "count": 314
     },
     {
       "category": "Domestic Violence",
@@ -563,20 +563,20 @@
   ],
   "chargesByRace": {
     "White": {
+      "DUI": 459,
+      "Drug Offense": 259,
+      "Driving While License Suspended": 295,
       "DOC Warrant": 147,
       "Failure to Appear": 555,
       "Robbery": 16,
       "Public Order": 9,
       "Reckless Driving": 29,
-      "DUI": 457,
       "PR / Bail Revocation": 20,
-      "Drug Offense": 258,
       "Domestic Violence": 503,
       "Protection Order Violation": 163,
       "Criminal Trespass": 176,
       "Assault": 152,
       "Obstruction": 124,
-      "Driving While License Suspended": 294,
       "Malicious Mischief": 53,
       "Theft (3rd Degree)": 187,
       "Weapons": 47,
@@ -806,6 +806,9 @@
   },
   "chargesBySex": {
     "Male": {
+      "DUI": 427,
+      "Drug Offense": 244,
+      "Driving While License Suspended": 309,
       "DOC Warrant": 154,
       "Failure to Appear": 511,
       "Theft (3rd Degree)": 148,
@@ -817,11 +820,8 @@
       "Protection Order Violation": 168,
       "Assault": 170,
       "Local / Tribal Code": 41,
-      "DUI": 425,
       "Interference with DV Reporting": 28,
-      "Driving While License Suspended": 308,
       "Malicious Mischief": 62,
-      "Drug Offense": 243,
       "Weapons": 60,
       "Making False Statements": 55,
       "Other": 132,
@@ -975,15 +975,15 @@
   "releaseReasons": [
     {
       "label": "FTA / Contempt Resolved",
-      "count": 1041
+      "count": 1046
     },
     {
       "label": "Released (Unknown Reason)",
-      "count": 784
+      "count": 785
     },
     {
       "label": "Released",
-      "count": 733
+      "count": 735
     },
     {
       "label": "Scheduled Release / Time Served",
@@ -1021,7 +1021,7 @@
   "recidivism": {
     "rate": 16.1,
     "repeatBookerCount": 436,
-    "totalIndividuals": 2707,
+    "totalIndividuals": 2709,
     "repeatBookers": [
       {
         "name": "LITTFIN, JOHN STEPHEN",
@@ -1071,7 +1071,7 @@
           {
             "bookingNumber": "2026004751",
             "firstSeen": "10/26/2026, 13:24:35",
-            "status": "in_custody"
+            "status": "released"
           },
           {
             "bookingNumber": "2026003188",
@@ -1666,13 +1666,13 @@
     },
     {
       "month": "2026-10",
-      "count": 329
+      "count": 331
     }
   ],
   "crimeTypes": [
     {
       "label": "Traffic / DUI",
-      "count": 1038,
+      "count": 1040,
       "pct": 20.2
     },
     {
@@ -1702,7 +1702,7 @@
     },
     {
       "label": "Drug",
-      "count": 332,
+      "count": 333,
       "pct": 6.5
     },
     {
@@ -1729,7 +1729,7 @@
     },
     {
       "label": "Gross Misdemeanor",
-      "count": 2177,
+      "count": 2180,
       "pct": 29.6
     },
     {
@@ -1739,7 +1739,7 @@
     },
     {
       "label": "Unknown",
-      "count": 1161,
+      "count": 1162,
       "pct": 15.8
     }
   ],
@@ -1812,8 +1812,8 @@
     {
       "category": "Failure to Appear",
       "avgDays": 13.5,
-      "medianDays": 1.5,
-      "count": 199
+      "medianDays": 1.6,
+      "count": 200
     },
     {
       "category": "Burglary (2nd Degree)",
@@ -1843,7 +1843,7 @@
   "agencyBreakdown": [
     {
       "name": "Kitsap County Sheriff",
-      "count": 2975,
+      "count": 2978,
       "topCharge": "Domestic Violence",
       "chargeBreakdown": [
         {
@@ -1856,11 +1856,11 @@
         },
         {
           "label": "DUI",
-          "count": 314
+          "count": 315
         },
         {
           "label": "Driving While License Suspended",
-          "count": 178
+          "count": 179
         },
         {
           "label": "Assault",
@@ -1978,7 +1978,7 @@
     },
     {
       "name": "Gig Harbor PD",
-      "count": 133,
+      "count": 134,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -1995,7 +1995,7 @@
         },
         {
           "label": "DUI",
-          "count": 14
+          "count": 15
         },
         {
           "label": "Driving While License Suspended",
@@ -2267,9 +2267,9 @@
     }
   ],
   "bailOnRelease": {
-    "total": 3064,
-    "withBail": 1405,
-    "pct": 45.9
+    "total": 3072,
+    "withBail": 1407,
+    "pct": 45.8
   },
   "chargesByAgeGroup": [
     {
@@ -2310,15 +2310,15 @@
         },
         {
           "label": "DUI",
-          "count": 186
+          "count": 187
         },
         {
           "label": "Driving While License Suspended",
-          "count": 129
+          "count": 130
         },
         {
           "label": "Drug Offense",
-          "count": 99
+          "count": 100
         }
       ]
     },
@@ -2377,7 +2377,7 @@
       "topCharges": [
         {
           "label": "DUI",
-          "count": 50
+          "count": 51
         },
         {
           "label": "Domestic Violence",
@@ -2478,7 +2478,7 @@
         },
         {
           "label": "Traffic / DUI",
-          "count": 301
+          "count": 302
         },
         {
           "label": "Violent",
@@ -2498,7 +2498,7 @@
         },
         {
           "label": "Drug",
-          "count": 99
+          "count": 100
         },
         {
           "label": "Fraud / Identity",
@@ -2609,7 +2609,7 @@
       "crimeTypes": [
         {
           "label": "Traffic / DUI",
-          "count": 74
+          "count": 75
         },
         {
           "label": "Violent",
@@ -2712,21 +2712,21 @@
         "avgWeight": 181,
         "avgHeight": "5'9\"",
         "topRace": "White",
-        "n": 402
+        "n": 404
       },
       {
         "charge": "Driving While License Suspended",
         "avgWeight": 184,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 300
+        "n": 301
       },
       {
         "charge": "Drug Offense",
         "avgWeight": 185,
         "avgHeight": "5'11\"",
         "topRace": "White",
-        "n": 243
+        "n": 244
       },
       {
         "charge": "Criminal Trespass",
@@ -3372,7 +3372,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 3325
+      "count": 3327
     }
   ],
   "ftaOriginalCharges": {
