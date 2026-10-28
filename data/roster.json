@@ -154315,9 +154315,9 @@
       }
     ],
     "totalBond": null,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "10/13/2026, 17:30:51",
-    "releasedAt": null
+    "releasedAt": "10/27/2026, 23:05:01"
   },
   "2026004546": {
     "bookingNumber": "2026004546",
@@ -163205,7 +163205,7 @@
     "detailUrl": "https://incustody.kitsap.gov/Home/BookingSearchResult?LastName=%25&FirstName=&BookingFrom=&BookingTo=&ValidSearch=&sort=BookingDate&sortdir=DESC&page=18&BookingNumber=6",
     "inmateId": "40706698",
     "schedRelease": "12/07/2026",
-    "age": "31",
+    "age": "32",
     "height": "502",
     "weight": "180",
     "hair": "BLK",
@@ -163257,6 +163257,84 @@
     "totalBond": null,
     "status": "in_custody",
     "firstSeen": "10/27/2026, 17:18:34",
+    "releasedAt": null
+  },
+  "2026004765": {
+    "bookingNumber": "2026004765",
+    "firstName": "DESMOND",
+    "lastName": "BOSTICK",
+    "middleName": "DALE TYRE",
+    "race": "B",
+    "sex": "M",
+    "bookingDate": "10/27/2026",
+    "releaseDate": "",
+    "schReleaseDate": "",
+    "detailUrl": "https://incustody.kitsap.gov/Home/BookingSearchResult?LastName=%25&FirstName=&BookingFrom=&BookingTo=&ValidSearch=&sort=BookingDate&sortdir=DESC&page=1&BookingNumber=1",
+    "inmateId": "40695374",
+    "schedRelease": null,
+    "age": "27",
+    "height": "601",
+    "weight": "230",
+    "hair": "BLK",
+    "eyes": "BRO",
+    "charges": [
+      {
+        "violation": "9A.76.190(3)(A) - FAILURE TO APPEAR / CONTEMPT OF COURT - FELONY",
+        "cleared": false,
+        "addDesc": "FTA - POV DV",
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 150000,
+        "cashAmount": null,
+        "courtCase": "2610042418",
+        "nextCourtDate": "10/28/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "10/27/2026",
+        "courtType": "SC"
+      }
+    ],
+    "totalBond": 150000,
+    "status": "in_custody",
+    "firstSeen": "10/27/2026, 23:05:01",
+    "releasedAt": null
+  },
+  "2026004766": {
+    "bookingNumber": "2026004766",
+    "firstName": "CHELSEA",
+    "lastName": "HRUBY",
+    "middleName": "NATASHA",
+    "race": "W",
+    "sex": "F",
+    "bookingDate": "10/27/2026",
+    "releaseDate": "",
+    "schReleaseDate": "",
+    "detailUrl": "https://incustody.kitsap.gov/Home/BookingSearchResult?LastName=%25&FirstName=&BookingFrom=&BookingTo=&ValidSearch=&sort=BookingDate&sortdir=DESC&page=1&BookingNumber=2",
+    "inmateId": "40750987",
+    "schedRelease": null,
+    "age": "36",
+    "height": "502",
+    "weight": "165",
+    "hair": "BRO",
+    "eyes": "BRO",
+    "charges": [
+      {
+        "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 5000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "10/28/2026",
+        "arrestAgency": "PORT ORCHARD POLICE DEPARTMENT",
+        "arrestDate": "10/27/2026",
+        "courtType": "PO"
+      }
+    ],
+    "totalBond": 5000,
+    "status": "in_custody",
+    "firstSeen": "10/27/2026, 23:05:01",
     "releasedAt": null
   }
 }
