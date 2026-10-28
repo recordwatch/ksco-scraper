@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-10-28T19:02:49.635Z",
+  "generatedAt": "2026-10-28T23:09:49.067Z",
   "bookingCounts": {
-    "total": 3339,
-    "inCustody": 255,
-    "released": 3084
+    "total": 3341,
+    "inCustody": 251,
+    "released": 3090
   },
   "gender": [
     {
       "label": "Male",
-      "count": 2291,
+      "count": 2293,
       "pct": 68.6
     },
     {
       "label": "Female",
       "count": 743,
-      "pct": 22.3
+      "pct": 22.2
     },
     {
       "label": "Unknown",
@@ -25,7 +25,7 @@
   "race": [
     {
       "label": "White",
-      "count": 2368,
+      "count": 2370,
       "pct": 70.9
     },
     {
@@ -51,7 +51,7 @@
   ],
   "age": {
     "mean": 38.7,
-    "median": 37,
+    "median": 38,
     "min": 18,
     "max": 87,
     "histogram": [
@@ -65,11 +65,11 @@
       },
       {
         "label": "36–45",
-        "count": 990
+        "count": 991
       },
       {
         "label": "46–55",
-        "count": 498
+        "count": 499
       },
       {
         "label": "56–65",
@@ -112,11 +112,11 @@
     },
     {
       "label": "Criminal Trespass",
-      "count": 232
+      "count": 233
     },
     {
       "label": "Protection Order Violation",
-      "count": 226
+      "count": 227
     },
     {
       "label": "DOC Warrant",
@@ -128,7 +128,7 @@
     },
     {
       "label": "Obstruction",
-      "count": 172
+      "count": 173
     },
     {
       "label": "Harassment",
@@ -146,7 +146,7 @@
   "topAgencies": [
     {
       "label": "KITSAP COUNTY SHERIFFS OFFICE",
-      "count": 2969
+      "count": 2971
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
@@ -174,7 +174,7 @@
     },
     {
       "label": "BAINBRIDGE ISLAND POLICE DEPARTMENT",
-      "count": 75
+      "count": 77
     },
     {
       "label": "OTHER AGENCY",
@@ -186,18 +186,18 @@
     }
   ],
   "bail": {
-    "mean": 29137.26,
+    "mean": 29176.79,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 2295
+    "count": 2291
   },
   "stay": {
     "mean": 21.6,
     "median": 2,
     "min": 0,
     "max": 1233.4,
-    "count": 3003,
+    "count": 3009,
     "histogram": [
       {
         "label": "< 1 day",
@@ -205,15 +205,15 @@
       },
       {
         "label": "1–3 days",
-        "count": 670
+        "count": 673
       },
       {
         "label": "4–7 days",
-        "count": 252
+        "count": 253
       },
       {
         "label": "1–2 weeks",
-        "count": 154
+        "count": 155
       },
       {
         "label": "2–4 weeks",
@@ -221,7 +221,7 @@
       },
       {
         "label": "1–3 months",
-        "count": 389
+        "count": 390
       },
       {
         "label": "3+ months",
@@ -255,16 +255,16 @@
       "count": 1
     },
     {
+      "category": "Robbery",
+      "medianBail": 255000,
+      "meanBail": 429444.44,
+      "count": 9
+    },
+    {
       "category": "Child Sex Offense",
       "medianBail": 250000,
       "meanBail": 237666.67,
       "count": 15
-    },
-    {
-      "category": "Robbery",
-      "medianBail": 177500,
-      "meanBail": 389000,
-      "count": 10
     },
     {
       "category": "Failure to Comply (Sentence)",
@@ -423,6 +423,12 @@
       "count": 3
     },
     {
+      "category": "Obstruction",
+      "medianBail": 5000,
+      "meanBail": 5372.09,
+      "count": 43
+    },
+    {
       "category": "Domestic Violence",
       "medianBail": 5000,
       "meanBail": 49808.9,
@@ -431,14 +437,8 @@
     {
       "category": "DUI",
       "medianBail": 5000,
-      "meanBail": 17726.43,
-      "count": 314
-    },
-    {
-      "category": "Malicious Mischief",
-      "medianBail": 5000,
-      "meanBail": 8545.45,
-      "count": 33
+      "meanBail": 17856.09,
+      "count": 312
     },
     {
       "category": "Other",
@@ -447,16 +447,16 @@
       "count": 76
     },
     {
-      "category": "Obstruction",
-      "medianBail": 5000,
-      "meanBail": 5380.95,
-      "count": 42
-    },
-    {
       "category": "Ignition Interlock Violation",
       "medianBail": 5000,
       "meanBail": 9425.93,
       "count": 27
+    },
+    {
+      "category": "Malicious Mischief",
+      "medianBail": 5000,
+      "meanBail": 8500,
+      "count": 32
     },
     {
       "category": "Hit and Run",
@@ -539,8 +539,8 @@
     {
       "category": "Criminal Trespass",
       "medianBail": 1000,
-      "meanBail": 2865.55,
-      "count": 119
+      "meanBail": 2881.36,
+      "count": 118
     },
     {
       "category": "Local / Tribal Code",
@@ -563,11 +563,13 @@
   ],
   "chargesByRace": {
     "White": {
+      "Protection Order Violation": 165,
+      "Obstruction": 125,
+      "Community Custody Violation": 18,
       "Residential Burglary": 22,
       "Drug Offense": 260,
       "Arson": 11,
       "DOC Warrant": 148,
-      "Protection Order Violation": 164,
       "DUI": 461,
       "Driving While License Suspended": 295,
       "Failure to Appear": 554,
@@ -576,9 +578,8 @@
       "Reckless Driving": 29,
       "PR / Bail Revocation": 20,
       "Domestic Violence": 504,
-      "Criminal Trespass": 176,
+      "Criminal Trespass": 177,
       "Assault": 152,
-      "Obstruction": 124,
       "Malicious Mischief": 53,
       "Theft (3rd Degree)": 187,
       "Weapons": 47,
@@ -593,7 +594,6 @@
       "Theft (2nd Degree)": 81,
       "Vehicle Prowling": 16,
       "Failure to Comply (Sentence)": 47,
-      "Community Custody Violation": 17,
       "Ignition Interlock Violation": 79,
       "Trafficking Stolen Property": 13,
       "Witness Tampering": 4,
@@ -806,6 +806,9 @@
   },
   "chargesBySex": {
     "Male": {
+      "Protection Order Violation": 169,
+      "Obstruction": 123,
+      "Community Custody Violation": 20,
       "Residential Burglary": 22,
       "Drug Offense": 245,
       "Arson": 11,
@@ -818,9 +821,7 @@
       "Failure to Appear": 510,
       "Reckless Driving": 27,
       "PR / Bail Revocation": 20,
-      "Criminal Trespass": 174,
-      "Obstruction": 122,
-      "Protection Order Violation": 168,
+      "Criminal Trespass": 175,
       "Assault": 170,
       "Local / Tribal Code": 41,
       "Interference with DV Reporting": 28,
@@ -831,7 +832,6 @@
       "Stalking": 16,
       "Homicide": 25,
       "Harassment": 107,
-      "Community Custody Violation": 19,
       "Ignition Interlock Violation": 82,
       "Robbery": 22,
       "Theft (2nd Degree)": 61,
@@ -975,15 +975,15 @@
   "releaseReasons": [
     {
       "label": "FTA / Contempt Resolved",
-      "count": 1050
+      "count": 1054
     },
     {
       "label": "Released (Unknown Reason)",
-      "count": 787
+      "count": 788
     },
     {
       "label": "Released",
-      "count": 738
+      "count": 739
     },
     {
       "label": "Scheduled Release / Time Served",
@@ -1019,8 +1019,8 @@
     }
   ],
   "recidivism": {
-    "rate": 16.1,
-    "repeatBookerCount": 438,
+    "rate": 16.2,
+    "repeatBookerCount": 439,
     "totalIndividuals": 2716,
     "repeatBookers": [
       {
@@ -1614,7 +1614,7 @@
           {
             "bookingNumber": "2026004562",
             "firstSeen": "10/14/2026, 16:22:00",
-            "status": "in_custody"
+            "status": "released"
           },
           {
             "bookingNumber": "2026003683",
@@ -1666,18 +1666,18 @@
     },
     {
       "month": "2026-10",
-      "count": 340
+      "count": 342
     }
   ],
   "crimeTypes": [
     {
       "label": "Traffic / DUI",
       "count": 1043,
-      "pct": 20.3
+      "pct": 20.2
     },
     {
       "label": "Court / Supervision",
-      "count": 979,
+      "count": 980,
       "pct": 19
     },
     {
@@ -1692,12 +1692,12 @@
     },
     {
       "label": "Other",
-      "count": 461,
+      "count": 462,
       "pct": 9
     },
     {
       "label": "Order Violations",
-      "count": 390,
+      "count": 391,
       "pct": 7.6
     },
     {
@@ -1724,17 +1724,17 @@
   "severity": [
     {
       "label": "Misdemeanor",
-      "count": 2498,
+      "count": 2500,
       "pct": 33.9
     },
     {
       "label": "Gross Misdemeanor",
-      "count": 2184,
+      "count": 2186,
       "pct": 29.6
     },
     {
       "label": "Felony",
-      "count": 1527,
+      "count": 1528,
       "pct": 20.7
     },
     {
@@ -1813,7 +1813,7 @@
       "category": "Failure to Appear",
       "avgDays": 13.5,
       "medianDays": 1.6,
-      "count": 200
+      "count": 201
     },
     {
       "category": "Burglary (2nd Degree)",
@@ -1843,7 +1843,7 @@
   "agencyBreakdown": [
     {
       "name": "Kitsap County Sheriff",
-      "count": 2980,
+      "count": 2982,
       "topCharge": "Domestic Violence",
       "chargeBreakdown": [
         {
@@ -1852,7 +1852,7 @@
         },
         {
           "label": "Failure to Appear",
-          "count": 444
+          "count": 445
         },
         {
           "label": "DUI",
@@ -2032,7 +2032,7 @@
     },
     {
       "name": "BAINBRIDGE ISLAND POLICE DEPARTMENT",
-      "count": 75,
+      "count": 77,
       "topCharge": "Domestic Violence",
       "chargeBreakdown": [
         {
@@ -2049,11 +2049,11 @@
         },
         {
           "label": "Protection Order Violation",
-          "count": 4
+          "count": 5
         },
         {
           "label": "Obstruction",
-          "count": 4
+          "count": 5
         }
       ]
     },
@@ -2113,12 +2113,12 @@
     },
     {
       "name": "DOC",
-      "count": 32,
+      "count": 33,
       "topCharge": "Community Custody Violation",
       "chargeBreakdown": [
         {
           "label": "Community Custody Violation",
-          "count": 16
+          "count": 17
         },
         {
           "label": "DOC Warrant",
@@ -2267,9 +2267,9 @@
     }
   ],
   "bailOnRelease": {
-    "total": 3084,
-    "withBail": 1409,
-    "pct": 45.7
+    "total": 3090,
+    "withBail": 1410,
+    "pct": 45.6
   },
   "chargesByAgeGroup": [
     {
@@ -2535,7 +2535,7 @@
         },
         {
           "label": "Other",
-          "count": 141
+          "count": 142
         },
         {
           "label": "Drug",
@@ -2543,7 +2543,7 @@
         },
         {
           "label": "Order Violations",
-          "count": 123
+          "count": 124
         },
         {
           "label": "Fraud / Identity",
@@ -2564,7 +2564,7 @@
       "crimeTypes": [
         {
           "label": "Court / Supervision",
-          "count": 149
+          "count": 150
         },
         {
           "label": "Property",
@@ -2733,14 +2733,14 @@
         "avgWeight": 180,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 172
+        "n": 173
       },
       {
         "charge": "Protection Order Violation",
         "avgWeight": 191,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 167
+        "n": 168
       },
       {
         "charge": "Assault",
@@ -2775,7 +2775,7 @@
         "avgWeight": 180,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 122
+        "n": 123
       },
       {
         "charge": "Harassment",
@@ -2898,7 +2898,7 @@
       },
       {
         "charge": "Residential Burglary",
-        "avgWeight": 185,
+        "avgWeight": 187,
         "avgHeight": "5'10\"",
         "topRace": "White",
         "n": 22
@@ -2932,6 +2932,13 @@
         "n": 21
       },
       {
+        "charge": "Community Custody Violation",
+        "avgWeight": 192,
+        "avgHeight": "5'11\"",
+        "topRace": "White",
+        "n": 20
+      },
+      {
         "charge": "PR / Bail Revocation",
         "avgWeight": 183,
         "avgHeight": "5'11\"",
@@ -2951,13 +2958,6 @@
         "avgHeight": "5'10\"",
         "topRace": "White",
         "n": 20
-      },
-      {
-        "charge": "Community Custody Violation",
-        "avgWeight": 194,
-        "avgHeight": "5'11\"",
-        "topRace": "White",
-        "n": 19
       },
       {
         "charge": "Vehicle Prowling",
@@ -3003,7 +3003,7 @@
       },
       {
         "charge": "Arson",
-        "avgWeight": 183,
+        "avgWeight": 186,
         "avgHeight": "5'10\"",
         "topRace": "White",
         "n": 11
@@ -3372,7 +3372,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 3336
+      "count": 3338
     }
   ],
   "ftaOriginalCharges": {
