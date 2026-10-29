@@ -1,6 +1,40 @@
 [
   {
     "type": "BOOKED",
+    "bookingNumber": "2026004781",
+    "name": "CUNNINGTON, DOUGLAS W",
+    "bookingDate": "10/29/2026",
+    "charges": [
+      {
+        "violation": "9A.36.041(2) - ASSAULT-4 - DV",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "NOBD",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "10/30/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "10/29/2026",
+        "courtType": "DS"
+      }
+    ],
+    "age": "43",
+    "sex": "",
+    "race": "",
+    "height": "506",
+    "weight": "135",
+    "hair": "BRO",
+    "eyes": "HAZ",
+    "inmateId": "50005600",
+    "schedRelease": null,
+    "firstSeen": "10/29/2026, 09:44:01",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
     "bookingNumber": "2026004780",
     "name": "RICE, CLAYTON WINFIELD",
     "bookingDate": "",
@@ -20,7 +54,7 @@
         "courtType": "SC"
       }
     ],
-    "age": "33",
+    "age": "43",
     "sex": "M",
     "race": "W",
     "height": "600",
@@ -48,10 +82,10 @@
         "bondAmount": 65000,
         "cashAmount": null,
         "courtCase": null,
-        "nextCourtDate": "10/29/2026",
+        "nextCourtDate": "10/30/2026",
         "arrestAgency": "PORT ORCHARD POLICE DEPARTMENT",
         "arrestDate": "10/28/2026",
-        "courtType": "SC"
+        "courtType": "PO"
       },
       {
         "violation": "9A.88.010 - INDECENT EXPOSURE",
@@ -62,10 +96,10 @@
         "bondAmount": null,
         "cashAmount": null,
         "courtCase": null,
-        "nextCourtDate": "10/29/2026",
+        "nextCourtDate": "10/30/2026",
         "arrestAgency": "PORT ORCHARD POLICE DEPARTMENT",
         "arrestDate": "10/28/2026",
-        "courtType": "SC"
+        "courtType": "PO"
       }
     ],
     "age": "40",
@@ -89,9 +123,9 @@
     "charges": [
       {
         "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": 6000,
         "cashAmount": null,
@@ -103,9 +137,9 @@
       },
       {
         "violation": "46.20.342(1)(C) - DWLS 3 -DRIVE W/LICENSE SUSP OR REVOKED-3 OR REVOKED LIC OR PRIVILEGE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": null,
         "cashAmount": null,
@@ -126,8 +160,8 @@
     "inmateId": "50005599",
     "schedRelease": null,
     "firstSeen": "10/29/2026, 02:37:12",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "10/29/2026, 09:44:07",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -137,14 +171,14 @@
     "charges": [
       {
         "violation": "9A.36.041(2) - ASSAULT-4 - DV",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
-        "bondBailType": "NOBD",
+        "clearance": "PR",
+        "bondBailType": "PR",
         "bondAmount": null,
         "cashAmount": null,
-        "courtCase": null,
-        "nextCourtDate": "10/29/2026",
+        "courtCase": "51740001",
+        "nextCourtDate": "12/16/2026",
         "arrestAgency": "BREMERTON POLICE DEPARTMENT",
         "arrestDate": "10/28/2026",
         "courtType": "BM"
@@ -286,6 +320,20 @@
         "arrestAgency": "BAINBRIDGE ISLAND POLICE DEPARTMENT",
         "arrestDate": "10/28/2026",
         "courtType": "BI"
+      },
+      {
+        "violation": "9A.76.190(3)(A) - FAILURE TO APPEAR / CONTEMPT OF COURT - FELONY",
+        "cleared": true,
+        "addDesc": null,
+        "clearance": "RL",
+        "bondBailType": "OOC",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": "2610074618",
+        "nextCourtDate": "10/29/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "10/29/2026",
+        "courtType": "SC"
       }
     ],
     "age": "41",
@@ -312,14 +360,14 @@
         "cleared": false,
         "addDesc": null,
         "clearance": null,
-        "bondBailType": "NOBD",
+        "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
-        "courtCase": null,
-        "nextCourtDate": "10/29/2026",
+        "courtCase": "446684",
+        "nextCourtDate": null,
         "arrestAgency": "DEPARTMENT OF CORRECTIONS",
         "arrestDate": "10/28/2026",
-        "courtType": "DOC"
+        "courtType": null
       }
     ],
     "age": "47",
@@ -330,7 +378,7 @@
     "hair": "GRY",
     "eyes": "BLU",
     "inmateId": "50002354",
-    "schedRelease": null,
+    "schedRelease": "10/31/2026",
     "firstSeen": "10/28/2026, 16:07:01",
     "releasedAt": null,
     "status": "in_custody"
@@ -1430,6 +1478,20 @@
         "clearance": null,
         "bondBailType": "C/B",
         "bondAmount": 500,
+        "cashAmount": null,
+        "courtCase": "51739701",
+        "nextCourtDate": "10/29/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "10/25/2026",
+        "courtType": "BM"
+      },
+      {
+        "violation": "9A.36.041(2) - ASSAULT-4 - DV",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": null,
         "cashAmount": null,
         "courtCase": "51739701",
         "nextCourtDate": "10/29/2026",
@@ -8398,7 +8460,7 @@
         "bondAmount": 250,
         "cashAmount": null,
         "courtCase": "51668705",
-        "nextCourtDate": "10/29/2026",
+        "nextCourtDate": "11/12/2026",
         "arrestAgency": "BREMERTON POLICE DEPARTMENT",
         "arrestDate": "10/14/2026",
         "courtType": "BM"
@@ -8412,7 +8474,7 @@
         "bondAmount": 250,
         "cashAmount": null,
         "courtCase": "51668701",
-        "nextCourtDate": "10/29/2026",
+        "nextCourtDate": "11/12/2026",
         "arrestAgency": "BREMERTON POLICE DEPARTMENT",
         "arrestDate": "10/14/2026",
         "courtType": "BM"
@@ -8426,7 +8488,7 @@
         "bondAmount": 250,
         "cashAmount": null,
         "courtCase": "51668702",
-        "nextCourtDate": "10/29/2026",
+        "nextCourtDate": "11/12/2026",
         "arrestAgency": "BREMERTON POLICE DEPARTMENT",
         "arrestDate": "10/14/2026",
         "courtType": "BM"
@@ -8440,7 +8502,7 @@
         "bondAmount": 250,
         "cashAmount": null,
         "courtCase": "51668703",
-        "nextCourtDate": "10/29/2026",
+        "nextCourtDate": "11/12/2026",
         "arrestAgency": "BREMERTON POLICE DEPARTMENT",
         "arrestDate": "10/14/2026",
         "courtType": "BM"
@@ -8454,7 +8516,7 @@
         "bondAmount": 250,
         "cashAmount": null,
         "courtCase": "51668704",
-        "nextCourtDate": "10/29/2026",
+        "nextCourtDate": "11/12/2026",
         "arrestAgency": "BREMERTON POLICE DEPARTMENT",
         "arrestDate": "10/14/2026",
         "courtType": "BM"
@@ -8515,10 +8577,10 @@
     "charges": [
       {
         "violation": "9A.76.190(3)(A) - FAILURE TO APPEAR / CONTEMPT OF COURT - FELONY",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "FTA- FAIL TO REGISTER",
-        "clearance": null,
-        "bondBailType": "NOBD",
+        "clearance": "COOP",
+        "bondBailType": "WC",
         "bondAmount": null,
         "cashAmount": null,
         "courtCase": "2610029918",
@@ -8529,10 +8591,10 @@
       },
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "FTA MAL MISCH 3",
-        "clearance": null,
-        "bondBailType": "NOBD",
+        "clearance": "COOP",
+        "bondBailType": "WC",
         "bondAmount": null,
         "cashAmount": null,
         "courtCase": "2610033818",
@@ -8552,8 +8614,8 @@
     "inmateId": "40030239",
     "schedRelease": null,
     "firstSeen": "10/14/2026, 13:03:13",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "10/29/2026, 09:44:06",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -8727,9 +8789,9 @@
     "charges": [
       {
         "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
@@ -8741,9 +8803,9 @@
       },
       {
         "violation": "46.52.010(3) - HIT/RUN UNATTENDED VEHICLE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
@@ -8755,9 +8817,9 @@
       },
       {
         "violation": "9A.36.041(2) - ASSAULT-4",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
@@ -8778,8 +8840,8 @@
     "inmateId": "10009022",
     "schedRelease": "10/29/2026",
     "firstSeen": "10/13/2026, 17:30:50",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "10/29/2026, 09:44:05",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -17224,10 +17286,10 @@
     "charges": [
       {
         "violation": "72.09.310 - COMMUNITY CUSTODY VIOLATOR",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "DOC",
-        "clearance": null,
-        "bondBailType": "NOBD",
+        "clearance": "COOP",
+        "bondBailType": "WC",
         "bondAmount": null,
         "cashAmount": null,
         "courtCase": "360381",
@@ -17247,8 +17309,8 @@
     "inmateId": "40249320",
     "schedRelease": null,
     "firstSeen": "09/30/2026, 15:29:17",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "10/29/2026, 09:44:05",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -17630,9 +17692,9 @@
     "charges": [
       {
         "violation": "9A.36.041(2) - ASSAULT-4 - DV",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
@@ -17667,8 +17729,8 @@
     "inmateId": "40045711",
     "schedRelease": "10/29/2026",
     "firstSeen": "09/29/2026, 23:24:04",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "10/29/2026, 09:44:04",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -19942,17 +20004,17 @@
     "charges": [
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "VEH PROWL 2, FALSE STATE, POSS C/S",
-        "clearance": null,
-        "bondBailType": "C/B",
-        "bondAmount": 2500,
+        "clearance": "TS",
+        "bondBailType": "GL",
+        "bondAmount": null,
         "cashAmount": null,
         "courtCase": "51557001",
-        "nextCourtDate": "10/29/2026",
+        "nextCourtDate": null,
         "arrestAgency": "BREMERTON POLICE DEPARTMENT",
         "arrestDate": "09/25/2026",
-        "courtType": "BM"
+        "courtType": null
       }
     ],
     "age": "21",
@@ -19963,7 +20025,7 @@
     "hair": "BLK",
     "eyes": "BRO",
     "inmateId": "50001930",
-    "schedRelease": null,
+    "schedRelease": "10/25/2026",
     "firstSeen": "09/25/2026, 13:19:31",
     "releasedAt": null,
     "status": "in_custody"
@@ -85618,10 +85680,10 @@
       },
       {
         "violation": "9A.56.075(2) - TAKE MTR VEH W/O PERMISSION-2",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
-        "bondBailType": "NOBD",
+        "clearance": "COOP",
+        "bondBailType": "WC",
         "bondAmount": null,
         "cashAmount": null,
         "courtCase": "2610042118",
@@ -85641,8 +85703,8 @@
     "inmateId": "40696584",
     "schedRelease": "07/16/2026",
     "firstSeen": "06/19/2026, 15:07:10",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "10/29/2026, 09:44:04",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -123824,10 +123886,10 @@
       },
       {
         "violation": "9A.56.360(3) - THEFT-RETAIL EXTENUATING CIRCUMSTANCES-2",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
-        "bondBailType": "NOBD",
+        "clearance": "COOP",
+        "bondBailType": "WC",
         "bondAmount": null,
         "cashAmount": null,
         "courtCase": "2610037118",
@@ -123838,10 +123900,10 @@
       },
       {
         "violation": "9A.36.021(2)(A) - ASSAULT-2",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
-        "bondBailType": "NOBD",
+        "clearance": "COOP",
+        "bondBailType": "WC",
         "bondAmount": null,
         "cashAmount": null,
         "courtCase": "2610028618",
@@ -123852,10 +123914,10 @@
       },
       {
         "violation": "9A.36.021(2)(A) - ASSAULT-2",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
-        "bondBailType": "NOBD",
+        "clearance": "COOP",
+        "bondBailType": "WC",
         "bondAmount": null,
         "cashAmount": null,
         "courtCase": "2610028618",
@@ -123866,10 +123928,10 @@
       },
       {
         "violation": "9A.56.065 - THEFT OF A MOTOR VEHICLE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
-        "bondBailType": "NOBD",
+        "clearance": "COOP",
+        "bondBailType": "WC",
         "bondAmount": null,
         "cashAmount": null,
         "courtCase": "2610028618",
@@ -123889,8 +123951,8 @@
     "inmateId": "40139064",
     "schedRelease": "07/12/2026",
     "firstSeen": "04/24/2026, 06:30:23",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "10/29/2026, 09:44:03",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -135902,10 +135964,10 @@
       },
       {
         "violation": "9A.76.190(3)(A) - FAILURE TO APPEAR / CONTEMPT OF COURT - FELONY",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "HARASS DV, VPO DV X3, OBTRUCTION, BURG 1 DV, KIDNAP 1 DV, ASLT 2 DV",
-        "clearance": null,
-        "bondBailType": "NOBD",
+        "clearance": "COOP",
+        "bondBailType": "WC",
         "bondAmount": null,
         "cashAmount": null,
         "courtCase": "2510093118",
@@ -135916,10 +135978,10 @@
       },
       {
         "violation": "9A.76.190(3)(A) - FAILURE TO APPEAR / CONTEMPT OF COURT - FELONY",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "POSS STOLEN FA, UPFA 2, MAL MISCH 3 DV",
-        "clearance": null,
-        "bondBailType": "NOBD",
+        "clearance": "COOP",
+        "bondBailType": "WC",
         "bondAmount": null,
         "cashAmount": null,
         "courtCase": "2410091718",
@@ -135939,8 +136001,8 @@
     "inmateId": "50002607",
     "schedRelease": null,
     "firstSeen": "03/25/2026, 18:54:03",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "10/29/2026, 09:44:02",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -137424,10 +137486,10 @@
     "charges": [
       {
         "violation": "9.68A.040(2) - SEXUAL EXPLOITATION OF A MINOR PHOTOGRAPH/LIVE PERFORMANCE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
-        "bondBailType": "NOBD",
+        "clearance": "COOP",
+        "bondBailType": "WC",
         "bondAmount": null,
         "cashAmount": null,
         "courtCase": "2610002118",
@@ -137438,10 +137500,10 @@
       },
       {
         "violation": "9.68A.090(2) - COMMUNICATE W/MINOR-IMMORAL PURP PREVIOUS CONVICTION",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
-        "bondBailType": "NOBD",
+        "clearance": "COOP",
+        "bondBailType": "WC",
         "bondAmount": null,
         "cashAmount": null,
         "courtCase": "2610002118",
@@ -137461,8 +137523,8 @@
     "inmateId": "50004324",
     "schedRelease": null,
     "firstSeen": "03/25/2026, 18:53:15",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "10/29/2026, 09:44:02",
+    "status": "released"
   },
   {
     "type": "BOOKED",
