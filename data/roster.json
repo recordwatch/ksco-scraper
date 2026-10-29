@@ -154198,9 +154198,9 @@
       }
     ],
     "totalBond": 6000,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "10/13/2026, 14:26:06",
-    "releasedAt": null
+    "releasedAt": "10/28/2026, 19:41:32"
   },
   "2026004543": {
     "bookingNumber": "2026004543",
@@ -162354,9 +162354,9 @@
     "charges": [
       {
         "violation": "9A.76.190(3)(A) - FAILURE TO APPEAR / CONTEMPT OF COURT - FELONY",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "TSP 2",
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": 11000,
         "cashAmount": null,
@@ -162368,9 +162368,9 @@
       },
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": 7500,
         "cashAmount": null,
@@ -162382,9 +162382,9 @@
       },
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": 10000,
         "cashAmount": null,
@@ -162396,9 +162396,9 @@
       }
     ],
     "totalBond": 31000,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "10/26/2026, 00:33:06",
-    "releasedAt": null
+    "releasedAt": "10/28/2026, 19:41:33"
   },
   "2026004741": {
     "bookingNumber": "2026004741",
@@ -162940,9 +162940,9 @@
       }
     ],
     "totalBond": 25000,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "10/27/2026, 13:51:01",
-    "releasedAt": null
+    "releasedAt": "10/28/2026, 19:41:33"
   },
   "2026004757": {
     "bookingNumber": "2026004757",
@@ -163615,7 +163615,7 @@
         "bondBailType": "C/B",
         "bondAmount": 7500,
         "cashAmount": null,
-        "courtCase": "24083701-KTCCN",
+        "courtCase": "24083701",
         "nextCourtDate": "10/29/2026",
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "10/28/2026",
@@ -163748,7 +163748,7 @@
     "schedRelease": null,
     "age": "41",
     "height": "509",
-    "weight": "137",
+    "weight": "140",
     "hair": "GRY",
     "eyes": "GRN",
     "charges": [
@@ -163784,6 +163784,73 @@
     "totalBond": 5000,
     "status": "in_custody",
     "firstSeen": "10/28/2026, 16:07:01",
+    "releasedAt": null
+  },
+  "2026004776": {
+    "bookingNumber": "2026004776",
+    "firstName": "DILLON",
+    "lastName": "TOWNSEND",
+    "middleName": "JAMES",
+    "race": "W",
+    "sex": "M",
+    "bookingDate": "",
+    "releaseDate": "",
+    "schReleaseDate": "",
+    "detailUrl": "https://incustody.kitsap.gov/Home/BookingSearchResult?LastName=%25&FirstName=&BookingFrom=&BookingTo=&ValidSearch=&sort=BookingDate&sortdir=DESC&page=17&BookingNumber=13",
+    "inmateId": "40065626",
+    "schedRelease": null,
+    "age": "39",
+    "height": "511",
+    "weight": "180",
+    "hair": "BRO",
+    "eyes": "GRY",
+    "charges": [
+      {
+        "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
+        "cleared": false,
+        "addDesc": "FTA ASSAULT 4",
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 1500,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "10/29/2026",
+        "arrestAgency": "PORT GAMBLE POLICE DEPARTMENT",
+        "arrestDate": "10/28/2026",
+        "courtType": "DS"
+      },
+      {
+        "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
+        "cleared": false,
+        "addDesc": "FTA FLS STATEMENT/UPCS",
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 2500,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "10/29/2026",
+        "arrestAgency": "PORT GAMBLE POLICE DEPARTMENT",
+        "arrestDate": "10/28/2026",
+        "courtType": "DS"
+      },
+      {
+        "violation": "9A.76.190(3)(A) - FAILURE TO APPEAR / CONTEMPT OF COURT - FELONY",
+        "cleared": false,
+        "addDesc": "FTA CRIM TRES/WEAPON POSS/ILLEGAL SUBS/PARAPHRENALIA/ STLN PROP 3/STLN PROP 2/VIOLATION OF EXCLUSION/CRIM TRES/STLN PROP 1",
+        "clearance": null,
+        "bondBailType": null,
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "10/29/2026",
+        "arrestAgency": "PORT GAMBLE POLICE DEPARTMENT",
+        "arrestDate": "10/28/2026",
+        "courtType": "SUQ"
+      }
+    ],
+    "totalBond": 4000,
+    "status": "in_custody",
+    "firstSeen": "10/28/2026, 19:41:32",
     "releasedAt": null
   }
 }

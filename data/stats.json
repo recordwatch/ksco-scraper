@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-28T23:09:49.067Z",
+  "generatedAt": "2026-10-29T02:43:49.371Z",
   "bookingCounts": {
-    "total": 3341,
-    "inCustody": 251,
-    "released": 3090
+    "total": 3342,
+    "inCustody": 249,
+    "released": 3093
   },
   "gender": [
     {
       "label": "Male",
-      "count": 2293,
+      "count": 2294,
       "pct": 68.6
     },
     {
@@ -25,7 +25,7 @@
   "race": [
     {
       "label": "White",
-      "count": 2370,
+      "count": 2371,
       "pct": 70.9
     },
     {
@@ -65,7 +65,7 @@
       },
       {
         "label": "36–45",
-        "count": 991
+        "count": 992
       },
       {
         "label": "46–55",
@@ -88,7 +88,7 @@
     },
     {
       "label": "Failure to Appear",
-      "count": 704
+      "count": 705
     },
     {
       "label": "DUI",
@@ -104,7 +104,7 @@
     },
     {
       "label": "Assault",
-      "count": 246
+      "count": 247
     },
     {
       "label": "Theft (3rd Degree)",
@@ -177,27 +177,27 @@
       "count": 77
     },
     {
-      "label": "OTHER AGENCY",
-      "count": 49
+      "label": "PORT GAMBLE POLICE DEPARTMENT",
+      "count": 51
     },
     {
-      "label": "PORT GAMBLE POLICE DEPARTMENT",
-      "count": 48
+      "label": "OTHER AGENCY",
+      "count": 49
     }
   ],
   "bail": {
-    "mean": 29176.79,
+    "mean": 29153.08,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 2291
+    "count": 2293
   },
   "stay": {
     "mean": 21.6,
     "median": 2,
     "min": 0,
     "max": 1233.4,
-    "count": 3009,
+    "count": 3012,
     "histogram": [
       {
         "label": "< 1 day",
@@ -205,11 +205,11 @@
       },
       {
         "label": "1–3 days",
-        "count": 673
+        "count": 674
       },
       {
         "label": "4–7 days",
-        "count": 253
+        "count": 254
       },
       {
         "label": "1–2 weeks",
@@ -217,7 +217,7 @@
       },
       {
         "label": "2–4 weeks",
-        "count": 304
+        "count": 305
       },
       {
         "label": "1–3 months",
@@ -369,6 +369,12 @@
       "count": 1
     },
     {
+      "category": "Assault",
+      "medianBail": 10000,
+      "meanBail": 72129.41,
+      "count": 85
+    },
+    {
       "category": "Harassment",
       "medianBail": 10000,
       "meanBail": 36960.53,
@@ -391,12 +397,6 @@
       "medianBail": 10000,
       "meanBail": 29100,
       "count": 5
-    },
-    {
-      "category": "Assault",
-      "medianBail": 10000,
-      "meanBail": 72970.24,
-      "count": 84
     },
     {
       "category": "Weapons",
@@ -509,8 +509,8 @@
     {
       "category": "Failure to Appear",
       "medianBail": 2500,
-      "meanBail": 8392.68,
-      "count": 407
+      "meanBail": 8378.24,
+      "count": 408
     },
     {
       "category": "Drug Offense",
@@ -563,6 +563,8 @@
   ],
   "chargesByRace": {
     "White": {
+      "Assault": 153,
+      "Failure to Appear": 555,
       "Protection Order Violation": 165,
       "Obstruction": 125,
       "Community Custody Violation": 18,
@@ -572,14 +574,12 @@
       "DOC Warrant": 148,
       "DUI": 461,
       "Driving While License Suspended": 295,
-      "Failure to Appear": 554,
       "Robbery": 16,
       "Public Order": 9,
       "Reckless Driving": 29,
       "PR / Bail Revocation": 20,
       "Domestic Violence": 504,
       "Criminal Trespass": 177,
-      "Assault": 152,
       "Malicious Mischief": 53,
       "Theft (3rd Degree)": 187,
       "Weapons": 47,
@@ -806,6 +806,8 @@
   },
   "chargesBySex": {
     "Male": {
+      "Assault": 171,
+      "Failure to Appear": 511,
       "Protection Order Violation": 169,
       "Obstruction": 123,
       "Community Custody Violation": 20,
@@ -818,11 +820,9 @@
       "DUI": 428,
       "Failure to Comply (Sentence)": 54,
       "Driving While License Suspended": 309,
-      "Failure to Appear": 510,
       "Reckless Driving": 27,
       "PR / Bail Revocation": 20,
       "Criminal Trespass": 175,
-      "Assault": 170,
       "Local / Tribal Code": 41,
       "Interference with DV Reporting": 28,
       "Malicious Mischief": 62,
@@ -975,11 +975,11 @@
   "releaseReasons": [
     {
       "label": "FTA / Contempt Resolved",
-      "count": 1054
+      "count": 1055
     },
     {
       "label": "Released (Unknown Reason)",
-      "count": 788
+      "count": 790
     },
     {
       "label": "Released",
@@ -1021,7 +1021,7 @@
   "recidivism": {
     "rate": 16.2,
     "repeatBookerCount": 439,
-    "totalIndividuals": 2716,
+    "totalIndividuals": 2717,
     "repeatBookers": [
       {
         "name": "LITTFIN, JOHN STEPHEN",
@@ -1666,7 +1666,7 @@
     },
     {
       "month": "2026-10",
-      "count": 342
+      "count": 343
     }
   ],
   "crimeTypes": [
@@ -1677,12 +1677,12 @@
     },
     {
       "label": "Court / Supervision",
-      "count": 980,
+      "count": 981,
       "pct": 19
     },
     {
       "label": "Violent",
-      "count": 968,
+      "count": 969,
       "pct": 18.8
     },
     {
@@ -1724,7 +1724,7 @@
   "severity": [
     {
       "label": "Misdemeanor",
-      "count": 2500,
+      "count": 2502,
       "pct": 33.9
     },
     {
@@ -1734,7 +1734,7 @@
     },
     {
       "label": "Felony",
-      "count": 1528,
+      "count": 1529,
       "pct": 20.7
     },
     {
@@ -1811,9 +1811,9 @@
     },
     {
       "category": "Failure to Appear",
-      "avgDays": 13.5,
-      "medianDays": 1.6,
-      "count": 201
+      "avgDays": 13.4,
+      "medianDays": 1.7,
+      "count": 202
     },
     {
       "category": "Burglary (2nd Degree)",
@@ -2058,6 +2058,33 @@
       ]
     },
     {
+      "name": "PORT GAMBLE POLICE DEPARTMENT",
+      "count": 51,
+      "topCharge": "Failure to Appear",
+      "chargeBreakdown": [
+        {
+          "label": "Failure to Appear",
+          "count": 17
+        },
+        {
+          "label": "Assault",
+          "count": 6
+        },
+        {
+          "label": "Driving While License Suspended",
+          "count": 6
+        },
+        {
+          "label": "Local / Tribal Code",
+          "count": 5
+        },
+        {
+          "label": "Domestic Violence",
+          "count": 3
+        }
+      ]
+    },
+    {
       "name": "OTHER AGENCY",
       "count": 49,
       "topCharge": "Failure to Appear",
@@ -2080,33 +2107,6 @@
         },
         {
           "label": "Protection Order Violation",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "name": "PORT GAMBLE POLICE DEPARTMENT",
-      "count": 48,
-      "topCharge": "Failure to Appear",
-      "chargeBreakdown": [
-        {
-          "label": "Failure to Appear",
-          "count": 15
-        },
-        {
-          "label": "Driving While License Suspended",
-          "count": 6
-        },
-        {
-          "label": "Assault",
-          "count": 5
-        },
-        {
-          "label": "Local / Tribal Code",
-          "count": 5
-        },
-        {
-          "label": "Domestic Violence",
           "count": 3
         }
       ]
@@ -2267,8 +2267,8 @@
     }
   ],
   "bailOnRelease": {
-    "total": 3090,
-    "withBail": 1410,
+    "total": 3093,
+    "withBail": 1411,
     "pct": 45.6
   },
   "chargesByAgeGroup": [
@@ -2327,7 +2327,7 @@
       "topCharges": [
         {
           "label": "Failure to Appear",
-          "count": 269
+          "count": 270
         },
         {
           "label": "Domestic Violence",
@@ -2519,11 +2519,11 @@
       "crimeTypes": [
         {
           "label": "Court / Supervision",
-          "count": 365
+          "count": 366
         },
         {
           "label": "Violent",
-          "count": 281
+          "count": 282
         },
         {
           "label": "Traffic / DUI",
@@ -2698,7 +2698,7 @@
         "avgWeight": 185,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 507
+        "n": 508
       },
       {
         "charge": "Domestic Violence",
@@ -2747,7 +2747,7 @@
         "avgWeight": 187,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 165
+        "n": 166
       },
       {
         "charge": "DOC Warrant",
@@ -3372,12 +3372,12 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 3338
+      "count": 3339
     }
   ],
   "ftaOriginalCharges": {
-    "ftaTotal": 1250,
-    "resolved": 690,
+    "ftaTotal": 1251,
+    "resolved": 691,
     "unresolved": 560,
     "pctResolved": 55.2,
     "topOriginalCharges": [
@@ -3407,7 +3407,7 @@
       },
       {
         "label": "Assault",
-        "count": 12
+        "count": 13
       },
       {
         "label": "Hit and Run",
