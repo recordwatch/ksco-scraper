@@ -1,23 +1,133 @@
 [
   {
     "type": "BOOKED",
+    "bookingNumber": "2026004788",
+    "name": "SMITH, KASSIA ROSE",
+    "bookingDate": "",
+    "charges": [
+      {
+        "violation": "STC - 7.5.3 SUQ ASSAULT THIRD DEGREE",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "CBO",
+        "bondAmount": null,
+        "cashAmount": 9500,
+        "courtCase": null,
+        "nextCourtDate": "11/02/2026",
+        "arrestAgency": "SUQUAMISH TRIBAL POLICE DEPARTMENT",
+        "arrestDate": "10/29/2026",
+        "courtType": "SUQ"
+      },
+      {
+        "violation": "STC - 7.14.5 SUQ RESISTING ARREST",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "CBO",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "11/02/2026",
+        "arrestAgency": "SUQUAMISH TRIBAL POLICE DEPARTMENT",
+        "arrestDate": "10/29/2026",
+        "courtType": "SUQ"
+      },
+      {
+        "violation": "STC - 7.14.18 SUQ DISOBEDIENCE OF LAWFUL ORDER OF COURT",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "CBO",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "11/02/2026",
+        "arrestAgency": "SUQUAMISH TRIBAL POLICE DEPARTMENT",
+        "arrestDate": "10/29/2026",
+        "courtType": "SUQ"
+      },
+      {
+        "violation": "STC - 7.16.2 SUQ DISORDERLY CONDUCT",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "CBO",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "11/02/2026",
+        "arrestAgency": "SUQUAMISH TRIBAL POLICE DEPARTMENT",
+        "arrestDate": "10/29/2026",
+        "courtType": "SUQ"
+      }
+    ],
+    "age": "30",
+    "sex": "F",
+    "race": "W",
+    "height": "505",
+    "weight": "150",
+    "hair": "BRO",
+    "eyes": "BRO",
+    "inmateId": "50005604",
+    "schedRelease": null,
+    "firstSeen": "10/30/2026, 08:12:15",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
+    "bookingNumber": "2026004787",
+    "name": "MARFUT, MICHAEL DAVID",
+    "bookingDate": "10/30/2026",
+    "charges": [
+      {
+        "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 5000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "11/02/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "10/30/2026",
+        "courtType": "DS"
+      }
+    ],
+    "age": "64",
+    "sex": "M",
+    "race": "W",
+    "height": "509",
+    "weight": "275",
+    "hair": "BRO",
+    "eyes": "HAZ",
+    "inmateId": "50005603",
+    "schedRelease": null,
+    "firstSeen": "10/30/2026, 08:12:14",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
     "bookingNumber": "2026004786",
     "name": "GALARZA MOFFETT, ANTHONII",
     "bookingDate": "10/30/2026",
     "charges": [
       {
         "violation": "9A.36.041(2) - ASSAULT-4",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
-        "bondBailType": "NOBD",
+        "clearance": "RF",
+        "bondBailType": "RF",
         "bondAmount": null,
         "cashAmount": null,
         "courtCase": null,
-        "nextCourtDate": "10/30/2026",
+        "nextCourtDate": null,
         "arrestAgency": "BREMERTON POLICE DEPARTMENT",
         "arrestDate": "10/29/2026",
-        "courtType": "BM"
+        "courtType": null
       }
     ],
     "age": "19",
@@ -134,6 +244,20 @@
         "arrestAgency": "POULSBO POLICE DEPARTMENT",
         "arrestDate": "10/29/2026",
         "courtType": "PMC"
+      },
+      {
+        "violation": "9A.76.190(3)(A) - FAILURE TO APPEAR / CONTEMPT OF COURT - FELONY",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "OOC",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": "35359752P",
+        "nextCourtDate": "10/30/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "10/30/2026",
+        "courtType": "DS"
       }
     ],
     "age": "22",
@@ -273,17 +397,17 @@
       },
       {
         "violation": "9A.88.010 - INDECENT EXPOSURE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
-        "bondBailType": "C/B",
-        "bondAmount": 65000,
+        "clearance": "RF",
+        "bondBailType": "RF",
+        "bondAmount": null,
         "cashAmount": null,
         "courtCase": null,
-        "nextCourtDate": "10/30/2026",
+        "nextCourtDate": null,
         "arrestAgency": "PORT ORCHARD POLICE DEPARTMENT",
         "arrestDate": "10/28/2026",
-        "courtType": "PO"
+        "courtType": null
       },
       {
         "violation": "9A.52.070(2) - CRIMINAL TRESPASS-1",
@@ -291,9 +415,9 @@
         "addDesc": null,
         "clearance": null,
         "bondBailType": "C/B",
-        "bondAmount": null,
+        "bondAmount": 65000,
         "cashAmount": null,
-        "courtCase": null,
+        "courtCase": "350443825",
         "nextCourtDate": "10/30/2026",
         "arrestAgency": "PORT ORCHARD POLICE DEPARTMENT",
         "arrestDate": "10/28/2026",
@@ -4062,8 +4186,8 @@
     "inmateId": "40102904",
     "schedRelease": "10/30/2026",
     "firstSeen": "10/22/2026, 12:49:44",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "10/30/2026, 08:12:16",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -10812,9 +10936,9 @@
     "charges": [
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "THEFT 3",
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
@@ -10849,8 +10973,8 @@
     "inmateId": "40260716",
     "schedRelease": "10/30/2026",
     "firstSeen": "10/10/2026, 23:13:39",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "10/30/2026, 08:12:15",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -11243,10 +11367,10 @@
         "bondAmount": 1500,
         "cashAmount": null,
         "courtCase": "51667901",
-        "nextCourtDate": "10/30/2026",
+        "nextCourtDate": null,
         "arrestAgency": "GIG HARBOR POLICE DEPARTMENT",
         "arrestDate": "10/09/2026",
-        "courtType": "BM"
+        "courtType": null
       },
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
@@ -11257,10 +11381,10 @@
         "bondAmount": 1500,
         "cashAmount": null,
         "courtCase": "51667902",
-        "nextCourtDate": "10/30/2026",
+        "nextCourtDate": null,
         "arrestAgency": "GIG HARBOR POLICE DEPARTMENT",
         "arrestDate": "10/09/2026",
-        "courtType": "BM"
+        "courtType": null
       },
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
@@ -11271,10 +11395,10 @@
         "bondAmount": 1500,
         "cashAmount": null,
         "courtCase": "51667903",
-        "nextCourtDate": "10/30/2026",
+        "nextCourtDate": null,
         "arrestAgency": "GIG HARBOR POLICE DEPARTMENT",
         "arrestDate": "10/09/2026",
-        "courtType": "BM"
+        "courtType": null
       }
     ],
     "age": "57",
@@ -17067,7 +17191,7 @@
         "bondAmount": 1000,
         "cashAmount": null,
         "courtCase": "51307015",
-        "nextCourtDate": "10/30/2026",
+        "nextCourtDate": "11/13/2026",
         "arrestAgency": "BREMERTON POLICE DEPARTMENT",
         "arrestDate": "10/01/2026",
         "courtType": "BM"
@@ -17081,7 +17205,7 @@
         "bondAmount": 1000,
         "cashAmount": null,
         "courtCase": "51307013",
-        "nextCourtDate": "10/30/2026",
+        "nextCourtDate": "11/13/2026",
         "arrestAgency": "BREMERTON POLICE DEPARTMENT",
         "arrestDate": "10/01/2026",
         "courtType": "BM"
@@ -17095,7 +17219,7 @@
         "bondAmount": 1000,
         "cashAmount": null,
         "courtCase": "51307011",
-        "nextCourtDate": "10/30/2026",
+        "nextCourtDate": "11/13/2026",
         "arrestAgency": "BREMERTON POLICE DEPARTMENT",
         "arrestDate": "10/01/2026",
         "courtType": "BM"
@@ -35032,7 +35156,7 @@
         "bondAmount": null,
         "cashAmount": null,
         "courtCase": "51568005",
-        "nextCourtDate": "10/30/2026",
+        "nextCourtDate": "11/02/2026",
         "arrestAgency": "BREMERTON POLICE DEPARTMENT",
         "arrestDate": "09/02/2026",
         "courtType": "BM"
@@ -35060,7 +35184,7 @@
         "bondAmount": 1000,
         "cashAmount": null,
         "courtCase": "51568003",
-        "nextCourtDate": "10/30/2026",
+        "nextCourtDate": "11/02/2026",
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "09/15/2026",
         "courtType": "BM"
@@ -35074,7 +35198,7 @@
         "bondAmount": null,
         "cashAmount": null,
         "courtCase": "51568004",
-        "nextCourtDate": "10/30/2026",
+        "nextCourtDate": "11/02/2026",
         "arrestAgency": "BREMERTON POLICE DEPARTMENT",
         "arrestDate": "09/02/2026",
         "courtType": "BM"
@@ -132265,7 +132389,7 @@
         "bondAmount": 500000,
         "cashAmount": null,
         "courtCase": "2310075618",
-        "nextCourtDate": "10/30/2026",
+        "nextCourtDate": "11/09/2026",
         "arrestAgency": "PORT ORCHARD POLICE DEPARTMENT",
         "arrestDate": "11/09/2023",
         "courtType": "SC"
