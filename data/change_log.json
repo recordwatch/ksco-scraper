@@ -1,6 +1,54 @@
 [
   {
     "type": "BOOKED",
+    "bookingNumber": "2026004785",
+    "name": "ALTO, KARA",
+    "bookingDate": "",
+    "charges": [
+      {
+        "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
+        "cleared": false,
+        "addDesc": "FTA DUI",
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 5000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "10/30/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "10/29/2026",
+        "courtType": "VC"
+      },
+      {
+        "violation": "46.20.342(1)(C) - DWLS 3 -DRIVE W/LICENSE SUSP OR REVOKED-3 OR REVOKED LIC OR PRIVILEGE",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 10000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "10/30/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "10/29/2026",
+        "courtType": "VC"
+      }
+    ],
+    "age": "22",
+    "sex": "F",
+    "race": "",
+    "height": "500",
+    "weight": "115",
+    "hair": "BLN",
+    "eyes": "BRO",
+    "inmateId": "50000648",
+    "schedRelease": null,
+    "firstSeen": "10/29/2026, 18:42:04",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
     "bookingNumber": "2026004782",
     "name": "LEOS, MARK ANTHONY",
     "bookingDate": "",
@@ -23,10 +71,10 @@
     "age": "32",
     "sex": "",
     "race": "",
-    "height": null,
-    "weight": null,
-    "hair": "Eyes",
-    "eyes": "Height",
+    "height": "508",
+    "weight": "200",
+    "hair": "BRO",
+    "eyes": "BRO",
     "inmateId": "50005601",
     "schedRelease": null,
     "firstSeen": "10/29/2026, 14:38:48",
@@ -222,7 +270,7 @@
     "sex": "F",
     "race": "W",
     "height": "502",
-    "weight": "135",
+    "weight": "130",
     "hair": "BLK",
     "eyes": "HAZ",
     "inmateId": "40245324",
@@ -310,8 +358,8 @@
     "inmateId": "40104298",
     "schedRelease": null,
     "firstSeen": "10/29/2026, 02:37:11",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "10/29/2026, 18:42:06",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -446,7 +494,7 @@
         "bondAmount": null,
         "cashAmount": null,
         "courtCase": "2610074618",
-        "nextCourtDate": "10/29/2026",
+        "nextCourtDate": "10/30/2026",
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "10/29/2026",
         "courtType": "SC"
@@ -581,10 +629,10 @@
         "addDesc": null,
         "clearance": null,
         "bondBailType": "C/B",
-        "bondAmount": 555000,
+        "bondAmount": 40000,
         "cashAmount": null,
         "courtCase": "2610078218",
-        "nextCourtDate": "10/29/2026",
+        "nextCourtDate": "11/23/2026",
         "arrestAgency": "BAINBRIDGE ISLAND POLICE DEPARTMENT",
         "arrestDate": "10/28/2026",
         "courtType": "SC"
@@ -594,11 +642,11 @@
         "cleared": false,
         "addDesc": "BURG 2",
         "clearance": null,
-        "bondBailType": "OOC",
+        "bondBailType": "CC",
         "bondAmount": null,
         "cashAmount": null,
         "courtCase": "2610010818",
-        "nextCourtDate": "10/29/2026",
+        "nextCourtDate": "11/23/2026",
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "10/29/2026",
         "courtType": "SC"
@@ -606,13 +654,13 @@
       {
         "violation": "9A.76.190(3)(A) - FAILURE TO APPEAR / CONTEMPT OF COURT - FELONY",
         "cleared": false,
-        "addDesc": "DEL CONTROLLED SUB",
+        "addDesc": "DEL CONT SUB",
         "clearance": null,
-        "bondBailType": "OOC",
+        "bondBailType": "CC",
         "bondAmount": null,
         "cashAmount": null,
         "courtCase": "2510103418",
-        "nextCourtDate": "10/29/2026",
+        "nextCourtDate": "11/23/2026",
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "10/29/2026",
         "courtType": "SC"
@@ -622,11 +670,11 @@
         "cleared": false,
         "addDesc": "ATT TO ELUDE",
         "clearance": null,
-        "bondBailType": "OOC",
+        "bondBailType": "CC",
         "bondAmount": null,
         "cashAmount": null,
         "courtCase": "2410082118",
-        "nextCourtDate": "10/29/2026",
+        "nextCourtDate": "11/23/2026",
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "10/29/2026",
         "courtType": "SC"
@@ -653,9 +701,9 @@
     "charges": [
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "FTA DV TELE HARASS",
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": 2500,
         "cashAmount": null,
@@ -676,8 +724,8 @@
     "inmateId": "40751602",
     "schedRelease": null,
     "firstSeen": "10/28/2026, 11:59:52",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "10/29/2026, 18:42:05",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -1680,7 +1728,7 @@
         "bondAmount": 500,
         "cashAmount": null,
         "courtCase": "51739701",
-        "nextCourtDate": "10/29/2026",
+        "nextCourtDate": "11/12/2026",
         "arrestAgency": "BREMERTON POLICE DEPARTMENT",
         "arrestDate": "10/25/2026",
         "courtType": "BM"
@@ -1694,7 +1742,7 @@
         "bondAmount": null,
         "cashAmount": null,
         "courtCase": "51739701",
-        "nextCourtDate": "10/29/2026",
+        "nextCourtDate": "11/12/2026",
         "arrestAgency": "BREMERTON POLICE DEPARTMENT",
         "arrestDate": "10/25/2026",
         "courtType": "BM"
@@ -48241,9 +48289,9 @@
       },
       {
         "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": 5000,
         "cashAmount": null,
@@ -48264,8 +48312,8 @@
     "inmateId": "50000829",
     "schedRelease": "09/23/2026",
     "firstSeen": "08/14/2026, 08:54:47",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "10/29/2026, 18:42:04",
+    "status": "released"
   },
   {
     "type": "BOOKED",
