@@ -1,29 +1,63 @@
 [
   {
     "type": "BOOKED",
+    "bookingNumber": "2026004786",
+    "name": "GALARZA MOFFETT, ANTHONII",
+    "bookingDate": "10/30/2026",
+    "charges": [
+      {
+        "violation": "9A.36.041(2) - ASSAULT-4",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "NOBD",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "10/30/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "10/29/2026",
+        "courtType": "BM"
+      }
+    ],
+    "age": "19",
+    "sex": "M",
+    "race": "B",
+    "height": "506",
+    "weight": "167",
+    "hair": "BLK",
+    "eyes": "BRO",
+    "inmateId": "50005602",
+    "schedRelease": null,
+    "firstSeen": "10/30/2026, 01:17:33",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
     "bookingNumber": "2026004785",
     "name": "ALTO, KARA",
     "bookingDate": "",
     "charges": [
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
-        "cleared": false,
-        "addDesc": "FTA DUI",
-        "clearance": null,
+        "cleared": true,
+        "addDesc": "DUI",
+        "clearance": "BR",
         "bondBailType": "C/B",
         "bondAmount": 5000,
         "cashAmount": null,
-        "courtCase": null,
+        "courtCase": "350414574",
         "nextCourtDate": "10/30/2026",
         "arrestAgency": "BREMERTON POLICE DEPARTMENT",
         "arrestDate": "10/29/2026",
-        "courtType": "VC"
+        "courtType": "DS"
       },
       {
         "violation": "46.20.342(1)(C) - DWLS 3 -DRIVE W/LICENSE SUSP OR REVOKED-3 OR REVOKED LIC OR PRIVILEGE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "BR",
         "bondBailType": "C/B",
         "bondAmount": 10000,
         "cashAmount": null,
@@ -31,7 +65,7 @@
         "nextCourtDate": "10/30/2026",
         "arrestAgency": "BREMERTON POLICE DEPARTMENT",
         "arrestDate": "10/29/2026",
-        "courtType": "VC"
+        "courtType": "BM"
       }
     ],
     "age": "22",
@@ -44,8 +78,8 @@
     "inmateId": "50000648",
     "schedRelease": null,
     "firstSeen": "10/29/2026, 18:42:04",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "10/30/2026, 01:17:33",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -99,14 +133,14 @@
         "nextCourtDate": "11/02/2026",
         "arrestAgency": "POULSBO POLICE DEPARTMENT",
         "arrestDate": "10/29/2026",
-        "courtType": "VC"
+        "courtType": "PMC"
       }
     ],
-    "age": "21",
+    "age": "22",
     "sex": "M",
     "race": "A",
-    "height": "508",
-    "weight": "150",
+    "height": "510",
+    "weight": "151",
     "hair": "BLK",
     "eyes": "BRO",
     "inmateId": "50000058",
@@ -136,7 +170,7 @@
         "courtType": null
       }
     ],
-    "age": "25",
+    "age": "26",
     "sex": "F",
     "race": "W",
     "height": "502",
@@ -144,7 +178,7 @@
     "hair": "BRO",
     "eyes": "HAZ",
     "inmateId": "50000782",
-    "schedRelease": "11/19/2026",
+    "schedRelease": "11/18/2026",
     "firstSeen": "10/29/2026, 14:38:47",
     "releasedAt": null,
     "status": "in_custody"
@@ -3991,9 +4025,9 @@
     "charges": [
       {
         "violation": "69.50.4013.1.A - UNLAWFUL POSSESSION OF A CONTROLLED SUBSTANCE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
@@ -4005,9 +4039,9 @@
       },
       {
         "violation": "69.50.4013.1.A - UNLAWFUL POSSESSION OF A CONTROLLED SUBSTANCE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
