@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-30T23:40:32.873Z",
+  "generatedAt": "2026-10-31T04:45:18.287Z",
   "bookingCounts": {
-    "total": 3362,
+    "total": 3363,
     "inCustody": 244,
-    "released": 3118
+    "released": 3119
   },
   "gender": [
     {
       "label": "Male",
-      "count": 2305,
+      "count": 2306,
       "pct": 68.6
     },
     {
@@ -26,7 +26,7 @@
     {
       "label": "White",
       "count": 2386,
-      "pct": 71
+      "pct": 70.9
     },
     {
       "label": "Unknown",
@@ -35,7 +35,7 @@
     },
     {
       "label": "Black",
-      "count": 367,
+      "count": 368,
       "pct": 10.9
     },
     {
@@ -69,7 +69,7 @@
       },
       {
         "label": "46–55",
-        "count": 503
+        "count": 504
       },
       {
         "label": "56–65",
@@ -135,18 +135,18 @@
       "count": 137
     },
     {
-      "label": "Ignition Interlock Violation",
-      "count": 103
+      "label": "Theft (2nd Degree)",
+      "count": 104
     },
     {
-      "label": "Theft (2nd Degree)",
+      "label": "Ignition Interlock Violation",
       "count": 103
     }
   ],
   "topAgencies": [
     {
       "label": "KITSAP COUNTY SHERIFFS OFFICE",
-      "count": 2990
+      "count": 2991
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
@@ -186,22 +186,22 @@
     }
   ],
   "bail": {
-    "mean": 28487.68,
+    "mean": 28479.69,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 2312
+    "count": 2313
   },
   "stay": {
     "mean": 21.8,
     "median": 2,
     "min": 0,
     "max": 1233.4,
-    "count": 3037,
+    "count": 3038,
     "histogram": [
       {
         "label": "< 1 day",
-        "count": 1067
+        "count": 1068
       },
       {
         "label": "1–3 days",
@@ -369,6 +369,12 @@
       "count": 1
     },
     {
+      "category": "Theft (2nd Degree)",
+      "medianBail": 10000,
+      "meanBail": 23942.65,
+      "count": 34
+    },
+    {
       "category": "Harassment",
       "medianBail": 10000,
       "meanBail": 35737.5,
@@ -379,12 +385,6 @@
       "medianBail": 10000,
       "meanBail": 22931.82,
       "count": 66
-    },
-    {
-      "category": "Theft (2nd Degree)",
-      "medianBail": 10000,
-      "meanBail": 24365.15,
-      "count": 33
     },
     {
       "category": "Trafficking Stolen Property",
@@ -562,6 +562,60 @@
     }
   ],
   "chargesByRace": {
+    "Black": {
+      "Theft (2nd Degree)": 10,
+      "Assault": 42,
+      "Failure to Comply (Sentence)": 13,
+      "Failure to Appear": 71,
+      "Theft (3rd Degree)": 20,
+      "Criminal Trespass": 23,
+      "Domestic Violence": 84,
+      "Interference with DV Reporting": 3,
+      "DUI": 44,
+      "Robbery": 9,
+      "Protection Order Violation": 36,
+      "Drug Offense": 32,
+      "Driving While License Suspended": 51,
+      "Obstruction": 19,
+      "Making False Statements": 9,
+      "DOC Warrant": 23,
+      "Court Hold": 3,
+      "Kidnapping / Unlawful Imprisonment": 1,
+      "Resisting Arrest": 14,
+      "Harassment": 26,
+      "Weapons": 15,
+      "PR / Bail Revocation": 6,
+      "Hit and Run": 8,
+      "Attempt to Elude": 7,
+      "Malicious Mischief": 9,
+      "Burglary (1st Degree)": 6,
+      "Community Custody Violation": 5,
+      "Other": 24,
+      "Stalking": 2,
+      "Ignition Interlock Violation": 6,
+      "Arson": 1,
+      "Local / Tribal Code": 6,
+      "Homicide": 7,
+      "Burglary (2nd Degree)": 8,
+      "Possession of Stolen Property": 3,
+      "Child Sex Offense": 2,
+      "Indecent Exposure": 6,
+      "Vehicle Prowling": 2,
+      "Child Exploitation / CSAM": 1,
+      "Public Order": 1,
+      "Burglary Tools": 1,
+      "Failure to Register (Sex Offender)": 3,
+      "Fugitive from Justice": 1,
+      "Reckless Driving": 3,
+      "Traffic / Obstruction": 2,
+      "Theft (1st Degree)": 2,
+      "Human Trafficking": 2,
+      "Motor Vehicle Theft": 3,
+      "Witness Tampering": 1,
+      "Residential Burglary": 2,
+      "Possession of Stolen Vehicle": 1,
+      "Sex Offense": 1
+    },
     "White": {
       "Theft (3rd Degree)": 189,
       "Harassment": 92,
@@ -626,60 +680,6 @@
       "Incest": 1,
       "Theft": 1,
       "Bribery": 1
-    },
-    "Black": {
-      "Assault": 42,
-      "Failure to Comply (Sentence)": 13,
-      "Failure to Appear": 71,
-      "Theft (3rd Degree)": 20,
-      "Criminal Trespass": 23,
-      "Domestic Violence": 84,
-      "Interference with DV Reporting": 3,
-      "DUI": 44,
-      "Robbery": 9,
-      "Protection Order Violation": 36,
-      "Drug Offense": 32,
-      "Theft (2nd Degree)": 9,
-      "Driving While License Suspended": 51,
-      "Obstruction": 19,
-      "Making False Statements": 9,
-      "DOC Warrant": 23,
-      "Court Hold": 3,
-      "Kidnapping / Unlawful Imprisonment": 1,
-      "Resisting Arrest": 14,
-      "Harassment": 26,
-      "Weapons": 15,
-      "PR / Bail Revocation": 6,
-      "Hit and Run": 8,
-      "Attempt to Elude": 7,
-      "Malicious Mischief": 9,
-      "Burglary (1st Degree)": 6,
-      "Community Custody Violation": 5,
-      "Other": 24,
-      "Stalking": 2,
-      "Ignition Interlock Violation": 6,
-      "Arson": 1,
-      "Local / Tribal Code": 6,
-      "Homicide": 7,
-      "Burglary (2nd Degree)": 8,
-      "Possession of Stolen Property": 3,
-      "Child Sex Offense": 2,
-      "Indecent Exposure": 6,
-      "Vehicle Prowling": 2,
-      "Child Exploitation / CSAM": 1,
-      "Public Order": 1,
-      "Burglary Tools": 1,
-      "Failure to Register (Sex Offender)": 3,
-      "Fugitive from Justice": 1,
-      "Reckless Driving": 3,
-      "Traffic / Obstruction": 2,
-      "Theft (1st Degree)": 2,
-      "Human Trafficking": 2,
-      "Motor Vehicle Theft": 3,
-      "Witness Tampering": 1,
-      "Residential Burglary": 2,
-      "Possession of Stolen Vehicle": 1,
-      "Sex Offense": 1
     },
     "Unknown": {
       "DUI": 103,
@@ -806,6 +806,7 @@
   },
   "chargesBySex": {
     "Male": {
+      "Theft (2nd Degree)": 62,
       "Theft (3rd Degree)": 150,
       "Harassment": 109,
       "Weapons": 61,
@@ -836,7 +837,6 @@
       "Stalking": 16,
       "Homicide": 25,
       "Robbery": 22,
-      "Theft (2nd Degree)": 61,
       "Trafficking Stolen Property": 11,
       "Witness Tampering": 5,
       "Indecent Exposure": 16,
@@ -983,7 +983,7 @@
     },
     {
       "label": "Released",
-      "count": 744
+      "count": 745
     },
     {
       "label": "Scheduled Release / Time Served",
@@ -1020,7 +1020,7 @@
   ],
   "recidivism": {
     "rate": 16.1,
-    "repeatBookerCount": 440,
+    "repeatBookerCount": 441,
     "totalIndividuals": 2735,
     "repeatBookers": [
       {
@@ -1666,7 +1666,7 @@
     },
     {
       "month": "2026-10",
-      "count": 363
+      "count": 364
     }
   ],
   "crimeTypes": [
@@ -1687,13 +1687,13 @@
     },
     {
       "label": "Property",
-      "count": 717,
+      "count": 718,
       "pct": 13.8
     },
     {
       "label": "Other",
       "count": 464,
-      "pct": 9
+      "pct": 8.9
     },
     {
       "label": "Order Violations",
@@ -1730,11 +1730,11 @@
     {
       "label": "Gross Misdemeanor",
       "count": 2202,
-      "pct": 29.7
+      "pct": 29.6
     },
     {
       "label": "Felony",
-      "count": 1534,
+      "count": 1535,
       "pct": 20.7
     },
     {
@@ -1843,7 +1843,7 @@
   "agencyBreakdown": [
     {
       "name": "Kitsap County Sheriff",
-      "count": 3003,
+      "count": 3004,
       "topCharge": "Domestic Violence",
       "chargeBreakdown": [
         {
@@ -2267,8 +2267,8 @@
     }
   ],
   "bailOnRelease": {
-    "total": 3118,
-    "withBail": 1419,
+    "total": 3119,
+    "withBail": 1420,
     "pct": 45.5
   },
   "chargesByAgeGroup": [
@@ -2568,7 +2568,7 @@
         },
         {
           "label": "Property",
-          "count": 137
+          "count": 138
         },
         {
           "label": "Traffic / DUI",
@@ -2792,6 +2792,13 @@
         "n": 82
       },
       {
+        "charge": "Theft (2nd Degree)",
+        "avgWeight": 183,
+        "avgHeight": "5'10\"",
+        "topRace": "White",
+        "n": 62
+      },
+      {
         "charge": "Resisting Arrest",
         "avgWeight": 193,
         "avgHeight": "5'10\"",
@@ -2804,13 +2811,6 @@
         "avgHeight": "5'9\"",
         "topRace": "White",
         "n": 62
-      },
-      {
-        "charge": "Theft (2nd Degree)",
-        "avgWeight": 183,
-        "avgHeight": "5'10\"",
-        "topRace": "White",
-        "n": 61
       },
       {
         "charge": "Weapons",
@@ -3372,7 +3372,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 3359
+      "count": 3360
     }
   ],
   "ftaOriginalCharges": {

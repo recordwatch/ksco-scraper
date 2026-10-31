@@ -164678,9 +164678,9 @@
       }
     ],
     "totalBond": 5000,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "10/30/2026, 13:00:08",
-    "releasedAt": null
+    "releasedAt": "10/30/2026, 21:42:46"
   },
   "2026004790": {
     "bookingNumber": "2026004790",
@@ -164995,6 +164995,45 @@
     "totalBond": 15000,
     "status": "in_custody",
     "firstSeen": "10/30/2026, 16:38:10",
+    "releasedAt": null
+  },
+  "2026004797": {
+    "bookingNumber": "2026004797",
+    "firstName": "MARK",
+    "lastName": "WALKER",
+    "middleName": "A",
+    "race": "B",
+    "sex": "M",
+    "bookingDate": "10/30/2026",
+    "releaseDate": "",
+    "schReleaseDate": "",
+    "detailUrl": "https://incustody.kitsap.gov/Home/BookingSearchResult?LastName=%25&FirstName=&BookingFrom=&BookingTo=&ValidSearch=&sort=BookingDate&sortdir=DESC&page=1&BookingNumber=8",
+    "inmateId": "50005566",
+    "schedRelease": null,
+    "age": "47",
+    "height": "509",
+    "weight": "220",
+    "hair": "BLK",
+    "eyes": "BRO",
+    "charges": [
+      {
+        "violation": "9A.56.040(2) - THEFT-2",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 10000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "11/02/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "10/30/2026",
+        "courtType": "SC"
+      }
+    ],
+    "totalBond": 10000,
+    "status": "in_custody",
+    "firstSeen": "10/30/2026, 21:42:46",
     "releasedAt": null
   }
 }
