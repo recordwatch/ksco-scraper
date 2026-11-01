@@ -1,6 +1,40 @@
 [
   {
     "type": "BOOKED",
+    "bookingNumber": "2026004821",
+    "name": "HENSEL, TANYA RENA",
+    "bookingDate": "",
+    "charges": [
+      {
+        "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
+        "cleared": false,
+        "addDesc": "CONTROLLED SUB KNOW USE PUBLIC",
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 1000,
+        "cashAmount": null,
+        "courtCase": "51633803",
+        "nextCourtDate": "11/02/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "11/01/2026",
+        "courtType": "BM"
+      }
+    ],
+    "age": "63",
+    "sex": "F",
+    "race": "W",
+    "height": "506",
+    "weight": "150",
+    "hair": "GRY",
+    "eyes": "BRO",
+    "inmateId": "30023235",
+    "schedRelease": null,
+    "firstSeen": "11/01/2026, 12:59:52",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
     "bookingNumber": "2026004820",
     "name": "HENNING, BRENT EDWARD",
     "bookingDate": "",
@@ -75,9 +109,9 @@
     "charges": [
       {
         "violation": "9A.36.041(2) - ASSAULT-4",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": 5000,
         "cashAmount": null,
@@ -143,9 +177,9 @@
     "charges": [
       {
         "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "DUI",
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": 5000,
         "cashAmount": null,
@@ -193,8 +227,8 @@
     "age": "32",
     "sex": "F",
     "race": "W",
-    "height": null,
-    "weight": null,
+    "height": "503",
+    "weight": "160",
     "hair": "BRO",
     "eyes": "BRO",
     "inmateId": "50005617",
@@ -507,9 +541,9 @@
     "charges": [
       {
         "violation": "9A.36.041(2) - ASSAULT-4 - DV",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "NF",
         "bondBailType": "NOBD",
         "bondAmount": null,
         "cashAmount": null,

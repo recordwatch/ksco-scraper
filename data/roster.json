@@ -165294,9 +165294,9 @@
     "charges": [
       {
         "violation": "9A.36.041(2) - ASSAULT-4 - DV",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "NF",
         "bondBailType": "NOBD",
         "bondAmount": null,
         "cashAmount": null,
@@ -165693,9 +165693,9 @@
     "charges": [
       {
         "violation": "9A.36.041(2) - ASSAULT-4",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": 5000,
         "cashAmount": null,
@@ -165803,8 +165803,8 @@
     "inmateId": "50005617",
     "schedRelease": null,
     "age": "32",
-    "height": null,
-    "weight": null,
+    "height": "503",
+    "weight": "160",
     "hair": "BRO",
     "eyes": "BRO",
     "charges": [
@@ -165849,9 +165849,9 @@
     "charges": [
       {
         "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "DUI",
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": 5000,
         "cashAmount": null,
@@ -165904,6 +165904,45 @@
     "totalBond": null,
     "status": "in_custody",
     "firstSeen": "11/01/2026, 08:38:49",
+    "releasedAt": null
+  },
+  "2026004821": {
+    "bookingNumber": "2026004821",
+    "firstName": "TANYA",
+    "lastName": "HENSEL",
+    "middleName": "RENA",
+    "race": "W",
+    "sex": "F",
+    "bookingDate": "",
+    "releaseDate": "",
+    "schReleaseDate": "",
+    "detailUrl": "https://incustody.kitsap.gov/Home/BookingSearchResult?LastName=%25&FirstName=&BookingFrom=&BookingTo=&ValidSearch=&sort=BookingDate&sortdir=DESC&page=18&BookingNumber=7",
+    "inmateId": "30023235",
+    "schedRelease": null,
+    "age": "63",
+    "height": "506",
+    "weight": "150",
+    "hair": "GRY",
+    "eyes": "BRO",
+    "charges": [
+      {
+        "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
+        "cleared": false,
+        "addDesc": "CONTROLLED SUB KNOW USE PUBLIC",
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 1000,
+        "cashAmount": null,
+        "courtCase": "51633803",
+        "nextCourtDate": "11/02/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "11/01/2026",
+        "courtType": "BM"
+      }
+    ],
+    "totalBond": 1000,
+    "status": "in_custody",
+    "firstSeen": "11/01/2026, 12:59:52",
     "releasedAt": null
   }
 }
