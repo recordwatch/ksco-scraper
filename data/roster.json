@@ -165308,9 +165308,9 @@
       }
     ],
     "totalBond": null,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "10/31/2026, 12:52:46",
-    "releasedAt": null
+    "releasedAt": "11/01/2026, 16:34:31"
   },
   "2026004807": {
     "bookingNumber": "2026004807",
@@ -165707,9 +165707,9 @@
       }
     ],
     "totalBond": 5000,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "11/01/2026, 08:38:48",
-    "releasedAt": null
+    "releasedAt": "11/01/2026, 16:34:32"
   },
   "2026004815": {
     "bookingNumber": "2026004815",
@@ -165732,9 +165732,9 @@
     "charges": [
       {
         "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": 5000,
         "cashAmount": null,
@@ -165863,9 +165863,9 @@
       }
     ],
     "totalBond": 5000,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "11/01/2026, 08:38:46",
-    "releasedAt": null
+    "releasedAt": "11/01/2026, 16:34:32"
   },
   "2026004820": {
     "bookingNumber": "2026004820",
@@ -165943,6 +165943,73 @@
     "totalBond": 1000,
     "status": "in_custody",
     "firstSeen": "11/01/2026, 12:59:52",
+    "releasedAt": null
+  },
+  "2026004822": {
+    "bookingNumber": "2026004822",
+    "firstName": "STEVE",
+    "lastName": "CHULICH",
+    "middleName": "DANIEL",
+    "race": "W",
+    "sex": "M",
+    "bookingDate": "",
+    "releaseDate": "",
+    "schReleaseDate": "",
+    "detailUrl": "https://incustody.kitsap.gov/Home/BookingSearchResult?LastName=%25&FirstName=&BookingFrom=&BookingTo=&ValidSearch=&sort=BookingDate&sortdir=DESC&page=18&BookingNumber=4",
+    "inmateId": "40293693",
+    "schedRelease": null,
+    "age": "50",
+    "height": "601",
+    "weight": "200",
+    "hair": "BRO",
+    "eyes": "BLU",
+    "charges": [
+      {
+        "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
+        "cleared": false,
+        "addDesc": "FTA CRIM TRES 2, OBSTRUCT LE",
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 1000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "11/02/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "11/01/2026",
+        "courtType": "BM"
+      },
+      {
+        "violation": "9A.76.020 - OBSTRUCT LAW ENFORCEMENT OFC",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 5000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "11/02/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "11/01/2026",
+        "courtType": "BM"
+      },
+      {
+        "violation": "9A.76.040(2) - RESISTING ARREST",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 1000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "11/02/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "11/01/2026",
+        "courtType": "BM"
+      }
+    ],
+    "totalBond": 7000,
+    "status": "in_custody",
+    "firstSeen": "11/01/2026, 16:34:31",
     "releasedAt": null
   }
 }
