@@ -1,10 +1,121 @@
 [
   {
     "type": "BOOKED",
+    "bookingNumber": "2026004847",
+    "name": "DUNLAP, JAMES EMERY",
+    "bookingDate": "",
+    "charges": [
+      {
+        "violation": "DOCWT - DEPARTMENT OF CORRECTIONS WARRANT",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "NOBD",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": "390828",
+        "nextCourtDate": "11/03/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "11/02/2026",
+        "courtType": "DOC"
+      }
+    ],
+    "age": "40",
+    "sex": "M",
+    "race": "W",
+    "height": "600",
+    "weight": "170",
+    "hair": "BRO",
+    "eyes": "BRO",
+    "inmateId": "40044087",
+    "schedRelease": null,
+    "firstSeen": "11/03/2026, 06:54:24",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
+    "bookingNumber": "2026004849",
+    "name": "MOSLEY, JASON KENJIRO",
+    "bookingDate": "11/03/2026",
+    "charges": [
+      {
+        "violation": "9A.36.041(2) - ASSAULT-4 - DV",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "NOBD",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "11/04/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "11/03/2026",
+        "courtType": "DS"
+      }
+    ],
+    "age": "44",
+    "sex": "M",
+    "race": "A",
+    "height": "509",
+    "weight": "140",
+    "hair": "BLK",
+    "eyes": "BRO",
+    "inmateId": "50005624",
+    "schedRelease": null,
+    "firstSeen": "11/03/2026, 06:54:24",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
     "bookingNumber": "2026004846",
     "name": "RAMSEY, KCI",
     "bookingDate": "",
-    "charges": [],
+    "charges": [
+      {
+        "violation": "9A.36.050(2) - RECKLESS ENDANGERMENT",
+        "cleared": true,
+        "addDesc": null,
+        "clearance": "BR",
+        "bondBailType": "C/B",
+        "bondAmount": 15000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "11/03/2026",
+        "arrestAgency": "PORT ORCHARD POLICE DEPARTMENT",
+        "arrestDate": "11/02/2026",
+        "courtType": "PO"
+      },
+      {
+        "violation": "9A.48.090(2) - MALICIOUS MISCHIEF-3",
+        "cleared": true,
+        "addDesc": null,
+        "clearance": "BR",
+        "bondBailType": "C/B",
+        "bondAmount": 15000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "11/03/2026",
+        "arrestAgency": "PORT ORCHARD POLICE DEPARTMENT",
+        "arrestDate": "11/02/2026",
+        "courtType": "PO"
+      },
+      {
+        "violation": "PMC8.20.260 - FIREWORKS, RECKLESS DISCHARGE",
+        "cleared": true,
+        "addDesc": null,
+        "clearance": "BR",
+        "bondBailType": "C/B",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "11/03/2026",
+        "arrestAgency": "PORT ORCHARD POLICE DEPARTMENT",
+        "arrestDate": "11/02/2026",
+        "courtType": "SC"
+      }
+    ],
     "age": "27",
     "sex": "M",
     "race": "W",
@@ -15,15 +126,30 @@
     "inmateId": "50005622",
     "schedRelease": null,
     "firstSeen": "11/02/2026, 22:32:53",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "11/03/2026, 06:54:26",
+    "status": "released"
   },
   {
     "type": "BOOKED",
     "bookingNumber": "2026004845",
     "name": "JENKINS, KELLI KIMIKO",
     "bookingDate": "",
-    "charges": [],
+    "charges": [
+      {
+        "violation": "46.20.342(1)(A) - DWLS 1 - DRIVE W/LICENSE SUSP OR REVOKED-1 HABITUAL TRAFFIC OFFENDER",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 5000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "11/03/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "11/02/2026",
+        "courtType": "BM"
+      }
+    ],
     "age": "44",
     "sex": "F",
     "race": "A",
@@ -445,9 +571,9 @@
     "charges": [
       {
         "violation": "9A.76.190(3)(A) - FAILURE TO APPEAR / CONTEMPT OF COURT - FELONY",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "ASLT 2",
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": 50000,
         "cashAmount": null,
@@ -468,8 +594,8 @@
     "inmateId": "40059221",
     "schedRelease": null,
     "firstSeen": "11/02/2026, 15:59:58",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "11/03/2026, 06:54:26",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -1563,9 +1689,9 @@
     "charges": [
       {
         "violation": "46.20.342(1)(C) - DWLS 3 -DRIVE W/LICENSE SUSP OR REVOKED-3 OR REVOKED LIC OR PRIVILEGE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "C/B",
         "bondBailType": "C/B",
         "bondAmount": null,
         "cashAmount": null,
@@ -1577,9 +1703,9 @@
       },
       {
         "violation": "46.20.740(2) - IGNITION INTERLOCK VIOL-NOTATION ON DR REC-VERIFY INTERLOCK",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "C/B",
         "bondBailType": "C/B",
         "bondAmount": 5000,
         "cashAmount": null,
@@ -1591,9 +1717,9 @@
       },
       {
         "violation": "69.41.030(2)(B) - UNLAWFUL KNOWING POSSESSION OF ANY LEGEND DRUG",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "C/B",
         "bondBailType": "C/B",
         "bondAmount": null,
         "cashAmount": null,
@@ -1605,9 +1731,9 @@
       },
       {
         "violation": "9A.72.150(3) - TAMPER W/PHYSICAL EVIDENCE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "C/B",
         "bondBailType": "C/B",
         "bondAmount": null,
         "cashAmount": null,
@@ -1619,9 +1745,9 @@
       },
       {
         "violation": "9A.76.020 - OBSTRUCT LAW ENFORCEMENT OFC",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "C/B",
         "bondBailType": "C/B",
         "bondAmount": null,
         "cashAmount": null,
@@ -1633,9 +1759,9 @@
       },
       {
         "violation": "9A.56.050(2) - THEFT-3",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "C/B",
         "bondBailType": "C/B",
         "bondAmount": null,
         "cashAmount": null,
@@ -1656,8 +1782,8 @@
     "inmateId": "40353366",
     "schedRelease": null,
     "firstSeen": "10/31/2026, 16:11:15",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "11/03/2026, 06:54:25",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -10489,9 +10615,9 @@
     "charges": [
       {
         "violation": "9A.36.041(2) - ASSAULT-4 - DV",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
@@ -14178,9 +14304,9 @@
     "charges": [
       {
         "violation": "46.20.342(1)(B) - DWLS 2 - DRIVE W/LICENSE SUSP OR REVOKED-2",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
@@ -27445,9 +27571,9 @@
       },
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
@@ -32539,9 +32665,9 @@
       },
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "DUI",
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
@@ -38035,9 +38161,9 @@
     "charges": [
       {
         "violation": "DOCWT - DEPARTMENT OF CORRECTIONS WARRANT",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "DOC WRNT",
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
@@ -55976,9 +56102,9 @@
     "charges": [
       {
         "violation": "9A.60.020(3) - FORGERY",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "FORGERY",
-        "clearance": null,
+        "clearance": "C/B",
         "bondBailType": "C/B",
         "bondAmount": 15000,
         "cashAmount": null,
@@ -56074,9 +56200,9 @@
       },
       {
         "violation": "69.50.401(2)-METH - PCS - CONTROL SUBSTANCE MFG/DEL/POSS W/INT - METH",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "C/B",
         "bondBailType": "CC",
         "bondAmount": null,
         "cashAmount": null,
@@ -56088,9 +56214,9 @@
       },
       {
         "violation": "9.41.040(2)(C) - FIREARM POSSESSION UNLAWFUL-2",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "C/B",
         "bondBailType": "CC",
         "bondAmount": null,
         "cashAmount": null,
@@ -56125,8 +56251,8 @@
     "inmateId": "40304991",
     "schedRelease": "08/14/2026",
     "firstSeen": "08/04/2026, 15:15:26",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "11/03/2026, 06:54:25",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -142504,9 +142630,9 @@
       },
       {
         "violation": "46.20.342(1)(A) - DWLS 1 - DRIVE W/LICENSE SUSP OR REVOKED-1 HABITUAL TRAFFIC OFFENDER",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
