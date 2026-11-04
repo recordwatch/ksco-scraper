@@ -1,6 +1,88 @@
 [
   {
     "type": "BOOKED",
+    "bookingNumber": "2026004858",
+    "name": "STAPE, SCOTT WILMER",
+    "bookingDate": "",
+    "charges": [
+      {
+        "violation": "9A.36.031(2) - ASSAULT-3",
+        "cleared": false,
+        "addDesc": "ASLT 3",
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 30000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "11/05/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "11/04/2026",
+        "courtType": "SC"
+      },
+      {
+        "violation": "9A.52.030(2) - BURGLARY-2",
+        "cleared": false,
+        "addDesc": "BURG 2",
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 50000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "11/05/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "11/04/2026",
+        "courtType": "SC"
+      }
+    ],
+    "age": "57",
+    "sex": "M",
+    "race": "W",
+    "height": "508",
+    "weight": "170",
+    "hair": "BRO",
+    "eyes": "BRO",
+    "inmateId": "30001201",
+    "schedRelease": null,
+    "firstSeen": "11/04/2026, 08:01:50",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
+    "bookingNumber": "2026004857",
+    "name": "ISAKSEN, RYAN LEE",
+    "bookingDate": "11/04/2026",
+    "charges": [
+      {
+        "violation": "46.61.504(5) - PHYSICAL CONTROL",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 5000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "11/05/2026",
+        "arrestAgency": "WASHINGTON STATE PATROL",
+        "arrestDate": "11/04/2026",
+        "courtType": "DS"
+      }
+    ],
+    "age": "35",
+    "sex": "M",
+    "race": "W",
+    "height": "600",
+    "weight": "195",
+    "hair": "BLN",
+    "eyes": "HAZ",
+    "inmateId": "50005627",
+    "schedRelease": null,
+    "firstSeen": "11/04/2026, 08:01:49",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
     "bookingNumber": "2026004856",
     "name": "CARR, JEREMY WAYNE",
     "bookingDate": "11/03/2026",
@@ -76,7 +158,7 @@
       {
         "violation": "9A.76.190(3)(A) - FAILURE TO APPEAR / CONTEMPT OF COURT - FELONY",
         "cleared": false,
-        "addDesc": "FTA HARASS THREAT TO KILL",
+        "addDesc": "HARASS THREAT TO KILL",
         "clearance": null,
         "bondBailType": "C/B",
         "bondAmount": 7500,
@@ -355,9 +437,9 @@
     "charges": [
       {
         "violation": "46.20.342(1)(A) - DWLS 1 - DRIVE W/LICENSE SUSP OR REVOKED-1 HABITUAL TRAFFIC OFFENDER",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": 1000,
         "cashAmount": null,
@@ -378,8 +460,8 @@
     "inmateId": "40359057",
     "schedRelease": null,
     "firstSeen": "11/02/2026, 22:32:53",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "11/04/2026, 08:01:50",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -1120,7 +1202,7 @@
         "bondAmount": null,
         "cashAmount": null,
         "courtCase": "51662801",
-        "nextCourtDate": "11/04/2026",
+        "nextCourtDate": "11/05/2026",
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "11/03/2026",
         "courtType": "BM"
@@ -1154,7 +1236,7 @@
         "bondAmount": 7500,
         "cashAmount": null,
         "courtCase": "51690602",
-        "nextCourtDate": "11/10/2026",
+        "nextCourtDate": "11/04/2026",
         "arrestAgency": "BREMERTON POLICE DEPARTMENT",
         "arrestDate": "11/02/2026",
         "courtType": "BM"
@@ -21783,7 +21865,7 @@
     "hair": "BRO",
     "eyes": "HAZ",
     "inmateId": "40239664",
-    "schedRelease": "11/07/2026",
+    "schedRelease": "11/05/2026",
     "firstSeen": "09/28/2026, 11:41:01",
     "releasedAt": null,
     "status": "in_custody"
@@ -30630,7 +30712,7 @@
     "hair": "BRO",
     "eyes": "BRO",
     "inmateId": "40647282",
-    "schedRelease": "09/27/2026",
+    "schedRelease": "09/25/2026",
     "firstSeen": "09/13/2026, 17:57:37",
     "releasedAt": null,
     "status": "in_custody"
@@ -38470,7 +38552,7 @@
     "hair": "BLK",
     "eyes": "BRO",
     "inmateId": "40571804",
-    "schedRelease": "11/18/2026",
+    "schedRelease": "11/27/2026",
     "firstSeen": "09/02/2026, 02:27:25",
     "releasedAt": null,
     "status": "in_custody"
