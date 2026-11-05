@@ -44,10 +44,20 @@ jobs:
           git add data/change_log.json data/roster.json data/stats.json data/status.json
           git diff --cached --quiet && echo "No data changes to commit." && exit 0
           git commit -m "chore: scrape $(date -u '+%Y-%m-%d %H:%M UTC')"
+          # If main moved while we scraped, rebase onto it, but only when the new
+          # commits leave data/ alone. Merging two versions of the data files would
+          # silently drop one side, so in that case fail and let the next run
+          # re-scrape from the newer data.
           for attempt in 1 2 3; do
             git push && exit 0
-            echo "Push rejected (attempt $attempt) — pulling and retrying."
-            git pull --no-rebase -X ours origin main || true
+            echo "Push rejected (attempt $attempt)."
+            git fetch origin main
+            if ! git diff --quiet HEAD~1 origin/main -- data/; then
+              echo "main has new changes under data/ since this run started. Not merging them" >&2
+              echo "with this run's data; the next run will scrape from the newer files." >&2
+              exit 1
+            fi
+            git rebase --onto origin/main HEAD~1 || { git rebase --abort; exit 1; }
             sleep $((attempt * 5))
           done
           echo "Could not push data commit after 3 attempts." >&2
