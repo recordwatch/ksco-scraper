@@ -11,6 +11,9 @@ const __dirname = dirname(__filename);
 
 const STORAGE_DIR = path.join(__dirname, 'data');
 
+// Opt-in escape hatch for a genuine first run on an empty data directory.
+const ALLOW_FRESH_START = process.env.ALLOW_FRESH_START === '1';
+
 if (!fs.existsSync(STORAGE_DIR)) {
   fs.mkdirSync(STORAGE_DIR, { recursive: true });
 }
@@ -20,11 +23,30 @@ const LOG_FILE     = path.join(STORAGE_DIR, 'change_log.json');
 const STATS_FILE   = path.join(STORAGE_DIR, 'stats.json');
 const STATUS_FILE  = path.join(STORAGE_DIR, 'status.json');
 
-function readJSON(file, fallback) {
+// data/roster.json and data/change_log.json are the only copy of the booking
+// history. A file that is present but unreadable must stop the run: falling back
+// to an empty value would make this run rebuild the history from an empty roster
+// and then overwrite the stored one. A genuine first run needs ALLOW_FRESH_START=1.
+function readState(file, empty) {
+  const name = path.basename(file);
+
+  if (!fs.existsSync(file)) {
+    if (ALLOW_FRESH_START) {
+      console.warn(`${name} not found — starting from empty state (ALLOW_FRESH_START=1).`);
+      return empty;
+    }
+    console.error(`${name} not found. Refusing to start from empty state, which would discard`);
+    console.error('the stored history. Set ALLOW_FRESH_START=1 if this really is a first run.');
+    process.exit(1);
+  }
+
   try {
-    if (fs.existsSync(file)) return JSON.parse(fs.readFileSync(file, 'utf-8'));
-  } catch (e) {}
-  return fallback;
+    return JSON.parse(fs.readFileSync(file, 'utf-8'));
+  } catch (err) {
+    console.error(`${name} could not be read as JSON: ${err.message}`);
+    console.error('Refusing to continue — starting from empty state would discard the stored history.');
+    process.exit(1);
+  }
 }
 
 function writeJSON(file, data) {
@@ -34,8 +56,8 @@ function writeJSON(file, data) {
 async function run() {
   console.log(`[${nowPST()}] Running scrape...`);
 
-  let roster = readJSON(ROSTER_FILE, {});
-  let log = readJSON(LOG_FILE, []);
+  let roster = readState(ROSTER_FILE, {});
+  let log = readState(LOG_FILE, []);
 
   let inmates;
   try {

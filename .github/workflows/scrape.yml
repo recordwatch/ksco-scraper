@@ -10,11 +10,18 @@ permissions:
   pages: write
   id-token: write
 
+# Two runs pushing to main at once would clobber each other's data commit.
+concurrency:
+  group: scrape
+  cancel-in-progress: false
+
 jobs:
-  scrape-and-deploy:
+  scrape:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
 
       - uses: actions/setup-node@v4
         with:
@@ -26,6 +33,38 @@ jobs:
 
       - name: Run scraper
         run: node scrape.js
+
+      # Commit the scrape before anything that can fail. A frontend build error
+      # used to throw away the run's data entirely.
+      - name: Commit updated data files
+        if: '!cancelled()'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/change_log.json data/roster.json data/stats.json data/status.json
+          git diff --cached --quiet && echo "No data changes to commit." && exit 0
+          git commit -m "chore: scrape $(date -u '+%Y-%m-%d %H:%M UTC')"
+          for attempt in 1 2 3; do
+            git push && exit 0
+            echo "Push rejected (attempt $attempt) — pulling and retrying."
+            git pull --no-rebase -X ours origin main || true
+            sleep $((attempt * 5))
+          done
+          echo "Could not push data commit after 3 attempts." >&2
+          exit 1
+
+  deploy:
+    needs: scrape
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
 
       - name: Copy data files into frontend public
         run: |
@@ -39,14 +78,6 @@ jobs:
 
       - name: Build frontend
         run: cd frontend && npm run build
-
-      - name: Commit updated data files
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/change_log.json data/roster.json data/stats.json data/status.json
-          git diff --cached --quiet || git commit -m "chore: scrape $(date -u '+%Y-%m-%d %H:%M UTC')"
-          git push
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
