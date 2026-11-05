@@ -1,6 +1,40 @@
 [
   {
     "type": "BOOKED",
+    "bookingNumber": "2026004866",
+    "name": "CALDWELL, TIMOTHY NICHOLAS",
+    "bookingDate": "11/05/2026",
+    "charges": [
+      {
+        "violation": "9A.40.030(3)(A) - KIDNAPPING-2",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 150000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "11/05/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "11/04/2026",
+        "courtType": "SC"
+      }
+    ],
+    "age": "20",
+    "sex": "M",
+    "race": "W",
+    "height": "507",
+    "weight": "165",
+    "hair": "RED",
+    "eyes": "Height",
+    "inmateId": "50005631",
+    "schedRelease": null,
+    "firstSeen": "11/05/2026, 02:30:21",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
     "bookingNumber": "2026004865",
     "name": "SCHWEITZER, BRIAN ALLEN",
     "bookingDate": "",
@@ -72,8 +106,8 @@
     "sex": "M",
     "race": "W",
     "height": "506",
-    "weight": "150",
-    "hair": "BRO",
+    "weight": "160",
+    "hair": "GRY",
     "eyes": "HAZ",
     "inmateId": "50005630",
     "schedRelease": null,
@@ -1503,9 +1537,9 @@
     "charges": [
       {
         "violation": "46.61.502(6) - DUI - FB - DRIVING UNDER THE INFLUENCE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "3RD PRIOR",
-        "clearance": null,
+        "clearance": "C/B",
         "bondBailType": "C/B",
         "bondAmount": 75000,
         "cashAmount": null,
@@ -1517,9 +1551,9 @@
       },
       {
         "violation": "46.20.342(1)(B) - DWLS 2 - DRIVE W/LICENSE SUSP OR REVOKED-2",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "C/B",
         "bondBailType": "C/B",
         "bondAmount": null,
         "cashAmount": null,
@@ -1531,9 +1565,9 @@
       },
       {
         "violation": "46.20.740(2) - IGNITION INTERLOCK VIOL-NOTATION ON DR REC-VERIFY INTERLOCK",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "C/B",
         "bondBailType": "C/B",
         "bondAmount": null,
         "cashAmount": null,
@@ -1596,8 +1630,8 @@
     "inmateId": "50003922",
     "schedRelease": null,
     "firstSeen": "11/02/2026, 09:23:09",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "11/05/2026, 02:30:22",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -5109,9 +5143,9 @@
       },
       {
         "violation": "9A.52.070(2) - CRIMINAL TRESPASS-1 -DV",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "C/B",
         "bondBailType": "C/B",
         "bondAmount": 500,
         "cashAmount": null,
@@ -5123,9 +5157,9 @@
       },
       {
         "violation": "9A.36.041(2) - ASSAULT-4 - DV",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "C/B",
         "bondBailType": "C/B",
         "bondAmount": null,
         "cashAmount": null,
@@ -5146,8 +5180,8 @@
     "inmateId": "50005593",
     "schedRelease": null,
     "firstSeen": "10/26/2026, 00:33:07",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "11/05/2026, 02:30:21",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -9813,9 +9847,9 @@
     "charges": [
       {
         "violation": "46.61.504(5) - PHYSICAL CONTROL",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
@@ -9827,9 +9861,9 @@
       },
       {
         "violation": "46.20.342(1)(C) - DWLS 3 -DRIVE W/LICENSE SUSP OR REVOKED-3 OR REVOKED LIC OR PRIVILEGE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
