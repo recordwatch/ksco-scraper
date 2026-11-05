@@ -49,6 +49,43 @@ function readState(file, empty) {
   }
 }
 
+// A file can parse and still be wrong: `[]` or `{}` written over the history, or a
+// log cut short. Neither file ever shrinks once the scraper has run, and every
+// roster booking gets a log entry, so check both before this run builds on them.
+function checkState(roster, log) {
+  const problems = [];
+
+  if (!roster || typeof roster !== 'object' || Array.isArray(roster)) {
+    problems.push('roster.json is not an object.');
+  }
+  if (!Array.isArray(log)) {
+    problems.push('change_log.json is not an array.');
+  }
+
+  if (problems.length === 0) {
+    const rosterIds = Object.keys(roster);
+    // The override covers a true first run only: both files empty. One empty file
+    // next to a full one is damage, and would re-book everyone as new.
+    const freshStart = ALLOW_FRESH_START && rosterIds.length === 0 && log.length === 0;
+    if (!freshStart) {
+      if (rosterIds.length === 0) problems.push('roster.json is empty.');
+      if (log.length === 0) problems.push('change_log.json is empty.');
+    }
+
+    const logIds = new Set(log.map(e => e.bookingNumber));
+    const missing = rosterIds.filter(id => !logIds.has(id));
+    if (missing.length > 0) {
+      problems.push(`${missing.length} of ${rosterIds.length} roster bookings have no change_log.json entry (e.g. ${missing.slice(0, 3).join(', ')}).`);
+    }
+  }
+
+  if (problems.length > 0) {
+    for (const p of problems) console.error(p);
+    console.error('Refusing to continue — this run would overwrite the stored history.');
+    process.exit(1);
+  }
+}
+
 function writeJSON(file, data) {
   fs.writeFileSync(file, JSON.stringify(data, null, 2));
 }
@@ -58,6 +95,7 @@ async function run() {
 
   let roster = readState(ROSTER_FILE, {});
   let log = readState(LOG_FILE, []);
+  checkState(roster, log);
 
   let inmates;
   try {
