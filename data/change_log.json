@@ -1,6 +1,108 @@
 [
   {
     "type": "BOOKED",
+    "bookingNumber": "2026004881",
+    "name": "PHAWITSIRISUPHAKUL, APHISETH",
+    "bookingDate": "",
+    "charges": [
+      {
+        "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 10000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "11/06/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "11/06/2026",
+        "courtType": "BM"
+      }
+    ],
+    "age": "21",
+    "sex": "M",
+    "race": "A",
+    "height": "507",
+    "weight": "145",
+    "hair": "BLK",
+    "eyes": "BLK",
+    "inmateId": "50005636",
+    "schedRelease": null,
+    "firstSeen": "11/06/2026, 05:56:17",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
+    "bookingNumber": "2026004882",
+    "name": "HAZEN, LEVI",
+    "bookingDate": "",
+    "charges": [
+      {
+        "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
+        "cleared": false,
+        "addDesc": "FTA FAIL TO TRANS TITLE",
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 2500,
+        "cashAmount": null,
+        "courtCase": "T00567551",
+        "nextCourtDate": "11/09/2026",
+        "arrestAgency": "PORT ORCHARD POLICE DEPARTMENT",
+        "arrestDate": "11/06/2026",
+        "courtType": "PMC"
+      }
+    ],
+    "age": "34",
+    "sex": "M",
+    "race": "W",
+    "height": "511",
+    "weight": "220",
+    "hair": "BLN",
+    "eyes": "BLU",
+    "inmateId": "50005637",
+    "schedRelease": null,
+    "firstSeen": "11/06/2026, 05:56:17",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
+    "bookingNumber": "2026004880",
+    "name": "MACKAY, KAEL JAMIS",
+    "bookingDate": "11/06/2026",
+    "charges": [
+      {
+        "violation": "9A.36.041(2) - ASSAULT-4",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "NOBD",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "11/06/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "11/05/2026",
+        "courtType": "DS"
+      }
+    ],
+    "age": "22",
+    "sex": "M",
+    "race": "W",
+    "height": "504",
+    "weight": "150",
+    "hair": "BLN",
+    "eyes": "GRN",
+    "inmateId": "50005635",
+    "schedRelease": null,
+    "firstSeen": "11/06/2026, 05:56:16",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
     "bookingNumber": "2026004879",
     "name": "SELLERS, ROBERT THEODORE",
     "bookingDate": "",
@@ -8,19 +110,19 @@
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
         "cleared": false,
-        "addDesc": "FTA (MAL MISC 3)",
+        "addDesc": "FTA (MAL MISC 3 DV)",
         "clearance": null,
         "bondBailType": "C/B",
         "bondAmount": 5000,
         "cashAmount": null,
-        "courtCase": "1372707-KTCCN",
+        "courtCase": "1372707",
         "nextCourtDate": "11/06/2026",
         "arrestAgency": "SUQUAMISH TRIBAL POLICE DEPARTMENT",
         "arrestDate": "11/05/2026",
         "courtType": "DS"
       }
     ],
-    "age": "41",
+    "age": "44",
     "sex": "M",
     "race": "W",
     "height": "510",
@@ -188,7 +290,7 @@
     "sex": "M",
     "race": "B",
     "height": "603",
-    "weight": "260",
+    "weight": "240",
     "hair": "BLK",
     "eyes": "BRO",
     "inmateId": "30025994",
@@ -909,9 +1011,9 @@
     "charges": [
       {
         "violation": "72.09.310 - COMMUNITY CUSTODY VIOLATOR",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "CCV 3 DAY SANCTION",
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
@@ -1025,9 +1127,9 @@
     "charges": [
       {
         "violation": "72.09.310 - COMMUNITY CUSTODY VIOLATOR",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
@@ -3175,9 +3277,9 @@
     "charges": [
       {
         "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
@@ -4847,9 +4949,9 @@
     "charges": [
       {
         "violation": "NONE - FAILURE TO COMPLY -  W/TERMS OF SENTENCE - FELONY",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "PR",
         "bondBailType": "C/B",
         "bondAmount": 150000,
         "cashAmount": null,
@@ -16446,9 +16548,9 @@
       },
       {
         "violation": "DOCWT - DEPARTMENT OF CORRECTIONS WARRANT",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "DOC WARRANT",
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
@@ -86296,9 +86398,9 @@
     "charges": [
       {
         "violation": "9A.44.060(2) - RAPE-3",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "ATTEMPT",
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
@@ -86352,9 +86454,9 @@
       },
       {
         "violation": "9A.36.041(2) - ASSAULT 4",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "SEXUAL MOTIVATION",
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
