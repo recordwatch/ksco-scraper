@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-05T23:49:43.136Z",
+  "generatedAt": "2026-11-06T05:46:31.778Z",
   "bookingCounts": {
-    "total": 3432,
-    "inCustody": 264,
-    "released": 3168
+    "total": 3433,
+    "inCustody": 260,
+    "released": 3173
   },
   "gender": [
     {
       "label": "Male",
-      "count": 2350,
+      "count": 2351,
       "pct": 68.5
     },
     {
@@ -25,7 +25,7 @@
   "race": [
     {
       "label": "White",
-      "count": 2437,
+      "count": 2438,
       "pct": 71
     },
     {
@@ -41,7 +41,7 @@
     {
       "label": "Asian / Pacific Islander",
       "count": 115,
-      "pct": 3.4
+      "pct": 3.3
     },
     {
       "label": "Native American",
@@ -65,7 +65,7 @@
       },
       {
         "label": "36–45",
-        "count": 1020
+        "count": 1021
       },
       {
         "label": "46–55",
@@ -88,7 +88,7 @@
     },
     {
       "label": "Failure to Appear",
-      "count": 722
+      "count": 723
     },
     {
       "label": "DUI",
@@ -170,7 +170,7 @@
     },
     {
       "label": "SUQUAMISH TRIBAL POLICE DEPARTMENT",
-      "count": 92
+      "count": 93
     },
     {
       "label": "BAINBRIDGE ISLAND POLICE DEPARTMENT",
@@ -186,26 +186,26 @@
     }
   ],
   "bail": {
-    "mean": 28265.28,
+    "mean": 28255.32,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 2335
+    "count": 2336
   },
   "stay": {
     "mean": 21.6,
     "median": 2,
     "min": 0,
     "max": 1233.4,
-    "count": 3087,
+    "count": 3092,
     "histogram": [
       {
         "label": "< 1 day",
-        "count": 1079
+        "count": 1080
       },
       {
         "label": "1–3 days",
-        "count": 695
+        "count": 699
       },
       {
         "label": "4–7 days",
@@ -509,8 +509,8 @@
     {
       "category": "Failure to Appear",
       "medianBail": 2500,
-      "meanBail": 8510.54,
-      "count": 410
+      "meanBail": 8502,
+      "count": 411
     },
     {
       "category": "Drug Offense",
@@ -569,11 +569,11 @@
   ],
   "chargesByRace": {
     "White": {
+      "Failure to Appear": 568,
       "DUI": 477,
       "Driving While License Suspended": 303,
       "Harassment": 93,
       "DOC Warrant": 154,
-      "Failure to Appear": 567,
       "Protection Order Violation": 169,
       "Obstruction": 129,
       "Assault": 159,
@@ -812,10 +812,10 @@
   },
   "chargesBySex": {
     "Male": {
+      "Failure to Appear": 521,
       "DUI": 444,
       "Driving While License Suspended": 315,
       "DOC Warrant": 161,
-      "Failure to Appear": 520,
       "Drug Offense": 247,
       "Protection Order Violation": 173,
       "Kidnapping / Unlawful Imprisonment": 13,
@@ -987,11 +987,11 @@
     },
     {
       "label": "Released (Unknown Reason)",
-      "count": 801
+      "count": 802
     },
     {
       "label": "Released",
-      "count": 761
+      "count": 765
     },
     {
       "label": "Scheduled Release / Time Served",
@@ -1029,7 +1029,7 @@
   "recidivism": {
     "rate": 16.2,
     "repeatBookerCount": 452,
-    "totalIndividuals": 2782,
+    "totalIndividuals": 2783,
     "repeatBookers": [
       {
         "name": "LITTFIN, JOHN STEPHEN",
@@ -1688,7 +1688,7 @@
     },
     {
       "month": "2026-11",
-      "count": 58
+      "count": 59
     }
   ],
   "crimeTypes": [
@@ -1699,8 +1699,8 @@
     },
     {
       "label": "Court / Supervision",
-      "count": 1007,
-      "pct": 19
+      "count": 1008,
+      "pct": 19.1
     },
     {
       "label": "Violent",
@@ -1746,7 +1746,7 @@
   "severity": [
     {
       "label": "Misdemeanor",
-      "count": 2558,
+      "count": 2559,
       "pct": 33.8
     },
     {
@@ -1856,10 +1856,10 @@
       "count": 8
     },
     {
-      "category": "Protection Order Violation",
+      "category": "Residential Burglary",
       "avgDays": 11.8,
-      "medianDays": 1.5,
-      "count": 71
+      "medianDays": 1.3,
+      "count": 3
     }
   ],
   "agencyBreakdown": [
@@ -2027,7 +2027,7 @@
     },
     {
       "name": "Suquamish Tribal Police",
-      "count": 92,
+      "count": 93,
       "topCharge": "Local / Tribal Code",
       "chargeBreakdown": [
         {
@@ -2036,7 +2036,7 @@
         },
         {
           "label": "Failure to Appear",
-          "count": 15
+          "count": 16
         },
         {
           "label": "Domestic Violence",
@@ -2289,8 +2289,8 @@
     }
   ],
   "bailOnRelease": {
-    "total": 3168,
-    "withBail": 1441,
+    "total": 3173,
+    "withBail": 1445,
     "pct": 45.5
   },
   "chargesByAgeGroup": [
@@ -2349,7 +2349,7 @@
       "topCharges": [
         {
           "label": "Failure to Appear",
-          "count": 279
+          "count": 280
         },
         {
           "label": "Domestic Violence",
@@ -2541,7 +2541,7 @@
       "crimeTypes": [
         {
           "label": "Court / Supervision",
-          "count": 380
+          "count": 381
         },
         {
           "label": "Violent",
@@ -2720,7 +2720,7 @@
         "avgWeight": 185,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 517
+        "n": 518
       },
       {
         "charge": "Domestic Violence",
@@ -2773,7 +2773,7 @@
       },
       {
         "charge": "DOC Warrant",
-        "avgWeight": 182,
+        "avgWeight": 183,
         "avgHeight": "5'10\"",
         "topRace": "White",
         "n": 160
@@ -3394,14 +3394,14 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 3429
+      "count": 3430
     }
   ],
   "ftaOriginalCharges": {
-    "ftaTotal": 1281,
+    "ftaTotal": 1282,
     "resolved": 707,
-    "unresolved": 574,
-    "pctResolved": 55.2,
+    "unresolved": 575,
+    "pctResolved": 55.1,
     "topOriginalCharges": [
       {
         "label": "Domestic Violence",

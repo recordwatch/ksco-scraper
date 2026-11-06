@@ -167867,9 +167867,9 @@
       }
     ],
     "totalBond": 5000,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "11/03/2026, 23:52:26",
-    "releasedAt": null
+    "releasedAt": "11/05/2026, 21:43:35"
   },
   "2026004857": {
     "bookingNumber": "2026004857",
@@ -167973,9 +167973,9 @@
       }
     ],
     "totalBond": 80000,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "11/04/2026, 08:01:50",
-    "releasedAt": null
+    "releasedAt": "11/05/2026, 21:43:35"
   },
   "2026004859": {
     "bookingNumber": "2026004859",
@@ -168076,9 +168076,9 @@
     "charges": [
       {
         "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": 5000,
         "cashAmount": null,
@@ -168090,9 +168090,9 @@
       },
       {
         "violation": "46.52.020 - HIT AND RUN",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": null,
         "cashAmount": null,
@@ -168104,9 +168104,9 @@
       }
     ],
     "totalBond": 5000,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "11/04/2026, 18:41:14",
-    "releasedAt": null
+    "releasedAt": "11/05/2026, 21:43:36"
   },
   "2026004862": {
     "bookingNumber": "2026004862",
@@ -168196,9 +168196,9 @@
       }
     ],
     "totalBond": null,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "11/04/2026, 18:41:16",
-    "releasedAt": null
+    "releasedAt": "11/05/2026, 21:43:37"
   },
   "2026004864": {
     "bookingNumber": "2026004864",
@@ -168505,7 +168505,7 @@
     "schedRelease": null,
     "age": "22",
     "height": "507",
-    "weight": "180",
+    "weight": "230",
     "hair": "BLK",
     "eyes": "BLK",
     "charges": [
@@ -168695,9 +168695,9 @@
     "charges": [
       {
         "violation": "7.105.455(2) - ANTIHARASSMENT PROTECTION ORDER VIOLATION",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": 5000,
         "cashAmount": null,
@@ -168709,9 +168709,9 @@
       }
     ],
     "totalBond": 5000,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "11/05/2026, 15:47:16",
-    "releasedAt": null
+    "releasedAt": "11/05/2026, 21:43:37"
   },
   "2026004876": {
     "bookingNumber": "2026004876",
@@ -168779,9 +168779,9 @@
     "detailUrl": "https://incustody.kitsap.gov/Home/BookingSearchResult?LastName=%25&FirstName=&BookingFrom=&BookingTo=&ValidSearch=&sort=BookingDate&sortdir=DESC&page=18&BookingNumber=13",
     "inmateId": "40748784",
     "schedRelease": null,
-    "age": "41",
-    "height": "504",
-    "weight": "125",
+    "age": "45",
+    "height": "505",
+    "weight": "130",
     "hair": "BLK",
     "eyes": "BRO",
     "charges": [
@@ -168803,6 +168803,45 @@
     "totalBond": 10000,
     "status": "in_custody",
     "firstSeen": "11/05/2026, 15:47:18",
+    "releasedAt": null
+  },
+  "2026004879": {
+    "bookingNumber": "2026004879",
+    "firstName": "ROBERT",
+    "lastName": "SELLERS",
+    "middleName": "THEODORE",
+    "race": "W",
+    "sex": "M",
+    "bookingDate": "",
+    "releaseDate": "",
+    "schReleaseDate": "",
+    "detailUrl": "https://incustody.kitsap.gov/Home/BookingSearchResult?LastName=%25&FirstName=&BookingFrom=&BookingTo=&ValidSearch=&sort=BookingDate&sortdir=DESC&page=18&BookingNumber=10",
+    "inmateId": "30056533",
+    "schedRelease": null,
+    "age": "41",
+    "height": "510",
+    "weight": "180",
+    "hair": "BLN",
+    "eyes": "BLU",
+    "charges": [
+      {
+        "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
+        "cleared": false,
+        "addDesc": "FTA (MAL MISC 3)",
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 5000,
+        "cashAmount": null,
+        "courtCase": "1372707-KTCCN",
+        "nextCourtDate": "11/06/2026",
+        "arrestAgency": "SUQUAMISH TRIBAL POLICE DEPARTMENT",
+        "arrestDate": "11/05/2026",
+        "courtType": "DS"
+      }
+    ],
+    "totalBond": 5000,
+    "status": "in_custody",
+    "firstSeen": "11/05/2026, 21:43:34",
     "releasedAt": null
   }
 }
