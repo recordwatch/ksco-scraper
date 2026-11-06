@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { parseDate, fixMidnight } from '../dates'
 
 function formatHeight(raw) {
   if (!raw) return 'N/A'
@@ -33,8 +34,10 @@ function formatRace(code) {
 }
 
 function calcTimeHeld(start, end) {
-  if (!start || !end) return null
-  const ms = new Date(end) - new Date(start)
+  const s = parseDate(start)
+  const e = parseDate(end)
+  if (!s || !e) return null
+  const ms = e - s
   if (ms <= 0) return null
   const totalMins = Math.floor(ms / 60000)
   const days  = Math.floor(totalMins / 1440)
@@ -57,7 +60,7 @@ export default function BookingCard({ entry }) {
         <div className="card-left">
           <div className="card-name">{entry.name}</div>
           <div className="card-meta">
-            Booking #{entry.bookingNumber} &nbsp;·&nbsp; Booked: {entry.bookingDate || entry.firstSeen}
+            Booking #{entry.bookingNumber} &nbsp;·&nbsp; Booked: {entry.bookingDate || fixMidnight(entry.firstSeen)}
             {timeHeld && <span className="card-time-held"> &nbsp;·&nbsp; Held: {timeHeld}</span>}
           </div>
         </div>
@@ -73,7 +76,7 @@ export default function BookingCard({ entry }) {
         <div className="card-body">
           {isReleased && entry.releasedAt && (
             <div className="card-release-row">
-              Released: {entry.releasedAt}{timeHeld && <span className="card-time-held-detail"> &nbsp;·&nbsp; Time held: {timeHeld}</span>}
+              Released: {fixMidnight(entry.releasedAt)}{timeHeld && <span className="card-time-held-detail"> &nbsp;·&nbsp; Time held: {timeHeld}</span>}
             </div>
           )}
           {entry.schedRelease && !isReleased && (

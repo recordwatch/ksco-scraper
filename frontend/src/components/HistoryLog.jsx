@@ -1,8 +1,11 @@
 import { Link } from 'react-router-dom'
+import { parseDate, newestFirst } from '../dates'
+
+const UNKNOWN_DATE = 'Date unknown'
 
 function formatDate(dateStr) {
-  if (!dateStr) return ''
-  const d = new Date(dateStr)
+  const d = parseDate(dateStr)
+  if (!d) return UNKNOWN_DATE
   const month = String(d.getMonth() + 1).padStart(2, '0')
   const day = String(d.getDate()).padStart(2, '0')
   const year = String(d.getFullYear()).slice(-2)
@@ -10,8 +13,8 @@ function formatDate(dateStr) {
 }
 
 function formatTime(dateStr) {
-  if (!dateStr) return ''
-  const d = new Date(dateStr)
+  const d = parseDate(dateStr)
+  if (!d) return ''
   let hours = d.getHours()
   const minutes = String(d.getMinutes()).padStart(2, '0')
   const ampm = hours >= 12 ? 'PM' : 'AM'
@@ -21,9 +24,9 @@ function formatTime(dateStr) {
 }
 
 function calculateTimeServed(booked, released) {
-  if (!booked || !released) return null
-  const start = new Date(booked)
-  const end = new Date(released)
+  const start = parseDate(booked)
+  const end = parseDate(released)
+  if (!start || !end) return null
   const diffMs = end - start
   const diffDays = Math.floor(diffMs / (1000 * 60 * 60 * 24))
   const diffHours = Math.floor((diffMs % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))
@@ -74,11 +77,9 @@ export default function HistoryLog({ entries, search = '' }) {
   })
 
   // Sort dates descending
-  const sortedDates = Object.keys(grouped).sort((a, b) => {
-    const [aMonth, aDay, aYear] = a.split('/')
-    const [bMonth, bDay, bYear] = b.split('/')
-    return new Date(`20${aYear}`, aMonth - 1, aDay) - new Date(`20${bYear}`, bMonth - 1, bDay)
-  }).reverse()
+  // Keys are MM/DD/YY; anything that didn't parse goes last instead of breaking the sort
+  const fullYear = key => key.replace(/\/(\d\d)$/, '/20$1')
+  const sortedDates = Object.keys(grouped).sort((a, b) => newestFirst(fullYear(a), fullYear(b)))
 
   return (
     <div className="history-log">
