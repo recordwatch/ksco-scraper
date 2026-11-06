@@ -7,6 +7,7 @@ import BookingCard from './components/BookingCard'
 import HistoryLog from './components/HistoryLog'
 import Stats from './components/Stats'
 import DeepStats from './components/DeepStats'
+import { newestFirst } from './dates'
 
 function InCustodyPage() {
   const [log, setLog] = useState([])
@@ -22,7 +23,7 @@ function InCustodyPage() {
       // Filter in-custody and sort by firstSeen descending (newest first)
       const inCustody = logData
         .filter(e => e.status === 'in_custody')
-        .sort((a, b) => new Date(b.firstSeen) - new Date(a.firstSeen))
+        .sort((a, b) => newestFirst(a.firstSeen, b.firstSeen))
       setLog(inCustody)
       setStatus(statusData)
       setLoading(false)
@@ -71,7 +72,7 @@ function ReleasedPage() {
       // Filter released and sort by releasedAt descending (newest first)
       const released = logData
         .filter(e => e.status === 'released')
-        .sort((a, b) => new Date(b.releasedAt) - new Date(a.releasedAt))
+        .sort((a, b) => newestFirst(a.releasedAt, b.releasedAt))
       setLog(released)
       setLoading(false)
     })
