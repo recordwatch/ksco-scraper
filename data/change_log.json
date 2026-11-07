@@ -1,6 +1,170 @@
 [
   {
     "type": "BOOKED",
+    "bookingNumber": "2026004890",
+    "name": "WESTER, GRACE A",
+    "bookingDate": "",
+    "charges": [
+      {
+        "violation": "9A.36.041(2) - ASSAULT-4 - DV",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "NOBD",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "11/09/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "11/06/2026",
+        "courtType": "BM"
+      }
+    ],
+    "age": "25",
+    "sex": "F",
+    "race": "W",
+    "height": "500",
+    "weight": "160",
+    "hair": "BLK",
+    "eyes": "BLU",
+    "inmateId": "50005433",
+    "schedRelease": null,
+    "firstSeen": "11/06/2026, 22:25:48",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
+    "bookingNumber": "2026004893",
+    "name": "NAJERA, GORDON M",
+    "bookingDate": "",
+    "charges": [
+      {
+        "violation": "PGTC05.01.01 - ASSAULT 2",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "NOBD",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "11/09/2026",
+        "arrestAgency": "PORT GAMBLE POLICE DEPARTMENT",
+        "arrestDate": "11/06/2026",
+        "courtType": "PGT"
+      }
+    ],
+    "age": "50",
+    "sex": "",
+    "race": "",
+    "height": null,
+    "weight": null,
+    "hair": "Eyes",
+    "eyes": "Height",
+    "inmateId": "50005640",
+    "schedRelease": null,
+    "firstSeen": "11/06/2026, 22:25:48",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
+    "bookingNumber": "2026004891",
+    "name": "IOVINELLI, JENSYN NOELLE",
+    "bookingDate": "",
+    "charges": [
+      {
+        "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
+        "cleared": false,
+        "addDesc": "ASLT 4 DV",
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 7500,
+        "cashAmount": null,
+        "courtCase": "19255703-KTCCN",
+        "nextCourtDate": "11/09/2026",
+        "arrestAgency": "POULSBO POLICE DEPARTMENT",
+        "arrestDate": "11/06/2026",
+        "courtType": "DS"
+      },
+      {
+        "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
+        "cleared": false,
+        "addDesc": "DUI, IIV",
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 7500,
+        "cashAmount": null,
+        "courtCase": "19255705-KTCCT",
+        "nextCourtDate": "11/09/2026",
+        "arrestAgency": "POULSBO POLICE DEPARTMENT",
+        "arrestDate": "11/06/2026",
+        "courtType": "DS"
+      }
+    ],
+    "age": "33",
+    "sex": "F",
+    "race": "W",
+    "height": "502",
+    "weight": "140",
+    "hair": "BRO",
+    "eyes": "HAZ",
+    "inmateId": "40326023",
+    "schedRelease": null,
+    "firstSeen": "11/06/2026, 22:25:47",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
+    "bookingNumber": "2026004892",
+    "name": "HARRISON, DERRIC DANIEL",
+    "bookingDate": "",
+    "charges": [
+      {
+        "violation": "9A.56.050(2) - THEFT-3",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 5000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "11/09/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "11/06/2026",
+        "courtType": "SC"
+      },
+      {
+        "violation": "9A.56.350(3) - THEFT-ORGANIZED RETAIL-2",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 10000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "11/09/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "11/06/2026",
+        "courtType": "SC"
+      }
+    ],
+    "age": "34",
+    "sex": "M",
+    "race": "W",
+    "height": "509",
+    "weight": "200",
+    "hair": "BRO",
+    "eyes": "BLU",
+    "inmateId": "40458844",
+    "schedRelease": null,
+    "firstSeen": "11/06/2026, 22:25:47",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
     "bookingNumber": "2026004889",
     "name": "LYTLE, JEFFREY B",
     "bookingDate": "",
@@ -136,7 +300,7 @@
         "courtType": null
       }
     ],
-    "age": "37",
+    "age": "39",
     "sex": "M",
     "race": "W",
     "height": "600",
@@ -191,9 +355,9 @@
     "charges": [
       {
         "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": 5000,
         "cashAmount": null,
@@ -214,8 +378,8 @@
     "inmateId": "50005639",
     "schedRelease": null,
     "firstSeen": "11/06/2026, 12:18:43",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "11/06/2026, 22:25:51",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -802,8 +966,8 @@
     "inmateId": "50003119",
     "schedRelease": null,
     "firstSeen": "11/05/2026, 10:14:31",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "11/06/2026, 22:25:50",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -836,8 +1000,8 @@
     "inmateId": "50005632",
     "schedRelease": null,
     "firstSeen": "11/05/2026, 10:14:30",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "11/06/2026, 22:25:50",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -1144,8 +1308,8 @@
     "inmateId": "50003040",
     "schedRelease": null,
     "firstSeen": "11/04/2026, 14:04:07",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "11/06/2026, 22:25:49",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -4481,9 +4645,9 @@
     "charges": [
       {
         "violation": "9A.46.020(2)(A) - HARASSMENT",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": 10000,
         "cashAmount": null,
@@ -40305,9 +40469,9 @@
     "charges": [
       {
         "violation": "9A.52.025(2) - RESIDENTIAL BURGLARY - DV",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": 50000,
         "cashAmount": null,
@@ -40319,9 +40483,9 @@
       },
       {
         "violation": "9A.36.031(2) - ASSAULT-3",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": null,
         "cashAmount": null,
@@ -40375,9 +40539,9 @@
       },
       {
         "violation": "9A.36.041(2) - ASSAULT-4 - DV",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": null,
         "cashAmount": null,
@@ -71531,8 +71695,8 @@
     "inmateId": "30054174",
     "schedRelease": "10/24/2026",
     "firstSeen": "07/16/2026, 10:25:44",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "11/06/2026, 22:25:49",
+    "status": "released"
   },
   {
     "type": "BOOKED",
