@@ -20,7 +20,7 @@
         "courtType": "SC"
       }
     ],
-    "age": "22",
+    "age": "47",
     "sex": "M",
     "race": "W",
     "height": "600",
@@ -41,9 +41,9 @@
     "charges": [
       {
         "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
-        "cleared": false,
-        "addDesc": null,
-        "clearance": null,
+        "cleared": true,
+        "addDesc": "DUI",
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": 5000,
         "cashAmount": null,
@@ -57,10 +57,10 @@
     "age": "22",
     "sex": "M",
     "race": "W",
-    "height": null,
-    "weight": null,
-    "hair": "Eyes",
-    "eyes": "Height",
+    "height": "507",
+    "weight": "140",
+    "hair": "BRO",
+    "eyes": "BRO",
     "inmateId": "50005641",
     "schedRelease": null,
     "firstSeen": "11/07/2026, 04:49:54",
@@ -78,8 +78,8 @@
         "cleared": false,
         "addDesc": null,
         "clearance": null,
-        "bondBailType": "C/B",
-        "bondAmount": 5000,
+        "bondBailType": "NOBD",
+        "bondAmount": null,
         "cashAmount": null,
         "courtCase": null,
         "nextCourtDate": "11/09/2026",
@@ -91,10 +91,10 @@
     "age": "43",
     "sex": "",
     "race": "",
-    "height": null,
-    "weight": null,
-    "hair": "Eyes",
-    "eyes": "Height",
+    "height": "602",
+    "weight": "220",
+    "hair": "BRO",
+    "eyes": "GRN",
     "inmateId": "50005642",
     "schedRelease": null,
     "firstSeen": "11/07/2026, 04:49:54",
@@ -113,7 +113,7 @@
         "addDesc": null,
         "clearance": null,
         "bondBailType": "C/B",
-        "bondAmount": 250000,
+        "bondAmount": 255000,
         "cashAmount": null,
         "courtCase": null,
         "nextCourtDate": "11/09/2026",
@@ -127,7 +127,7 @@
         "addDesc": null,
         "clearance": null,
         "bondBailType": "C/B",
-        "bondAmount": 5000,
+        "bondAmount": null,
         "cashAmount": null,
         "courtCase": null,
         "nextCourtDate": "11/09/2026",
@@ -143,7 +143,7 @@
         "bondBailType": "NOBD",
         "bondAmount": null,
         "cashAmount": null,
-        "courtCase": null,
+        "courtCase": "C00698422",
         "nextCourtDate": "11/09/2026",
         "arrestAgency": "BREMERTON POLICE DEPARTMENT",
         "arrestDate": "11/06/2026",
@@ -172,7 +172,7 @@
       {
         "violation": "9A.36.041(2) - ASSAULT-4 - DV",
         "cleared": false,
-        "addDesc": null,
+        "addDesc": "ASLT 4 DV",
         "clearance": null,
         "bondBailType": "NOBD",
         "bondAmount": null,
@@ -206,7 +206,7 @@
       {
         "violation": "PGTC05.01.01 - ASSAULT 2",
         "cleared": false,
-        "addDesc": "WARRANT OF ARREST",
+        "addDesc": null,
         "clearance": null,
         "bondBailType": "NOBD",
         "bondAmount": null,
@@ -350,7 +350,7 @@
       {
         "violation": "9A.82.055(2) - TRAFFICKING STOLEN PROPERTY-2",
         "cleared": false,
-        "addDesc": "TSP",
+        "addDesc": "TSP2",
         "clearance": null,
         "bondBailType": "C/B",
         "bondAmount": 10000,
@@ -403,8 +403,8 @@
         "bondBailType": "C/B",
         "bondAmount": 50000,
         "cashAmount": null,
-        "courtCase": null,
-        "nextCourtDate": "11/16/2026",
+        "courtCase": "2510072218",
+        "nextCourtDate": "11/09/2026",
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "11/06/2026",
         "courtType": "SC"
@@ -1237,9 +1237,9 @@
     "charges": [
       {
         "violation": "72.09.310 - COMMUNITY CUSTODY VIOLATOR",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
@@ -1260,8 +1260,8 @@
     "inmateId": "40688755",
     "schedRelease": "11/07/2026",
     "firstSeen": "11/04/2026, 18:41:17",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "11/07/2026, 07:44:00",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -1497,9 +1497,9 @@
     "charges": [
       {
         "violation": "DOCWT - DEPARTMENT OF CORRECTIONS WARRANT",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "DOC VIOLATION",
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "NOBD",
         "bondAmount": null,
         "cashAmount": null,
@@ -1520,8 +1520,8 @@
     "inmateId": "40015177",
     "schedRelease": "11/07/2026",
     "firstSeen": "11/04/2026, 14:04:06",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "11/07/2026, 07:45:00",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -10509,9 +10509,9 @@
     "charges": [
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "VNCO",
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
@@ -10523,9 +10523,9 @@
       },
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "VNCO",
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
@@ -10560,8 +10560,8 @@
     "inmateId": "40044327",
     "schedRelease": "11/07/2026",
     "firstSeen": "10/18/2026, 12:18:12",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "11/07/2026, 07:46:00",
+    "status": "released"
   },
   {
     "type": "BOOKED",
