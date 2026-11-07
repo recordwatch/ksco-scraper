@@ -169319,7 +169319,7 @@
     "schedRelease": null,
     "age": "25",
     "height": "500",
-    "weight": "160",
+    "weight": "150",
     "hair": "BLK",
     "eyes": "BLU",
     "charges": [
@@ -169601,6 +169601,20 @@
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "11/06/2026",
         "courtType": "SC"
+      },
+      {
+        "violation": "9A.36.041(2) - ASSAULT-4 - DV",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "NOBD",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "11/09/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "11/06/2026",
+        "courtType": "SC"
       }
     ],
     "totalBond": 250000,
@@ -169643,9 +169657,9 @@
       }
     ],
     "totalBond": 5000,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "11/07/2026, 04:49:54",
-    "releasedAt": null
+    "releasedAt": "11/07/2026, 14:13:00"
   },
   "2026004897": {
     "bookingNumber": "2026004897",
@@ -169684,6 +169698,98 @@
     "totalBond": 5000,
     "status": "in_custody",
     "firstSeen": "11/07/2026, 04:49:54",
+    "releasedAt": null
+  },
+  "2026004898": {
+    "bookingNumber": "2026004898",
+    "firstName": "JASON",
+    "lastName": "GAREIS",
+    "middleName": "SHAWN",
+    "race": "W",
+    "sex": "M",
+    "bookingDate": "",
+    "releaseDate": "",
+    "schReleaseDate": "",
+    "detailUrl": "https://incustody.kitsap.gov/Home/BookingSearchResult?LastName=%25&FirstName=&BookingFrom=&BookingTo=&ValidSearch=&sort=BookingDate&sortdir=DESC&page=18&BookingNumber=4",
+    "inmateId": "40111707",
+    "schedRelease": null,
+    "age": "39",
+    "height": "603",
+    "weight": "185",
+    "hair": "BRO",
+    "eyes": "BLU",
+    "charges": [
+      {
+        "violation": "9A.52.025(2) - RESIDENTIAL BURGLARY",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 50000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "11/09/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "11/07/2026",
+        "courtType": "SC"
+      },
+      {
+        "violation": "9A.56.068 - POSSESSION OF A STOLEN VEHICLE",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 50000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "11/09/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "11/07/2026",
+        "courtType": "SC"
+      }
+    ],
+    "totalBond": 100000,
+    "status": "in_custody",
+    "firstSeen": "11/07/2026, 14:13:00",
+    "releasedAt": null
+  },
+  "2026004899": {
+    "bookingNumber": "2026004899",
+    "firstName": "DONOVAN",
+    "lastName": "RAYFIELD",
+    "middleName": "",
+    "race": "B",
+    "sex": "M",
+    "bookingDate": "11/07/2026",
+    "releaseDate": "",
+    "schReleaseDate": "",
+    "detailUrl": "https://incustody.kitsap.gov/Home/BookingSearchResult?LastName=%25&FirstName=&BookingFrom=&BookingTo=&ValidSearch=&sort=BookingDate&sortdir=DESC&page=1&BookingNumber=6",
+    "inmateId": "50003375",
+    "schedRelease": null,
+    "age": "40",
+    "height": "503",
+    "weight": "130",
+    "hair": "BLK",
+    "eyes": "BRO",
+    "charges": [
+      {
+        "violation": "7.105.450(1) - PROTECTION ORDER VIOLATION",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "NOBD",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "11/09/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "11/07/2026",
+        "courtType": "BM"
+      }
+    ],
+    "totalBond": null,
+    "status": "in_custody",
+    "firstSeen": "11/07/2026, 14:12:59",
     "releasedAt": null
   }
 }
