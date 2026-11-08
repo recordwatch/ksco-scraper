@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-08T15:54:09.007Z",
+  "generatedAt": "2026-11-08T20:19:01.629Z",
   "bookingCounts": {
-    "total": 3457,
-    "inCustody": 259,
+    "total": 3459,
+    "inCustody": 261,
     "released": 3198
   },
   "gender": [
@@ -18,7 +18,7 @@
     },
     {
       "label": "Unknown",
-      "count": 314,
+      "count": 316,
       "pct": 9.1
     }
   ],
@@ -30,7 +30,7 @@
     },
     {
       "label": "Unknown",
-      "count": 407,
+      "count": 409,
       "pct": 11.8
     },
     {
@@ -57,11 +57,11 @@
     "histogram": [
       {
         "label": "18–25",
-        "count": 494
+        "count": 495
       },
       {
         "label": "26–35",
-        "count": 960
+        "count": 961
       },
       {
         "label": "36–45",
@@ -92,7 +92,7 @@
     },
     {
       "label": "DUI",
-      "count": 676
+      "count": 677
     },
     {
       "label": "Driving While License Suspended",
@@ -150,7 +150,7 @@
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
-      "count": 2398
+      "count": 2399
     },
     {
       "label": "PORT ORCHARD POLICE DEPARTMENT",
@@ -162,7 +162,7 @@
     },
     {
       "label": "WASHINGTON STATE PATROL",
-      "count": 281
+      "count": 282
     },
     {
       "label": "GIG HARBOR POLICE DEPARTMENT",
@@ -186,11 +186,11 @@
     }
   ],
   "bail": {
-    "mean": 28532.51,
+    "mean": 28518.16,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 2335
+    "count": 2336
   },
   "stay": {
     "mean": 21.7,
@@ -383,7 +383,7 @@
     {
       "category": "Trafficking Stolen Property",
       "medianBail": 10000,
-      "meanBail": 31500,
+      "meanBail": 30071.43,
       "count": 7
     },
     {
@@ -425,8 +425,8 @@
     {
       "category": "DUI",
       "medianBail": 5000,
-      "meanBail": 17569.11,
-      "count": 327
+      "meanBail": 17530.79,
+      "count": 328
     },
     {
       "category": "Hit and Run",
@@ -569,8 +569,9 @@
   ],
   "chargesByRace": {
     "Unknown": {
+      "Interference with DV Reporting": 6,
+      "DUI": 108,
       "Domestic Violence": 96,
-      "DUI": 107,
       "Assault": 34,
       "Trafficking Stolen Property": 1,
       "Failure to Appear": 26,
@@ -581,7 +582,6 @@
       "Hit and Run": 13,
       "Other": 36,
       "Protection Order Violation": 11,
-      "Interference with DV Reporting": 5,
       "Theft (2nd Degree)": 9,
       "Weapons": 6,
       "Residential Burglary": 3,
@@ -813,14 +813,14 @@
   },
   "chargesBySex": {
     "Unknown": {
+      "Interference with DV Reporting": 6,
+      "DUI": 81,
       "Domestic Violence": 74,
-      "DUI": 80,
       "Assault": 26,
       "Drug Offense": 20,
       "Stalking": 1,
       "Vehicle Prowling": 2,
       "Protection Order Violation": 10,
-      "Interference with DV Reporting": 5,
       "Theft (2nd Degree)": 9,
       "Residential Burglary": 3,
       "Malicious Mischief": 10,
@@ -1030,7 +1030,7 @@
   "recidivism": {
     "rate": 16.4,
     "repeatBookerCount": 459,
-    "totalIndividuals": 2798,
+    "totalIndividuals": 2800,
     "repeatBookers": [
       {
         "name": "LITTFIN, JOHN STEPHEN",
@@ -1689,13 +1689,13 @@
     },
     {
       "month": "2026-11",
-      "count": 83
+      "count": 85
     }
   ],
   "crimeTypes": [
     {
       "label": "Traffic / DUI",
-      "count": 1084,
+      "count": 1085,
       "pct": 20.4
     },
     {
@@ -1720,7 +1720,7 @@
     },
     {
       "label": "Order Violations",
-      "count": 402,
+      "count": 403,
       "pct": 7.6
     },
     {
@@ -1752,7 +1752,7 @@
     },
     {
       "label": "Gross Misdemeanor",
-      "count": 2267,
+      "count": 2268,
       "pct": 29.8
     },
     {
@@ -1762,8 +1762,8 @@
     },
     {
       "label": "Unknown",
-      "count": 1191,
-      "pct": 15.6
+      "count": 1192,
+      "pct": 15.7
     }
   ],
   "avgCharges": {
@@ -1893,7 +1893,7 @@
     },
     {
       "name": "Bremerton PD",
-      "count": 2398,
+      "count": 2399,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -1974,12 +1974,12 @@
     },
     {
       "name": "WASHINGTON STATE PATROL",
-      "count": 281,
+      "count": 282,
       "topCharge": "DUI",
       "chargeBreakdown": [
         {
           "label": "DUI",
-          "count": 107
+          "count": 108
         },
         {
           "label": "Driving While License Suspended",
@@ -2300,7 +2300,7 @@
       "topCharges": [
         {
           "label": "DUI",
-          "count": 138
+          "count": 139
         },
         {
           "label": "Domestic Violence",
@@ -2452,7 +2452,7 @@
       "crimeTypes": [
         {
           "label": "Traffic / DUI",
-          "count": 187
+          "count": 188
         },
         {
           "label": "Violent",
@@ -2517,7 +2517,7 @@
         },
         {
           "label": "Order Violations",
-          "count": 118
+          "count": 119
         },
         {
           "label": "Drug",
@@ -3395,7 +3395,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 3454
+      "count": 3456
     }
   ],
   "ftaOriginalCharges": {
