@@ -1,6 +1,156 @@
 [
   {
     "type": "BOOKED",
+    "bookingNumber": "2026004902",
+    "name": "MCCOY, HANNAH ROSE",
+    "bookingDate": "",
+    "charges": [
+      {
+        "violation": "9A.36.041(2) - ASSAULT-4 - DV",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "NOBD",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "11/09/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "11/08/2026",
+        "courtType": "DS"
+      }
+    ],
+    "age": "36",
+    "sex": "",
+    "race": "",
+    "height": null,
+    "weight": null,
+    "hair": "Eyes",
+    "eyes": "Height",
+    "inmateId": "50005643",
+    "schedRelease": null,
+    "firstSeen": "11/08/2026, 07:51:37",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
+    "bookingNumber": "2026004903",
+    "name": "FINEMAN, JORDAN A",
+    "bookingDate": "",
+    "charges": [
+      {
+        "violation": "9A.36.041(2) - ASSAULT-4 - DV",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "NOBD",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "11/09/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "11/08/2026",
+        "courtType": "DS"
+      }
+    ],
+    "age": "24",
+    "sex": "M",
+    "race": "B",
+    "height": null,
+    "weight": null,
+    "hair": "Eyes",
+    "eyes": "Height",
+    "inmateId": "50005644",
+    "schedRelease": null,
+    "firstSeen": "11/08/2026, 07:51:37",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
+    "bookingNumber": "2026004900",
+    "name": "PABLO RAMIREZ, ESTEBAN",
+    "bookingDate": "11/08/2026",
+    "charges": [
+      {
+        "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 10000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "11/09/2026",
+        "arrestAgency": "WASHINGTON STATE PATROL",
+        "arrestDate": "11/07/2026",
+        "courtType": "DS"
+      },
+      {
+        "violation": "46.20.342(1)(B) - DWLS 2 - DRIVE W/LICENSE SUSP OR REVOKED-2",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "11/09/2026",
+        "arrestAgency": "WASHINGTON STATE PATROL",
+        "arrestDate": "11/07/2026",
+        "courtType": "DS"
+      }
+    ],
+    "age": "28",
+    "sex": "M",
+    "race": "W",
+    "height": "502",
+    "weight": "136",
+    "hair": "BLK",
+    "eyes": "BRO",
+    "inmateId": "50004256",
+    "schedRelease": null,
+    "firstSeen": "11/08/2026, 07:51:36",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
+    "bookingNumber": "2026004901",
+    "name": "JANKOWSKI, WYATT ANDREW",
+    "bookingDate": "11/08/2026",
+    "charges": [
+      {
+        "violation": "DOCWT - DEPARTMENT OF CORRECTIONS WARRANT",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "NOBD",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "11/09/2026",
+        "arrestAgency": "WASHINGTON STATE PATROL",
+        "arrestDate": "11/08/2026",
+        "courtType": "DOC"
+      }
+    ],
+    "age": "31",
+    "sex": "M",
+    "race": "W",
+    "height": "507",
+    "weight": "130",
+    "hair": "BLK",
+    "eyes": "BRO",
+    "inmateId": "40581042",
+    "schedRelease": null,
+    "firstSeen": "11/08/2026, 07:51:36",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
     "bookingNumber": "2026004898",
     "name": "GAREIS, JASON SHAWN",
     "bookingDate": "",
@@ -2733,9 +2883,9 @@
     "charges": [
       {
         "violation": "9A.36.041(2) - ASSAULT-4 - DV",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
@@ -2756,8 +2906,8 @@
     "inmateId": "40033391",
     "schedRelease": "11/08/2026",
     "firstSeen": "11/02/2026, 15:59:56",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "11/08/2026, 07:51:38",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -15910,9 +16060,9 @@
       },
       {
         "violation": "DOCWT - DEPARTMENT OF CORRECTIONS WARRANT",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
