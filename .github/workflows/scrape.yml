@@ -28,20 +28,37 @@ jobs:
           node-version: '20'
           cache: 'npm'
 
+      # A failed install or scrape doesn't end the run here. The health step
+      # below decides whether it's been broken long enough to fail (and email).
       - name: Install backend deps
+        id: install
+        continue-on-error: true
         run: npm install
 
       - name: Run scraper
+        id: scrape
+        continue-on-error: true
         run: node scrape.js
 
+      - name: Record scraper health
+        id: health
+        run: |
+          if [ "${{ steps.install.outcome }}" = success ] && [ "${{ steps.scrape.outcome }}" = success ]; then
+            bash .github/scripts/scrape-health.sh success
+          else
+            bash .github/scripts/scrape-health.sh failure
+          fi
+
       # Commit the scrape before anything that can fail. A frontend build error
-      # used to throw away the run's data entirely.
+      # used to throw away the run's data entirely. A commit that gives up
+      # (see below) is a warning: the next run re-scrapes and commits.
       - name: Commit updated data files
         if: '!cancelled()'
+        continue-on-error: true
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/change_log.json data/roster.json data/stats.json data/status.json
+          git add data/change_log.json data/roster.json data/stats.json data/status.json .github/scrape-health.json
           git diff --cached --quiet && echo "No data changes to commit." && exit 0
           git commit -m "chore: scrape $(date -u '+%Y-%m-%d %H:%M UTC')"
           # If main moved while we scraped, rebase onto it, but only when the new
@@ -63,9 +80,15 @@ jobs:
           echo "Could not push data commit after 3 attempts." >&2
           exit 1
 
+      - name: Fail if the scraper has been broken for 24 hours
+        if: steps.health.outputs.fail == 'true'
+        run: exit 1
+
+  # Publishing problems never fail the workflow; the next run republishes.
   deploy:
     needs: scrape
     runs-on: ubuntu-latest
+    continue-on-error: true
     steps:
       - uses: actions/checkout@v4
         with:
