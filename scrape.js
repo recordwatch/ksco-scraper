@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { dirname } from 'path';
-import { fetchRoster, fetchDetail, fetchRecentReleases, bookingDetailUrl } from './scrapers/kitsap.js';
+import { fetchRosterWithTotal, fetchDetail, fetchRecentReleases, bookingDetailUrl } from './scrapers/kitsap.js';
 import { nowPST } from './utils.js';
 import { buildStats } from './stats.js';
 
@@ -13,6 +13,16 @@ const STORAGE_DIR = path.join(__dirname, 'data');
 
 // Opt-in escape hatch for a genuine first run on an empty data directory.
 const ALLOW_FRESH_START = process.env.ALLOW_FRESH_START === '1';
+// Opt-in escape hatch for a real mass release that trips the drop guard below.
+const ALLOW_LARGE_DROP = process.env.ALLOW_LARGE_DROP === '1';
+
+// The county's "Total Candidates" can move by a row or two while the ~19 pages
+// load (a booking or release shifts rows between pages), so allow a little slack.
+const TOTAL_TOLERANCE = 3;
+// A drop must exceed both to count as suspicious. Backtested on status.json
+// 04/28–11/12/2026 (1,936 runs): the largest real drop was 11 people (4.1%).
+const MAX_DROP_PEOPLE = 5;
+const MAX_DROP_FRACTION = 0.10;
 
 if (!fs.existsSync(STORAGE_DIR)) {
   fs.mkdirSync(STORAGE_DIR, { recursive: true });
@@ -86,8 +96,40 @@ function checkState(roster, log) {
   }
 }
 
+// Every person missing from this run's list gets marked released, so a list that
+// came back short would release people who are still in jail. Stop instead.
+function checkRosterLoad(uniqueCount, total, prevInCustody) {
+  const problems = [];
+
+  if (uniqueCount === 0) {
+    problems.push('The roster came back with 0 people.');
+  }
+  if (total === null) {
+    problems.push('No "Total Candidates" line on the roster page; the page layout may have changed.');
+  } else if (Math.abs(uniqueCount - total) > TOTAL_TOLERANCE) {
+    problems.push(`Parsed ${uniqueCount} people but the county reports ${total} (tolerance ${TOTAL_TOLERANCE}).`);
+  }
+
+  const drop = prevInCustody - uniqueCount;
+  if (drop > MAX_DROP_PEOPLE && drop / prevInCustody > MAX_DROP_FRACTION) {
+    const msg = `In custody fell from ${prevInCustody} to ${uniqueCount} (${drop} people, ${(100 * drop / prevInCustody).toFixed(1)}%).`;
+    if (ALLOW_LARGE_DROP) console.warn(`${msg} Continuing (ALLOW_LARGE_DROP=1).`);
+    else problems.push(`${msg} Set ALLOW_LARGE_DROP=1 if this is a real mass release.`);
+  }
+
+  if (problems.length > 0) {
+    for (const p of problems) console.error(p);
+    console.error('Refusing to continue — this run would mark people released who may still be in custody.');
+    process.exit(1);
+  }
+}
+
+// Write to a temp file and rename it into place, so a crash mid-write leaves the
+// previous file intact instead of a truncated one.
 function writeJSON(file, data) {
-  fs.writeFileSync(file, JSON.stringify(data, null, 2));
+  const tmp = `${file}.tmp`;
+  fs.writeFileSync(tmp, JSON.stringify(data, null, 2));
+  fs.renameSync(tmp, file);
 }
 
 async function run() {
@@ -97,21 +139,23 @@ async function run() {
   let log = readState(LOG_FILE, []);
   checkState(roster, log);
 
-  let inmates;
+  let inmates, total;
   try {
-    inmates = await fetchRoster();
+    ({ inmates, total } = await fetchRosterWithTotal());
   } catch (err) {
     console.error('Roster fetch failed:', err.message);
     process.exit(1);
   }
 
-  if (inmates.length === 0) {
-    console.log('Got 0 inmates — skipping diff to avoid wiping data.');
-  } else {
+  {
     const seenBns = new Set();
     const uniqueInmates = inmates.filter(i =>
       i.bookingNumber && !seenBns.has(i.bookingNumber) && seenBns.add(i.bookingNumber)
     );
+
+    const prevInCustody = Object.values(roster).filter(r => r.status === 'in_custody').length;
+    checkRosterLoad(uniqueInmates.length, total, prevInCustody);
+    console.log(`[${nowPST()}] Roster: ${uniqueInmates.length} people (county total ${total}, previously ${prevInCustody} in custody).`);
 
     const currentIds = new Set(uniqueInmates.map(i => i.bookingNumber));
     const previousIds = new Set(Object.keys(roster));
