@@ -45,7 +45,16 @@ async function getWithRetry(url, config = {}, attempts = 3) {
 }
 
 export async function fetchRoster() {
+  return (await fetchRosterWithTotal()).inmates;
+}
+
+// Every results page ends with "Total Candidates: N", the county's own count of
+// people on the roster. Returned alongside the rows so the caller can tell a
+// complete load from one that stopped early (an error page mid-pagination parses
+// as zero rows and ends the loop). total is null if no page carried the line.
+export async function fetchRosterWithTotal() {
   const inmates = [];
+  let total = null;
   let page = 1;
 
   while (true) {
@@ -65,6 +74,9 @@ export async function fetchRoster() {
 
     const $ = cheerio.load(response.data);
     const rows = $('table.table tbody tr');
+
+    const totalMatch = $('body').text().match(/Total Candidates:\s*(\d+)/i);
+    if (totalMatch && total === null) total = parseInt(totalMatch[1], 10);
 
     if (rows.length === 0) break;
 
@@ -95,7 +107,7 @@ export async function fetchRoster() {
     await delay(300);
   }
 
-  return inmates;
+  return { inmates, total };
 }
 
 export async function fetchDetail(detailUrl) {
