@@ -16,6 +16,7 @@ Fix once, check siblings: Clallam and Whatcom came from the same template. Grep 
 ## Pending verification
 - **A1/A2 (merged in PR #3, 2026-11-05):** `readState` exits on a missing or unparseable `roster.json`/`change_log.json`; data is committed before the build; deploy is a separate job. After merge: confirm the first run goes green, data commit lands, Pages deploys, and `change_log.json` row count is unchanged.
 - **A3 (merged in PR #2, 2026-10-26):** feed release times now parsed as Pacific. Records from before 2026-10-26 are still 7–8 h early. No backfill done. Check a sample against the XML feed / detail pages before proposing one.
+- **Midnight "24:xx" dates (frontend fixed in PR #5, 2026-11-06; confirmed on iPhone):** 62 stored values (59 `releasedAt` 04/29–10/25, 3 `firstSeen` 05/07) write midnight as hour 24. `frontend/src/dates.js` reads them as 00:xx same date. Still open: `stats.js` can't parse them server-side; the stored values are unchanged (fold into the backfill); the same-date reading isn't checked against the county.
 - **Detail pages survive release?** Reported, not checked by hand.
 - **Inmate IDs alphanumeric?** Regex accepts digits only (`scrapers/kitsap.js`). Check a real detail page.
 - **Receipt font on the live site** (`url('/fonts/...')` under the Pages subpath).
