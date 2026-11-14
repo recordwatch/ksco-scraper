@@ -1,6 +1,68 @@
 [
   {
     "type": "BOOKED",
+    "bookingNumber": "2026005003",
+    "name": "BURNS, CHRISTINA MARIE",
+    "bookingDate": "11/14/2026",
+    "charges": [
+      {
+        "violation": "9A.56.068 - POSSESSION OF A STOLEN VEHICLE",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 55000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "11/16/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "11/14/2026",
+        "courtType": "SC"
+      },
+      {
+        "violation": "9A.76.175 - MAKE FALSE/MISLEADING STMNT PUB SRVNT",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "11/16/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "11/14/2026",
+        "courtType": "SC"
+      },
+      {
+        "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
+        "cleared": false,
+        "addDesc": "DUI",
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 20000,
+        "cashAmount": null,
+        "courtCase": "22842602",
+        "nextCourtDate": "11/16/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "11/14/2026",
+        "courtType": "DS"
+      }
+    ],
+    "age": "32",
+    "sex": "F",
+    "race": "W",
+    "height": "506",
+    "weight": "165",
+    "hair": "BLN",
+    "eyes": "BRO",
+    "inmateId": "40519441",
+    "schedRelease": null,
+    "firstSeen": "11/14/2026, 08:40:39",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
     "bookingNumber": "2026004998",
     "name": "QUINTANILLA, JAIDEN",
     "bookingDate": "",
@@ -113,7 +175,7 @@
         "nextCourtDate": "11/16/2026",
         "arrestAgency": "WASHINGTON STATE PATROL",
         "arrestDate": "11/14/2026",
-        "courtType": "SC"
+        "courtType": "DS"
       },
       {
         "violation": "69.50.412 - DRUG PARAPHERNALIA-POSSESSION",
@@ -267,9 +329,9 @@
     "charges": [
       {
         "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
@@ -290,8 +352,8 @@
     "inmateId": "50005425",
     "schedRelease": "11/14/2026",
     "firstSeen": "11/13/2026, 14:46:39",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "11/14/2026, 08:40:41",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -3009,9 +3071,9 @@
     "charges": [
       {
         "violation": "46.20.740(2) - IGNITION INTERLOCK VIOL-NOTATION ON DR REC-VERIFY INTERLOCK",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
@@ -3023,9 +3085,9 @@
       },
       {
         "violation": "46.20.342(1)(C) - DWLS 3 -DRIVE W/LICENSE SUSP OR REVOKED-3 OR REVOKED LIC OR PRIVILEGE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
@@ -3046,8 +3108,8 @@
     "inmateId": "40473921",
     "schedRelease": "11/14/2026",
     "firstSeen": "11/09/2026, 15:31:06",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "11/14/2026, 08:40:40",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -9295,9 +9357,9 @@
     "charges": [
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "THEFT 3",
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
@@ -9346,8 +9408,8 @@
     "inmateId": "40096686",
     "schedRelease": "11/14/2026",
     "firstSeen": "10/28/2026, 06:22:59",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "11/14/2026, 08:40:40",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -29226,9 +29288,9 @@
     "charges": [
       {
         "violation": "46.61.024(1) - ATTEMPT TO ELUDE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
@@ -29249,8 +29311,8 @@
     "inmateId": "50002685",
     "schedRelease": "11/14/2026",
     "firstSeen": "09/24/2026, 15:06:37",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "11/14/2026, 08:40:39",
+    "status": "released"
   },
   {
     "type": "BOOKED",

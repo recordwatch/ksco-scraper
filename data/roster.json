@@ -141647,9 +141647,9 @@
     "charges": [
       {
         "violation": "46.61.024(1) - ATTEMPT TO ELUDE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
@@ -141661,9 +141661,9 @@
       }
     ],
     "totalBond": null,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "09/24/2026, 15:06:37",
-    "releasedAt": null
+    "releasedAt": "11/14/2026, 08:40:39"
   },
   "2026004268": {
     "bookingNumber": "2026004268",
@@ -163780,9 +163780,9 @@
     "charges": [
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "THEFT 3",
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
@@ -163822,9 +163822,9 @@
       }
     ],
     "totalBond": 10500,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "10/28/2026, 06:22:59",
-    "releasedAt": null
+    "releasedAt": "11/14/2026, 08:40:40"
   },
   "2026004772": {
     "bookingNumber": "2026004772",
@@ -170787,9 +170787,9 @@
     "charges": [
       {
         "violation": "46.20.740(2) - IGNITION INTERLOCK VIOL-NOTATION ON DR REC-VERIFY INTERLOCK",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
@@ -170801,9 +170801,9 @@
       },
       {
         "violation": "46.20.342(1)(C) - DWLS 3 -DRIVE W/LICENSE SUSP OR REVOKED-3 OR REVOKED LIC OR PRIVILEGE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
@@ -170815,9 +170815,9 @@
       }
     ],
     "totalBond": null,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "11/09/2026, 15:31:06",
-    "releasedAt": null
+    "releasedAt": "11/14/2026, 08:40:40"
   },
   "2026004924": {
     "bookingNumber": "2026004924",
@@ -173713,9 +173713,9 @@
     "charges": [
       {
         "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
@@ -173727,9 +173727,9 @@
       }
     ],
     "totalBond": null,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "11/13/2026, 14:46:39",
-    "releasedAt": null
+    "releasedAt": "11/14/2026, 08:40:41"
   },
   "2026004996": {
     "bookingNumber": "2026004996",
@@ -173999,7 +173999,7 @@
         "nextCourtDate": "11/16/2026",
         "arrestAgency": "WASHINGTON STATE PATROL",
         "arrestDate": "11/14/2026",
-        "courtType": "SC"
+        "courtType": "DS"
       },
       {
         "violation": "69.50.412 - DRUG PARAPHERNALIA-POSSESSION",
@@ -174019,6 +174019,73 @@
     "totalBond": 15500,
     "status": "in_custody",
     "firstSeen": "11/14/2026, 02:00:35",
+    "releasedAt": null
+  },
+  "2026005003": {
+    "bookingNumber": "2026005003",
+    "firstName": "CHRISTINA",
+    "lastName": "BURNS",
+    "middleName": "MARIE",
+    "race": "W",
+    "sex": "F",
+    "bookingDate": "11/14/2026",
+    "releaseDate": "",
+    "schReleaseDate": "",
+    "detailUrl": "https://incustody.kitsap.gov/Home/BookingSearchResult?LastName=%25&FirstName=&BookingFrom=&BookingTo=&ValidSearch=&sort=BookingDate&sortdir=DESC&page=1&BookingNumber=1",
+    "inmateId": "40519441",
+    "schedRelease": null,
+    "age": "32",
+    "height": "506",
+    "weight": "165",
+    "hair": "BLN",
+    "eyes": "BRO",
+    "charges": [
+      {
+        "violation": "9A.56.068 - POSSESSION OF A STOLEN VEHICLE",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 55000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "11/16/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "11/14/2026",
+        "courtType": "SC"
+      },
+      {
+        "violation": "9A.76.175 - MAKE FALSE/MISLEADING STMNT PUB SRVNT",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "11/16/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "11/14/2026",
+        "courtType": "SC"
+      },
+      {
+        "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
+        "cleared": false,
+        "addDesc": "DUI",
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 20000,
+        "cashAmount": null,
+        "courtCase": "22842602",
+        "nextCourtDate": "11/16/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "11/14/2026",
+        "courtType": "DS"
+      }
+    ],
+    "totalBond": 75000,
+    "status": "in_custody",
+    "firstSeen": "11/14/2026, 08:40:39",
     "releasedAt": null
   }
 }
