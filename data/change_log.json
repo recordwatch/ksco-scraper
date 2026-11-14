@@ -1,6 +1,54 @@
 [
   {
     "type": "BOOKED",
+    "bookingNumber": "2026004997",
+    "name": "LANDON, MICHAEL LEROY",
+    "bookingDate": "11/13/2026",
+    "charges": [
+      {
+        "violation": "9A.76.175 - MAKE FALSE/MISLEADING STMNT PUB SRVNT",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "GL",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": "50630208",
+        "nextCourtDate": null,
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "11/13/2026",
+        "courtType": null
+      },
+      {
+        "violation": "46.20.342(1)(C) - DWLS 3 -DRIVE W/LICENSE SUSP OR REVOKED-3 OR REVOKED LIC OR PRIVILEGE",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "GL",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": "50630208",
+        "nextCourtDate": null,
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "11/13/2026",
+        "courtType": null
+      }
+    ],
+    "age": "59",
+    "sex": "M",
+    "race": "W",
+    "height": "601",
+    "weight": "185",
+    "hair": "GRY",
+    "eyes": "BLU",
+    "inmateId": "30005256",
+    "schedRelease": "11/15/2026",
+    "firstSeen": "11/13/2026, 18:56:42",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
     "bookingNumber": "2026004991",
     "name": "FABINA, JASON NIKALAOU",
     "bookingDate": "",
@@ -473,73 +521,73 @@
     "charges": [
       {
         "violation": "9A.52.030(2) - BURGLARY-2",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "PR",
         "bondBailType": "C/B",
         "bondAmount": 205000,
         "cashAmount": null,
-        "courtCase": null,
-        "nextCourtDate": "11/13/2026",
+        "courtCase": "2610081318",
+        "nextCourtDate": "12/28/2026",
         "arrestAgency": "BREMERTON POLICE DEPARTMENT",
         "arrestDate": "11/12/2026",
         "courtType": "SC"
       },
       {
         "violation": "9A.82.050(2) - TRAFFICKING STOLEN PROPERTY-1",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "PR",
         "bondBailType": "C/B",
         "bondAmount": null,
         "cashAmount": null,
-        "courtCase": null,
-        "nextCourtDate": "11/13/2026",
+        "courtCase": "2610081318",
+        "nextCourtDate": "12/28/2026",
         "arrestAgency": "BREMERTON POLICE DEPARTMENT",
         "arrestDate": "11/12/2026",
         "courtType": "SC"
       },
       {
         "violation": "9A.56.030(2) - THEFT-1",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
-        "bondBailType": "C/B",
+        "clearance": "RF",
+        "bondBailType": "RF",
         "bondAmount": null,
         "cashAmount": null,
         "courtCase": null,
-        "nextCourtDate": "11/13/2026",
+        "nextCourtDate": null,
         "arrestAgency": "BREMERTON POLICE DEPARTMENT",
         "arrestDate": "11/12/2026",
-        "courtType": "SC"
+        "courtType": null
       },
       {
         "violation": "9A.56.150(2) - POSSESS STOLEN PROPERTY-1",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
-        "bondBailType": "C/B",
+        "clearance": "RF",
+        "bondBailType": "RF",
         "bondAmount": null,
         "cashAmount": null,
         "courtCase": null,
-        "nextCourtDate": "11/13/2026",
+        "nextCourtDate": null,
         "arrestAgency": "BREMERTON POLICE DEPARTMENT",
         "arrestDate": "11/12/2026",
-        "courtType": "SC"
+        "courtType": null
       },
       {
         "violation": "9A.48.090(2) - MALICIOUS MISCHIEF-3",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
-        "bondBailType": "C/B",
+        "clearance": "RF",
+        "bondBailType": "RF",
         "bondAmount": null,
         "cashAmount": null,
         "courtCase": null,
-        "nextCourtDate": "11/13/2026",
+        "nextCourtDate": null,
         "arrestAgency": "BREMERTON POLICE DEPARTMENT",
         "arrestDate": "11/12/2026",
-        "courtType": "SC"
+        "courtType": null
       }
     ],
     "age": "23",
@@ -552,8 +600,8 @@
     "inmateId": "50005661",
     "schedRelease": null,
     "firstSeen": "11/12/2026, 17:23:52",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "11/13/2026, 18:56:45",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -631,17 +679,17 @@
     "charges": [
       {
         "violation": "9A.36.011(2) - ASSAULT-1",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
-        "bondBailType": "C/B",
-        "bondAmount": 102000,
+        "clearance": "RF",
+        "bondBailType": "RF",
+        "bondAmount": null,
         "cashAmount": null,
         "courtCase": null,
-        "nextCourtDate": "11/13/2026",
+        "nextCourtDate": null,
         "arrestAgency": "POULSBO POLICE DEPARTMENT",
         "arrestDate": "11/12/2026",
-        "courtType": "SC"
+        "courtType": null
       },
       {
         "violation": "9A.76.020 - OBSTRUCT LAW ENFORCEMENT OFC",
@@ -651,7 +699,7 @@
         "bondBailType": "C/B",
         "bondAmount": null,
         "cashAmount": null,
-        "courtCase": null,
+        "courtCase": "2610081418",
         "nextCourtDate": "11/13/2026",
         "arrestAgency": "POULSBO POLICE DEPARTMENT",
         "arrestDate": "11/12/2026",
@@ -659,14 +707,28 @@
       },
       {
         "violation": "9A.76.040(2) - RESISTING ARREST",
+        "cleared": true,
+        "addDesc": null,
+        "clearance": "RF",
+        "bondBailType": "RF",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": null,
+        "arrestAgency": "POULSBO POLICE DEPARTMENT",
+        "arrestDate": "11/12/2026",
+        "courtType": null
+      },
+      {
+        "violation": "9A.36.011(2) - ASSAULT-1",
         "cleared": false,
         "addDesc": null,
         "clearance": null,
         "bondBailType": "C/B",
-        "bondAmount": null,
+        "bondAmount": 102000,
         "cashAmount": null,
-        "courtCase": null,
-        "nextCourtDate": "11/13/2026",
+        "courtCase": "2610081418",
+        "nextCourtDate": "11/17/2026",
         "arrestAgency": "POULSBO POLICE DEPARTMENT",
         "arrestDate": "11/12/2026",
         "courtType": "SC"
@@ -764,8 +826,8 @@
     "inmateId": "50005660",
     "schedRelease": null,
     "firstSeen": "11/12/2026, 17:23:49",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "11/13/2026, 18:56:45",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -849,25 +911,25 @@
         "bondBailType": "NOBD",
         "bondAmount": null,
         "cashAmount": null,
-        "courtCase": null,
-        "nextCourtDate": "11/13/2026",
+        "courtCase": "2610081118",
+        "nextCourtDate": "11/30/2026",
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "11/12/2026",
         "courtType": "SC"
       },
       {
         "violation": "9A.76.040(2) - RESISTING ARREST",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
-        "bondBailType": "NOBD",
+        "clearance": "RF",
+        "bondBailType": "RF",
         "bondAmount": null,
         "cashAmount": null,
         "courtCase": null,
-        "nextCourtDate": "11/13/2026",
+        "nextCourtDate": null,
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "11/12/2026",
-        "courtType": "SC"
+        "courtType": null
       }
     ],
     "age": "18",
@@ -2600,8 +2662,8 @@
     "inmateId": "30006795",
     "schedRelease": null,
     "firstSeen": "11/09/2026, 22:33:38",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "11/13/2026, 18:56:44",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -7850,8 +7912,8 @@
     "inmateId": "40407475",
     "schedRelease": null,
     "firstSeen": "10/30/2026, 13:00:10",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "11/13/2026, 18:56:43",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -39882,8 +39944,8 @@
     "inmateId": "30036203",
     "schedRelease": "10/18/2026",
     "firstSeen": "09/08/2026, 01:43:05",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "11/13/2026, 18:56:43",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -140526,8 +140588,8 @@
         "bondBailType": "C/B",
         "bondAmount": 30000,
         "cashAmount": null,
-        "courtCase": null,
-        "nextCourtDate": "11/13/2026",
+        "courtCase": "2610081018",
+        "nextCourtDate": "11/17/2026",
         "arrestAgency": "PORT ORCHARD POLICE DEPARTMENT",
         "arrestDate": "11/12/2026",
         "courtType": "SC"
