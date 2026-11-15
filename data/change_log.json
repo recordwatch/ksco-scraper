@@ -1,6 +1,116 @@
 [
   {
     "type": "BOOKED",
+    "bookingNumber": "2026005015",
+    "name": "MATHES, GABRIEL V",
+    "bookingDate": "",
+    "charges": [
+      {
+        "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
+        "cleared": false,
+        "addDesc": "DUI",
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 10000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "11/16/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "11/15/2026",
+        "courtType": "BM"
+      }
+    ],
+    "age": "21",
+    "sex": "M",
+    "race": "W",
+    "height": null,
+    "weight": null,
+    "hair": "Eyes",
+    "eyes": "Height",
+    "inmateId": "50005670",
+    "schedRelease": null,
+    "firstSeen": "11/15/2026, 07:47:42",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
+    "bookingNumber": "2026005014",
+    "name": "FULTON, BARRY ANDREW",
+    "bookingDate": "11/15/2026",
+    "charges": [
+      {
+        "violation": "PGTC 18.03.36 - ELUDING",
+        "cleared": false,
+        "addDesc": "ELUDING",
+        "clearance": null,
+        "bondBailType": "NOBD",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "11/16/2026",
+        "arrestAgency": "PORT GAMBLE POLICE DEPARTMENT",
+        "arrestDate": "11/14/2026",
+        "courtType": "PGT"
+      },
+      {
+        "violation": "PGTC05.09.02 - RECKLESS DRIVING",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "NOBD",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "11/16/2026",
+        "arrestAgency": "PORT GAMBLE POLICE DEPARTMENT",
+        "arrestDate": "11/14/2026",
+        "courtType": "PGT"
+      },
+      {
+        "violation": "PGTC05.01.07 - RECKLESS ENDANGERMENT",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "NOBD",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "11/16/2026",
+        "arrestAgency": "PORT GAMBLE POLICE DEPARTMENT",
+        "arrestDate": "11/14/2026",
+        "courtType": "PGT"
+      },
+      {
+        "violation": "PGTC05.09.01 - DRIVING WHILE UNDER THE INFLUENCE",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "NOBD",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "11/16/2026",
+        "arrestAgency": "PORT GAMBLE POLICE DEPARTMENT",
+        "arrestDate": "11/14/2026",
+        "courtType": "PGT"
+      }
+    ],
+    "age": "48",
+    "sex": "M",
+    "race": "I",
+    "height": "506",
+    "weight": "245",
+    "hair": "BRO",
+    "eyes": "BRO",
+    "inmateId": "50005669",
+    "schedRelease": null,
+    "firstSeen": "11/15/2026, 07:47:41",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
     "bookingNumber": "2026005010",
     "name": "MCCORKLE, STEPHEN JEFFERY",
     "bookingDate": "",
@@ -59,8 +169,8 @@
     "race": "W",
     "height": "600",
     "weight": "250",
-    "hair": "Eyes",
-    "eyes": "Height",
+    "hair": "BRO",
+    "eyes": "GRN",
     "inmateId": "50005667",
     "schedRelease": null,
     "firstSeen": "11/15/2026, 00:16:02",
@@ -72,7 +182,36 @@
     "bookingNumber": "2026005013",
     "name": "GOTTSCHALK, COREY L",
     "bookingDate": "",
-    "charges": [],
+    "charges": [
+      {
+        "violation": "9A.36.041(2) - ASSAULT-4",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 15000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "11/16/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "11/14/2026",
+        "courtType": "SC"
+      },
+      {
+        "violation": "9A.46.020(2)(B) - HARASSMENT PREV CONV OR THREAT TO KILL",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "11/16/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "11/14/2026",
+        "courtType": "SC"
+      }
+    ],
     "age": "40",
     "sex": "M",
     "race": "W",
@@ -142,9 +281,9 @@
     "charges": [
       {
         "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": 5000,
         "cashAmount": null,
@@ -165,8 +304,8 @@
     "inmateId": "50005666",
     "schedRelease": null,
     "firstSeen": "11/15/2026, 00:16:00",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "11/15/2026, 07:47:43",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -251,7 +390,7 @@
         "courtType": "BM"
       }
     ],
-    "age": "30",
+    "age": "33",
     "sex": "F",
     "race": "W",
     "height": "504",
@@ -546,9 +685,9 @@
     "charges": [
       {
         "violation": "9A.76.175 - MAKE FALSE/MISLEADING STMNT PUB SRVNT",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
@@ -560,9 +699,9 @@
       },
       {
         "violation": "46.20.342(1)(C) - DWLS 3 -DRIVE W/LICENSE SUSP OR REVOKED-3 OR REVOKED LIC OR PRIVILEGE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
@@ -1424,9 +1563,9 @@
     "charges": [
       {
         "violation": "72.09.310 - COMMUNITY CUSTODY VIOLATOR",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
@@ -1447,8 +1586,8 @@
     "inmateId": "30032072",
     "schedRelease": "11/15/2026",
     "firstSeen": "11/12/2026, 12:17:33",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "11/15/2026, 07:47:42",
+    "status": "released"
   },
   {
     "type": "BOOKED",
