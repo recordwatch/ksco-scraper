@@ -173819,9 +173819,9 @@
       }
     ],
     "totalBond": null,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "11/13/2026, 18:56:42",
-    "releasedAt": null
+    "releasedAt": "11/15/2026, 07:52:00"
   },
   "2026004998": {
     "bookingNumber": "2026004998",
@@ -173886,6 +173886,20 @@
         "cleared": false,
         "addDesc": null,
         "clearance": null,
+        "bondBailType": "NF",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": null,
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "11/13/2026",
+        "courtType": null
+      },
+      {
+        "violation": "46.61.504(5) - PHYSICAL CONTROL",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
         "bondBailType": "C/B",
         "bondAmount": 10000,
         "cashAmount": null,
@@ -173893,7 +173907,7 @@
         "nextCourtDate": "11/16/2026",
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "11/13/2026",
-        "courtType": "SC"
+        "courtType": "DS"
       }
     ],
     "totalBond": 10000,
@@ -173978,14 +173992,14 @@
         "cleared": false,
         "addDesc": null,
         "clearance": null,
-        "bondBailType": "C/B",
-        "bondAmount": 15000,
+        "bondBailType": "NF",
+        "bondAmount": null,
         "cashAmount": null,
         "courtCase": null,
         "nextCourtDate": "11/16/2026",
         "arrestAgency": "WASHINGTON STATE PATROL",
         "arrestDate": "11/14/2026",
-        "courtType": "DS"
+        "courtType": null
       },
       {
         "violation": "9A.76.020 - OBSTRUCT LAW ENFORCEMENT OFC",
@@ -173993,7 +174007,7 @@
         "addDesc": null,
         "clearance": null,
         "bondBailType": "C/B",
-        "bondAmount": null,
+        "bondAmount": 15000,
         "cashAmount": null,
         "courtCase": null,
         "nextCourtDate": "11/16/2026",
@@ -174006,14 +174020,14 @@
         "cleared": false,
         "addDesc": null,
         "clearance": null,
-        "bondBailType": "C/B",
+        "bondBailType": "NF",
         "bondAmount": null,
         "cashAmount": null,
         "courtCase": null,
         "nextCourtDate": "11/16/2026",
         "arrestAgency": "WASHINGTON STATE PATROL",
         "arrestDate": "11/14/2026",
-        "courtType": "DS"
+        "courtType": null
       }
     ],
     "totalBond": 15500,
@@ -174046,7 +174060,7 @@
         "addDesc": null,
         "clearance": null,
         "bondBailType": "C/B",
-        "bondAmount": 55000,
+        "bondAmount": 20000,
         "cashAmount": null,
         "courtCase": null,
         "nextCourtDate": "11/16/2026",
@@ -174417,10 +174431,10 @@
     "inmateId": "50005668",
     "schedRelease": null,
     "age": "40",
-    "height": null,
-    "weight": null,
-    "hair": "Eyes",
-    "eyes": "Height",
+    "height": "510",
+    "weight": "170",
+    "hair": "BRO",
+    "eyes": "BRO",
     "charges": [
       {
         "violation": "9A.36.041(2) - ASSAULT-4",
@@ -174551,10 +174565,10 @@
     "inmateId": "50005670",
     "schedRelease": null,
     "age": "21",
-    "height": null,
-    "weight": null,
-    "hair": "Eyes",
-    "eyes": "Height",
+    "height": "511",
+    "weight": "165",
+    "hair": "BLN",
+    "eyes": "BLU",
     "charges": [
       {
         "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
@@ -174574,6 +174588,69 @@
     "totalBond": 10000,
     "status": "in_custody",
     "firstSeen": "11/15/2026, 07:47:42",
+    "releasedAt": null
+  },
+  "2026005017": {
+    "bookingNumber": "2026005017",
+    "firstName": "IVAN",
+    "lastName": "PARADA",
+    "middleName": "ALEXANDER",
+    "race": "",
+    "sex": "",
+    "bookingDate": "",
+    "releaseDate": "",
+    "schReleaseDate": "",
+    "detailUrl": "https://incustody.kitsap.gov/Home/BookingSearchResult?LastName=%25&FirstName=&BookingFrom=&BookingTo=&ValidSearch=&sort=BookingDate&sortdir=DESC&page=18&BookingNumber=11",
+    "inmateId": "50005671",
+    "schedRelease": null,
+    "age": "18",
+    "height": null,
+    "weight": null,
+    "hair": "Eyes",
+    "eyes": "Height",
+    "charges": [
+      {
+        "violation": "9A.44.089(2) - CHILD MOLESTATION-3",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 10000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "11/16/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "11/15/2026",
+        "courtType": "SC"
+      }
+    ],
+    "totalBond": 10000,
+    "status": "in_custody",
+    "firstSeen": "11/15/2026, 12:53:30",
+    "releasedAt": null
+  },
+  "2026005018": {
+    "bookingNumber": "2026005018",
+    "firstName": "JUSTICE",
+    "lastName": "RIVERO",
+    "middleName": "JOSEPH",
+    "race": "W",
+    "sex": "M",
+    "bookingDate": "",
+    "releaseDate": "",
+    "schReleaseDate": "",
+    "detailUrl": "https://incustody.kitsap.gov/Home/BookingSearchResult?LastName=%25&FirstName=&BookingFrom=&BookingTo=&ValidSearch=&sort=BookingDate&sortdir=DESC&page=18&BookingNumber=12",
+    "inmateId": "50000481",
+    "schedRelease": null,
+    "age": "25",
+    "height": "503",
+    "weight": "130",
+    "hair": "BRO",
+    "eyes": "BRO",
+    "charges": [],
+    "totalBond": null,
+    "status": "in_custody",
+    "firstSeen": "11/15/2026, 12:53:31",
     "releasedAt": null
   }
 }
