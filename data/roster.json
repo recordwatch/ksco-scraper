@@ -176453,9 +176453,9 @@
       }
     ],
     "totalBond": 30000,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "11/18/2026, 02:31:41",
-    "releasedAt": null
+    "releasedAt": "11/19/2026, 01:14:18"
   },
   "2026005053": {
     "bookingNumber": "2026005053",
@@ -176492,9 +176492,9 @@
       }
     ],
     "totalBond": null,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "11/18/2026, 02:31:44",
-    "releasedAt": null
+    "releasedAt": "11/19/2026, 01:14:18"
   },
   "2026005054": {
     "bookingNumber": "2026005054",
@@ -176521,7 +176521,21 @@
         "addDesc": null,
         "clearance": null,
         "bondBailType": "C/B",
-        "bondAmount": 250000,
+        "bondAmount": 750000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "11/19/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "11/18/2026",
+        "courtType": "SC"
+      },
+      {
+        "violation": "9A.40.020(2) - KIDNAPPING-1",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": null,
         "cashAmount": null,
         "courtCase": null,
         "nextCourtDate": "11/19/2026",
@@ -176786,10 +176800,10 @@
     "inmateId": "50005688",
     "schedRelease": null,
     "age": "56",
-    "height": null,
-    "weight": null,
-    "hair": "Eyes",
-    "eyes": "Height",
+    "height": "507",
+    "weight": "172",
+    "hair": "BAL",
+    "eyes": "BLU",
     "charges": [
       {
         "violation": "9A.36.041(2) - ASSAULT-4 - DV",
@@ -176871,9 +176885,9 @@
     "charges": [
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "PSP 3RD",
-        "clearance": null,
+        "clearance": "BR",
         "bondBailType": "C/B",
         "bondAmount": 2600,
         "cashAmount": null,
@@ -176885,8 +176899,100 @@
       }
     ],
     "totalBond": 2600,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "11/18/2026, 17:21:57",
+    "releasedAt": "11/19/2026, 01:14:19"
+  },
+  "2026005063": {
+    "bookingNumber": "2026005063",
+    "firstName": "MACARIO",
+    "lastName": "MENDOZA CRUZ",
+    "middleName": "",
+    "race": "W",
+    "sex": "M",
+    "bookingDate": "11/18/2026",
+    "releaseDate": "",
+    "schReleaseDate": "11/19/2026",
+    "detailUrl": "https://incustody.kitsap.gov/Home/BookingSearchResult?LastName=%25&FirstName=&BookingFrom=&BookingTo=&ValidSearch=&sort=BookingDate&sortdir=DESC&page=1&BookingNumber=7",
+    "inmateId": "50005291",
+    "schedRelease": "11/19/2026",
+    "age": "22",
+    "height": "502",
+    "weight": "125",
+    "hair": "BLK",
+    "eyes": "BRO",
+    "charges": [
+      {
+        "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
+        "cleared": false,
+        "addDesc": "1 DAY COMMITMENT",
+        "clearance": null,
+        "bondBailType": "GL",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": "51725801",
+        "nextCourtDate": null,
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "11/18/2026",
+        "courtType": null
+      }
+    ],
+    "totalBond": null,
+    "status": "in_custody",
+    "firstSeen": "11/19/2026, 01:14:17",
+    "releasedAt": null
+  },
+  "2026005064": {
+    "bookingNumber": "2026005064",
+    "firstName": "MICHAEL",
+    "lastName": "RODGERS",
+    "middleName": "J",
+    "race": "W",
+    "sex": "M",
+    "bookingDate": "11/19/2026",
+    "releaseDate": "",
+    "schReleaseDate": "",
+    "detailUrl": "https://incustody.kitsap.gov/Home/BookingSearchResult?LastName=%25&FirstName=&BookingFrom=&BookingTo=&ValidSearch=&sort=BookingDate&sortdir=DESC&page=1&BookingNumber=1",
+    "inmateId": "50005690",
+    "schedRelease": null,
+    "age": "61",
+    "height": "508",
+    "weight": "220",
+    "hair": "GRY",
+    "eyes": "BLU",
+    "charges": [
+      {
+        "violation": "9A.56.160(2) - POSSESS STOLEN PROPERTY-2",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 20000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "11/18/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "11/18/2026",
+        "courtType": "SC"
+      },
+      {
+        "violation": "9A.82.055(2) - TRAFFICKING STOLEN PROPERTY-2",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "11/19/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "11/18/2026",
+        "courtType": "SC"
+      }
+    ],
+    "totalBond": 20000,
+    "status": "in_custody",
+    "firstSeen": "11/19/2026, 01:14:17",
     "releasedAt": null
   }
 }

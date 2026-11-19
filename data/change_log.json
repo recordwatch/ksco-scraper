@@ -1,6 +1,88 @@
 [
   {
     "type": "BOOKED",
+    "bookingNumber": "2026005063",
+    "name": "MENDOZA CRUZ, MACARIO",
+    "bookingDate": "11/18/2026",
+    "charges": [
+      {
+        "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
+        "cleared": false,
+        "addDesc": "1 DAY COMMITMENT",
+        "clearance": null,
+        "bondBailType": "GL",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": "51725801",
+        "nextCourtDate": null,
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "11/18/2026",
+        "courtType": null
+      }
+    ],
+    "age": "22",
+    "sex": "M",
+    "race": "W",
+    "height": "502",
+    "weight": "125",
+    "hair": "BLK",
+    "eyes": "BRO",
+    "inmateId": "50005291",
+    "schedRelease": "11/19/2026",
+    "firstSeen": "11/19/2026, 01:14:17",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
+    "bookingNumber": "2026005064",
+    "name": "RODGERS, MICHAEL J",
+    "bookingDate": "11/19/2026",
+    "charges": [
+      {
+        "violation": "9A.56.160(2) - POSSESS STOLEN PROPERTY-2",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 20000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "11/18/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "11/18/2026",
+        "courtType": "SC"
+      },
+      {
+        "violation": "9A.82.055(2) - TRAFFICKING STOLEN PROPERTY-2",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "11/19/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "11/18/2026",
+        "courtType": "SC"
+      }
+    ],
+    "age": "61",
+    "sex": "M",
+    "race": "W",
+    "height": "508",
+    "weight": "220",
+    "hair": "GRY",
+    "eyes": "BLU",
+    "inmateId": "50005690",
+    "schedRelease": null,
+    "firstSeen": "11/19/2026, 01:14:17",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
     "bookingNumber": "2026005060",
     "name": "MALANE, MICHAEL D",
     "bookingDate": "",
@@ -23,10 +105,10 @@
     "age": "56",
     "sex": "",
     "race": "W",
-    "height": null,
-    "weight": null,
-    "hair": "Eyes",
-    "eyes": "Height",
+    "height": "507",
+    "weight": "172",
+    "hair": "BAL",
+    "eyes": "BLU",
     "inmateId": "50005688",
     "schedRelease": null,
     "firstSeen": "11/18/2026, 17:21:59",
@@ -75,9 +157,9 @@
     "charges": [
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "PSP 3RD",
-        "clearance": null,
+        "clearance": "BR",
         "bondBailType": "C/B",
         "bondAmount": 2600,
         "cashAmount": null,
@@ -98,8 +180,8 @@
     "inmateId": "50005689",
     "schedRelease": null,
     "firstSeen": "11/18/2026, 17:21:57",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "11/19/2026, 01:14:19",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -200,8 +282,8 @@
     "inmateId": "50005683",
     "schedRelease": null,
     "firstSeen": "11/18/2026, 02:31:44",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "11/19/2026, 01:14:18",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -263,7 +345,21 @@
         "addDesc": null,
         "clearance": null,
         "bondBailType": "C/B",
-        "bondAmount": 250000,
+        "bondAmount": 750000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "11/19/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "11/18/2026",
+        "courtType": "SC"
+      },
+      {
+        "violation": "9A.40.020(2) - KIDNAPPING-1",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": null,
         "cashAmount": null,
         "courtCase": null,
         "nextCourtDate": "11/19/2026",
@@ -454,8 +550,8 @@
     "inmateId": "50005682",
     "schedRelease": null,
     "firstSeen": "11/18/2026, 02:31:41",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "11/19/2026, 01:14:18",
+    "status": "released"
   },
   {
     "type": "BOOKED",
