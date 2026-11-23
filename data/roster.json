@@ -171519,9 +171519,9 @@
       },
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "POSS C/S",
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": 2500,
         "cashAmount": null,
@@ -171533,9 +171533,9 @@
       }
     ],
     "totalBond": 5000,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "11/10/2026, 07:28:06",
-    "releasedAt": null
+    "releasedAt": "11/23/2026, 04:12:22"
   },
   "2026004934": {
     "bookingNumber": "2026004934",
@@ -179713,6 +179713,112 @@
     "totalBond": null,
     "status": "in_custody",
     "firstSeen": "11/22/2026, 19:00:20",
+    "releasedAt": null
+  },
+  "2026005125": {
+    "bookingNumber": "2026005125",
+    "firstName": "ARNULFO",
+    "lastName": "CARDONA LOPEZ",
+    "middleName": "",
+    "race": "W",
+    "sex": "M",
+    "bookingDate": "11/22/2026",
+    "releaseDate": "",
+    "schReleaseDate": "",
+    "detailUrl": "https://incustody.kitsap.gov/Home/BookingSearchResult?LastName=%25&FirstName=&BookingFrom=&BookingTo=&ValidSearch=&sort=BookingDate&sortdir=DESC&page=1&BookingNumber=4",
+    "inmateId": "50005398",
+    "schedRelease": null,
+    "age": "20",
+    "height": "503",
+    "weight": "130",
+    "hair": "BLK",
+    "eyes": "BRO",
+    "charges": [
+      {
+        "violation": "46.61.503(5) - DRIVING OR BEING IN PHYS CONT U/21 AFTER CONSUMING ALCOHOL",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 10000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "11/23/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "11/22/2026",
+        "courtType": "BM"
+      },
+      {
+        "violation": "46.20.342(1)(C) - DWLS 3 -DRIVE W/LICENSE SUSP OR REVOKED-3 OR REVOKED LIC OR PRIVILEGE",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "CC",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "11/23/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "11/22/2026",
+        "courtType": "BM"
+      }
+    ],
+    "totalBond": 10000,
+    "status": "in_custody",
+    "firstSeen": "11/23/2026, 04:12:21",
+    "releasedAt": null
+  },
+  "2026005126": {
+    "bookingNumber": "2026005126",
+    "firstName": "HURLEY",
+    "lastName": "HINES",
+    "middleName": "HUNTER",
+    "race": "W",
+    "sex": "M",
+    "bookingDate": "",
+    "releaseDate": "",
+    "schReleaseDate": "",
+    "detailUrl": "https://incustody.kitsap.gov/Home/BookingSearchResult?LastName=%25&FirstName=&BookingFrom=&BookingTo=&ValidSearch=&sort=BookingDate&sortdir=DESC&page=18&BookingNumber=1",
+    "inmateId": "50005706",
+    "schedRelease": null,
+    "age": "18",
+    "height": "509",
+    "weight": "260",
+    "hair": "BRO",
+    "eyes": "HAZ",
+    "charges": [
+      {
+        "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 7500,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "11/23/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "11/23/2026",
+        "courtType": "BM"
+      },
+      {
+        "violation": "66.44.270(2) - MINOR POSSESS, CONSUM, ACQ LIQUOR",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "CC",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "11/23/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "11/23/2026",
+        "courtType": "BM"
+      }
+    ],
+    "totalBond": 7500,
+    "status": "in_custody",
+    "firstSeen": "11/23/2026, 04:12:22",
     "releasedAt": null
   }
 }

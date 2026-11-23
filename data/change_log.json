@@ -1,6 +1,102 @@
 [
   {
     "type": "BOOKED",
+    "bookingNumber": "2026005126",
+    "name": "HINES, HURLEY HUNTER",
+    "bookingDate": "",
+    "charges": [
+      {
+        "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 7500,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "11/23/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "11/23/2026",
+        "courtType": "BM"
+      },
+      {
+        "violation": "66.44.270(2) - MINOR POSSESS, CONSUM, ACQ LIQUOR",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "CC",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "11/23/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "11/23/2026",
+        "courtType": "BM"
+      }
+    ],
+    "age": "18",
+    "sex": "M",
+    "race": "W",
+    "height": "509",
+    "weight": "260",
+    "hair": "BRO",
+    "eyes": "HAZ",
+    "inmateId": "50005706",
+    "schedRelease": null,
+    "firstSeen": "11/23/2026, 04:12:22",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
+    "bookingNumber": "2026005125",
+    "name": "CARDONA LOPEZ, ARNULFO",
+    "bookingDate": "11/22/2026",
+    "charges": [
+      {
+        "violation": "46.61.503(5) - DRIVING OR BEING IN PHYS CONT U/21 AFTER CONSUMING ALCOHOL",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 10000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "11/23/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "11/22/2026",
+        "courtType": "BM"
+      },
+      {
+        "violation": "46.20.342(1)(C) - DWLS 3 -DRIVE W/LICENSE SUSP OR REVOKED-3 OR REVOKED LIC OR PRIVILEGE",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "CC",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "11/23/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "11/22/2026",
+        "courtType": "BM"
+      }
+    ],
+    "age": "20",
+    "sex": "M",
+    "race": "W",
+    "height": "503",
+    "weight": "130",
+    "hair": "BLK",
+    "eyes": "BRO",
+    "inmateId": "50005398",
+    "schedRelease": null,
+    "firstSeen": "11/23/2026, 04:12:21",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
     "bookingNumber": "2026005123",
     "name": "GRIFFIN, CASSANDRA MARIE",
     "bookingDate": "",
@@ -7395,9 +7491,9 @@
       },
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "POSS C/S",
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": 2500,
         "cashAmount": null,
@@ -7418,8 +7514,8 @@
     "inmateId": "50001432",
     "schedRelease": null,
     "firstSeen": "11/10/2026, 07:28:06",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "11/23/2026, 04:12:22",
+    "status": "released"
   },
   {
     "type": "BOOKED",
