@@ -142161,9 +142161,9 @@
       },
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "DUI/VIO IID",
-        "clearance": null,
+        "clearance": "C/B",
         "bondBailType": "C/B",
         "bondAmount": 500,
         "cashAmount": null,
@@ -142175,9 +142175,9 @@
       }
     ],
     "totalBond": 5000,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "09/25/2026, 09:51:05",
-    "releasedAt": null
+    "releasedAt": "11/22/2026, 19:00:20"
   },
   "2026004275": {
     "bookingNumber": "2026004275",
@@ -164126,7 +164126,7 @@
         "violation": "9A.52.025(2) - RESIDENTIAL BURGLARY",
         "cleared": true,
         "addDesc": null,
-        "clearance": "RF",
+        "clearance": "POST",
         "bondBailType": "RF",
         "bondAmount": null,
         "cashAmount": null,
@@ -164140,7 +164140,7 @@
         "violation": "69.50.4013.1.A - UNLAWFUL POSSESSION OF A CONTROLLED SUBSTANCE",
         "cleared": true,
         "addDesc": null,
-        "clearance": "RF",
+        "clearance": "POST",
         "bondBailType": "RF",
         "bondAmount": null,
         "cashAmount": null,
@@ -164152,9 +164152,9 @@
       },
       {
         "violation": "9A.48.020(2) - ARSON-1",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": 40000,
         "cashAmount": null,
@@ -164166,9 +164166,9 @@
       },
       {
         "violation": "9A.76.190(3)(A) - FAILURE TO APPEAR / CONTEMPT OF COURT - FELONY",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "BURG 2",
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "CC",
         "bondAmount": null,
         "cashAmount": null,
@@ -164180,9 +164180,9 @@
       },
       {
         "violation": "9A.76.190(3)(A) - FAILURE TO APPEAR / CONTEMPT OF COURT - FELONY",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "DEL CONT SUB",
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "CC",
         "bondAmount": null,
         "cashAmount": null,
@@ -164194,9 +164194,9 @@
       },
       {
         "violation": "9A.76.190(3)(A) - FAILURE TO APPEAR / CONTEMPT OF COURT - FELONY",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "ATT TO ELUDE",
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "CC",
         "bondAmount": null,
         "cashAmount": null,
@@ -164208,9 +164208,9 @@
       }
     ],
     "totalBond": 555000,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "10/28/2026, 11:59:53",
-    "releasedAt": null
+    "releasedAt": "11/22/2026, 19:00:21"
   },
   "2026004774": {
     "bookingNumber": "2026004774",
@@ -179674,6 +179674,45 @@
     "totalBond": 10000,
     "status": "in_custody",
     "firstSeen": "11/22/2026, 14:23:12",
+    "releasedAt": null
+  },
+  "2026005123": {
+    "bookingNumber": "2026005123",
+    "firstName": "CASSANDRA",
+    "lastName": "GRIFFIN",
+    "middleName": "MARIE",
+    "race": "W",
+    "sex": "F",
+    "bookingDate": "",
+    "releaseDate": "",
+    "schReleaseDate": "",
+    "detailUrl": "https://incustody.kitsap.gov/Home/BookingSearchResult?LastName=%25&FirstName=&BookingFrom=&BookingTo=&ValidSearch=&sort=BookingDate&sortdir=DESC&page=17&BookingNumber=15",
+    "inmateId": "40028390",
+    "schedRelease": null,
+    "age": "40",
+    "height": "501",
+    "weight": "132",
+    "hair": "RED",
+    "eyes": "BRO",
+    "charges": [
+      {
+        "violation": "7.105.450(1) - PROTECTION ORDER VIOLATION",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "NOBD",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "11/23/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "11/22/2026",
+        "courtType": "BM"
+      }
+    ],
+    "totalBond": null,
+    "status": "in_custody",
+    "firstSeen": "11/22/2026, 19:00:20",
     "releasedAt": null
   }
 }

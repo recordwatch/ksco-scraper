@@ -1,6 +1,40 @@
 [
   {
     "type": "BOOKED",
+    "bookingNumber": "2026005123",
+    "name": "GRIFFIN, CASSANDRA MARIE",
+    "bookingDate": "",
+    "charges": [
+      {
+        "violation": "7.105.450(1) - PROTECTION ORDER VIOLATION",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "NOBD",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "11/23/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "11/22/2026",
+        "courtType": "BM"
+      }
+    ],
+    "age": "40",
+    "sex": "F",
+    "race": "W",
+    "height": "501",
+    "weight": "132",
+    "hair": "RED",
+    "eyes": "BRO",
+    "inmateId": "40028390",
+    "schedRelease": null,
+    "firstSeen": "11/22/2026, 19:00:20",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
     "bookingNumber": "2026005121",
     "name": "DUKET, JEFFREY RYAN",
     "bookingDate": "",
@@ -13993,7 +14027,7 @@
         "violation": "9A.52.025(2) - RESIDENTIAL BURGLARY",
         "cleared": true,
         "addDesc": null,
-        "clearance": "RF",
+        "clearance": "POST",
         "bondBailType": "RF",
         "bondAmount": null,
         "cashAmount": null,
@@ -14007,7 +14041,7 @@
         "violation": "69.50.4013.1.A - UNLAWFUL POSSESSION OF A CONTROLLED SUBSTANCE",
         "cleared": true,
         "addDesc": null,
-        "clearance": "RF",
+        "clearance": "POST",
         "bondBailType": "RF",
         "bondAmount": null,
         "cashAmount": null,
@@ -14019,9 +14053,9 @@
       },
       {
         "violation": "9A.48.020(2) - ARSON-1",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": 40000,
         "cashAmount": null,
@@ -14033,9 +14067,9 @@
       },
       {
         "violation": "9A.76.190(3)(A) - FAILURE TO APPEAR / CONTEMPT OF COURT - FELONY",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "BURG 2",
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "CC",
         "bondAmount": null,
         "cashAmount": null,
@@ -14047,9 +14081,9 @@
       },
       {
         "violation": "9A.76.190(3)(A) - FAILURE TO APPEAR / CONTEMPT OF COURT - FELONY",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "DEL CONT SUB",
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "CC",
         "bondAmount": null,
         "cashAmount": null,
@@ -14061,9 +14095,9 @@
       },
       {
         "violation": "9A.76.190(3)(A) - FAILURE TO APPEAR / CONTEMPT OF COURT - FELONY",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "ATT TO ELUDE",
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "CC",
         "bondAmount": null,
         "cashAmount": null,
@@ -14084,8 +14118,8 @@
     "inmateId": "30057833",
     "schedRelease": null,
     "firstSeen": "10/28/2026, 11:59:53",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "11/22/2026, 19:00:21",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -34022,9 +34056,9 @@
       },
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "DUI/VIO IID",
-        "clearance": null,
+        "clearance": "C/B",
         "bondBailType": "C/B",
         "bondAmount": 500,
         "cashAmount": null,
@@ -34045,8 +34079,8 @@
     "inmateId": "40119690",
     "schedRelease": "11/22/2026",
     "firstSeen": "09/25/2026, 09:51:05",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "11/22/2026, 19:00:20",
+    "status": "released"
   },
   {
     "type": "BOOKED",
