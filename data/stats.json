@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T08:25:51.940Z",
+  "generatedAt": "2026-11-24T08:55:55.659Z",
   "bookingCounts": {
     "total": 3644,
     "inCustody": 233,
@@ -92,7 +92,7 @@
     },
     {
       "label": "DUI",
-      "count": 716
+      "count": 717
     },
     {
       "label": "Driving While License Suspended",
@@ -178,7 +178,7 @@
     },
     {
       "label": "PORT GAMBLE POLICE DEPARTMENT",
-      "count": 65
+      "count": 66
     },
     {
       "label": "DEPARTMENT OF CORRECTIONS",
@@ -186,11 +186,11 @@
     }
   ],
   "bail": {
-    "mean": 26871.69,
+    "mean": 26864.65,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 2396
+    "count": 2397
   },
   "stay": {
     "mean": 21.8,
@@ -423,6 +423,12 @@
       "count": 11
     },
     {
+      "category": "DUI",
+      "medianBail": 5000,
+      "meanBail": 17393.15,
+      "count": 336
+    },
+    {
       "category": "Failure to Register (Sex Offender)",
       "medianBail": 5000,
       "meanBail": 3666.67,
@@ -433,12 +439,6 @@
       "medianBail": 5000,
       "meanBail": 41849.77,
       "count": 221
-    },
-    {
-      "category": "DUI",
-      "medianBail": 5000,
-      "meanBail": 17415.22,
-      "count": 335
     },
     {
       "category": "Other",
@@ -569,10 +569,10 @@
   ],
   "chargesByRace": {
     "White": {
+      "DUI": 516,
       "Failure to Register (Sex Offender)": 11,
       "Domestic Violence": 552,
       "Failure to Appear": 599,
-      "DUI": 515,
       "Other": 136,
       "Driving While License Suspended": 328,
       "Protection Order Violation": 179,
@@ -817,13 +817,13 @@
   },
   "chargesBySex": {
     "Male": {
+      "DUI": 476,
       "Failure to Register (Sex Offender)": 14,
       "Traffic Violation": 7,
       "Failure to Appear": 550,
       "Domestic Violence": 507,
       "Criminal Trespass": 183,
       "Local / Tribal Code": 47,
-      "DUI": 475,
       "Other": 146,
       "Driving While License Suspended": 338,
       "Harassment": 119,
@@ -1719,7 +1719,7 @@
   "crimeTypes": [
     {
       "label": "Traffic / DUI",
-      "count": 1155,
+      "count": 1156,
       "pct": 20.6
     },
     {
@@ -1776,7 +1776,7 @@
     },
     {
       "label": "Gross Misdemeanor",
-      "count": 2403,
+      "count": 2404,
       "pct": 30
     },
     {
@@ -2106,7 +2106,7 @@
     },
     {
       "name": "PORT GAMBLE POLICE DEPARTMENT",
-      "count": 65,
+      "count": 66,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -2126,7 +2126,7 @@
           "count": 6
         },
         {
-          "label": "Drug Offense",
+          "label": "DUI",
           "count": 4
         }
       ]
@@ -2324,7 +2324,7 @@
       "topCharges": [
         {
           "label": "DUI",
-          "count": 148
+          "count": 149
         },
         {
           "label": "Domestic Violence",
@@ -2476,7 +2476,7 @@
       "crimeTypes": [
         {
           "label": "Traffic / DUI",
-          "count": 204
+          "count": 205
         },
         {
           "label": "Violent",
@@ -2759,7 +2759,7 @@
         "avgWeight": 181,
         "avgHeight": "5'9\"",
         "topRace": "White",
-        "n": 451
+        "n": 452
       },
       {
         "charge": "Driving While License Suspended",
