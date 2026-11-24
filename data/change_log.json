@@ -1,6 +1,40 @@
 [
   {
     "type": "BOOKED",
+    "bookingNumber": "2026005143",
+    "name": "ANTHONY, BEAU E",
+    "bookingDate": "",
+    "charges": [
+      {
+        "violation": "7.105.450(1) - PROTECTION ORDER VIOLATION",
+        "cleared": false,
+        "addDesc": "POV- DV",
+        "clearance": null,
+        "bondBailType": "NOBD",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "11/25/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "11/24/2026",
+        "courtType": "BM"
+      }
+    ],
+    "age": "29",
+    "sex": "M",
+    "race": "",
+    "height": null,
+    "weight": null,
+    "hair": "BRO",
+    "eyes": "GRN",
+    "inmateId": "50005711",
+    "schedRelease": null,
+    "firstSeen": "11/24/2026, 15:53:31",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
     "bookingNumber": "2026005142",
     "name": "MUSTAIN, ELIJAH R",
     "bookingDate": "",
@@ -321,14 +355,14 @@
     "charges": [
       {
         "violation": "9A.44.132(1)(A) - SEX OFFENDER/FELON-FAIL TO REGISTER",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
-        "bondBailType": "C/B",
-        "bondAmount": 5000,
+        "clearance": "PR",
+        "bondBailType": "PR",
+        "bondAmount": null,
         "cashAmount": null,
         "courtCase": "2210004218",
-        "nextCourtDate": "11/24/2026",
+        "nextCourtDate": "01/13/2027",
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "11/23/2026",
         "courtType": "SC"
@@ -1010,11 +1044,11 @@
         "cleared": false,
         "addDesc": null,
         "clearance": null,
-        "bondBailType": "NOBD",
-        "bondAmount": null,
+        "bondBailType": "C/B",
+        "bondAmount": 25000,
         "cashAmount": null,
         "courtCase": "2610083118",
-        "nextCourtDate": "11/24/2026",
+        "nextCourtDate": "12/23/2026",
         "arrestAgency": "PORT ORCHARD POLICE DEPARTMENT",
         "arrestDate": "11/22/2026",
         "courtType": "SC"
@@ -1028,7 +1062,7 @@
         "bondAmount": 5000,
         "cashAmount": null,
         "courtCase": "2510097518",
-        "nextCourtDate": "11/24/2026",
+        "nextCourtDate": "12/23/2026",
         "arrestAgency": "PORT ORCHARD POLICE DEPARTMENT",
         "arrestDate": "11/22/2026",
         "courtType": "SC"
@@ -146675,7 +146709,7 @@
         "bondAmount": 30000,
         "cashAmount": null,
         "courtCase": "2610081018",
-        "nextCourtDate": "11/24/2026",
+        "nextCourtDate": "11/25/2026",
         "arrestAgency": "PORT ORCHARD POLICE DEPARTMENT",
         "arrestDate": "11/12/2026",
         "courtType": "SC"

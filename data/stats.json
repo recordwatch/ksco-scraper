@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-11-24T23:26:00.842Z",
+  "generatedAt": "2026-11-24T23:56:01.779Z",
   "bookingCounts": {
-    "total": 3651,
-    "inCustody": 229,
+    "total": 3652,
+    "inCustody": 230,
     "released": 3422
   },
   "gender": [
     {
       "label": "Male",
-      "count": 2499,
-      "pct": 68.4
+      "count": 2500,
+      "pct": 68.5
     },
     {
       "label": "Female",
@@ -30,7 +30,7 @@
     },
     {
       "label": "Unknown",
-      "count": 422,
+      "count": 423,
       "pct": 11.6
     },
     {
@@ -61,7 +61,7 @@
       },
       {
         "label": "26–35",
-        "count": 1018
+        "count": 1019
       },
       {
         "label": "36–45",
@@ -112,7 +112,7 @@
     },
     {
       "label": "Protection Order Violation",
-      "count": 248
+      "count": 249
     },
     {
       "label": "Criminal Trespass",
@@ -150,7 +150,7 @@
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
-      "count": 2528
+      "count": 2529
     },
     {
       "label": "PORT ORCHARD POLICE DEPARTMENT",
@@ -186,7 +186,7 @@
     }
   ],
   "bail": {
-    "mean": 26800.84,
+    "mean": 26809.21,
     "median": 5000,
     "min": 50,
     "max": 4000000,
@@ -371,8 +371,8 @@
     {
       "category": "Protection Order Violation",
       "medianBail": 10000,
-      "meanBail": 23952.05,
-      "count": 73
+      "meanBail": 23966.22,
+      "count": 74
     },
     {
       "category": "Assault",
@@ -421,12 +421,6 @@
       "medianBail": 7500,
       "meanBail": 52363.64,
       "count": 11
-    },
-    {
-      "category": "Failure to Register (Sex Offender)",
-      "medianBail": 5000,
-      "meanBail": 3666.67,
-      "count": 3
     },
     {
       "category": "Domestic Violence",
@@ -513,6 +507,12 @@
       "count": 10
     },
     {
+      "category": "Failure to Register (Sex Offender)",
+      "medianBail": 3000,
+      "meanBail": 3000,
+      "count": 2
+    },
+    {
       "category": "Failure to Appear",
       "medianBail": 2500,
       "meanBail": 8607.73,
@@ -568,6 +568,57 @@
     }
   ],
   "chargesByRace": {
+    "Unknown": {
+      "Protection Order Violation": 13,
+      "DUI": 111,
+      "Other": 37,
+      "Resisting Arrest": 7,
+      "Sex Offense": 8,
+      "Child Exploitation / CSAM": 4,
+      "Assault": 37,
+      "Domestic Violence": 99,
+      "Child Sex Offense": 5,
+      "Driving While License Suspended": 44,
+      "Criminal Trespass": 17,
+      "Malicious Mischief": 12,
+      "Obstruction": 19,
+      "Theft (3rd Degree)": 15,
+      "Trafficking Stolen Property": 1,
+      "Failure to Appear": 26,
+      "Drug Offense": 23,
+      "Stalking": 2,
+      "Vehicle Prowling": 2,
+      "Hit and Run": 13,
+      "Interference with DV Reporting": 5,
+      "Theft (2nd Degree)": 9,
+      "Weapons": 6,
+      "Residential Burglary": 3,
+      "DOC Warrant": 9,
+      "Harassment": 12,
+      "Traffic Violation": 1,
+      "Making False Statements": 9,
+      "Local / Tribal Code": 6,
+      "Reckless Driving": 8,
+      "Burglary (1st Degree)": 3,
+      "Burglary (2nd Degree)": 3,
+      "Robbery": 1,
+      "Attempt to Elude": 8,
+      "Theft (1st Degree)": 2,
+      "Incest": 1,
+      "Assault (Child)": 1,
+      "Possession of Stolen Vehicle": 2,
+      "Ignition Interlock Violation": 9,
+      "Fugitive from Justice": 2,
+      "Indecent Exposure": 2,
+      "Homicide": 2,
+      "Criminal Impersonation": 1,
+      "Kidnapping / Unlawful Imprisonment": 2,
+      "Traffic / Obstruction": 3,
+      "Motor Vehicle Theft": 2,
+      "PR / Bail Revocation": 1,
+      "Failure to Comply (Sentence)": 1,
+      "Public Order": 1
+    },
     "Black": {
       "DUI": 47,
       "Hit and Run": 10,
@@ -726,57 +777,6 @@
       "Homicide": 1,
       "Burglary (2nd Degree)": 1
     },
-    "Unknown": {
-      "DUI": 111,
-      "Other": 37,
-      "Resisting Arrest": 7,
-      "Sex Offense": 8,
-      "Child Exploitation / CSAM": 4,
-      "Assault": 37,
-      "Domestic Violence": 99,
-      "Child Sex Offense": 5,
-      "Driving While License Suspended": 44,
-      "Criminal Trespass": 17,
-      "Malicious Mischief": 12,
-      "Obstruction": 19,
-      "Protection Order Violation": 12,
-      "Theft (3rd Degree)": 15,
-      "Trafficking Stolen Property": 1,
-      "Failure to Appear": 26,
-      "Drug Offense": 23,
-      "Stalking": 2,
-      "Vehicle Prowling": 2,
-      "Hit and Run": 13,
-      "Interference with DV Reporting": 5,
-      "Theft (2nd Degree)": 9,
-      "Weapons": 6,
-      "Residential Burglary": 3,
-      "DOC Warrant": 9,
-      "Harassment": 12,
-      "Traffic Violation": 1,
-      "Making False Statements": 9,
-      "Local / Tribal Code": 6,
-      "Reckless Driving": 8,
-      "Burglary (1st Degree)": 3,
-      "Burglary (2nd Degree)": 3,
-      "Robbery": 1,
-      "Attempt to Elude": 8,
-      "Theft (1st Degree)": 2,
-      "Incest": 1,
-      "Assault (Child)": 1,
-      "Possession of Stolen Vehicle": 2,
-      "Ignition Interlock Violation": 9,
-      "Fugitive from Justice": 2,
-      "Indecent Exposure": 2,
-      "Homicide": 2,
-      "Criminal Impersonation": 1,
-      "Kidnapping / Unlawful Imprisonment": 2,
-      "Traffic / Obstruction": 3,
-      "Motor Vehicle Theft": 2,
-      "PR / Bail Revocation": 1,
-      "Failure to Comply (Sentence)": 1,
-      "Public Order": 1
-    },
     "Asian / Pacific Islander": {
       "Assault": 7,
       "Drug Offense": 12,
@@ -817,9 +817,9 @@
   },
   "chargesBySex": {
     "Male": {
+      "Protection Order Violation": 183,
       "DUI": 477,
       "Hit and Run": 72,
-      "Protection Order Violation": 182,
       "DOC Warrant": 171,
       "Failure to Appear": 550,
       "Driving While License Suspended": 340,
@@ -1034,7 +1034,7 @@
   "recidivism": {
     "rate": 17,
     "repeatBookerCount": 497,
-    "totalIndividuals": 2924,
+    "totalIndividuals": 2925,
     "repeatBookers": [
       {
         "name": "LITTFIN, JOHN STEPHEN",
@@ -1713,7 +1713,7 @@
     },
     {
       "month": "2026-11",
-      "count": 277
+      "count": 278
     }
   ],
   "crimeTypes": [
@@ -1744,7 +1744,7 @@
     },
     {
       "label": "Order Violations",
-      "count": 427,
+      "count": 428,
       "pct": 7.6
     },
     {
@@ -1776,8 +1776,8 @@
     },
     {
       "label": "Gross Misdemeanor",
-      "count": 2410,
-      "pct": 30
+      "count": 2411,
+      "pct": 30.1
     },
     {
       "label": "Felony",
@@ -1917,7 +1917,7 @@
     },
     {
       "name": "Bremerton PD",
-      "count": 2528,
+      "count": 2529,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -2541,7 +2541,7 @@
         },
         {
           "label": "Order Violations",
-          "count": 122
+          "count": 123
         },
         {
           "label": "Drug",
@@ -3419,7 +3419,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 3648
+      "count": 3649
     }
   ],
   "ftaOriginalCharges": {
