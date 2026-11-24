@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-24T16:25:54.963Z",
+  "generatedAt": "2026-11-24T16:55:51.115Z",
   "bookingCounts": {
     "total": 3645,
-    "inCustody": 232,
-    "released": 3413
+    "inCustody": 231,
+    "released": 3414
   },
   "gender": [
     {
@@ -186,18 +186,18 @@
     }
   ],
   "bail": {
-    "mean": 26909.14,
+    "mean": 26875.66,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 2393
+    "count": 2396
   },
   "stay": {
-    "mean": 21.8,
+    "mean": 21.9,
     "median": 2.1,
     "min": 0,
     "max": 1233.4,
-    "count": 3332,
+    "count": 3333,
     "histogram": [
       {
         "label": "< 1 day",
@@ -225,7 +225,7 @@
       },
       {
         "label": "3+ months",
-        "count": 202
+        "count": 203
       }
     ]
   },
@@ -423,6 +423,12 @@
       "count": 11
     },
     {
+      "category": "Domestic Violence",
+      "medianBail": 5050,
+      "meanBail": 42037.73,
+      "count": 220
+    },
+    {
       "category": "DUI",
       "medianBail": 5000,
       "meanBail": 17393.15,
@@ -433,12 +439,6 @@
       "medianBail": 5000,
       "meanBail": 3666.67,
       "count": 3
-    },
-    {
-      "category": "Domestic Violence",
-      "medianBail": 5000,
-      "meanBail": 41849.77,
-      "count": 221
     },
     {
       "category": "Other",
@@ -515,8 +515,8 @@
     {
       "category": "Failure to Appear",
       "medianBail": 2500,
-      "meanBail": 8568.88,
-      "count": 409
+      "meanBail": 8508.3,
+      "count": 412
     },
     {
       "category": "Making False Statements",
@@ -533,8 +533,8 @@
     {
       "category": "Drug Offense",
       "medianBail": 2500,
-      "meanBail": 6140.74,
-      "count": 135
+      "meanBail": 6097.43,
+      "count": 136
     },
     {
       "category": "Driving While License Suspended",
@@ -988,7 +988,7 @@
   "releaseReasons": [
     {
       "label": "FTA / Contempt Resolved",
-      "count": 1165
+      "count": 1166
     },
     {
       "label": "Released (Unknown Reason)",
@@ -2314,7 +2314,7 @@
     }
   ],
   "bailOnRelease": {
-    "total": 3413,
+    "total": 3414,
     "withBail": 1519,
     "pct": 44.5
   },

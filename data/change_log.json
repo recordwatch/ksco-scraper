@@ -13566,21 +13566,21 @@
         "bondAmount": null,
         "cashAmount": null,
         "courtCase": "51086405",
-        "nextCourtDate": "11/24/2026",
+        "nextCourtDate": null,
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "10/30/2026",
-        "courtType": "BM"
+        "courtType": null
       },
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
         "cleared": false,
         "addDesc": "HIT & RUN, DWLS-3",
         "clearance": null,
-        "bondBailType": "NOBD",
+        "bondBailType": "PR",
         "bondAmount": null,
         "cashAmount": null,
         "courtCase": "51086402",
-        "nextCourtDate": "11/24/2026",
+        "nextCourtDate": "01/04/2027",
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "10/30/2026",
         "courtType": "BM"
@@ -13594,10 +13594,10 @@
         "bondAmount": null,
         "cashAmount": null,
         "courtCase": "51086405",
-        "nextCourtDate": "11/24/2026",
+        "nextCourtDate": null,
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "10/30/2026",
-        "courtType": "BM"
+        "courtType": null
       }
     ],
     "age": "33",
@@ -16589,17 +16589,17 @@
       },
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "MAL MISCH 3 DV",
-        "clearance": null,
-        "bondBailType": "C/B",
-        "bondAmount": 500,
+        "clearance": "TS",
+        "bondBailType": "GL",
+        "bondAmount": null,
         "cashAmount": null,
         "courtCase": "51353701",
-        "nextCourtDate": "11/24/2026",
+        "nextCourtDate": null,
         "arrestAgency": "BREMERTON POLICE DEPARTMENT",
         "arrestDate": "10/23/2026",
-        "courtType": "BM"
+        "courtType": null
       }
     ],
     "age": "40",
@@ -16610,7 +16610,7 @@
     "hair": "BRO",
     "eyes": "HAZ",
     "inmateId": "40727962",
-    "schedRelease": null,
+    "schedRelease": "11/12/2026",
     "firstSeen": "10/24/2026, 01:46:53",
     "releasedAt": null,
     "status": "in_custody"
@@ -21220,7 +21220,7 @@
         "bondAmount": 5000,
         "cashAmount": null,
         "courtCase": "51630610",
-        "nextCourtDate": "11/24/2026",
+        "nextCourtDate": "11/25/2026",
         "arrestAgency": "BREMERTON POLICE DEPARTMENT",
         "arrestDate": "10/15/2026",
         "courtType": "BM"
@@ -21234,7 +21234,7 @@
         "bondAmount": null,
         "cashAmount": null,
         "courtCase": "51630610",
-        "nextCourtDate": "11/24/2026",
+        "nextCourtDate": "11/25/2026",
         "arrestAgency": "BREMERTON POLICE DEPARTMENT",
         "arrestDate": "10/15/2026",
         "courtType": "BM"
@@ -22757,59 +22757,59 @@
     "charges": [
       {
         "violation": "69.50.4013.1.A - UNLAWFUL POSSESSION OF A CONTROLLED SUBSTANCE",
-        "cleared": true,
+        "cleared": false,
         "addDesc": null,
-        "clearance": "PR",
-        "bondBailType": "PR",
-        "bondAmount": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 250,
         "cashAmount": null,
         "courtCase": "51668705",
-        "nextCourtDate": null,
+        "nextCourtDate": "01/04/2027",
         "arrestAgency": "BREMERTON POLICE DEPARTMENT",
         "arrestDate": "10/14/2026",
-        "courtType": null
-      },
-      {
-        "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
-        "cleared": true,
-        "addDesc": "CRIM TRES 2",
-        "clearance": "PR",
-        "bondBailType": "PR",
-        "bondAmount": null,
-        "cashAmount": null,
-        "courtCase": "51668701",
-        "nextCourtDate": null,
-        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
-        "arrestDate": "10/14/2026",
-        "courtType": null
-      },
-      {
-        "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
-        "cleared": true,
-        "addDesc": "CRIM TRES 2",
-        "clearance": "PR",
-        "bondBailType": "PR",
-        "bondAmount": null,
-        "cashAmount": null,
-        "courtCase": "51668702",
-        "nextCourtDate": null,
-        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
-        "arrestDate": "10/14/2026",
-        "courtType": null
+        "courtType": "BM"
       },
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
         "cleared": false,
         "addDesc": "CRIM TRES 2",
         "clearance": null,
-        "bondBailType": "PR",
-        "bondAmount": null,
+        "bondBailType": "C/B",
+        "bondAmount": 250,
         "cashAmount": null,
-        "courtCase": "51668703",
-        "nextCourtDate": null,
+        "courtCase": "51668701",
+        "nextCourtDate": "01/04/2027",
         "arrestAgency": "BREMERTON POLICE DEPARTMENT",
         "arrestDate": "10/14/2026",
-        "courtType": null
+        "courtType": "BM"
+      },
+      {
+        "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
+        "cleared": false,
+        "addDesc": "CRIM TRES 2",
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 250,
+        "cashAmount": null,
+        "courtCase": "51668702",
+        "nextCourtDate": "01/04/2027",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "10/14/2026",
+        "courtType": "BM"
+      },
+      {
+        "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
+        "cleared": false,
+        "addDesc": "CRIM TRES 2",
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 250,
+        "cashAmount": null,
+        "courtCase": "51668703",
+        "nextCourtDate": "01/04/2027",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "10/14/2026",
+        "courtType": "BM"
       },
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
@@ -22820,7 +22820,7 @@
         "bondAmount": 250,
         "cashAmount": null,
         "courtCase": "51668704",
-        "nextCourtDate": "11/24/2026",
+        "nextCourtDate": "01/04/2027",
         "arrestAgency": "BREMERTON POLICE DEPARTMENT",
         "arrestDate": "10/14/2026",
         "courtType": "BM"
@@ -150866,9 +150866,9 @@
       },
       {
         "violation": "9A.36.031(2) - ASSAULT-3",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "COOP",
         "bondBailType": "NOBD",
         "bondAmount": null,
         "cashAmount": null,
@@ -150889,8 +150889,8 @@
     "inmateId": "30043159",
     "schedRelease": "08/16/2026",
     "firstSeen": "03/25/2026, 18:53:55",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "11/24/2026, 08:53:30",
+    "status": "released"
   },
   {
     "type": "BOOKED",
