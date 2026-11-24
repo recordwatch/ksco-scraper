@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-24T19:56:06.570Z",
+  "generatedAt": "2026-11-24T20:25:48.617Z",
   "bookingCounts": {
-    "total": 3649,
+    "total": 3650,
     "inCustody": 233,
-    "released": 3416
+    "released": 3417
   },
   "gender": [
     {
       "label": "Male",
-      "count": 2497,
+      "count": 2498,
       "pct": 68.4
     },
     {
@@ -25,7 +25,7 @@
   "race": [
     {
       "label": "White",
-      "count": 2599,
+      "count": 2600,
       "pct": 71.2
     },
     {
@@ -69,7 +69,7 @@
       },
       {
         "label": "46–55",
-        "count": 550
+        "count": 551
       },
       {
         "label": "56–65",
@@ -112,7 +112,7 @@
     },
     {
       "label": "Protection Order Violation",
-      "count": 247
+      "count": 248
     },
     {
       "label": "Criminal Trespass",
@@ -146,7 +146,7 @@
   "topAgencies": [
     {
       "label": "KITSAP COUNTY SHERIFFS OFFICE",
-      "count": 3280
+      "count": 3281
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
@@ -197,7 +197,7 @@
     "median": 2.1,
     "min": 0,
     "max": 1233.4,
-    "count": 3335,
+    "count": 3336,
     "histogram": [
       {
         "label": "< 1 day",
@@ -217,7 +217,7 @@
       },
       {
         "label": "2–4 weeks",
-        "count": 344
+        "count": 345
       },
       {
         "label": "1–3 months",
@@ -568,51 +568,14 @@
     }
   ],
   "chargesByRace": {
-    "Native American": {
-      "DOC Warrant": 6,
-      "Local / Tribal Code": 24,
-      "Traffic Violation": 1,
-      "Reckless Driving": 1,
-      "Assault": 15,
-      "DUI": 15,
-      "Drug Offense": 12,
-      "Failure to Appear": 33,
-      "Domestic Violence": 14,
-      "Theft (3rd Degree)": 9,
-      "Community Custody Violation": 2,
-      "Driving While License Suspended": 14,
-      "Interference with DV Reporting": 1,
-      "PR / Bail Revocation": 2,
-      "Motor Vehicle Theft": 1,
-      "Kidnapping / Unlawful Imprisonment": 1,
-      "Protection Order Violation": 4,
-      "Criminal Trespass": 8,
-      "Obstruction": 6,
-      "Harassment": 3,
-      "Other": 3,
-      "Hit and Run": 3,
-      "Failure to Comply (Sentence)": 2,
-      "Resisting Arrest": 2,
-      "Identity Theft": 1,
-      "Theft (1st Degree)": 2,
-      "Malicious Mischief": 4,
-      "Vehicle Prowling": 1,
-      "Attempt to Elude": 1,
-      "Making False Statements": 1,
-      "Residential Burglary": 1,
-      "Theft (2nd Degree)": 2,
-      "Ignition Interlock Violation": 1,
-      "Homicide": 1,
-      "Burglary (2nd Degree)": 1
-    },
     "White": {
+      "Protection Order Violation": 181,
       "Failure to Appear": 600,
       "Driving While License Suspended": 329,
       "DUI": 517,
       "Domestic Violence": 553,
       "Failure to Register (Sex Offender)": 11,
       "Other": 136,
-      "Protection Order Violation": 180,
       "Harassment": 104,
       "Public Order": 10,
       "Drug Offense": 281,
@@ -669,6 +632,43 @@
       "Incest": 1,
       "Theft": 1,
       "Bribery": 1
+    },
+    "Native American": {
+      "DOC Warrant": 6,
+      "Local / Tribal Code": 24,
+      "Traffic Violation": 1,
+      "Reckless Driving": 1,
+      "Assault": 15,
+      "DUI": 15,
+      "Drug Offense": 12,
+      "Failure to Appear": 33,
+      "Domestic Violence": 14,
+      "Theft (3rd Degree)": 9,
+      "Community Custody Violation": 2,
+      "Driving While License Suspended": 14,
+      "Interference with DV Reporting": 1,
+      "PR / Bail Revocation": 2,
+      "Motor Vehicle Theft": 1,
+      "Kidnapping / Unlawful Imprisonment": 1,
+      "Protection Order Violation": 4,
+      "Criminal Trespass": 8,
+      "Obstruction": 6,
+      "Harassment": 3,
+      "Other": 3,
+      "Hit and Run": 3,
+      "Failure to Comply (Sentence)": 2,
+      "Resisting Arrest": 2,
+      "Identity Theft": 1,
+      "Theft (1st Degree)": 2,
+      "Malicious Mischief": 4,
+      "Vehicle Prowling": 1,
+      "Attempt to Elude": 1,
+      "Making False Statements": 1,
+      "Residential Burglary": 1,
+      "Theft (2nd Degree)": 2,
+      "Ignition Interlock Violation": 1,
+      "Homicide": 1,
+      "Burglary (2nd Degree)": 1
     },
     "Black": {
       "Traffic Violation": 1,
@@ -817,6 +817,7 @@
   },
   "chargesBySex": {
     "Male": {
+      "Protection Order Violation": 182,
       "DOC Warrant": 171,
       "Failure to Appear": 551,
       "Driving While License Suspended": 340,
@@ -831,7 +832,6 @@
       "Drug Offense": 264,
       "Making False Statements": 59,
       "Assault": 195,
-      "Protection Order Violation": 181,
       "Burglary (1st Degree)": 17,
       "Forgery": 8,
       "Attempt to Elude": 36,
@@ -988,7 +988,7 @@
   "releaseReasons": [
     {
       "label": "FTA / Contempt Resolved",
-      "count": 1168
+      "count": 1169
     },
     {
       "label": "Released (Unknown Reason)",
@@ -1713,7 +1713,7 @@
     },
     {
       "month": "2026-11",
-      "count": 275
+      "count": 276
     }
   ],
   "crimeTypes": [
@@ -1744,7 +1744,7 @@
     },
     {
       "label": "Order Violations",
-      "count": 426,
+      "count": 427,
       "pct": 7.6
     },
     {
@@ -1776,7 +1776,7 @@
     },
     {
       "label": "Gross Misdemeanor",
-      "count": 2406,
+      "count": 2407,
       "pct": 30
     },
     {
@@ -1890,7 +1890,7 @@
   "agencyBreakdown": [
     {
       "name": "Kitsap County Sheriff",
-      "count": 3296,
+      "count": 3297,
       "topCharge": "Domestic Violence",
       "chargeBreakdown": [
         {
@@ -2314,7 +2314,7 @@
     }
   ],
   "bailOnRelease": {
-    "total": 3416,
+    "total": 3417,
     "withBail": 1520,
     "pct": 44.5
   },
@@ -2631,7 +2631,7 @@
         },
         {
           "label": "Order Violations",
-          "count": 62
+          "count": 63
         },
         {
           "label": "Drug",
@@ -2784,10 +2784,10 @@
       },
       {
         "charge": "Protection Order Violation",
-        "avgWeight": 192,
+        "avgWeight": 191,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 180
+        "n": 181
       },
       {
         "charge": "Criminal Trespass",
@@ -3419,7 +3419,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 3646
+      "count": 3647
     }
   ],
   "ftaOriginalCharges": {
