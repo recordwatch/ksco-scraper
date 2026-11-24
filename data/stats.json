@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-24T19:26:10.042Z",
+  "generatedAt": "2026-11-24T19:56:06.570Z",
   "bookingCounts": {
     "total": 3649,
-    "inCustody": 234,
-    "released": 3415
+    "inCustody": 233,
+    "released": 3416
   },
   "gender": [
     {
@@ -112,11 +112,11 @@
     },
     {
       "label": "Protection Order Violation",
-      "count": 246
+      "count": 247
     },
     {
       "label": "Criminal Trespass",
-      "count": 244
+      "count": 243
     },
     {
       "label": "DOC Warrant",
@@ -146,7 +146,7 @@
   "topAgencies": [
     {
       "label": "KITSAP COUNTY SHERIFFS OFFICE",
-      "count": 3279
+      "count": 3280
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
@@ -186,18 +186,18 @@
     }
   ],
   "bail": {
-    "mean": 26780.63,
+    "mean": 26792.78,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 2394
+    "count": 2392
   },
   "stay": {
     "mean": 21.9,
     "median": 2.1,
     "min": 0,
     "max": 1233.4,
-    "count": 3334,
+    "count": 3335,
     "histogram": [
       {
         "label": "< 1 day",
@@ -217,7 +217,7 @@
       },
       {
         "label": "2–4 weeks",
-        "count": 343
+        "count": 344
       },
       {
         "label": "1–3 months",
@@ -425,8 +425,8 @@
     {
       "category": "DUI",
       "medianBail": 5000,
-      "meanBail": 17393.15,
-      "count": 336
+      "meanBail": 17385.37,
+      "count": 335
     },
     {
       "category": "Failure to Register (Sex Offender)",
@@ -545,8 +545,8 @@
     {
       "category": "Criminal Trespass",
       "medianBail": 1000,
-      "meanBail": 2950.82,
-      "count": 122
+      "meanBail": 2938.02,
+      "count": 121
     },
     {
       "category": "Resisting Arrest",
@@ -570,7 +570,6 @@
   "chargesByRace": {
     "Native American": {
       "DOC Warrant": 6,
-      "Criminal Trespass": 9,
       "Local / Tribal Code": 24,
       "Traffic Violation": 1,
       "Reckless Driving": 1,
@@ -587,6 +586,7 @@
       "Motor Vehicle Theft": 1,
       "Kidnapping / Unlawful Imprisonment": 1,
       "Protection Order Violation": 4,
+      "Criminal Trespass": 8,
       "Obstruction": 6,
       "Harassment": 3,
       "Other": 3,
@@ -612,7 +612,7 @@
       "Domestic Violence": 553,
       "Failure to Register (Sex Offender)": 11,
       "Other": 136,
-      "Protection Order Violation": 179,
+      "Protection Order Violation": 180,
       "Harassment": 104,
       "Public Order": 10,
       "Drug Offense": 281,
@@ -824,7 +824,6 @@
       "Failure to Register (Sex Offender)": 14,
       "Traffic Violation": 7,
       "Domestic Violence": 507,
-      "Criminal Trespass": 183,
       "Local / Tribal Code": 47,
       "Other": 146,
       "Harassment": 119,
@@ -832,10 +831,11 @@
       "Drug Offense": 264,
       "Making False Statements": 59,
       "Assault": 195,
-      "Protection Order Violation": 180,
+      "Protection Order Violation": 181,
       "Burglary (1st Degree)": 17,
       "Forgery": 8,
       "Attempt to Elude": 36,
+      "Criminal Trespass": 182,
       "Obstruction": 127,
       "Malicious Mischief": 65,
       "Theft (3rd Degree)": 162,
@@ -988,7 +988,7 @@
   "releaseReasons": [
     {
       "label": "FTA / Contempt Resolved",
-      "count": 1167
+      "count": 1168
     },
     {
       "label": "Released (Unknown Reason)",
@@ -1734,7 +1734,7 @@
     },
     {
       "label": "Property",
-      "count": 769,
+      "count": 768,
       "pct": 13.7
     },
     {
@@ -1744,7 +1744,7 @@
     },
     {
       "label": "Order Violations",
-      "count": 425,
+      "count": 426,
       "pct": 7.6
     },
     {
@@ -1786,7 +1786,7 @@
     },
     {
       "label": "Unknown",
-      "count": 1260,
+      "count": 1261,
       "pct": 15.7
     }
   ],
@@ -1890,7 +1890,7 @@
   "agencyBreakdown": [
     {
       "name": "Kitsap County Sheriff",
-      "count": 3295,
+      "count": 3296,
       "topCharge": "Domestic Violence",
       "chargeBreakdown": [
         {
@@ -2057,7 +2057,7 @@
       "chargeBreakdown": [
         {
           "label": "Local / Tribal Code",
-          "count": 38
+          "count": 39
         },
         {
           "label": "Failure to Appear",
@@ -2314,7 +2314,7 @@
     }
   ],
   "bailOnRelease": {
-    "total": 3415,
+    "total": 3416,
     "withBail": 1520,
     "pct": 44.5
   },
@@ -2578,7 +2578,7 @@
         },
         {
           "label": "Property",
-          "count": 281
+          "count": 280
         },
         {
           "label": "Other",
@@ -2630,12 +2630,12 @@
           "count": 65
         },
         {
-          "label": "Drug",
+          "label": "Order Violations",
           "count": 62
         },
         {
-          "label": "Order Violations",
-          "count": 61
+          "label": "Drug",
+          "count": 62
         },
         {
           "label": "Sex Offense",
@@ -2783,18 +2783,18 @@
         "n": 190
       },
       {
-        "charge": "Criminal Trespass",
-        "avgWeight": 180,
-        "avgHeight": "5'10\"",
-        "topRace": "White",
-        "n": 181
-      },
-      {
         "charge": "Protection Order Violation",
         "avgWeight": 192,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 179
+        "n": 180
+      },
+      {
+        "charge": "Criminal Trespass",
+        "avgWeight": 180,
+        "avgHeight": "5'10\"",
+        "topRace": "White",
+        "n": 180
       },
       {
         "charge": "DOC Warrant",

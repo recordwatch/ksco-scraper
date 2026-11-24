@@ -211,7 +211,7 @@
         "bondBailType": "C/B",
         "bondAmount": 10000,
         "cashAmount": null,
-        "courtCase": null,
+        "courtCase": "350444445",
         "nextCourtDate": "11/24/2026",
         "arrestAgency": "PORT GAMBLE POLICE DEPARTMENT",
         "arrestDate": "11/23/2026",
@@ -416,46 +416,46 @@
     "bookingDate": "11/23/2026",
     "charges": [
       {
-        "violation": "9A.52.070(2) - CRIMINAL TRESPASS-1",
+        "violation": "STC - 7.26.9",
         "cleared": false,
         "addDesc": null,
         "clearance": null,
-        "bondBailType": "C/B",
-        "bondAmount": 4500,
+        "bondBailType": "PR",
+        "bondAmount": null,
         "cashAmount": null,
-        "courtCase": null,
-        "nextCourtDate": "11/24/2026",
+        "courtCase": "260614CR",
+        "nextCourtDate": "12/08/2026",
         "arrestAgency": "SUQUAMISH TRIBAL POLICE DEPARTMENT",
         "arrestDate": "11/23/2026",
         "courtType": "SUQ"
       },
       {
         "violation": "STC - 7.16.5",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "PUBLIC DRUNK",
-        "clearance": null,
-        "bondBailType": "C/B",
+        "clearance": "RF",
+        "bondBailType": "RF",
         "bondAmount": null,
         "cashAmount": null,
         "courtCase": null,
-        "nextCourtDate": "11/24/2026",
+        "nextCourtDate": null,
         "arrestAgency": "SUQUAMISH TRIBAL POLICE DEPARTMENT",
         "arrestDate": "11/23/2026",
-        "courtType": "SUQ"
+        "courtType": null
       },
       {
         "violation": "STC - 7.14.18",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "DISOBEDIENCE OF COURT ORDER",
-        "clearance": null,
-        "bondBailType": "C/B",
+        "clearance": "RF",
+        "bondBailType": "RF",
         "bondAmount": null,
         "cashAmount": null,
         "courtCase": null,
-        "nextCourtDate": "11/24/2026",
+        "nextCourtDate": null,
         "arrestAgency": "SUQUAMISH TRIBAL POLICE DEPARTMENT",
         "arrestDate": "11/23/2026",
-        "courtType": "SUQ"
+        "courtType": null
       }
     ],
     "age": "36",
@@ -7930,7 +7930,7 @@
         "bondAmount": 2500,
         "cashAmount": null,
         "courtCase": "350439973",
-        "nextCourtDate": "12/14/2026",
+        "nextCourtDate": "12/24/2026",
         "arrestAgency": "BREMERTON POLICE DEPARTMENT",
         "arrestDate": "11/10/2026",
         "courtType": "DS"
@@ -8440,8 +8440,8 @@
     "inmateId": "40452271",
     "schedRelease": "11/20/2026",
     "firstSeen": "11/09/2026, 15:31:07",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "11/24/2026, 11:53:33",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -9026,7 +9026,7 @@
         "bondAmount": 5000,
         "cashAmount": null,
         "courtCase": "350444058",
-        "nextCourtDate": "11/23/2026",
+        "nextCourtDate": "11/24/2026",
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "11/08/2026",
         "courtType": "DS"
@@ -17035,17 +17035,17 @@
     "charges": [
       {
         "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
-        "bondBailType": "C/B",
-        "bondAmount": 20000,
+        "clearance": "TS",
+        "bondBailType": "GL",
+        "bondAmount": null,
         "cashAmount": null,
         "courtCase": "350443742",
-        "nextCourtDate": "11/24/2026",
+        "nextCourtDate": null,
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "10/23/2026",
-        "courtType": "DS"
+        "courtType": null
       }
     ],
     "age": "28",
@@ -17056,7 +17056,7 @@
     "hair": "BRO",
     "eyes": "BRO",
     "inmateId": "50005579",
-    "schedRelease": null,
+    "schedRelease": "11/12/2026",
     "firstSeen": "10/23/2026, 20:56:23",
     "releasedAt": null,
     "status": "in_custody"
@@ -29259,7 +29259,7 @@
         "bondAmount": 2500,
         "cashAmount": null,
         "courtCase": "21655007",
-        "nextCourtDate": "11/24/2026",
+        "nextCourtDate": "11/25/2026",
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "10/05/2026",
         "courtType": "DS"
@@ -29273,7 +29273,7 @@
         "bondAmount": 5000,
         "cashAmount": null,
         "courtCase": "350443094",
-        "nextCourtDate": "11/24/2026",
+        "nextCourtDate": "11/25/2026",
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "10/23/2026",
         "courtType": "DS"
@@ -29287,7 +29287,7 @@
         "bondAmount": null,
         "cashAmount": null,
         "courtCase": "350422422",
-        "nextCourtDate": "11/23/2026",
+        "nextCourtDate": "11/25/2026",
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "10/23/2026",
         "courtType": "DS"
@@ -32599,6 +32599,20 @@
         "arrestAgency": "BREMERTON POLICE DEPARTMENT",
         "arrestDate": "09/29/2026",
         "courtType": "SC"
+      },
+      {
+        "violation": "7.105.450(1) - PROTECTION ORDER VIOLATION",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "NOBD",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "11/25/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "11/24/2026",
+        "courtType": "DS"
       }
     ],
     "age": "48",
@@ -49700,7 +49714,7 @@
         "bondAmount": 25000,
         "cashAmount": null,
         "courtCase": "350442616",
-        "nextCourtDate": "11/25/2026",
+        "nextCourtDate": "11/24/2026",
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "09/01/2026",
         "courtType": "DS"
@@ -49728,7 +49742,7 @@
         "bondAmount": null,
         "cashAmount": null,
         "courtCase": "350442616",
-        "nextCourtDate": "11/25/2026",
+        "nextCourtDate": "11/24/2026",
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "09/01/2026",
         "courtType": "DS"
@@ -49770,7 +49784,7 @@
         "bondAmount": 5000,
         "cashAmount": null,
         "courtCase": "350416323",
-        "nextCourtDate": "11/25/2026",
+        "nextCourtDate": "11/24/2026",
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "09/02/2026",
         "courtType": "DS"
@@ -59840,7 +59854,7 @@
         "bondAmount": 10000,
         "cashAmount": null,
         "courtCase": "350442265",
-        "nextCourtDate": "11/23/2026",
+        "nextCourtDate": "11/24/2026",
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "08/21/2026",
         "courtType": "DS"
@@ -87155,7 +87169,7 @@
         "bondAmount": 500,
         "cashAmount": null,
         "courtCase": "13536016",
-        "nextCourtDate": "11/24/2026",
+        "nextCourtDate": "12/02/2026",
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "10/14/2026",
         "courtType": "DS"
@@ -119829,7 +119843,7 @@
         "bondAmount": 2500,
         "cashAmount": null,
         "courtCase": "18117014",
-        "nextCourtDate": "11/23/2026",
+        "nextCourtDate": "11/24/2026",
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "06/09/2026",
         "courtType": "DS"
@@ -150525,7 +150539,7 @@
         "bondAmount": 5000,
         "cashAmount": null,
         "courtCase": "350432008",
-        "nextCourtDate": "11/23/2026",
+        "nextCourtDate": "11/24/2026",
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "12/30/2025",
         "courtType": "DS"
@@ -150539,7 +150553,7 @@
         "bondAmount": 5000,
         "cashAmount": null,
         "courtCase": "350434532",
-        "nextCourtDate": "11/23/2026",
+        "nextCourtDate": "11/24/2026",
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "12/30/2025",
         "courtType": "DS"
