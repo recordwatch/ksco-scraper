@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-24T20:25:48.617Z",
+  "generatedAt": "2026-11-24T20:48:51.551Z",
   "bookingCounts": {
     "total": 3650,
-    "inCustody": 233,
-    "released": 3417
+    "inCustody": 231,
+    "released": 3419
   },
   "gender": [
     {
@@ -88,7 +88,7 @@
     },
     {
       "label": "Failure to Appear",
-      "count": 763
+      "count": 762
     },
     {
       "label": "DUI",
@@ -197,11 +197,11 @@
     "median": 2.1,
     "min": 0,
     "max": 1233.4,
-    "count": 3336,
+    "count": 3338,
     "histogram": [
       {
         "label": "< 1 day",
-        "count": 1126
+        "count": 1127
       },
       {
         "label": "1–3 days",
@@ -221,7 +221,7 @@
       },
       {
         "label": "1–3 months",
-        "count": 425
+        "count": 426
       },
       {
         "label": "3+ months",
@@ -515,8 +515,8 @@
     {
       "category": "Failure to Appear",
       "medianBail": 2500,
-      "meanBail": 8592.87,
-      "count": 411
+      "meanBail": 8607.73,
+      "count": 410
     },
     {
       "category": "Driving While License Suspended",
@@ -527,8 +527,8 @@
     {
       "category": "Making False Statements",
       "medianBail": 2500,
-      "meanBail": 3911.36,
-      "count": 22
+      "meanBail": 3850,
+      "count": 23
     },
     {
       "category": "Theft (3rd Degree)",
@@ -570,7 +570,7 @@
   "chargesByRace": {
     "White": {
       "Protection Order Violation": 181,
-      "Failure to Appear": 600,
+      "Failure to Appear": 599,
       "Driving While License Suspended": 329,
       "DUI": 517,
       "Domestic Violence": 553,
@@ -579,7 +579,7 @@
       "Harassment": 104,
       "Public Order": 10,
       "Drug Offense": 281,
-      "Making False Statements": 61,
+      "Making False Statements": 62,
       "Assault": 174,
       "Burglary (1st Degree)": 10,
       "Forgery": 9,
@@ -819,7 +819,7 @@
     "Male": {
       "Protection Order Violation": 182,
       "DOC Warrant": 171,
-      "Failure to Appear": 551,
+      "Failure to Appear": 550,
       "Driving While License Suspended": 340,
       "DUI": 476,
       "Failure to Register (Sex Offender)": 14,
@@ -830,7 +830,7 @@
       "Harassment": 119,
       "Public Order": 7,
       "Drug Offense": 264,
-      "Making False Statements": 59,
+      "Making False Statements": 60,
       "Assault": 195,
       "Burglary (1st Degree)": 17,
       "Forgery": 8,
@@ -988,7 +988,7 @@
   "releaseReasons": [
     {
       "label": "FTA / Contempt Resolved",
-      "count": 1169
+      "count": 1170
     },
     {
       "label": "Released (Unknown Reason)",
@@ -1000,7 +1000,7 @@
     },
     {
       "label": "Scheduled Release / Time Served",
-      "count": 246
+      "count": 247
     },
     {
       "label": "DOC Transfer / Detainer",
@@ -1724,7 +1724,7 @@
     },
     {
       "label": "Court / Supervision",
-      "count": 1063,
+      "count": 1062,
       "pct": 18.9
     },
     {
@@ -1753,12 +1753,12 @@
       "pct": 6.5
     },
     {
-      "label": "Sex Offense",
-      "count": 101,
+      "label": "Fraud / Identity",
+      "count": 102,
       "pct": 1.8
     },
     {
-      "label": "Fraud / Identity",
+      "label": "Sex Offense",
       "count": 101,
       "pct": 1.8
     },
@@ -2111,7 +2111,7 @@
       "chargeBreakdown": [
         {
           "label": "Failure to Appear",
-          "count": 17
+          "count": 16
         },
         {
           "label": "Local / Tribal Code",
@@ -2314,8 +2314,8 @@
     }
   ],
   "bailOnRelease": {
-    "total": 3417,
-    "withBail": 1520,
+    "total": 3419,
+    "withBail": 1521,
     "pct": 44.5
   },
   "chargesByAgeGroup": [
@@ -2374,7 +2374,7 @@
       "topCharges": [
         {
           "label": "Failure to Appear",
-          "count": 297
+          "count": 296
         },
         {
           "label": "Domestic Violence",
@@ -2566,7 +2566,7 @@
       "crimeTypes": [
         {
           "label": "Court / Supervision",
-          "count": 400
+          "count": 399
         },
         {
           "label": "Violent",
@@ -2594,7 +2594,7 @@
         },
         {
           "label": "Fraud / Identity",
-          "count": 36
+          "count": 37
         },
         {
           "label": "Sex Offense",
@@ -2745,7 +2745,7 @@
         "avgWeight": 185,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 548
+        "n": 547
       },
       {
         "charge": "Domestic Violence",
@@ -2878,7 +2878,7 @@
         "avgWeight": 177,
         "avgHeight": "5'9\"",
         "topRace": "White",
-        "n": 57
+        "n": 58
       },
       {
         "charge": "Failure to Comply (Sentence)",
