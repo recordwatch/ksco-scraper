@@ -161695,9 +161695,9 @@
       }
     ],
     "totalBond": null,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "10/23/2026, 20:56:23",
-    "releasedAt": null
+    "releasedAt": "11/24/2026, 13:23:33"
   },
   "2026004708": {
     "bookingNumber": "2026004708",
@@ -171706,6 +171706,20 @@
         "arrestAgency": "BREMERTON POLICE DEPARTMENT",
         "arrestDate": "11/10/2026",
         "courtType": "BM"
+      },
+      {
+        "violation": "9A.52.070(2) - CRIMINAL TRESPASS-1",
+        "cleared": true,
+        "addDesc": "CRIM TRESS 1",
+        "clearance": "RL",
+        "bondBailType": "OOC",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": "350443950",
+        "nextCourtDate": "11/24/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "11/24/2026",
+        "courtType": "DS"
       }
     ],
     "totalBond": 10000,
@@ -178685,9 +178699,9 @@
     "charges": [
       {
         "violation": "7.105.450(1) - PROTECTION ORDER VIOLATION",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": 25000,
         "cashAmount": null,
@@ -178699,9 +178713,9 @@
       },
       {
         "violation": "69.50.4013.1.A - UNLAWFUL POSSESSION OF A CONTROLLED SUBSTANCE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": null,
         "cashAmount": null,
