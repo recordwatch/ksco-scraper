@@ -1,6 +1,54 @@
 [
   {
     "type": "BOOKED",
+    "bookingNumber": "2026005142",
+    "name": "MUSTAIN, ELIJAH R",
+    "bookingDate": "",
+    "charges": [
+      {
+        "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "GL",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": "51571101",
+        "nextCourtDate": null,
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "11/24/2026",
+        "courtType": null
+      },
+      {
+        "violation": "46.52.020(5) - HIT AND RUN-ATTENDED-PROPERTY DMG",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "GL",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": "51571101",
+        "nextCourtDate": null,
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "11/24/2026",
+        "courtType": null
+      }
+    ],
+    "age": "22",
+    "sex": "M",
+    "race": "B",
+    "height": "511",
+    "weight": "165",
+    "hair": "BLK",
+    "eyes": "BRO",
+    "inmateId": "50002169",
+    "schedRelease": "11/26/2026",
+    "firstSeen": "11/24/2026, 15:23:32",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
     "bookingNumber": "2026005141",
     "name": "MORGAN, CHRISTOPHER CHARLES",
     "bookingDate": "",
@@ -1646,8 +1694,8 @@
     "inmateId": "50004976",
     "schedRelease": null,
     "firstSeen": "11/21/2026, 12:49:04",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "11/24/2026, 15:23:32",
+    "status": "released"
   },
   {
     "type": "BOOKED",
