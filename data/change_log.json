@@ -1,6 +1,40 @@
 [
   {
     "type": "BOOKED",
+    "bookingNumber": "2026005136",
+    "name": "TORRES, NALANY NICHOLE",
+    "bookingDate": "11/24/2026",
+    "charges": [
+      {
+        "violation": "9A.36.041(2) - ASSAULT-4 - DV",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "NOBD",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "11/25/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "11/24/2026",
+        "courtType": "DS"
+      }
+    ],
+    "age": "26",
+    "sex": "F",
+    "race": "W",
+    "height": "506",
+    "weight": "140",
+    "hair": "BRO",
+    "eyes": "BRO",
+    "inmateId": "50005709",
+    "schedRelease": null,
+    "firstSeen": "11/24/2026, 03:39:37",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
     "bookingNumber": "2026005135",
     "name": "ODELL-DEE, RILEY DALE",
     "bookingDate": "",
@@ -4969,9 +5003,9 @@
       },
       {
         "violation": "9A.76.190(3)(A) - FAILURE TO APPEAR / CONTEMPT OF COURT - FELONY",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "FAM NON SUPPORT",
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
