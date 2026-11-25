@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-25T20:55:51.014Z",
+  "generatedAt": "2026-11-25T21:26:04.568Z",
   "bookingCounts": {
-    "total": 3662,
-    "inCustody": 226,
+    "total": 3663,
+    "inCustody": 227,
     "released": 3436
   },
   "gender": [
     {
       "label": "Male",
-      "count": 2507,
+      "count": 2508,
       "pct": 68.5
     },
     {
@@ -25,7 +25,7 @@
   "race": [
     {
       "label": "White",
-      "count": 2607,
+      "count": 2608,
       "pct": 71.2
     },
     {
@@ -61,7 +61,7 @@
       },
       {
         "label": "26–35",
-        "count": 1021
+        "count": 1022
       },
       {
         "label": "36–45",
@@ -84,7 +84,7 @@
   "topCharges": [
     {
       "label": "Domestic Violence",
-      "count": 790
+      "count": 791
     },
     {
       "label": "Failure to Appear",
@@ -146,7 +146,7 @@
   "topAgencies": [
     {
       "label": "KITSAP COUNTY SHERIFFS OFFICE",
-      "count": 3300
+      "count": 3301
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
@@ -569,6 +569,7 @@
   ],
   "chargesByRace": {
     "White": {
+      "Domestic Violence": 556,
       "Protection Order Violation": 182,
       "Traffic / Obstruction": 10,
       "DOC Warrant": 164,
@@ -579,7 +580,6 @@
       "DUI": 519,
       "Theft (3rd Degree)": 209,
       "Driving While License Suspended": 329,
-      "Domestic Violence": 555,
       "Failure to Register (Sex Offender)": 11,
       "Harassment": 104,
       "Public Order": 10,
@@ -817,6 +817,7 @@
   },
   "chargesBySex": {
     "Male": {
+      "Domestic Violence": 509,
       "Protection Order Violation": 184,
       "Traffic / Obstruction": 9,
       "DOC Warrant": 172,
@@ -830,7 +831,6 @@
       "Driving While License Suspended": 340,
       "Failure to Register (Sex Offender)": 14,
       "Traffic Violation": 7,
-      "Domestic Violence": 508,
       "Local / Tribal Code": 47,
       "Harassment": 119,
       "Public Order": 7,
@@ -1034,7 +1034,7 @@
   "recidivism": {
     "rate": 17,
     "repeatBookerCount": 498,
-    "totalIndividuals": 2933,
+    "totalIndividuals": 2934,
     "repeatBookers": [
       {
         "name": "LITTFIN, JOHN STEPHEN",
@@ -1713,7 +1713,7 @@
     },
     {
       "month": "2026-11",
-      "count": 288
+      "count": 289
     }
   ],
   "crimeTypes": [
@@ -1723,13 +1723,13 @@
       "pct": 20.6
     },
     {
-      "label": "Court / Supervision",
+      "label": "Violent",
       "count": 1065,
       "pct": 18.9
     },
     {
-      "label": "Violent",
-      "count": 1064,
+      "label": "Court / Supervision",
+      "count": 1065,
       "pct": 18.9
     },
     {
@@ -1776,7 +1776,7 @@
     },
     {
       "label": "Gross Misdemeanor",
-      "count": 2420,
+      "count": 2421,
       "pct": 30.1
     },
     {
@@ -1890,12 +1890,12 @@
   "agencyBreakdown": [
     {
       "name": "Kitsap County Sheriff",
-      "count": 3316,
+      "count": 3317,
       "topCharge": "Domestic Violence",
       "chargeBreakdown": [
         {
           "label": "Domestic Violence",
-          "count": 590
+          "count": 591
         },
         {
           "label": "Failure to Appear",
@@ -2328,7 +2328,7 @@
         },
         {
           "label": "Domestic Violence",
-          "count": 120
+          "count": 121
         },
         {
           "label": "Failure to Appear",
@@ -2480,7 +2480,7 @@
         },
         {
           "label": "Violent",
-          "count": 174
+          "count": 175
         },
         {
           "label": "Court / Supervision",
@@ -2752,7 +2752,7 @@
         "avgWeight": 189,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 496
+        "n": 497
       },
       {
         "charge": "DUI",
@@ -3419,7 +3419,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 3659
+      "count": 3660
     }
   ],
   "ftaOriginalCharges": {
