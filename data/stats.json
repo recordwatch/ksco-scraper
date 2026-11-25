@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-11-25T18:25:46.998Z",
+  "generatedAt": "2026-11-25T18:55:57.988Z",
   "bookingCounts": {
-    "total": 3660,
-    "inCustody": 226,
+    "total": 3661,
+    "inCustody": 227,
     "released": 3434
   },
   "gender": [
     {
       "label": "Male",
-      "count": 2505,
-      "pct": 68.4
+      "count": 2506,
+      "pct": 68.5
     },
     {
       "label": "Female",
@@ -25,7 +25,7 @@
   "race": [
     {
       "label": "White",
-      "count": 2605,
+      "count": 2606,
       "pct": 71.2
     },
     {
@@ -65,7 +65,7 @@
       },
       {
         "label": "36–45",
-        "count": 1088
+        "count": 1089
       },
       {
         "label": "46–55",
@@ -112,7 +112,7 @@
     },
     {
       "label": "Protection Order Violation",
-      "count": 249
+      "count": 250
     },
     {
       "label": "Criminal Trespass",
@@ -120,7 +120,7 @@
     },
     {
       "label": "DOC Warrant",
-      "count": 209
+      "count": 210
     },
     {
       "label": "Other",
@@ -146,7 +146,7 @@
   "topAgencies": [
     {
       "label": "KITSAP COUNTY SHERIFFS OFFICE",
-      "count": 3292
+      "count": 3297
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
@@ -186,11 +186,11 @@
     }
   ],
   "bail": {
-    "mean": 26823.93,
+    "mean": 26875.34,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 2395
+    "count": 2396
   },
   "stay": {
     "mean": 22,
@@ -371,8 +371,8 @@
     {
       "category": "Protection Order Violation",
       "medianBail": 10000,
-      "meanBail": 23966.22,
-      "count": 74
+      "meanBail": 25646.67,
+      "count": 75
     },
     {
       "category": "Assault",
@@ -569,13 +569,15 @@
   ],
   "chargesByRace": {
     "White": {
+      "Protection Order Violation": 182,
+      "Traffic / Obstruction": 10,
+      "DOC Warrant": 164,
       "Malicious Mischief": 55,
       "Failure to Appear": 601,
       "Obstruction": 132,
       "Other": 138,
       "DUI": 519,
       "Theft (3rd Degree)": 209,
-      "Protection Order Violation": 181,
       "Driving While License Suspended": 329,
       "Domestic Violence": 554,
       "Failure to Register (Sex Offender)": 11,
@@ -590,7 +592,6 @@
       "Criminal Trespass": 184,
       "Ignition Interlock Violation": 84,
       "Motor Vehicle Theft": 24,
-      "DOC Warrant": 163,
       "Hit and Run": 69,
       "Reckless Driving": 31,
       "Community Custody Violation": 25,
@@ -624,7 +625,6 @@
       "Burglary Tools": 8,
       "Probation Violation": 2,
       "Child Sex Offense": 24,
-      "Traffic / Obstruction": 9,
       "Traffic Violation": 6,
       "Identity Theft": 4,
       "Criminal Impersonation": 4,
@@ -817,15 +817,16 @@
   },
   "chargesBySex": {
     "Male": {
+      "Protection Order Violation": 184,
+      "Traffic / Obstruction": 9,
+      "DOC Warrant": 172,
       "Malicious Mischief": 66,
       "Failure to Appear": 552,
       "Obstruction": 128,
       "Other": 148,
       "DUI": 479,
       "Theft (3rd Degree)": 164,
-      "Protection Order Violation": 183,
       "Hit and Run": 72,
-      "DOC Warrant": 171,
       "Driving While License Suspended": 340,
       "Failure to Register (Sex Offender)": 14,
       "Traffic Violation": 7,
@@ -874,7 +875,6 @@
       "Vehicle Prowling": 19,
       "Child Sex Offense": 26,
       "Incest": 2,
-      "Traffic / Obstruction": 8,
       "Identity Theft": 5,
       "Criminal Impersonation": 5,
       "Human Trafficking": 2,
@@ -1033,7 +1033,7 @@
   ],
   "recidivism": {
     "rate": 17,
-    "repeatBookerCount": 497,
+    "repeatBookerCount": 498,
     "totalIndividuals": 2932,
     "repeatBookers": [
       {
@@ -1713,18 +1713,18 @@
     },
     {
       "month": "2026-11",
-      "count": 286
+      "count": 287
     }
   ],
   "crimeTypes": [
     {
       "label": "Traffic / DUI",
-      "count": 1163,
+      "count": 1164,
       "pct": 20.6
     },
     {
       "label": "Court / Supervision",
-      "count": 1064,
+      "count": 1065,
       "pct": 18.9
     },
     {
@@ -1744,7 +1744,7 @@
     },
     {
       "label": "Order Violations",
-      "count": 428,
+      "count": 429,
       "pct": 7.6
     },
     {
@@ -1771,22 +1771,22 @@
   "severity": [
     {
       "label": "Misdemeanor",
-      "count": 2705,
+      "count": 2706,
       "pct": 33.6
     },
     {
       "label": "Gross Misdemeanor",
-      "count": 2419,
+      "count": 2421,
       "pct": 30.1
     },
     {
       "label": "Felony",
-      "count": 1652,
+      "count": 1653,
       "pct": 20.5
     },
     {
       "label": "Unknown",
-      "count": 1263,
+      "count": 1264,
       "pct": 15.7
     }
   ],
@@ -1890,7 +1890,7 @@
   "agencyBreakdown": [
     {
       "name": "Kitsap County Sheriff",
-      "count": 3308,
+      "count": 3313,
       "topCharge": "Domestic Violence",
       "chargeBreakdown": [
         {
@@ -1899,7 +1899,7 @@
         },
         {
           "label": "Failure to Appear",
-          "count": 495
+          "count": 496
         },
         {
           "label": "DUI",
@@ -2566,7 +2566,7 @@
       "crimeTypes": [
         {
           "label": "Court / Supervision",
-          "count": 400
+          "count": 401
         },
         {
           "label": "Violent",
@@ -2574,7 +2574,7 @@
         },
         {
           "label": "Traffic / DUI",
-          "count": 310
+          "count": 311
         },
         {
           "label": "Property",
@@ -2586,7 +2586,7 @@
         },
         {
           "label": "Order Violations",
-          "count": 141
+          "count": 142
         },
         {
           "label": "Drug",
@@ -2787,7 +2787,7 @@
         "avgWeight": 191,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 182
+        "n": 183
       },
       {
         "charge": "Criminal Trespass",
@@ -2798,10 +2798,10 @@
       },
       {
         "charge": "DOC Warrant",
-        "avgWeight": 183,
+        "avgWeight": 182,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 170
+        "n": 171
       },
       {
         "charge": "Theft (3rd Degree)",
@@ -3077,6 +3077,13 @@
         "n": 11
       },
       {
+        "charge": "Traffic / Obstruction",
+        "avgWeight": 173,
+        "avgHeight": "5'11\"",
+        "topRace": "White",
+        "n": 9
+      },
+      {
         "charge": "Burglary Tools",
         "avgWeight": 168,
         "avgHeight": "5'8\"",
@@ -3093,13 +3100,6 @@
       {
         "charge": "Witness Tampering",
         "avgWeight": 188,
-        "avgHeight": "5'10\"",
-        "topRace": "White",
-        "n": 8
-      },
-      {
-        "charge": "Traffic / Obstruction",
-        "avgWeight": 171,
         "avgHeight": "5'10\"",
         "topRace": "White",
         "n": 8
@@ -3419,7 +3419,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 3657
+      "count": 3658
     }
   ],
   "ftaOriginalCharges": {
