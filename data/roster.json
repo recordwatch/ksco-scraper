@@ -130643,7 +130643,7 @@
     "schReleaseDate": "",
     "detailUrl": "https://incustody.kitsap.gov/Home/BookingSearchResult?LastName=%25&FirstName=&BookingFrom=&BookingTo=&ValidSearch=&sort=BookingDate&sortdir=DESC&page=19&BookingNumber=3",
     "inmateId": "40033665",
-    "schedRelease": "02/17/2027",
+    "schedRelease": "02/16/2027",
     "age": "35",
     "height": "507",
     "weight": "240",
@@ -150416,9 +150416,9 @@
       }
     ],
     "totalBond": null,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "10/07/2026, 13:43:08",
-    "releasedAt": null
+    "releasedAt": "11/25/2026, 07:53:33"
   },
   "2026004460": {
     "bookingNumber": "2026004460",
@@ -179335,14 +179335,14 @@
         "cleared": false,
         "addDesc": null,
         "clearance": null,
-        "bondBailType": "NOBD",
+        "bondBailType": "RF",
         "bondAmount": null,
         "cashAmount": null,
         "courtCase": null,
-        "nextCourtDate": "11/24/2026",
+        "nextCourtDate": null,
         "arrestAgency": "PORT ORCHARD POLICE DEPARTMENT",
         "arrestDate": "11/22/2026",
-        "courtType": "PO"
+        "courtType": null
       },
       {
         "violation": "9A.52.020(2) - BURGLARY-1",
@@ -179381,6 +179381,20 @@
         "bondAmount": 5000,
         "cashAmount": null,
         "courtCase": "2510097518",
+        "nextCourtDate": "12/23/2026",
+        "arrestAgency": "PORT ORCHARD POLICE DEPARTMENT",
+        "arrestDate": "11/22/2026",
+        "courtType": "SC"
+      },
+      {
+        "violation": "9A.52.025(2) - RESIDENTIAL BURGLARY - DV",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": "2610083118",
         "nextCourtDate": "12/23/2026",
         "arrestAgency": "PORT ORCHARD POLICE DEPARTMENT",
         "arrestDate": "11/22/2026",
@@ -180587,17 +180601,17 @@
     "charges": [
       {
         "violation": "7.105.450(1) - PROTECTION ORDER VIOLATION",
-        "cleared": false,
-        "addDesc": "POV- DV",
-        "clearance": null,
-        "bondBailType": "NOBD",
+        "cleared": true,
+        "addDesc": null,
+        "clearance": "RF",
+        "bondBailType": "RF",
         "bondAmount": null,
         "cashAmount": null,
         "courtCase": null,
-        "nextCourtDate": "11/25/2026",
+        "nextCourtDate": null,
         "arrestAgency": "BREMERTON POLICE DEPARTMENT",
         "arrestDate": "11/24/2026",
-        "courtType": "BM"
+        "courtType": null
       }
     ],
     "totalBond": null,
@@ -180817,10 +180831,10 @@
     "inmateId": "50005714",
     "schedRelease": null,
     "age": "63",
-    "height": null,
-    "weight": null,
-    "hair": "Eyes",
-    "eyes": "Height",
+    "height": "510",
+    "weight": "155",
+    "hair": "GRN",
+    "eyes": "GRY",
     "charges": [
       {
         "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
