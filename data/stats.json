@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T19:55:54.496Z",
+  "generatedAt": "2026-11-25T20:25:47.598Z",
   "bookingCounts": {
     "total": 3661,
     "inCustody": 226,
@@ -88,7 +88,7 @@
     },
     {
       "label": "Failure to Appear",
-      "count": 765
+      "count": 764
     },
     {
       "label": "DUI",
@@ -116,7 +116,7 @@
     },
     {
       "label": "Criminal Trespass",
-      "count": 245
+      "count": 246
     },
     {
       "label": "DOC Warrant",
@@ -186,11 +186,11 @@
     }
   ],
   "bail": {
-    "mean": 26895.2,
+    "mean": 26913.52,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 2392
+    "count": 2390
   },
   "stay": {
     "mean": 22,
@@ -515,8 +515,8 @@
     {
       "category": "Failure to Appear",
       "medianBail": 2500,
-      "meanBail": 8758.95,
-      "count": 410
+      "meanBail": 8777.38,
+      "count": 408
     },
     {
       "category": "Theft (3rd Degree)",
@@ -572,8 +572,9 @@
       "Protection Order Violation": 182,
       "Traffic / Obstruction": 10,
       "DOC Warrant": 164,
-      "Failure to Appear": 602,
+      "Criminal Trespass": 185,
       "Malicious Mischief": 55,
+      "Failure to Appear": 601,
       "Other": 138,
       "DUI": 519,
       "Theft (3rd Degree)": 209,
@@ -588,7 +589,6 @@
       "Burglary (1st Degree)": 10,
       "Forgery": 9,
       "Attempt to Elude": 32,
-      "Criminal Trespass": 184,
       "Obstruction": 131,
       "Ignition Interlock Violation": 84,
       "Motor Vehicle Theft": 24,
@@ -820,8 +820,9 @@
       "Protection Order Violation": 184,
       "Traffic / Obstruction": 9,
       "DOC Warrant": 172,
-      "Failure to Appear": 553,
+      "Criminal Trespass": 184,
       "Malicious Mischief": 66,
+      "Failure to Appear": 552,
       "Other": 148,
       "DUI": 479,
       "Theft (3rd Degree)": 164,
@@ -839,7 +840,6 @@
       "Burglary (1st Degree)": 17,
       "Forgery": 8,
       "Attempt to Elude": 36,
-      "Criminal Trespass": 183,
       "Obstruction": 127,
       "Ignition Interlock Violation": 88,
       "Reckless Driving": 31,
@@ -1734,7 +1734,7 @@
     },
     {
       "label": "Property",
-      "count": 772,
+      "count": 773,
       "pct": 13.7
     },
     {
@@ -1899,7 +1899,7 @@
         },
         {
           "label": "Failure to Appear",
-          "count": 497
+          "count": 496
         },
         {
           "label": "DUI",
@@ -2374,7 +2374,7 @@
       "topCharges": [
         {
           "label": "Failure to Appear",
-          "count": 298
+          "count": 297
         },
         {
           "label": "Domestic Violence",
@@ -2578,7 +2578,7 @@
         },
         {
           "label": "Property",
-          "count": 282
+          "count": 283
         },
         {
           "label": "Other",
@@ -2745,7 +2745,7 @@
         "avgWeight": 185,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 550
+        "n": 549
       },
       {
         "charge": "Domestic Violence",
@@ -2794,7 +2794,7 @@
         "avgWeight": 180,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 181
+        "n": 182
       },
       {
         "charge": "DOC Warrant",
@@ -3423,9 +3423,9 @@
     }
   ],
   "ftaOriginalCharges": {
-    "ftaTotal": 1360,
+    "ftaTotal": 1359,
     "resolved": 753,
-    "unresolved": 607,
+    "unresolved": 606,
     "pctResolved": 55.4,
     "topOriginalCharges": [
       {
