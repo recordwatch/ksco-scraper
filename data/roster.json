@@ -180792,7 +180792,7 @@
         "bondAmount": 5000,
         "cashAmount": null,
         "courtCase": null,
-        "nextCourtDate": "11/24/2026",
+        "nextCourtDate": "11/25/2026",
         "arrestAgency": "BAINBRIDGE ISLAND POLICE DEPARTMENT",
         "arrestDate": "11/24/2026",
         "courtType": "BI"
@@ -180854,6 +180854,45 @@
     "totalBond": null,
     "status": "in_custody",
     "firstSeen": "11/25/2026, 02:23:31",
+    "releasedAt": null
+  },
+  "2026005149": {
+    "bookingNumber": "2026005149",
+    "firstName": "JOSHUA",
+    "lastName": "BALDERSON",
+    "middleName": "ARTHUR",
+    "race": "W",
+    "sex": "M",
+    "bookingDate": "",
+    "releaseDate": "",
+    "schReleaseDate": "",
+    "detailUrl": "https://incustody.kitsap.gov/Home/BookingSearchResult?LastName=%25&FirstName=&BookingFrom=&BookingTo=&ValidSearch=&sort=BookingDate&sortdir=DESC&page=16&BookingNumber=9",
+    "inmateId": "40263695",
+    "schedRelease": null,
+    "age": "26",
+    "height": "511",
+    "weight": "160",
+    "hair": "BRO",
+    "eyes": "BRO",
+    "charges": [
+      {
+        "violation": "9A.76.190(3)(A) - FAILURE TO APPEAR / CONTEMPT OF COURT - FELONY",
+        "cleared": false,
+        "addDesc": "FTA (BURG 2)",
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 50000,
+        "cashAmount": null,
+        "courtCase": "35437766P",
+        "nextCourtDate": "11/30/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "11/25/2026",
+        "courtType": "BHC"
+      }
+    ],
+    "totalBond": 50000,
+    "status": "in_custody",
+    "firstSeen": "11/25/2026, 03:53:33",
     "releasedAt": null
   }
 }

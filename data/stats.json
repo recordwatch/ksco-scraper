@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-11-25T11:26:04.263Z",
+  "generatedAt": "2026-11-25T11:55:53.374Z",
   "bookingCounts": {
-    "total": 3657,
-    "inCustody": 232,
+    "total": 3658,
+    "inCustody": 233,
     "released": 3425
   },
   "gender": [
     {
       "label": "Male",
-      "count": 2503,
-      "pct": 68.4
+      "count": 2504,
+      "pct": 68.5
     },
     {
       "label": "Female",
@@ -25,7 +25,7 @@
   "race": [
     {
       "label": "White",
-      "count": 2603,
+      "count": 2604,
       "pct": 71.2
     },
     {
@@ -61,7 +61,7 @@
       },
       {
         "label": "26–35",
-        "count": 1020
+        "count": 1021
       },
       {
         "label": "36–45",
@@ -88,7 +88,7 @@
     },
     {
       "label": "Failure to Appear",
-      "count": 763
+      "count": 764
     },
     {
       "label": "DUI",
@@ -146,7 +146,7 @@
   "topAgencies": [
     {
       "label": "KITSAP COUNTY SHERIFFS OFFICE",
-      "count": 3286
+      "count": 3287
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
@@ -186,11 +186,11 @@
     }
   ],
   "bail": {
-    "mean": 26740.66,
+    "mean": 26750.34,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 2401
+    "count": 2402
   },
   "stay": {
     "mean": 21.9,
@@ -513,16 +513,16 @@
       "count": 2
     },
     {
+      "category": "Failure to Appear",
+      "medianBail": 2500,
+      "meanBail": 8735.85,
+      "count": 412
+    },
+    {
       "category": "Theft (3rd Degree)",
       "medianBail": 2500,
       "meanBail": 4229.31,
       "count": 116
-    },
-    {
-      "category": "Failure to Appear",
-      "medianBail": 2500,
-      "meanBail": 8635.45,
-      "count": 411
     },
     {
       "category": "Driving While License Suspended",
@@ -569,10 +569,10 @@
   ],
   "chargesByRace": {
     "White": {
+      "Failure to Appear": 601,
       "DUI": 519,
       "Other": 138,
       "Theft (3rd Degree)": 209,
-      "Failure to Appear": 600,
       "Protection Order Violation": 181,
       "Driving While License Suspended": 329,
       "Domestic Violence": 553,
@@ -817,10 +817,10 @@
   },
   "chargesBySex": {
     "Male": {
+      "Failure to Appear": 552,
       "DUI": 479,
       "Other": 148,
       "Theft (3rd Degree)": 163,
-      "Failure to Appear": 551,
       "Protection Order Violation": 183,
       "Hit and Run": 72,
       "DOC Warrant": 171,
@@ -1713,7 +1713,7 @@
     },
     {
       "month": "2026-11",
-      "count": 283
+      "count": 284
     }
   ],
   "crimeTypes": [
@@ -1724,7 +1724,7 @@
     },
     {
       "label": "Court / Supervision",
-      "count": 1063,
+      "count": 1064,
       "pct": 18.9
     },
     {
@@ -1781,8 +1781,8 @@
     },
     {
       "label": "Felony",
-      "count": 1650,
-      "pct": 20.5
+      "count": 1651,
+      "pct": 20.6
     },
     {
       "label": "Unknown",
@@ -1890,7 +1890,7 @@
   "agencyBreakdown": [
     {
       "name": "Kitsap County Sheriff",
-      "count": 3302,
+      "count": 3303,
       "topCharge": "Domestic Violence",
       "chargeBreakdown": [
         {
@@ -1899,7 +1899,7 @@
         },
         {
           "label": "Failure to Appear",
-          "count": 494
+          "count": 495
         },
         {
           "label": "DUI",
@@ -2353,7 +2353,7 @@
         },
         {
           "label": "Failure to Appear",
-          "count": 221
+          "count": 222
         },
         {
           "label": "DUI",
@@ -2525,7 +2525,7 @@
         },
         {
           "label": "Court / Supervision",
-          "count": 327
+          "count": 328
         },
         {
           "label": "Violent",
@@ -2745,7 +2745,7 @@
         "avgWeight": 185,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 548
+        "n": 549
       },
       {
         "charge": "Domestic Violence",
@@ -3419,13 +3419,13 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 3654
+      "count": 3655
     }
   ],
   "ftaOriginalCharges": {
-    "ftaTotal": 1357,
+    "ftaTotal": 1358,
     "resolved": 752,
-    "unresolved": 605,
+    "unresolved": 606,
     "pctResolved": 55.4,
     "topOriginalCharges": [
       {
