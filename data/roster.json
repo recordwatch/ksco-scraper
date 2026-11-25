@@ -171388,9 +171388,9 @@
       }
     ],
     "totalBond": 7500,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "11/09/2026, 22:33:39",
-    "releasedAt": null
+    "releasedAt": "11/25/2026, 10:23:34"
   },
   "2026004929": {
     "bookingNumber": "2026004929",
@@ -178555,13 +178555,13 @@
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
         "cleared": false,
-        "addDesc": "FTA (CONT SUB POSS)",
+        "addDesc": "(CONT SUB POSS)",
         "clearance": null,
         "bondBailType": "C/B",
         "bondAmount": 1000,
         "cashAmount": null,
         "courtCase": "350438867",
-        "nextCourtDate": "11/25/2026",
+        "nextCourtDate": "12/09/2026",
         "arrestAgency": "BREMERTON POLICE DEPARTMENT",
         "arrestDate": "11/21/2026",
         "courtType": "PMC"
@@ -178914,9 +178914,9 @@
       }
     ],
     "totalBond": 13000,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "11/21/2026, 12:49:05",
-    "releasedAt": null
+    "releasedAt": "11/25/2026, 10:23:34"
   },
   "2026005103": {
     "bookingNumber": "2026005103",
@@ -180640,20 +180640,34 @@
     "charges": [
       {
         "violation": "9A.52.025(2) - RESIDENTIAL BURGLARY",
+        "cleared": true,
+        "addDesc": null,
+        "clearance": "RF",
+        "bondBailType": "RF",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": null,
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "11/24/2026",
+        "courtType": null
+      },
+      {
+        "violation": "9A.76.040(2) - RESISTING ARREST",
         "cleared": false,
         "addDesc": null,
         "clearance": null,
         "bondBailType": "C/B",
-        "bondAmount": 51500,
+        "bondAmount": 50500,
         "cashAmount": null,
         "courtCase": null,
         "nextCourtDate": "11/25/2026",
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "11/24/2026",
-        "courtType": "SC"
+        "courtType": "DS"
       },
       {
-        "violation": "9A.76.040(2) - RESISTING ARREST",
+        "violation": "9A.52.070(2) - CRIMINAL TRESPASS-1",
         "cleared": false,
         "addDesc": null,
         "clearance": null,
@@ -180664,7 +180678,7 @@
         "nextCourtDate": "11/25/2026",
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "11/24/2026",
-        "courtType": "SC"
+        "courtType": "DS"
       }
     ],
     "totalBond": null,
@@ -180837,7 +180851,7 @@
     "eyes": "GRY",
     "charges": [
       {
-        "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
+        "violation": "9A.76.020 - OBSTRUCT LAW ENFORCEMENT OFC",
         "cleared": false,
         "addDesc": null,
         "clearance": null,
@@ -180848,10 +180862,24 @@
         "nextCourtDate": "11/25/2026",
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "11/24/2026",
-        "courtType": "SC"
+        "courtType": "DS"
       },
       {
         "violation": "9A.72.030(2) - PERJURY-2",
+        "cleared": true,
+        "addDesc": null,
+        "clearance": "RF",
+        "bondBailType": "RF",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": null,
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "11/24/2026",
+        "courtType": null
+      },
+      {
+        "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
         "cleared": false,
         "addDesc": null,
         "clearance": null,
@@ -180862,7 +180890,7 @@
         "nextCourtDate": "11/25/2026",
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "11/24/2026",
-        "courtType": "SC"
+        "courtType": "DS"
       }
     ],
     "totalBond": null,
@@ -180934,7 +180962,7 @@
         "addDesc": null,
         "clearance": null,
         "bondBailType": "C/B",
-        "bondAmount": 20000,
+        "bondAmount": null,
         "cashAmount": null,
         "courtCase": "15088808",
         "nextCourtDate": "12/28/2026",
@@ -180960,6 +180988,45 @@
     "totalBond": 40000,
     "status": "in_custody",
     "firstSeen": "11/25/2026, 09:53:32",
+    "releasedAt": null
+  },
+  "2026005151": {
+    "bookingNumber": "2026005151",
+    "firstName": "DAVID",
+    "lastName": "WARNER",
+    "middleName": "DOUGLAS",
+    "race": "W",
+    "sex": "M",
+    "bookingDate": "",
+    "releaseDate": "",
+    "schReleaseDate": "12/05/2026",
+    "detailUrl": "https://incustody.kitsap.gov/Home/BookingSearchResult?LastName=%25&FirstName=&BookingFrom=&BookingTo=&ValidSearch=&sort=BookingDate&sortdir=DESC&page=16&BookingNumber=5",
+    "inmateId": "40097299",
+    "schedRelease": "12/05/2026",
+    "age": "58",
+    "height": "511",
+    "weight": "180",
+    "hair": "BRO",
+    "eyes": "BRO",
+    "charges": [
+      {
+        "violation": "9A.48.090(2) - MALICIOUS MISCHIEF-3",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "NOBD",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": "350433587",
+        "nextCourtDate": null,
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "11/25/2026",
+        "courtType": null
+      }
+    ],
+    "totalBond": null,
+    "status": "in_custody",
+    "firstSeen": "11/25/2026, 10:23:34",
     "releasedAt": null
   }
 }
