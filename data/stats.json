@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-25T21:26:04.568Z",
+  "generatedAt": "2026-11-25T21:56:02.642Z",
   "bookingCounts": {
     "total": 3663,
-    "inCustody": 227,
-    "released": 3436
+    "inCustody": 226,
+    "released": 3437
   },
   "gender": [
     {
@@ -92,7 +92,7 @@
     },
     {
       "label": "DUI",
-      "count": 723
+      "count": 724
     },
     {
       "label": "Driving While License Suspended",
@@ -146,7 +146,7 @@
   "topAgencies": [
     {
       "label": "KITSAP COUNTY SHERIFFS OFFICE",
-      "count": 3301
+      "count": 3302
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
@@ -186,22 +186,22 @@
     }
   ],
   "bail": {
-    "mean": 26917.46,
+    "mean": 26912.58,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 2389
+    "count": 2387
   },
   "stay": {
     "mean": 22,
     "median": 2.1,
     "min": 0,
     "max": 1233.4,
-    "count": 3355,
+    "count": 3356,
     "histogram": [
       {
         "label": "< 1 day",
-        "count": 1131
+        "count": 1132
       },
       {
         "label": "1–3 days",
@@ -431,8 +431,8 @@
     {
       "category": "DUI",
       "medianBail": 5000,
-      "meanBail": 17273.43,
-      "count": 335
+      "meanBail": 17280.24,
+      "count": 334
     },
     {
       "category": "Domestic Violence",
@@ -543,16 +543,16 @@
       "count": 134
     },
     {
-      "category": "Resisting Arrest",
-      "medianBail": 1000,
-      "meanBail": 4972.22,
-      "count": 18
-    },
-    {
       "category": "Criminal Trespass",
       "medianBail": 1000,
       "meanBail": 2971.07,
       "count": 121
+    },
+    {
+      "category": "Resisting Arrest",
+      "medianBail": 1000,
+      "meanBail": 2294.12,
+      "count": 17
     },
     {
       "category": "Local / Tribal Code",
@@ -569,6 +569,7 @@
   ],
   "chargesByRace": {
     "White": {
+      "DUI": 520,
       "Domestic Violence": 556,
       "Protection Order Violation": 182,
       "Traffic / Obstruction": 10,
@@ -577,7 +578,6 @@
       "Malicious Mischief": 55,
       "Failure to Appear": 601,
       "Other": 138,
-      "DUI": 519,
       "Theft (3rd Degree)": 209,
       "Driving While License Suspended": 329,
       "Failure to Register (Sex Offender)": 11,
@@ -817,6 +817,7 @@
   },
   "chargesBySex": {
     "Male": {
+      "DUI": 480,
       "Domestic Violence": 509,
       "Protection Order Violation": 184,
       "Traffic / Obstruction": 9,
@@ -825,7 +826,6 @@
       "Malicious Mischief": 66,
       "Failure to Appear": 552,
       "Other": 148,
-      "DUI": 479,
       "Theft (3rd Degree)": 164,
       "Hit and Run": 72,
       "Driving While License Suspended": 340,
@@ -996,7 +996,7 @@
     },
     {
       "label": "Released",
-      "count": 838
+      "count": 839
     },
     {
       "label": "Scheduled Release / Time Served",
@@ -1719,7 +1719,7 @@
   "crimeTypes": [
     {
       "label": "Traffic / DUI",
-      "count": 1164,
+      "count": 1165,
       "pct": 20.6
     },
     {
@@ -1776,7 +1776,7 @@
     },
     {
       "label": "Gross Misdemeanor",
-      "count": 2421,
+      "count": 2422,
       "pct": 30.1
     },
     {
@@ -1890,7 +1890,7 @@
   "agencyBreakdown": [
     {
       "name": "Kitsap County Sheriff",
-      "count": 3317,
+      "count": 3318,
       "topCharge": "Domestic Violence",
       "chargeBreakdown": [
         {
@@ -1903,7 +1903,7 @@
         },
         {
           "label": "DUI",
-          "count": 354
+          "count": 355
         },
         {
           "label": "Driving While License Suspended",
@@ -2314,8 +2314,8 @@
     }
   ],
   "bailOnRelease": {
-    "total": 3436,
-    "withBail": 1526,
+    "total": 3437,
+    "withBail": 1527,
     "pct": 44.4
   },
   "chargesByAgeGroup": [
@@ -2357,7 +2357,7 @@
         },
         {
           "label": "DUI",
-          "count": 209
+          "count": 210
         },
         {
           "label": "Driving While License Suspended",
@@ -2521,7 +2521,7 @@
       "crimeTypes": [
         {
           "label": "Traffic / DUI",
-          "count": 333
+          "count": 334
         },
         {
           "label": "Court / Supervision",
@@ -2759,7 +2759,7 @@
         "avgWeight": 181,
         "avgHeight": "5'9\"",
         "topRace": "White",
-        "n": 455
+        "n": 456
       },
       {
         "charge": "Driving While License Suspended",

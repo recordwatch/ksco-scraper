@@ -147399,7 +147399,7 @@
         "bondAmount": null,
         "cashAmount": null,
         "courtCase": "350443334",
-        "nextCourtDate": "11/25/2026",
+        "nextCourtDate": "12/03/2026",
         "arrestAgency": "WASHINGTON STATE PATROL",
         "arrestDate": "10/02/2026",
         "courtType": "DS"
@@ -147413,7 +147413,7 @@
         "bondAmount": 100000,
         "cashAmount": null,
         "courtCase": "350443334",
-        "nextCourtDate": "11/25/2026",
+        "nextCourtDate": "12/03/2026",
         "arrestAgency": "WASHINGTON STATE PATROL",
         "arrestDate": "10/02/2026",
         "courtType": "DS"
@@ -147427,7 +147427,7 @@
         "bondAmount": null,
         "cashAmount": null,
         "courtCase": "350443334",
-        "nextCourtDate": "11/25/2026",
+        "nextCourtDate": "12/03/2026",
         "arrestAgency": "WASHINGTON STATE PATROL",
         "arrestDate": "10/02/2026",
         "courtType": "DS"
@@ -147441,7 +147441,7 @@
         "bondAmount": null,
         "cashAmount": null,
         "courtCase": "350441903",
-        "nextCourtDate": "11/25/2026",
+        "nextCourtDate": "12/03/2026",
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "11/25/2026",
         "courtType": "DS"
@@ -147455,7 +147455,7 @@
         "bondAmount": null,
         "cashAmount": null,
         "courtCase": "350430021",
-        "nextCourtDate": "11/25/2026",
+        "nextCourtDate": "12/03/2026",
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "11/25/2026",
         "courtType": "DS"
@@ -180328,14 +180328,14 @@
     "charges": [
       {
         "violation": "9A.36.041(2) - ASSAULT-4 - DV",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
-        "bondBailType": "NOBD",
+        "clearance": "PR",
+        "bondBailType": "PR",
         "bondAmount": null,
         "cashAmount": null,
         "courtCase": "350444467",
-        "nextCourtDate": "11/25/2026",
+        "nextCourtDate": "12/23/2026",
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "11/24/2026",
         "courtType": "DS"
@@ -180696,28 +180696,28 @@
       },
       {
         "violation": "9A.76.040(2) - RESISTING ARREST",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
-        "bondBailType": "C/B",
-        "bondAmount": 50500,
+        "clearance": "PR",
+        "bondBailType": "PR",
+        "bondAmount": null,
         "cashAmount": null,
         "courtCase": "350444470",
-        "nextCourtDate": "11/25/2026",
+        "nextCourtDate": "12/23/2026",
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "11/24/2026",
         "courtType": "DS"
       },
       {
         "violation": "9A.52.070(2) - CRIMINAL TRESPASS-1",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
-        "bondBailType": "C/B",
+        "clearance": "PR",
+        "bondBailType": "PR",
         "bondAmount": null,
         "cashAmount": null,
         "courtCase": "350444470",
-        "nextCourtDate": "11/25/2026",
+        "nextCourtDate": "12/23/2026",
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "11/24/2026",
         "courtType": "DS"
@@ -180894,14 +180894,14 @@
     "charges": [
       {
         "violation": "9A.84.040(2) - FALSE REPORTING EMERGENCY FALSE REPORTING FIRE, CRIME, EMERGENCY CAUSES PUBLIC INCONVENIENCE OR ALARM",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
-        "bondBailType": "C/B",
+        "clearance": "PR",
+        "bondBailType": "PR",
         "bondAmount": null,
         "cashAmount": null,
         "courtCase": "350444471",
-        "nextCourtDate": "11/25/2026",
+        "nextCourtDate": "01/04/2027",
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "11/24/2026",
         "courtType": "DS"
@@ -180922,14 +180922,14 @@
       },
       {
         "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
-        "bondBailType": "C/B",
-        "bondAmount": 15000,
+        "clearance": "PR",
+        "bondBailType": "PR",
+        "bondAmount": null,
         "cashAmount": null,
         "courtCase": "350444471",
-        "nextCourtDate": "11/25/2026",
+        "nextCourtDate": "01/04/2027",
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "11/24/2026",
         "courtType": "DS"
@@ -181028,9 +181028,9 @@
       }
     ],
     "totalBond": 40000,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "11/25/2026, 09:53:32",
-    "releasedAt": null
+    "releasedAt": "11/25/2026, 13:53:33"
   },
   "2026005151": {
     "bookingNumber": "2026005151",
@@ -181223,7 +181223,22 @@
     "weight": "170",
     "hair": "RED",
     "eyes": "BLU",
-    "charges": [],
+    "charges": [
+      {
+        "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "NOBD",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": "16177004",
+        "nextCourtDate": null,
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "11/25/2026",
+        "courtType": null
+      }
+    ],
     "totalBond": null,
     "status": "in_custody",
     "firstSeen": "11/25/2026, 13:23:33",
