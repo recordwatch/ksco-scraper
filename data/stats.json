@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T10:26:04.722Z",
+  "generatedAt": "2026-11-25T10:56:08.886Z",
   "bookingCounts": {
     "total": 3657,
     "inCustody": 232,
@@ -92,7 +92,7 @@
     },
     {
       "label": "DUI",
-      "count": 721
+      "count": 722
     },
     {
       "label": "Driving While License Suspended",
@@ -124,7 +124,7 @@
     },
     {
       "label": "Other",
-      "count": 203
+      "count": 204
     },
     {
       "label": "Obstruction",
@@ -146,7 +146,7 @@
   "topAgencies": [
     {
       "label": "KITSAP COUNTY SHERIFFS OFFICE",
-      "count": 3284
+      "count": 3286
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
@@ -186,11 +186,11 @@
     }
   ],
   "bail": {
-    "mean": 26756.7,
+    "mean": 26740.66,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 2399
+    "count": 2401
   },
   "stay": {
     "mean": 21.9,
@@ -425,20 +425,20 @@
     {
       "category": "DUI",
       "medianBail": 5000,
-      "meanBail": 17333.63,
-      "count": 336
+      "meanBail": 17297.03,
+      "count": 337
+    },
+    {
+      "category": "Other",
+      "medianBail": 5000,
+      "meanBail": 8185.9,
+      "count": 78
     },
     {
       "category": "Domestic Violence",
       "medianBail": 5000,
       "meanBail": 41661.26,
       "count": 222
-    },
-    {
-      "category": "Other",
-      "medianBail": 5000,
-      "meanBail": 8162.34,
-      "count": 77
     },
     {
       "category": "Hit and Run",
@@ -569,9 +569,9 @@
   ],
   "chargesByRace": {
     "White": {
-      "DUI": 518,
+      "DUI": 519,
+      "Other": 138,
       "Theft (3rd Degree)": 209,
-      "Other": 137,
       "Failure to Appear": 600,
       "Protection Order Violation": 181,
       "Driving While License Suspended": 329,
@@ -817,9 +817,9 @@
   },
   "chargesBySex": {
     "Male": {
-      "DUI": 478,
+      "DUI": 479,
+      "Other": 148,
       "Theft (3rd Degree)": 163,
-      "Other": 147,
       "Failure to Appear": 551,
       "Protection Order Violation": 183,
       "Hit and Run": 72,
@@ -1719,7 +1719,7 @@
   "crimeTypes": [
     {
       "label": "Traffic / DUI",
-      "count": 1161,
+      "count": 1162,
       "pct": 20.6
     },
     {
@@ -1739,7 +1739,7 @@
     },
     {
       "label": "Other",
-      "count": 504,
+      "count": 505,
       "pct": 9
     },
     {
@@ -1776,7 +1776,7 @@
     },
     {
       "label": "Gross Misdemeanor",
-      "count": 2414,
+      "count": 2415,
       "pct": 30.1
     },
     {
@@ -1786,7 +1786,7 @@
     },
     {
       "label": "Unknown",
-      "count": 1262,
+      "count": 1263,
       "pct": 15.7
     }
   ],
@@ -1890,7 +1890,7 @@
   "agencyBreakdown": [
     {
       "name": "Kitsap County Sheriff",
-      "count": 3300,
+      "count": 3302,
       "topCharge": "Domestic Violence",
       "chargeBreakdown": [
         {
@@ -1903,7 +1903,7 @@
         },
         {
           "label": "DUI",
-          "count": 352
+          "count": 353
         },
         {
           "label": "Driving While License Suspended",
@@ -2424,7 +2424,7 @@
       "topCharges": [
         {
           "label": "DUI",
-          "count": 55
+          "count": 56
         },
         {
           "label": "Domestic Violence",
@@ -2656,7 +2656,7 @@
       "crimeTypes": [
         {
           "label": "Traffic / DUI",
-          "count": 81
+          "count": 82
         },
         {
           "label": "Violent",
@@ -2671,12 +2671,12 @@
           "count": 46
         },
         {
-          "label": "Order Violations",
+          "label": "Other",
           "count": 30
         },
         {
-          "label": "Other",
-          "count": 29
+          "label": "Order Violations",
+          "count": 30
         },
         {
           "label": "Drug",
