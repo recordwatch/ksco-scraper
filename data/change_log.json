@@ -1,6 +1,25 @@
 [
   {
     "type": "BOOKED",
+    "bookingNumber": "2026005153",
+    "name": "MORRIS, JACOB D",
+    "bookingDate": "",
+    "charges": [],
+    "age": "23",
+    "sex": "M",
+    "race": "W",
+    "height": "604",
+    "weight": "240",
+    "hair": "BRO",
+    "eyes": "BRO",
+    "inmateId": "40350539",
+    "schedRelease": null,
+    "firstSeen": "11/25/2026, 12:53:33",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
     "bookingNumber": "2026005152",
     "name": "AULTMAN, DEVIN JOHN",
     "bookingDate": "",
@@ -2950,14 +2969,14 @@
         "cleared": false,
         "addDesc": "MAL MISCH 3 DV",
         "clearance": null,
-        "bondBailType": "C/B",
-        "bondAmount": 10000,
+        "bondBailType": "GL",
+        "bondAmount": null,
         "cashAmount": null,
         "courtCase": "4A0054368",
-        "nextCourtDate": "11/25/2026",
+        "nextCourtDate": null,
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "11/19/2026",
-        "courtType": "GH"
+        "courtType": null
       }
     ],
     "age": "30",
@@ -2968,7 +2987,7 @@
     "hair": "BRO",
     "eyes": "BLU",
     "inmateId": "40211031",
-    "schedRelease": null,
+    "schedRelease": "12/29/2026",
     "firstSeen": "11/20/2026, 00:57:28",
     "releasedAt": null,
     "status": "in_custody"
@@ -3781,10 +3800,10 @@
         "addDesc": null,
         "clearance": null,
         "bondBailType": "C/B",
-        "bondAmount": 10000,
+        "bondAmount": 2500,
         "cashAmount": null,
         "courtCase": "6A0443247",
-        "nextCourtDate": "11/25/2026",
+        "nextCourtDate": "12/02/2026",
         "arrestAgency": "GIG HARBOR POLICE DEPARTMENT",
         "arrestDate": "11/18/2026",
         "courtType": "GH"
@@ -23618,8 +23637,8 @@
     "inmateId": "50004108",
     "schedRelease": null,
     "firstSeen": "10/14/2026, 13:03:14",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "11/25/2026, 12:53:33",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -87780,22 +87799,22 @@
       },
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
-        "cleared": true,
+        "cleared": false,
         "addDesc": null,
-        "clearance": "RL",
-        "bondBailType": "OOC",
+        "clearance": null,
+        "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
         "courtCase": "6A0335520",
-        "nextCourtDate": "11/25/2026",
+        "nextCourtDate": null,
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "09/29/2026",
-        "courtType": "GH"
+        "courtType": null
       },
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
         "cleared": false,
-        "addDesc": "FTA VPO",
+        "addDesc": "VPO",
         "clearance": null,
         "bondBailType": "C/B",
         "bondAmount": 500,
@@ -87809,7 +87828,7 @@
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
         "cleared": false,
-        "addDesc": "FTA VPO",
+        "addDesc": "VPO",
         "clearance": null,
         "bondBailType": "C/B",
         "bondAmount": 500,
