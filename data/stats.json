@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-25T09:56:01.767Z",
+  "generatedAt": "2026-11-25T10:26:04.722Z",
   "bookingCounts": {
-    "total": 3656,
-    "inCustody": 231,
+    "total": 3657,
+    "inCustody": 232,
     "released": 3425
   },
   "gender": [
     {
       "label": "Male",
-      "count": 2502,
+      "count": 2503,
       "pct": 68.4
     },
     {
@@ -25,7 +25,7 @@
   "race": [
     {
       "label": "White",
-      "count": 2602,
+      "count": 2603,
       "pct": 71.2
     },
     {
@@ -73,7 +73,7 @@
       },
       {
         "label": "56–65",
-        "count": 265
+        "count": 266
       },
       {
         "label": "65+",
@@ -92,7 +92,7 @@
     },
     {
       "label": "DUI",
-      "count": 719
+      "count": 721
     },
     {
       "label": "Driving While License Suspended",
@@ -162,7 +162,7 @@
     },
     {
       "label": "WASHINGTON STATE PATROL",
-      "count": 296
+      "count": 297
     },
     {
       "label": "GIG HARBOR POLICE DEPARTMENT",
@@ -174,7 +174,7 @@
     },
     {
       "label": "BAINBRIDGE ISLAND POLICE DEPARTMENT",
-      "count": 82
+      "count": 83
     },
     {
       "label": "PORT GAMBLE POLICE DEPARTMENT",
@@ -186,11 +186,11 @@
     }
   ],
   "bail": {
-    "mean": 26783.94,
+    "mean": 26756.7,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 2396
+    "count": 2399
   },
   "stay": {
     "mean": 21.9,
@@ -423,16 +423,16 @@
       "count": 11
     },
     {
+      "category": "DUI",
+      "medianBail": 5000,
+      "meanBail": 17333.63,
+      "count": 336
+    },
+    {
       "category": "Domestic Violence",
       "medianBail": 5000,
       "meanBail": 41661.26,
       "count": 222
-    },
-    {
-      "category": "DUI",
-      "medianBail": 5000,
-      "meanBail": 17407.49,
-      "count": 334
     },
     {
       "category": "Other",
@@ -569,12 +569,12 @@
   ],
   "chargesByRace": {
     "White": {
+      "DUI": 518,
       "Theft (3rd Degree)": 209,
       "Other": 137,
       "Failure to Appear": 600,
       "Protection Order Violation": 181,
       "Driving While License Suspended": 329,
-      "DUI": 517,
       "Domestic Violence": 553,
       "Failure to Register (Sex Offender)": 11,
       "Harassment": 104,
@@ -634,8 +634,8 @@
       "Bribery": 1
     },
     "Unknown": {
+      "DUI": 112,
       "Protection Order Violation": 13,
-      "DUI": 111,
       "Other": 37,
       "Resisting Arrest": 7,
       "Sex Offense": 8,
@@ -817,11 +817,11 @@
   },
   "chargesBySex": {
     "Male": {
+      "DUI": 478,
       "Theft (3rd Degree)": 163,
       "Other": 147,
       "Failure to Appear": 551,
       "Protection Order Violation": 183,
-      "DUI": 477,
       "Hit and Run": 72,
       "DOC Warrant": 171,
       "Driving While License Suspended": 340,
@@ -881,7 +881,7 @@
       "Theft": 1
     },
     "Unknown": {
-      "DUI": 84,
+      "DUI": 85,
       "Other": 29,
       "Resisting Arrest": 6,
       "Sex Offense": 5,
@@ -1034,7 +1034,7 @@
   "recidivism": {
     "rate": 17,
     "repeatBookerCount": 497,
-    "totalIndividuals": 2929,
+    "totalIndividuals": 2930,
     "repeatBookers": [
       {
         "name": "LITTFIN, JOHN STEPHEN",
@@ -1713,13 +1713,13 @@
     },
     {
       "month": "2026-11",
-      "count": 282
+      "count": 283
     }
   ],
   "crimeTypes": [
     {
       "label": "Traffic / DUI",
-      "count": 1159,
+      "count": 1161,
       "pct": 20.6
     },
     {
@@ -1750,7 +1750,7 @@
     {
       "label": "Drug",
       "count": 363,
-      "pct": 6.5
+      "pct": 6.4
     },
     {
       "label": "Fraud / Identity",
@@ -1776,13 +1776,13 @@
     },
     {
       "label": "Gross Misdemeanor",
-      "count": 2412,
-      "pct": 30
+      "count": 2414,
+      "pct": 30.1
     },
     {
       "label": "Felony",
       "count": 1650,
-      "pct": 20.6
+      "pct": 20.5
     },
     {
       "label": "Unknown",
@@ -1998,12 +1998,12 @@
     },
     {
       "name": "WASHINGTON STATE PATROL",
-      "count": 296,
+      "count": 297,
       "topCharge": "DUI",
       "chargeBreakdown": [
         {
           "label": "DUI",
-          "count": 112
+          "count": 113
         },
         {
           "label": "Driving While License Suspended",
@@ -2079,7 +2079,7 @@
     },
     {
       "name": "BAINBRIDGE ISLAND POLICE DEPARTMENT",
-      "count": 82,
+      "count": 83,
       "topCharge": "Domestic Violence",
       "chargeBreakdown": [
         {
@@ -2088,7 +2088,7 @@
         },
         {
           "label": "DUI",
-          "count": 8
+          "count": 9
         },
         {
           "label": "Other",
@@ -2357,7 +2357,7 @@
         },
         {
           "label": "DUI",
-          "count": 208
+          "count": 209
         },
         {
           "label": "Driving While License Suspended",
@@ -2382,7 +2382,7 @@
         },
         {
           "label": "DUI",
-          "count": 171
+          "count": 172
         },
         {
           "label": "Driving While License Suspended",
@@ -2521,7 +2521,7 @@
       "crimeTypes": [
         {
           "label": "Traffic / DUI",
-          "count": 332
+          "count": 333
         },
         {
           "label": "Court / Supervision",
@@ -2574,7 +2574,7 @@
         },
         {
           "label": "Traffic / DUI",
-          "count": 309
+          "count": 310
         },
         {
           "label": "Property",
@@ -2759,7 +2759,7 @@
         "avgWeight": 181,
         "avgHeight": "5'9\"",
         "topRace": "White",
-        "n": 453
+        "n": 454
       },
       {
         "charge": "Driving While License Suspended",
@@ -3419,7 +3419,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 3653
+      "count": 3654
     }
   ],
   "ftaOriginalCharges": {
