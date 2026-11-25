@@ -60,6 +60,20 @@
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "11/25/2026",
         "courtType": "DOC"
+      },
+      {
+        "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
+        "cleared": true,
+        "addDesc": null,
+        "clearance": "RL",
+        "bondBailType": "OOC",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": "50760716",
+        "nextCourtDate": "11/30/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "11/25/2026",
+        "courtType": "BM"
       }
     ],
     "age": "39",
@@ -117,9 +131,9 @@
     "charges": [
       {
         "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": null,
         "cashAmount": null,
@@ -131,9 +145,9 @@
       },
       {
         "violation": "46.20.740(2) - IGNITION INTERLOCK VIOL-NOTATION ON DR REC-VERIFY INTERLOCK",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": 20000,
         "cashAmount": null,
@@ -77546,45 +77560,45 @@
     "charges": [
       {
         "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
-        "bondBailType": "C/B",
-        "bondAmount": 50000,
+        "clearance": "TS",
+        "bondBailType": "GL",
+        "bondAmount": null,
         "cashAmount": null,
         "courtCase": "350441519",
-        "nextCourtDate": "11/25/2026",
+        "nextCourtDate": null,
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "07/21/2026",
-        "courtType": "DS"
+        "courtType": null
       },
       {
         "violation": "46.20.342(1)(B) - DWLS 2 - DRIVE W/LICENSE SUSP OR REVOKED-2",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
-        "bondBailType": "C/B",
+        "clearance": "TS",
+        "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
         "courtCase": "350441519",
-        "nextCourtDate": "11/25/2026",
+        "nextCourtDate": null,
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "07/21/2026",
-        "courtType": "DS"
+        "courtType": null
       },
       {
         "violation": "46.20.740(2) - IGNITION INTERLOCK VIOL-NOTATION ON DR REC-VERIFY INTERLOCK",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
-        "bondBailType": "C/B",
+        "clearance": "TS",
+        "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
         "courtCase": "350441519",
-        "nextCourtDate": "11/25/2026",
+        "nextCourtDate": null,
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "07/21/2026",
-        "courtType": "DS"
+        "courtType": null
       },
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
@@ -77623,7 +77637,7 @@
     "hair": "BLK",
     "eyes": "BRO",
     "inmateId": "40639475",
-    "schedRelease": null,
+    "schedRelease": "08/31/2026",
     "firstSeen": "07/22/2026, 02:28:21",
     "releasedAt": null,
     "status": "in_custody"

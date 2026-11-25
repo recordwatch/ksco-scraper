@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T19:25:34.439Z",
+  "generatedAt": "2026-11-25T19:55:54.496Z",
   "bookingCounts": {
     "total": 3661,
     "inCustody": 226,
@@ -88,7 +88,7 @@
     },
     {
       "label": "Failure to Appear",
-      "count": 764
+      "count": 765
     },
     {
       "label": "DUI",
@@ -146,7 +146,7 @@
   "topAgencies": [
     {
       "label": "KITSAP COUNTY SHERIFFS OFFICE",
-      "count": 3299
+      "count": 3300
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
@@ -186,11 +186,11 @@
     }
   ],
   "bail": {
-    "mean": 26904.86,
+    "mean": 26895.2,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 2393
+    "count": 2392
   },
   "stay": {
     "mean": 22,
@@ -431,8 +431,8 @@
     {
       "category": "DUI",
       "medianBail": 5000,
-      "meanBail": 17370.83,
-      "count": 336
+      "meanBail": 17273.43,
+      "count": 335
     },
     {
       "category": "Domestic Violence",
@@ -572,8 +572,8 @@
       "Protection Order Violation": 182,
       "Traffic / Obstruction": 10,
       "DOC Warrant": 164,
+      "Failure to Appear": 602,
       "Malicious Mischief": 55,
-      "Failure to Appear": 601,
       "Other": 138,
       "DUI": 519,
       "Theft (3rd Degree)": 209,
@@ -820,8 +820,8 @@
       "Protection Order Violation": 184,
       "Traffic / Obstruction": 9,
       "DOC Warrant": 172,
+      "Failure to Appear": 553,
       "Malicious Mischief": 66,
-      "Failure to Appear": 552,
       "Other": 148,
       "DUI": 479,
       "Theft (3rd Degree)": 164,
@@ -1771,7 +1771,7 @@
   "severity": [
     {
       "label": "Misdemeanor",
-      "count": 2708,
+      "count": 2709,
       "pct": 33.7
     },
     {
@@ -1890,7 +1890,7 @@
   "agencyBreakdown": [
     {
       "name": "Kitsap County Sheriff",
-      "count": 3315,
+      "count": 3316,
       "topCharge": "Domestic Violence",
       "chargeBreakdown": [
         {
@@ -1899,7 +1899,7 @@
         },
         {
           "label": "Failure to Appear",
-          "count": 496
+          "count": 497
         },
         {
           "label": "DUI",
@@ -2374,7 +2374,7 @@
       "topCharges": [
         {
           "label": "Failure to Appear",
-          "count": 297
+          "count": 298
         },
         {
           "label": "Domestic Violence",
@@ -2745,7 +2745,7 @@
         "avgWeight": 185,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 549
+        "n": 550
       },
       {
         "charge": "Domestic Violence",
@@ -3423,9 +3423,9 @@
     }
   ],
   "ftaOriginalCharges": {
-    "ftaTotal": 1359,
+    "ftaTotal": 1360,
     "resolved": 753,
-    "unresolved": 606,
+    "unresolved": 607,
     "pctResolved": 55.4,
     "topOriginalCharges": [
       {
