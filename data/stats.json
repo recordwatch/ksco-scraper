@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-26T08:55:41.219Z",
+  "generatedAt": "2026-11-26T09:26:45.872Z",
   "bookingCounts": {
-    "total": 3665,
-    "inCustody": 220,
+    "total": 3666,
+    "inCustody": 221,
     "released": 3445
   },
   "gender": [
@@ -13,7 +13,7 @@
     },
     {
       "label": "Female",
-      "count": 823,
+      "count": 824,
       "pct": 22.5
     },
     {
@@ -25,7 +25,7 @@
   "race": [
     {
       "label": "White",
-      "count": 2610,
+      "count": 2611,
       "pct": 71.2
     },
     {
@@ -65,7 +65,7 @@
       },
       {
         "label": "36–45",
-        "count": 1089
+        "count": 1090
       },
       {
         "label": "46–55",
@@ -112,7 +112,7 @@
     },
     {
       "label": "Protection Order Violation",
-      "count": 250
+      "count": 251
     },
     {
       "label": "Criminal Trespass",
@@ -146,7 +146,7 @@
   "topAgencies": [
     {
       "label": "KITSAP COUNTY SHERIFFS OFFICE",
-      "count": 3306
+      "count": 3307
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
@@ -569,11 +569,11 @@
   ],
   "chargesByRace": {
     "White": {
+      "Protection Order Violation": 183,
       "Domestic Violence": 557,
       "Other": 140,
       "Assault": 175,
       "DUI": 520,
-      "Protection Order Violation": 182,
       "Traffic / Obstruction": 10,
       "DOC Warrant": 164,
       "Criminal Trespass": 185,
@@ -816,6 +816,63 @@
     }
   },
   "chargesBySex": {
+    "Female": {
+      "Protection Order Violation": 56,
+      "DUI": 159,
+      "Ignition Interlock Violation": 17,
+      "Residential Burglary": 6,
+      "Resisting Arrest": 23,
+      "Criminal Trespass": 51,
+      "Domestic Violence": 205,
+      "Theft (3rd Degree)": 89,
+      "Failure to Appear": 193,
+      "Drug Offense": 79,
+      "Motor Vehicle Theft": 8,
+      "Failure to Comply (Sentence)": 10,
+      "Traffic Violation": 2,
+      "Hit and Run": 17,
+      "Driving While License Suspended": 90,
+      "Harassment": 20,
+      "Possession of Stolen Vehicle": 5,
+      "Making False Statements": 16,
+      "Assault": 53,
+      "Obstruction": 37,
+      "DOC Warrant": 29,
+      "Other": 27,
+      "Attempt to Elude": 7,
+      "Theft (2nd Degree)": 34,
+      "Community Custody Violation": 8,
+      "Tampering with Evidence": 1,
+      "Local / Tribal Code": 6,
+      "Indecent Exposure": 3,
+      "Robbery": 3,
+      "Public Order": 5,
+      "Theft (1st Degree)": 4,
+      "Forgery": 2,
+      "Stalking": 1,
+      "Vehicle Prowling": 2,
+      "Weapons": 6,
+      "PR / Bail Revocation": 9,
+      "Interference with DV Reporting": 5,
+      "Fugitive from Justice": 5,
+      "Burglary (2nd Degree)": 16,
+      "Malicious Mischief": 7,
+      "Traffic / Obstruction": 3,
+      "Possession of Stolen Property": 3,
+      "Arson": 1,
+      "Reckless Driving": 8,
+      "Burglary (1st Degree)": 1,
+      "Kidnapping / Unlawful Imprisonment": 1,
+      "Trafficking Stolen Property": 2,
+      "Homicide": 4,
+      "Court Hold": 1,
+      "Human Trafficking": 2,
+      "Assault (Child)": 1,
+      "Child Exploitation / CSAM": 1,
+      "Child Sex Offense": 1,
+      "Sex Offense": 1,
+      "Bribery": 1
+    },
     "Male": {
       "Domestic Violence": 510,
       "Other": 150,
@@ -879,63 +936,6 @@
       "Criminal Impersonation": 5,
       "Human Trafficking": 2,
       "Theft": 1
-    },
-    "Female": {
-      "DUI": 159,
-      "Ignition Interlock Violation": 17,
-      "Residential Burglary": 6,
-      "Resisting Arrest": 23,
-      "Criminal Trespass": 51,
-      "Domestic Violence": 205,
-      "Protection Order Violation": 55,
-      "Theft (3rd Degree)": 89,
-      "Failure to Appear": 193,
-      "Drug Offense": 79,
-      "Motor Vehicle Theft": 8,
-      "Failure to Comply (Sentence)": 10,
-      "Traffic Violation": 2,
-      "Hit and Run": 17,
-      "Driving While License Suspended": 90,
-      "Harassment": 20,
-      "Possession of Stolen Vehicle": 5,
-      "Making False Statements": 16,
-      "Assault": 53,
-      "Obstruction": 37,
-      "DOC Warrant": 29,
-      "Other": 27,
-      "Attempt to Elude": 7,
-      "Theft (2nd Degree)": 34,
-      "Community Custody Violation": 8,
-      "Tampering with Evidence": 1,
-      "Local / Tribal Code": 6,
-      "Indecent Exposure": 3,
-      "Robbery": 3,
-      "Public Order": 5,
-      "Theft (1st Degree)": 4,
-      "Forgery": 2,
-      "Stalking": 1,
-      "Vehicle Prowling": 2,
-      "Weapons": 6,
-      "PR / Bail Revocation": 9,
-      "Interference with DV Reporting": 5,
-      "Fugitive from Justice": 5,
-      "Burglary (2nd Degree)": 16,
-      "Malicious Mischief": 7,
-      "Traffic / Obstruction": 3,
-      "Possession of Stolen Property": 3,
-      "Arson": 1,
-      "Reckless Driving": 8,
-      "Burglary (1st Degree)": 1,
-      "Kidnapping / Unlawful Imprisonment": 1,
-      "Trafficking Stolen Property": 2,
-      "Homicide": 4,
-      "Court Hold": 1,
-      "Human Trafficking": 2,
-      "Assault (Child)": 1,
-      "Child Exploitation / CSAM": 1,
-      "Child Sex Offense": 1,
-      "Sex Offense": 1,
-      "Bribery": 1
     },
     "Unknown": {
       "DUI": 85,
@@ -1033,7 +1033,7 @@
   ],
   "recidivism": {
     "rate": 17,
-    "repeatBookerCount": 498,
+    "repeatBookerCount": 499,
     "totalIndividuals": 2936,
     "repeatBookers": [
       {
@@ -1713,7 +1713,7 @@
     },
     {
       "month": "2026-11",
-      "count": 291
+      "count": 292
     }
   ],
   "crimeTypes": [
@@ -1744,7 +1744,7 @@
     },
     {
       "label": "Order Violations",
-      "count": 429,
+      "count": 430,
       "pct": 7.6
     },
     {
@@ -1776,7 +1776,7 @@
     },
     {
       "label": "Gross Misdemeanor",
-      "count": 2424,
+      "count": 2425,
       "pct": 30.1
     },
     {
@@ -1890,7 +1890,7 @@
   "agencyBreakdown": [
     {
       "name": "Kitsap County Sheriff",
-      "count": 3322,
+      "count": 3323,
       "topCharge": "Domestic Violence",
       "chargeBreakdown": [
         {
@@ -2586,7 +2586,7 @@
         },
         {
           "label": "Order Violations",
-          "count": 142
+          "count": 143
         },
         {
           "label": "Drug",
@@ -2739,6 +2739,274 @@
     }
   ],
   "physicalProfile": {
+    "Female": [
+      {
+        "charge": "Failure to Appear",
+        "avgWeight": 157,
+        "avgHeight": "5'4\"",
+        "topRace": "White",
+        "n": 193
+      },
+      {
+        "charge": "Domestic Violence",
+        "avgWeight": 159,
+        "avgHeight": "5'4\"",
+        "topRace": "White",
+        "n": 192
+      },
+      {
+        "charge": "DUI",
+        "avgWeight": 154,
+        "avgHeight": "5'4\"",
+        "topRace": "White",
+        "n": 153
+      },
+      {
+        "charge": "Driving While License Suspended",
+        "avgWeight": 162,
+        "avgHeight": "5'4\"",
+        "topRace": "White",
+        "n": 89
+      },
+      {
+        "charge": "Theft (3rd Degree)",
+        "avgWeight": 158,
+        "avgHeight": "5'4\"",
+        "topRace": "White",
+        "n": 86
+      },
+      {
+        "charge": "Drug Offense",
+        "avgWeight": 150,
+        "avgHeight": "5'4\"",
+        "topRace": "White",
+        "n": 79
+      },
+      {
+        "charge": "Protection Order Violation",
+        "avgWeight": 159,
+        "avgHeight": "5'4\"",
+        "topRace": "White",
+        "n": 56
+      },
+      {
+        "charge": "Assault",
+        "avgWeight": 156,
+        "avgHeight": "5'5\"",
+        "topRace": "White",
+        "n": 51
+      },
+      {
+        "charge": "Criminal Trespass",
+        "avgWeight": 143,
+        "avgHeight": "5'4\"",
+        "topRace": "White",
+        "n": 48
+      },
+      {
+        "charge": "Obstruction",
+        "avgWeight": 156,
+        "avgHeight": "5'5\"",
+        "topRace": "White",
+        "n": 36
+      },
+      {
+        "charge": "Theft (2nd Degree)",
+        "avgWeight": 168,
+        "avgHeight": "5'4\"",
+        "topRace": "White",
+        "n": 34
+      },
+      {
+        "charge": "DOC Warrant",
+        "avgWeight": 161,
+        "avgHeight": "5'4\"",
+        "topRace": "White",
+        "n": 29
+      },
+      {
+        "charge": "Other",
+        "avgWeight": 180,
+        "avgHeight": "5'5\"",
+        "topRace": "White",
+        "n": 26
+      },
+      {
+        "charge": "Resisting Arrest",
+        "avgWeight": 151,
+        "avgHeight": "5'4\"",
+        "topRace": "White",
+        "n": 23
+      },
+      {
+        "charge": "Harassment",
+        "avgWeight": 145,
+        "avgHeight": "5'6\"",
+        "topRace": "White",
+        "n": 19
+      },
+      {
+        "charge": "Ignition Interlock Violation",
+        "avgWeight": 162,
+        "avgHeight": "5'4\"",
+        "topRace": "White",
+        "n": 17
+      },
+      {
+        "charge": "Making False Statements",
+        "avgWeight": 149,
+        "avgHeight": "5'4\"",
+        "topRace": "White",
+        "n": 16
+      },
+      {
+        "charge": "Burglary (2nd Degree)",
+        "avgWeight": 151,
+        "avgHeight": "5'4\"",
+        "topRace": "White",
+        "n": 16
+      },
+      {
+        "charge": "Hit and Run",
+        "avgWeight": 178,
+        "avgHeight": "5'5\"",
+        "topRace": "White",
+        "n": 15
+      },
+      {
+        "charge": "Failure to Comply (Sentence)",
+        "avgWeight": 184,
+        "avgHeight": "5'6\"",
+        "topRace": "White",
+        "n": 10
+      },
+      {
+        "charge": "PR / Bail Revocation",
+        "avgWeight": 165,
+        "avgHeight": "5'6\"",
+        "topRace": "White",
+        "n": 9
+      },
+      {
+        "charge": "Motor Vehicle Theft",
+        "avgWeight": 164,
+        "avgHeight": "5'4\"",
+        "topRace": "White",
+        "n": 8
+      },
+      {
+        "charge": "Community Custody Violation",
+        "avgWeight": 160,
+        "avgHeight": "5'5\"",
+        "topRace": "White",
+        "n": 8
+      },
+      {
+        "charge": "Reckless Driving",
+        "avgWeight": 157,
+        "avgHeight": "5'4\"",
+        "topRace": "White",
+        "n": 8
+      },
+      {
+        "charge": "Attempt to Elude",
+        "avgWeight": 168,
+        "avgHeight": "5'3\"",
+        "topRace": "White",
+        "n": 7
+      },
+      {
+        "charge": "Malicious Mischief",
+        "avgWeight": 167,
+        "avgHeight": "5'5\"",
+        "topRace": "White",
+        "n": 7
+      },
+      {
+        "charge": "Local / Tribal Code",
+        "avgWeight": 166,
+        "avgHeight": "5'5\"",
+        "topRace": "White",
+        "n": 6
+      },
+      {
+        "charge": "Weapons",
+        "avgWeight": 168,
+        "avgHeight": "5'7\"",
+        "topRace": "White",
+        "n": 6
+      },
+      {
+        "charge": "Residential Burglary",
+        "avgWeight": 187,
+        "avgHeight": "5'5\"",
+        "topRace": "White",
+        "n": 5
+      },
+      {
+        "charge": "Possession of Stolen Vehicle",
+        "avgWeight": 189,
+        "avgHeight": "5'5\"",
+        "topRace": "White",
+        "n": 5
+      },
+      {
+        "charge": "Public Order",
+        "avgWeight": 170,
+        "avgHeight": "5'6\"",
+        "topRace": "White",
+        "n": 5
+      },
+      {
+        "charge": "Interference with DV Reporting",
+        "avgWeight": 129,
+        "avgHeight": "5'3\"",
+        "topRace": "White",
+        "n": 5
+      },
+      {
+        "charge": "Fugitive from Justice",
+        "avgWeight": 144,
+        "avgHeight": "5'2\"",
+        "topRace": "White",
+        "n": 5
+      },
+      {
+        "charge": "Theft (1st Degree)",
+        "avgWeight": 195,
+        "avgHeight": "5'6\"",
+        "topRace": "White",
+        "n": 4
+      },
+      {
+        "charge": "Homicide",
+        "avgWeight": 166,
+        "avgHeight": "5'10\"",
+        "topRace": "White",
+        "n": 4
+      },
+      {
+        "charge": "Robbery",
+        "avgWeight": 161,
+        "avgHeight": "5'5\"",
+        "topRace": "White",
+        "n": 3
+      },
+      {
+        "charge": "Traffic / Obstruction",
+        "avgWeight": 149,
+        "avgHeight": "5'3\"",
+        "topRace": "White",
+        "n": 3
+      },
+      {
+        "charge": "Possession of Stolen Property",
+        "avgWeight": 158,
+        "avgHeight": "5'5\"",
+        "topRace": "White",
+        "n": 3
+      }
+    ],
     "Male": [
       {
         "charge": "Failure to Appear",
@@ -3146,280 +3414,12 @@
         "topRace": "White",
         "n": 4
       }
-    ],
-    "Female": [
-      {
-        "charge": "Failure to Appear",
-        "avgWeight": 157,
-        "avgHeight": "5'4\"",
-        "topRace": "White",
-        "n": 193
-      },
-      {
-        "charge": "Domestic Violence",
-        "avgWeight": 159,
-        "avgHeight": "5'4\"",
-        "topRace": "White",
-        "n": 192
-      },
-      {
-        "charge": "DUI",
-        "avgWeight": 154,
-        "avgHeight": "5'4\"",
-        "topRace": "White",
-        "n": 153
-      },
-      {
-        "charge": "Driving While License Suspended",
-        "avgWeight": 162,
-        "avgHeight": "5'4\"",
-        "topRace": "White",
-        "n": 89
-      },
-      {
-        "charge": "Theft (3rd Degree)",
-        "avgWeight": 158,
-        "avgHeight": "5'4\"",
-        "topRace": "White",
-        "n": 86
-      },
-      {
-        "charge": "Drug Offense",
-        "avgWeight": 150,
-        "avgHeight": "5'4\"",
-        "topRace": "White",
-        "n": 79
-      },
-      {
-        "charge": "Protection Order Violation",
-        "avgWeight": 158,
-        "avgHeight": "5'4\"",
-        "topRace": "White",
-        "n": 55
-      },
-      {
-        "charge": "Assault",
-        "avgWeight": 156,
-        "avgHeight": "5'5\"",
-        "topRace": "White",
-        "n": 51
-      },
-      {
-        "charge": "Criminal Trespass",
-        "avgWeight": 143,
-        "avgHeight": "5'4\"",
-        "topRace": "White",
-        "n": 48
-      },
-      {
-        "charge": "Obstruction",
-        "avgWeight": 156,
-        "avgHeight": "5'5\"",
-        "topRace": "White",
-        "n": 36
-      },
-      {
-        "charge": "Theft (2nd Degree)",
-        "avgWeight": 168,
-        "avgHeight": "5'4\"",
-        "topRace": "White",
-        "n": 34
-      },
-      {
-        "charge": "DOC Warrant",
-        "avgWeight": 161,
-        "avgHeight": "5'4\"",
-        "topRace": "White",
-        "n": 29
-      },
-      {
-        "charge": "Other",
-        "avgWeight": 180,
-        "avgHeight": "5'5\"",
-        "topRace": "White",
-        "n": 26
-      },
-      {
-        "charge": "Resisting Arrest",
-        "avgWeight": 151,
-        "avgHeight": "5'4\"",
-        "topRace": "White",
-        "n": 23
-      },
-      {
-        "charge": "Harassment",
-        "avgWeight": 145,
-        "avgHeight": "5'6\"",
-        "topRace": "White",
-        "n": 19
-      },
-      {
-        "charge": "Ignition Interlock Violation",
-        "avgWeight": 162,
-        "avgHeight": "5'4\"",
-        "topRace": "White",
-        "n": 17
-      },
-      {
-        "charge": "Making False Statements",
-        "avgWeight": 149,
-        "avgHeight": "5'4\"",
-        "topRace": "White",
-        "n": 16
-      },
-      {
-        "charge": "Burglary (2nd Degree)",
-        "avgWeight": 151,
-        "avgHeight": "5'4\"",
-        "topRace": "White",
-        "n": 16
-      },
-      {
-        "charge": "Hit and Run",
-        "avgWeight": 178,
-        "avgHeight": "5'5\"",
-        "topRace": "White",
-        "n": 15
-      },
-      {
-        "charge": "Failure to Comply (Sentence)",
-        "avgWeight": 184,
-        "avgHeight": "5'6\"",
-        "topRace": "White",
-        "n": 10
-      },
-      {
-        "charge": "PR / Bail Revocation",
-        "avgWeight": 165,
-        "avgHeight": "5'6\"",
-        "topRace": "White",
-        "n": 9
-      },
-      {
-        "charge": "Motor Vehicle Theft",
-        "avgWeight": 164,
-        "avgHeight": "5'4\"",
-        "topRace": "White",
-        "n": 8
-      },
-      {
-        "charge": "Community Custody Violation",
-        "avgWeight": 160,
-        "avgHeight": "5'5\"",
-        "topRace": "White",
-        "n": 8
-      },
-      {
-        "charge": "Reckless Driving",
-        "avgWeight": 157,
-        "avgHeight": "5'4\"",
-        "topRace": "White",
-        "n": 8
-      },
-      {
-        "charge": "Attempt to Elude",
-        "avgWeight": 168,
-        "avgHeight": "5'3\"",
-        "topRace": "White",
-        "n": 7
-      },
-      {
-        "charge": "Malicious Mischief",
-        "avgWeight": 167,
-        "avgHeight": "5'5\"",
-        "topRace": "White",
-        "n": 7
-      },
-      {
-        "charge": "Local / Tribal Code",
-        "avgWeight": 166,
-        "avgHeight": "5'5\"",
-        "topRace": "White",
-        "n": 6
-      },
-      {
-        "charge": "Weapons",
-        "avgWeight": 168,
-        "avgHeight": "5'7\"",
-        "topRace": "White",
-        "n": 6
-      },
-      {
-        "charge": "Residential Burglary",
-        "avgWeight": 187,
-        "avgHeight": "5'5\"",
-        "topRace": "White",
-        "n": 5
-      },
-      {
-        "charge": "Possession of Stolen Vehicle",
-        "avgWeight": 189,
-        "avgHeight": "5'5\"",
-        "topRace": "White",
-        "n": 5
-      },
-      {
-        "charge": "Public Order",
-        "avgWeight": 170,
-        "avgHeight": "5'6\"",
-        "topRace": "White",
-        "n": 5
-      },
-      {
-        "charge": "Interference with DV Reporting",
-        "avgWeight": 129,
-        "avgHeight": "5'3\"",
-        "topRace": "White",
-        "n": 5
-      },
-      {
-        "charge": "Fugitive from Justice",
-        "avgWeight": 144,
-        "avgHeight": "5'2\"",
-        "topRace": "White",
-        "n": 5
-      },
-      {
-        "charge": "Theft (1st Degree)",
-        "avgWeight": 195,
-        "avgHeight": "5'6\"",
-        "topRace": "White",
-        "n": 4
-      },
-      {
-        "charge": "Homicide",
-        "avgWeight": 166,
-        "avgHeight": "5'10\"",
-        "topRace": "White",
-        "n": 4
-      },
-      {
-        "charge": "Robbery",
-        "avgWeight": 161,
-        "avgHeight": "5'5\"",
-        "topRace": "White",
-        "n": 3
-      },
-      {
-        "charge": "Traffic / Obstruction",
-        "avgWeight": 149,
-        "avgHeight": "5'3\"",
-        "topRace": "White",
-        "n": 3
-      },
-      {
-        "charge": "Possession of Stolen Property",
-        "avgWeight": 158,
-        "avgHeight": "5'5\"",
-        "topRace": "White",
-        "n": 3
-      }
     ]
   },
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 3662
+      "count": 3663
     }
   ],
   "ftaOriginalCharges": {
