@@ -169648,9 +169648,9 @@
       }
     ],
     "totalBond": null,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "11/06/2026, 12:18:44",
-    "releasedAt": null
+    "releasedAt": "11/26/2026, 07:23:32"
   },
   "2026004886": {
     "bookingNumber": "2026004886",
@@ -181483,15 +181483,69 @@
     "detailUrl": "https://incustody.kitsap.gov/Home/BookingSearchResult?LastName=%25&FirstName=&BookingFrom=&BookingTo=&ValidSearch=&sort=BookingDate&sortdir=DESC&page=16&BookingNumber=1",
     "inmateId": "40591082",
     "schedRelease": null,
-    "age": "26",
+    "age": "36",
     "height": "502",
     "weight": "150",
     "hair": "BLK",
     "eyes": "BLK",
-    "charges": [],
+    "charges": [
+      {
+        "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 7500,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "11/30/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "11/26/2026",
+        "courtType": "BM"
+      }
+    ],
     "totalBond": null,
     "status": "in_custody",
     "firstSeen": "11/26/2026, 06:53:31",
+    "releasedAt": null
+  },
+  "2026005160": {
+    "bookingNumber": "2026005160",
+    "firstName": "TINA",
+    "lastName": "YAKSIC",
+    "middleName": "MARIE",
+    "race": "W",
+    "sex": "F",
+    "bookingDate": "",
+    "releaseDate": "",
+    "schReleaseDate": "",
+    "detailUrl": "https://incustody.kitsap.gov/Home/BookingSearchResult?LastName=%25&FirstName=&BookingFrom=&BookingTo=&ValidSearch=&sort=BookingDate&sortdir=DESC&page=16&BookingNumber=1",
+    "inmateId": "40236253",
+    "schedRelease": null,
+    "age": "35",
+    "height": "501",
+    "weight": "180",
+    "hair": "BLK",
+    "eyes": "BRO",
+    "charges": [
+      {
+        "violation": "9A.46.020(2)(B) - HARASSMENT PREV CONV OR THREAT TO KILL",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 10000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "11/30/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "11/26/2026",
+        "courtType": "SC"
+      }
+    ],
+    "totalBond": 10000,
+    "status": "in_custody",
+    "firstSeen": "11/26/2026, 07:23:32",
     "releasedAt": null
   }
 }
