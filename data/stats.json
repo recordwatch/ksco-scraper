@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-27T19:25:58.011Z",
+  "generatedAt": "2026-11-27T19:55:44.775Z",
   "bookingCounts": {
     "total": 3682,
     "inCustody": 224,
@@ -92,7 +92,7 @@
     },
     {
       "label": "DUI",
-      "count": 726
+      "count": 727
     },
     {
       "label": "Driving While License Suspended",
@@ -108,7 +108,7 @@
     },
     {
       "label": "Theft (3rd Degree)",
-      "count": 266
+      "count": 267
     },
     {
       "label": "Protection Order Violation",
@@ -128,7 +128,7 @@
     },
     {
       "label": "Obstruction",
-      "count": 182
+      "count": 183
     },
     {
       "label": "Harassment",
@@ -150,7 +150,7 @@
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
-      "count": 2539
+      "count": 2545
     },
     {
       "label": "PORT ORCHARD POLICE DEPARTMENT",
@@ -186,11 +186,11 @@
     }
   ],
   "bail": {
-    "mean": 26766.44,
+    "mean": 26702.99,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 2407
+    "count": 2413
   },
   "stay": {
     "mean": 22,
@@ -423,16 +423,22 @@
       "count": 11
     },
     {
+      "category": "DUI",
+      "medianBail": 5000,
+      "meanBail": 17164.99,
+      "count": 337
+    },
+    {
+      "category": "Obstruction",
+      "medianBail": 5000,
+      "meanBail": 5151.16,
+      "count": 43
+    },
+    {
       "category": "Traffic Violation",
       "medianBail": 5000,
       "meanBail": 4166.67,
       "count": 3
-    },
-    {
-      "category": "DUI",
-      "medianBail": 5000,
-      "meanBail": 17214.58,
-      "count": 336
     },
     {
       "category": "Hit and Run",
@@ -463,12 +469,6 @@
       "medianBail": 5000,
       "meanBail": 42253.67,
       "count": 218
-    },
-    {
-      "category": "Obstruction",
-      "medianBail": 5000,
-      "meanBail": 5261.9,
-      "count": 42
     },
     {
       "category": "Malicious Mischief",
@@ -513,28 +513,28 @@
       "count": 2
     },
     {
+      "category": "Theft (3rd Degree)",
+      "medianBail": 2500,
+      "meanBail": 4105.88,
+      "count": 119
+    },
+    {
       "category": "Failure to Appear",
       "medianBail": 2500,
-      "meanBail": 8693.84,
-      "count": 411
+      "meanBail": 8673.96,
+      "count": 412
+    },
+    {
+      "category": "Making False Statements",
+      "medianBail": 2500,
+      "meanBail": 3897.92,
+      "count": 24
     },
     {
       "category": "Driving While License Suspended",
       "medianBail": 2500,
       "meanBail": 3643.35,
       "count": 248
-    },
-    {
-      "category": "Theft (3rd Degree)",
-      "medianBail": 2500,
-      "meanBail": 4167.52,
-      "count": 117
-    },
-    {
-      "category": "Making False Statements",
-      "medianBail": 2500,
-      "meanBail": 3850,
-      "count": 23
     },
     {
       "category": "Drug Offense",
@@ -569,14 +569,16 @@
   ],
   "chargesByRace": {
     "Native American": {
+      "Theft (3rd Degree)": 11,
+      "DUI": 16,
+      "Obstruction": 7,
       "Failure to Appear": 34,
-      "Theft (3rd Degree)": 10,
+      "Making False Statements": 2,
       "DOC Warrant": 6,
       "Local / Tribal Code": 24,
       "Traffic Violation": 1,
       "Reckless Driving": 1,
       "Assault": 15,
-      "DUI": 15,
       "Drug Offense": 12,
       "Domestic Violence": 14,
       "Community Custody Violation": 2,
@@ -587,7 +589,6 @@
       "Kidnapping / Unlawful Imprisonment": 1,
       "Protection Order Violation": 4,
       "Criminal Trespass": 8,
-      "Obstruction": 6,
       "Harassment": 3,
       "Other": 3,
       "Hit and Run": 3,
@@ -598,7 +599,6 @@
       "Malicious Mischief": 4,
       "Vehicle Prowling": 1,
       "Attempt to Elude": 1,
-      "Making False Statements": 1,
       "Residential Burglary": 1,
       "Theft (2nd Degree)": 2,
       "Ignition Interlock Violation": 1,
@@ -817,26 +817,26 @@
   },
   "chargesBySex": {
     "Female": {
+      "Theft (3rd Degree)": 90,
+      "DUI": 160,
+      "Obstruction": 38,
       "Failure to Appear": 194,
+      "Making False Statements": 17,
       "Domestic Violence": 207,
       "Driving While License Suspended": 91,
       "Harassment": 21,
       "Protection Order Violation": 56,
-      "DUI": 159,
       "Ignition Interlock Violation": 17,
       "Residential Burglary": 6,
       "Resisting Arrest": 23,
       "Criminal Trespass": 51,
-      "Theft (3rd Degree)": 89,
       "Drug Offense": 79,
       "Motor Vehicle Theft": 8,
       "Failure to Comply (Sentence)": 10,
       "Traffic Violation": 2,
       "Hit and Run": 17,
       "Possession of Stolen Vehicle": 5,
-      "Making False Statements": 16,
       "Assault": 53,
-      "Obstruction": 37,
       "DOC Warrant": 29,
       "Other": 27,
       "Attempt to Elude": 7,
@@ -1724,7 +1724,7 @@
   "crimeTypes": [
     {
       "label": "Traffic / DUI",
-      "count": 1173,
+      "count": 1174,
       "pct": 20.7
     },
     {
@@ -1735,16 +1735,16 @@
     {
       "label": "Court / Supervision",
       "count": 1068,
-      "pct": 18.9
+      "pct": 18.8
     },
     {
       "label": "Property",
-      "count": 776,
+      "count": 777,
       "pct": 13.7
     },
     {
       "label": "Other",
-      "count": 508,
+      "count": 509,
       "pct": 9
     },
     {
@@ -1759,7 +1759,7 @@
     },
     {
       "label": "Fraud / Identity",
-      "count": 102,
+      "count": 103,
       "pct": 1.8
     },
     {
@@ -1776,13 +1776,13 @@
   "severity": [
     {
       "label": "Misdemeanor",
-      "count": 2719,
+      "count": 2724,
       "pct": 33.7
     },
     {
       "label": "Gross Misdemeanor",
       "count": 2437,
-      "pct": 30.2
+      "pct": 30.1
     },
     {
       "label": "Felony",
@@ -1791,7 +1791,7 @@
     },
     {
       "label": "Unknown",
-      "count": 1269,
+      "count": 1270,
       "pct": 15.7
     }
   ],
@@ -1922,12 +1922,12 @@
     },
     {
       "name": "Bremerton PD",
-      "count": 2539,
+      "count": 2545,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
           "label": "Failure to Appear",
-          "count": 367
+          "count": 368
         },
         {
           "label": "Domestic Violence",
@@ -2362,7 +2362,7 @@
         },
         {
           "label": "DUI",
-          "count": 209
+          "count": 210
         },
         {
           "label": "Driving While License Suspended",
@@ -2526,7 +2526,7 @@
       "crimeTypes": [
         {
           "label": "Traffic / DUI",
-          "count": 334
+          "count": 335
         },
         {
           "label": "Court / Supervision",
@@ -2538,11 +2538,11 @@
         },
         {
           "label": "Property",
-          "count": 194
+          "count": 195
         },
         {
           "label": "Other",
-          "count": 153
+          "count": 154
         },
         {
           "label": "Order Violations",
@@ -2554,7 +2554,7 @@
         },
         {
           "label": "Fraud / Identity",
-          "count": 33
+          "count": 34
         },
         {
           "label": "Weapons",
@@ -2764,7 +2764,7 @@
         "avgWeight": 154,
         "avgHeight": "5'4\"",
         "topRace": "White",
-        "n": 153
+        "n": 154
       },
       {
         "charge": "Driving While License Suspended",
@@ -2778,7 +2778,7 @@
         "avgWeight": 158,
         "avgHeight": "5'4\"",
         "topRace": "White",
-        "n": 86
+        "n": 87
       },
       {
         "charge": "Drug Offense",
@@ -2813,7 +2813,7 @@
         "avgWeight": 156,
         "avgHeight": "5'5\"",
         "topRace": "White",
-        "n": 36
+        "n": 37
       },
       {
         "charge": "Theft (2nd Degree)",
@@ -2851,18 +2851,18 @@
         "n": 20
       },
       {
-        "charge": "Ignition Interlock Violation",
-        "avgWeight": 162,
+        "charge": "Making False Statements",
+        "avgWeight": 150,
         "avgHeight": "5'4\"",
         "topRace": "White",
         "n": 17
       },
       {
-        "charge": "Making False Statements",
-        "avgWeight": 149,
+        "charge": "Ignition Interlock Violation",
+        "avgWeight": 162,
         "avgHeight": "5'4\"",
         "topRace": "White",
-        "n": 16
+        "n": 17
       },
       {
         "charge": "Burglary (2nd Degree)",
@@ -3429,9 +3429,9 @@
   ],
   "ftaOriginalCharges": {
     "ftaTotal": 1363,
-    "resolved": 754,
-    "unresolved": 609,
-    "pctResolved": 55.3,
+    "resolved": 755,
+    "unresolved": 608,
+    "pctResolved": 55.4,
     "topOriginalCharges": [
       {
         "label": "Domestic Violence",
@@ -3447,7 +3447,7 @@
       },
       {
         "label": "Theft (3rd Degree)",
-        "count": 107
+        "count": 108
       },
       {
         "label": "Drug Offense",
