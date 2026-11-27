@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-27T16:25:59.115Z",
+  "generatedAt": "2026-11-27T16:55:55.026Z",
   "bookingCounts": {
-    "total": 3679,
-    "inCustody": 224,
+    "total": 3680,
+    "inCustody": 225,
     "released": 3455
   },
   "gender": [
     {
       "label": "Male",
-      "count": 2520,
+      "count": 2521,
       "pct": 68.5
     },
     {
@@ -25,13 +25,13 @@
   "race": [
     {
       "label": "White",
-      "count": 2620,
+      "count": 2621,
       "pct": 71.2
     },
     {
       "label": "Unknown",
       "count": 425,
-      "pct": 11.6
+      "pct": 11.5
     },
     {
       "label": "Black",
@@ -77,7 +77,7 @@
       },
       {
         "label": "65+",
-        "count": 99
+        "count": 100
       }
     ]
   },
@@ -116,7 +116,7 @@
     },
     {
       "label": "Criminal Trespass",
-      "count": 246
+      "count": 247
     },
     {
       "label": "DOC Warrant",
@@ -150,7 +150,7 @@
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
-      "count": 2535
+      "count": 2536
     },
     {
       "label": "PORT ORCHARD POLICE DEPARTMENT",
@@ -186,11 +186,11 @@
     }
   ],
   "bail": {
-    "mean": 26822.85,
+    "mean": 26795.47,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 2403
+    "count": 2404
   },
   "stay": {
     "mean": 22,
@@ -303,12 +303,6 @@
       "count": 7
     },
     {
-      "category": "Burglary (2nd Degree)",
-      "medianBail": 50000,
-      "meanBail": 38910.71,
-      "count": 28
-    },
-    {
       "category": "Theft (1st Degree)",
       "medianBail": 50000,
       "meanBail": 49100,
@@ -331,6 +325,12 @@
       "medianBail": 50000,
       "meanBail": 50000,
       "count": 1
+    },
+    {
+      "category": "Burglary (2nd Degree)",
+      "medianBail": 40000,
+      "meanBail": 37482.14,
+      "count": 28
     },
     {
       "category": "Sex Offense",
@@ -545,8 +545,8 @@
     {
       "category": "Criminal Trespass",
       "medianBail": 1000,
-      "meanBail": 2971.07,
-      "count": 121
+      "meanBail": 2954.92,
+      "count": 122
     },
     {
       "category": "Resisting Arrest",
@@ -569,6 +569,7 @@
   ],
   "chargesByRace": {
     "White": {
+      "Criminal Trespass": 186,
       "Failure to Appear": 603,
       "DUI": 522,
       "Hit and Run": 70,
@@ -582,7 +583,6 @@
       "Assault": 175,
       "Traffic / Obstruction": 10,
       "DOC Warrant": 164,
-      "Criminal Trespass": 185,
       "Malicious Mischief": 55,
       "Theft (3rd Degree)": 209,
       "Failure to Register (Sex Offender)": 11,
@@ -817,6 +817,7 @@
   },
   "chargesBySex": {
     "Male": {
+      "Criminal Trespass": 185,
       "Failure to Appear": 554,
       "DUI": 482,
       "Hit and Run": 75,
@@ -831,7 +832,6 @@
       "Protection Order Violation": 184,
       "Traffic / Obstruction": 9,
       "DOC Warrant": 172,
-      "Criminal Trespass": 184,
       "Malicious Mischief": 66,
       "Failure to Register (Sex Offender)": 14,
       "Traffic Violation": 7,
@@ -1718,7 +1718,7 @@
     },
     {
       "month": "2026-11",
-      "count": 305
+      "count": 306
     }
   ],
   "crimeTypes": [
@@ -1739,7 +1739,7 @@
     },
     {
       "label": "Property",
-      "count": 775,
+      "count": 776,
       "pct": 13.7
     },
     {
@@ -1776,7 +1776,7 @@
   "severity": [
     {
       "label": "Misdemeanor",
-      "count": 2715,
+      "count": 2716,
       "pct": 33.6
     },
     {
@@ -1922,7 +1922,7 @@
     },
     {
       "name": "Bremerton PD",
-      "count": 2535,
+      "count": 2536,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -1943,7 +1943,7 @@
         },
         {
           "label": "Criminal Trespass",
-          "count": 169
+          "count": 170
         }
       ]
     },
@@ -2462,7 +2462,7 @@
         },
         {
           "label": "Criminal Trespass",
-          "count": 10
+          "count": 11
         },
         {
           "label": "Assault",
@@ -2714,7 +2714,7 @@
         },
         {
           "label": "Property",
-          "count": 13
+          "count": 14
         },
         {
           "label": "Court / Supervision",
@@ -2788,18 +2788,18 @@
         "n": 191
       },
       {
-        "charge": "Protection Order Violation",
-        "avgWeight": 191,
+        "charge": "Criminal Trespass",
+        "avgWeight": 180,
         "avgHeight": "5'10\"",
         "topRace": "White",
         "n": 183
       },
       {
-        "charge": "Criminal Trespass",
-        "avgWeight": 180,
+        "charge": "Protection Order Violation",
+        "avgWeight": 191,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 182
+        "n": 183
       },
       {
         "charge": "DOC Warrant",
@@ -3424,7 +3424,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 3676
+      "count": 3677
     }
   ],
   "ftaOriginalCharges": {

@@ -181587,7 +181587,7 @@
         "addDesc": null,
         "clearance": null,
         "bondBailType": "C/B",
-        "bondAmount": 50000,
+        "bondAmount": 10000,
         "cashAmount": null,
         "courtCase": null,
         "nextCourtDate": "11/30/2026",
@@ -182021,5 +182021,44 @@
     "status": "released",
     "firstSeen": "11/27/2026, 04:23:29",
     "releasedAt": "11/27/2026, 04:53:32"
+  },
+  "2026005171": {
+    "bookingNumber": "2026005171",
+    "firstName": "RICHARD",
+    "lastName": "VAUGHN",
+    "middleName": "NOEL",
+    "race": "W",
+    "sex": "M",
+    "bookingDate": "",
+    "releaseDate": "",
+    "schReleaseDate": "",
+    "detailUrl": "https://incustody.kitsap.gov/Home/BookingSearchResult?LastName=%25&FirstName=&BookingFrom=&BookingTo=&ValidSearch=&sort=BookingDate&sortdir=DESC&page=16&BookingNumber=4",
+    "inmateId": "10010427",
+    "schedRelease": null,
+    "age": "71",
+    "height": "602",
+    "weight": "150",
+    "hair": "GRY",
+    "eyes": "BRO",
+    "charges": [
+      {
+        "violation": "9A.52.080(2) - CRIMINAL TRESPASS-2",
+        "cleared": false,
+        "addDesc": "CRIM TRESS",
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 1000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "11/30/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "11/27/2026",
+        "courtType": "BM"
+      }
+    ],
+    "totalBond": 1000,
+    "status": "in_custody",
+    "firstSeen": "11/27/2026, 08:53:31",
+    "releasedAt": null
   }
 }
