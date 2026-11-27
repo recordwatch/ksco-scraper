@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-27T12:25:47.451Z",
+  "generatedAt": "2026-11-27T12:55:53.419Z",
   "bookingCounts": {
     "total": 3679,
-    "inCustody": 227,
-    "released": 3452
+    "inCustody": 226,
+    "released": 3453
   },
   "gender": [
     {
@@ -88,7 +88,7 @@
     },
     {
       "label": "Failure to Appear",
-      "count": 765
+      "count": 766
     },
     {
       "label": "DUI",
@@ -146,7 +146,7 @@
   "topAgencies": [
     {
       "label": "KITSAP COUNTY SHERIFFS OFFICE",
-      "count": 3315
+      "count": 3317
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
@@ -186,22 +186,22 @@
     }
   ],
   "bail": {
-    "mean": 26842.7,
+    "mean": 26822.85,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 2401
+    "count": 2403
   },
   "stay": {
     "mean": 21.9,
     "median": 2.1,
     "min": 0,
     "max": 1233.4,
-    "count": 3371,
+    "count": 3372,
     "histogram": [
       {
         "label": "< 1 day",
-        "count": 1141
+        "count": 1142
       },
       {
         "label": "1–3 days",
@@ -515,8 +515,8 @@
     {
       "category": "Failure to Appear",
       "medianBail": 2500,
-      "meanBail": 8741.84,
-      "count": 408
+      "meanBail": 8713.83,
+      "count": 410
     },
     {
       "category": "Theft (3rd Degree)",
@@ -569,9 +569,9 @@
   ],
   "chargesByRace": {
     "White": {
+      "Failure to Appear": 603,
       "DUI": 522,
       "Hit and Run": 70,
-      "Failure to Appear": 602,
       "Other": 141,
       "Attempt to Elude": 33,
       "Driving While License Suspended": 330,
@@ -817,10 +817,10 @@
   },
   "chargesBySex": {
     "Male": {
+      "Failure to Appear": 554,
       "DUI": 482,
       "Hit and Run": 75,
       "Reckless Driving": 32,
-      "Failure to Appear": 553,
       "Other": 151,
       "Attempt to Elude": 37,
       "Theft (3rd Degree)": 165,
@@ -988,7 +988,7 @@
   "releaseReasons": [
     {
       "label": "FTA / Contempt Resolved",
-      "count": 1178
+      "count": 1179
     },
     {
       "label": "Released (Unknown Reason)",
@@ -1734,7 +1734,7 @@
     },
     {
       "label": "Court / Supervision",
-      "count": 1066,
+      "count": 1067,
       "pct": 18.8
     },
     {
@@ -1776,7 +1776,7 @@
   "severity": [
     {
       "label": "Misdemeanor",
-      "count": 2713,
+      "count": 2715,
       "pct": 33.6
     },
     {
@@ -1881,9 +1881,9 @@
     },
     {
       "category": "Failure to Appear",
-      "avgDays": 13.2,
+      "avgDays": 13.1,
       "medianDays": 1.7,
-      "count": 226
+      "count": 227
     },
     {
       "category": "Burglary (2nd Degree)",
@@ -1895,7 +1895,7 @@
   "agencyBreakdown": [
     {
       "name": "Kitsap County Sheriff",
-      "count": 3331,
+      "count": 3333,
       "topCharge": "Domestic Violence",
       "chargeBreakdown": [
         {
@@ -1904,7 +1904,7 @@
         },
         {
           "label": "Failure to Appear",
-          "count": 497
+          "count": 499
         },
         {
           "label": "DUI",
@@ -2319,8 +2319,8 @@
     }
   ],
   "bailOnRelease": {
-    "total": 3452,
-    "withBail": 1535,
+    "total": 3453,
+    "withBail": 1536,
     "pct": 44.5
   },
   "chargesByAgeGroup": [
@@ -2379,7 +2379,7 @@
       "topCharges": [
         {
           "label": "Failure to Appear",
-          "count": 298
+          "count": 299
         },
         {
           "label": "Domestic Violence",
@@ -2571,7 +2571,7 @@
       "crimeTypes": [
         {
           "label": "Court / Supervision",
-          "count": 402
+          "count": 403
         },
         {
           "label": "Violent",
@@ -2750,7 +2750,7 @@
         "avgWeight": 185,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 550
+        "n": 551
       },
       {
         "charge": "Domestic Violence",
@@ -3428,9 +3428,9 @@
     }
   ],
   "ftaOriginalCharges": {
-    "ftaTotal": 1361,
+    "ftaTotal": 1362,
     "resolved": 754,
-    "unresolved": 607,
+    "unresolved": 608,
     "pctResolved": 55.4,
     "topOriginalCharges": [
       {
