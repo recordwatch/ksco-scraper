@@ -178794,9 +178794,9 @@
     "charges": [
       {
         "violation": "9A.36.021(2)(A) - ASSAULT-2",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": 10000,
         "cashAmount": null,
@@ -182250,12 +182250,27 @@
     "detailUrl": "https://incustody.kitsap.gov/Home/BookingSearchResult?LastName=%25&FirstName=&BookingFrom=&BookingTo=&ValidSearch=&sort=BookingDate&sortdir=DESC&page=16&BookingNumber=3",
     "inmateId": "40247229",
     "schedRelease": null,
-    "age": "38",
+    "age": "39",
     "height": "510",
     "weight": "220",
     "hair": "BLK",
     "eyes": "BRO",
-    "charges": [],
+    "charges": [
+      {
+        "violation": "46.20.342(1)(B) - DWLS 2 - DRIVE W/LICENSE SUSP OR REVOKED-2",
+        "cleared": true,
+        "addDesc": null,
+        "clearance": "BR",
+        "bondBailType": "C/B",
+        "bondAmount": 5000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "11/30/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "11/27/2026",
+        "courtType": "BM"
+      }
+    ],
     "totalBond": null,
     "status": "in_custody",
     "firstSeen": "11/27/2026, 13:23:35",
