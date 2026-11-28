@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-28T03:25:49.680Z",
+  "generatedAt": "2026-11-28T03:56:02.225Z",
   "bookingCounts": {
-    "total": 3686,
-    "inCustody": 223,
+    "total": 3687,
+    "inCustody": 224,
     "released": 3463
   },
   "gender": [
     {
       "label": "Male",
-      "count": 2525,
+      "count": 2526,
       "pct": 68.5
     },
     {
@@ -25,7 +25,7 @@
   "race": [
     {
       "label": "White",
-      "count": 2623,
+      "count": 2624,
       "pct": 71.2
     },
     {
@@ -61,7 +61,7 @@
       },
       {
         "label": "26–35",
-        "count": 1027
+        "count": 1028
       },
       {
         "label": "36–45",
@@ -96,7 +96,7 @@
     },
     {
       "label": "Driving While License Suspended",
-      "count": 462
+      "count": 463
     },
     {
       "label": "Drug Offense",
@@ -136,7 +136,7 @@
     },
     {
       "label": "Ignition Interlock Violation",
-      "count": 110
+      "count": 111
     },
     {
       "label": "Theft (2nd Degree)",
@@ -146,7 +146,7 @@
   "topAgencies": [
     {
       "label": "KITSAP COUNTY SHERIFFS OFFICE",
-      "count": 3318
+      "count": 3320
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
@@ -186,11 +186,11 @@
     }
   ],
   "bail": {
-    "mean": 26655.36,
+    "mean": 26634.37,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 2419
+    "count": 2421
   },
   "stay": {
     "mean": 21.9,
@@ -423,6 +423,12 @@
       "count": 11
     },
     {
+      "category": "Ignition Interlock Violation",
+      "medianBail": 5000,
+      "meanBail": 9358.33,
+      "count": 30
+    },
+    {
       "category": "Public Order",
       "medianBail": 5000,
       "meanBail": 5833.33,
@@ -463,12 +469,6 @@
       "medianBail": 5000,
       "meanBail": 7974.68,
       "count": 79
-    },
-    {
-      "category": "Ignition Interlock Violation",
-      "medianBail": 5000,
-      "meanBail": 9637.93,
-      "count": 29
     },
     {
       "category": "Domestic Violence",
@@ -513,6 +513,12 @@
       "count": 2
     },
     {
+      "category": "Driving While License Suspended",
+      "medianBail": 2500,
+      "meanBail": 3639.2,
+      "count": 250
+    },
+    {
       "category": "Making False Statements",
       "medianBail": 2500,
       "meanBail": 3942,
@@ -523,12 +529,6 @@
       "medianBail": 2500,
       "meanBail": 6079.63,
       "count": 135
-    },
-    {
-      "category": "Driving While License Suspended",
-      "medianBail": 2500,
-      "meanBail": 3648.8,
-      "count": 249
     },
     {
       "category": "Theft (3rd Degree)",
@@ -569,6 +569,8 @@
   ],
   "chargesByRace": {
     "White": {
+      "Driving While License Suspended": 331,
+      "Ignition Interlock Violation": 85,
       "Public Order": 11,
       "Making False Statements": 63,
       "Drug Offense": 282,
@@ -579,7 +581,6 @@
       "Hit and Run": 70,
       "Other": 141,
       "Attempt to Elude": 33,
-      "Driving While License Suspended": 330,
       "Burglary (2nd Degree)": 57,
       "Domestic Violence": 558,
       "Protection Order Violation": 183,
@@ -592,7 +593,6 @@
       "Burglary (1st Degree)": 10,
       "Forgery": 9,
       "Obstruction": 131,
-      "Ignition Interlock Violation": 84,
       "Motor Vehicle Theft": 24,
       "Reckless Driving": 31,
       "Community Custody Violation": 25,
@@ -817,13 +817,14 @@
   },
   "chargesBySex": {
     "Male": {
+      "Driving While License Suspended": 343,
+      "Ignition Interlock Violation": 89,
       "Public Order": 8,
       "Making False Statements": 61,
       "Drug Offense": 265,
       "Harassment": 120,
       "Assault": 197,
       "Obstruction": 128,
-      "Driving While License Suspended": 342,
       "Criminal Trespass": 185,
       "Failure to Appear": 554,
       "DUI": 482,
@@ -843,7 +844,6 @@
       "Local / Tribal Code": 47,
       "Burglary (1st Degree)": 17,
       "Forgery": 8,
-      "Ignition Interlock Violation": 88,
       "Community Custody Violation": 27,
       "Possession of Stolen Property": 22,
       "Trafficking Stolen Property": 15,
@@ -1718,19 +1718,19 @@
     },
     {
       "month": "2026-11",
-      "count": 312
+      "count": 313
     }
   ],
   "crimeTypes": [
     {
       "label": "Traffic / DUI",
-      "count": 1175,
+      "count": 1176,
       "pct": 20.7
     },
     {
       "label": "Violent",
       "count": 1070,
-      "pct": 18.9
+      "pct": 18.8
     },
     {
       "label": "Court / Supervision",
@@ -1776,7 +1776,7 @@
   "severity": [
     {
       "label": "Misdemeanor",
-      "count": 2724,
+      "count": 2726,
       "pct": 33.7
     },
     {
@@ -1895,7 +1895,7 @@
   "agencyBreakdown": [
     {
       "name": "Kitsap County Sheriff",
-      "count": 3334,
+      "count": 3336,
       "topCharge": "Domestic Violence",
       "chargeBreakdown": [
         {
@@ -1912,7 +1912,7 @@
         },
         {
           "label": "Driving While License Suspended",
-          "count": 209
+          "count": 210
         },
         {
           "label": "Assault",
@@ -2366,7 +2366,7 @@
         },
         {
           "label": "Driving While License Suspended",
-          "count": 145
+          "count": 146
         },
         {
           "label": "Drug Offense",
@@ -2526,7 +2526,7 @@
       "crimeTypes": [
         {
           "label": "Traffic / DUI",
-          "count": 335
+          "count": 336
         },
         {
           "label": "Court / Supervision",
@@ -2771,7 +2771,7 @@
         "avgWeight": 184,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 334
+        "n": 335
       },
       {
         "charge": "Drug Offense",
@@ -2841,7 +2841,7 @@
         "avgWeight": 175,
         "avgHeight": "5'8\"",
         "topRace": "White",
-        "n": 87
+        "n": 88
       },
       {
         "charge": "Hit and Run",
@@ -3424,7 +3424,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 3683
+      "count": 3684
     }
   ],
   "ftaOriginalCharges": {
