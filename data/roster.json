@@ -182877,9 +182877,9 @@
       }
     ],
     "totalBond": null,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "11/28/2026, 02:53:33",
-    "releasedAt": null
+    "releasedAt": "11/28/2026, 10:23:31"
   },
   "2026005188": {
     "bookingNumber": "2026005188",
@@ -183010,6 +183010,45 @@
     "totalBond": 1000,
     "status": "in_custody",
     "firstSeen": "11/28/2026, 09:53:32",
+    "releasedAt": null
+  },
+  "2026005191": {
+    "bookingNumber": "2026005191",
+    "firstName": "WENDY",
+    "lastName": "PETITO",
+    "middleName": "ANN",
+    "race": "W",
+    "sex": "F",
+    "bookingDate": "",
+    "releaseDate": "",
+    "schReleaseDate": "",
+    "detailUrl": "https://incustody.kitsap.gov/Home/BookingSearchResult?LastName=%25&FirstName=&BookingFrom=&BookingTo=&ValidSearch=&sort=BookingDate&sortdir=DESC&page=16&BookingNumber=11",
+    "inmateId": "40376741",
+    "schedRelease": null,
+    "age": "60",
+    "height": "500",
+    "weight": "062",
+    "hair": "BRO",
+    "eyes": "HAZ",
+    "charges": [
+      {
+        "violation": "9A.36.041(2) - ASSAULT-4",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 2500,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "11/30/2026",
+        "arrestAgency": "POULSBO POLICE DEPARTMENT",
+        "arrestDate": "11/28/2026",
+        "courtType": "PMC"
+      }
+    ],
+    "totalBond": 2500,
+    "status": "in_custody",
+    "firstSeen": "11/28/2026, 10:23:30",
     "releasedAt": null
   }
 }
