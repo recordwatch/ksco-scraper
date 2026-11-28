@@ -1,8 +1,10 @@
 name: Scrape Jail Roster
 
+# No `schedule:` trigger: GitHub ran its every-30-minute cron only every 5-9
+# hours (8 runs in the 45 hours before 2026-11-23 instead of ~90).
+# cron-job.org starts this workflow through the GitHub API (workflow_dispatch)
+# every 30 minutes instead (:23 and :53 Pacific), like the other county repos.
 on:
-  schedule:
-    - cron: '*/30 * * * *'
   workflow_dispatch:
 
 permissions:

@@ -32,7 +32,7 @@ A public jail roster monitor for Kitsap County, WA. Scrapes the sheriff's site e
 - **Source data:** Kitsap County Sheriff's Office public roster
 
 ## Architecture
-- **Scraper:** `scrape.js` — standalone Node.js script, runs via GitHub Actions cron every 30 min
+- **Scraper:** `scrape.js` — standalone Node.js script, run by GitHub Actions. **cron-job.org** starts it through `workflow_dispatch` every 30 min (:23 and :53); there is no GitHub `schedule` (removed 2026-11, when GitHub's cron ran only every 5-9 hours)
 - **Frontend:** React + Vite, served as static files on GitHub Pages (`gh-pages` branch)
 - **Data storage:** JSON files committed to git in `data/` — no server, no database
 - **Hosting cost:** $0 (moved off Railway May 2026)
