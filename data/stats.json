@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-28T01:25:50.788Z",
+  "generatedAt": "2026-11-28T01:55:51.565Z",
   "bookingCounts": {
     "total": 3684,
     "inCustody": 223,
@@ -128,7 +128,7 @@
     },
     {
       "label": "Obstruction",
-      "count": 183
+      "count": 184
     },
     {
       "label": "Harassment",
@@ -150,7 +150,7 @@
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
-      "count": 2547
+      "count": 2548
     },
     {
       "label": "PORT ORCHARD POLICE DEPARTMENT",
@@ -186,7 +186,7 @@
     }
   ],
   "bail": {
-    "mean": 26687.09,
+    "mean": 26691.23,
     "median": 5000,
     "min": 50,
     "max": 4000000,
@@ -371,7 +371,7 @@
     {
       "category": "Assault",
       "medianBail": 10000,
-      "meanBail": 66530.93,
+      "meanBail": 66634.02,
       "count": 97
     },
     {
@@ -570,6 +570,7 @@
   "chargesByRace": {
     "Asian / Pacific Islander": {
       "Assault": 8,
+      "Obstruction": 6,
       "DUI": 30,
       "Ignition Interlock Violation": 8,
       "Drug Offense": 12,
@@ -578,7 +579,6 @@
       "Domestic Violence": 31,
       "Driving While License Suspended": 16,
       "Failure to Appear": 24,
-      "Obstruction": 5,
       "Theft (2nd Degree)": 2,
       "Hit and Run": 3,
       "DOC Warrant": 6,
@@ -818,6 +818,7 @@
   "chargesBySex": {
     "Male": {
       "Assault": 197,
+      "Obstruction": 128,
       "Driving While License Suspended": 342,
       "Criminal Trespass": 185,
       "Failure to Appear": 554,
@@ -842,7 +843,6 @@
       "Making False Statements": 60,
       "Burglary (1st Degree)": 17,
       "Forgery": 8,
-      "Obstruction": 127,
       "Ignition Interlock Violation": 88,
       "Community Custody Violation": 27,
       "Possession of Stolen Property": 22,
@@ -1744,7 +1744,7 @@
     },
     {
       "label": "Other",
-      "count": 509,
+      "count": 510,
       "pct": 9
     },
     {
@@ -1781,7 +1781,7 @@
     },
     {
       "label": "Gross Misdemeanor",
-      "count": 2439,
+      "count": 2440,
       "pct": 30.2
     },
     {
@@ -1922,7 +1922,7 @@
     },
     {
       "name": "Bremerton PD",
-      "count": 2547,
+      "count": 2548,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -2677,7 +2677,7 @@
         },
         {
           "label": "Other",
-          "count": 30
+          "count": 31
         },
         {
           "label": "Order Violations",
@@ -2824,10 +2824,10 @@
       },
       {
         "charge": "Obstruction",
-        "avgWeight": 182,
+        "avgWeight": 181,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 127
+        "n": 128
       },
       {
         "charge": "Harassment",
