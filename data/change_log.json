@@ -1,6 +1,25 @@
 [
   {
     "type": "BOOKED",
+    "bookingNumber": "2026005177",
+    "name": "BLEES, KYLE JOHN",
+    "bookingDate": "",
+    "charges": [],
+    "age": "37",
+    "sex": "M",
+    "race": "W",
+    "height": "505",
+    "weight": "165",
+    "hair": "BRO",
+    "eyes": "BLK",
+    "inmateId": "40143963",
+    "schedRelease": null,
+    "firstSeen": "11/27/2026, 18:53:34",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
     "bookingNumber": "2026005176",
     "name": "SPRAGUE, GREGORY JAMES",
     "bookingDate": "11/27/2026",
@@ -30,8 +49,8 @@
     "inmateId": "30002582",
     "schedRelease": null,
     "firstSeen": "11/27/2026, 18:23:30",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "11/27/2026, 18:53:34",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -123,9 +142,9 @@
     "charges": [
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "THEFT-3",
-        "clearance": null,
+        "clearance": "BR",
         "bondBailType": "C/B",
         "bondAmount": 500,
         "cashAmount": null,
@@ -137,9 +156,9 @@
       },
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "DUI",
-        "clearance": null,
+        "clearance": "BR",
         "bondBailType": "C/B",
         "bondAmount": 500,
         "cashAmount": null,
@@ -151,9 +170,9 @@
       },
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "OBSTRUCT LE, FALSE STATE",
-        "clearance": null,
+        "clearance": "BR",
         "bondBailType": "C/B",
         "bondAmount": 500,
         "cashAmount": null,
@@ -165,9 +184,9 @@
       },
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "CONTROL SUBS KNOW POSS",
-        "clearance": null,
+        "clearance": "BR",
         "bondBailType": "C/B",
         "bondAmount": 500,
         "cashAmount": null,
@@ -179,9 +198,9 @@
       },
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "CONTROL SUBS KNOWN USE PUBLIC",
-        "clearance": null,
+        "clearance": "BR",
         "bondBailType": "C/B",
         "bondAmount": 500,
         "cashAmount": null,
@@ -193,9 +212,9 @@
       },
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "THEFT-3",
-        "clearance": null,
+        "clearance": "BR",
         "bondBailType": "C/B",
         "bondAmount": 500,
         "cashAmount": null,
@@ -207,9 +226,9 @@
       },
       {
         "violation": "9A.76.175 - MAKE FALSE/MISLEADING STMNT PUB SRVNT",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "BR",
         "bondBailType": "C/B",
         "bondAmount": 5000,
         "cashAmount": null,
@@ -230,8 +249,8 @@
     "inmateId": "40514737",
     "schedRelease": null,
     "firstSeen": "11/27/2026, 11:23:33",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "11/27/2026, 18:53:34",
+    "status": "released"
   },
   {
     "type": "BOOKED",
