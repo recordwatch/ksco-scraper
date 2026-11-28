@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-28T02:55:36.753Z",
+  "generatedAt": "2026-11-28T03:25:49.680Z",
   "bookingCounts": {
     "total": 3686,
     "inCustody": 223,
@@ -100,7 +100,7 @@
     },
     {
       "label": "Drug Offense",
-      "count": 363
+      "count": 364
     },
     {
       "label": "Assault",
@@ -150,7 +150,7 @@
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
-      "count": 2548
+      "count": 2551
     },
     {
       "label": "PORT ORCHARD POLICE DEPARTMENT",
@@ -186,11 +186,11 @@
     }
   ],
   "bail": {
-    "mean": 26682.25,
+    "mean": 26655.36,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 2416
+    "count": 2419
   },
   "stay": {
     "mean": 21.9,
@@ -423,6 +423,12 @@
       "count": 11
     },
     {
+      "category": "Public Order",
+      "medianBail": 5000,
+      "meanBail": 5833.33,
+      "count": 6
+    },
+    {
       "category": "DUI",
       "medianBail": 5000,
       "meanBail": 17164.99,
@@ -489,12 +495,6 @@
       "count": 7
     },
     {
-      "category": "Public Order",
-      "medianBail": 5000,
-      "meanBail": 6000,
-      "count": 5
-    },
-    {
       "category": "Burglary Tools",
       "medianBail": 5000,
       "meanBail": 5000,
@@ -513,6 +513,18 @@
       "count": 2
     },
     {
+      "category": "Making False Statements",
+      "medianBail": 2500,
+      "meanBail": 3942,
+      "count": 25
+    },
+    {
+      "category": "Drug Offense",
+      "medianBail": 2500,
+      "meanBail": 6079.63,
+      "count": 135
+    },
+    {
       "category": "Driving While License Suspended",
       "medianBail": 2500,
       "meanBail": 3648.8,
@@ -529,18 +541,6 @@
       "medianBail": 2500,
       "meanBail": 8673.96,
       "count": 412
-    },
-    {
-      "category": "Making False Statements",
-      "medianBail": 2500,
-      "meanBail": 3897.92,
-      "count": 24
-    },
-    {
-      "category": "Drug Offense",
-      "medianBail": 2250,
-      "meanBail": 6087.69,
-      "count": 134
     },
     {
       "category": "Criminal Trespass",
@@ -569,6 +569,9 @@
   ],
   "chargesByRace": {
     "White": {
+      "Public Order": 11,
+      "Making False Statements": 63,
+      "Drug Offense": 282,
       "Harassment": 106,
       "Criminal Trespass": 186,
       "Failure to Appear": 603,
@@ -586,9 +589,6 @@
       "Malicious Mischief": 55,
       "Theft (3rd Degree)": 209,
       "Failure to Register (Sex Offender)": 11,
-      "Public Order": 10,
-      "Drug Offense": 281,
-      "Making False Statements": 62,
       "Burglary (1st Degree)": 10,
       "Forgery": 9,
       "Obstruction": 131,
@@ -817,6 +817,9 @@
   },
   "chargesBySex": {
     "Male": {
+      "Public Order": 8,
+      "Making False Statements": 61,
+      "Drug Offense": 265,
       "Harassment": 120,
       "Assault": 197,
       "Obstruction": 128,
@@ -838,9 +841,6 @@
       "Failure to Register (Sex Offender)": 14,
       "Traffic Violation": 7,
       "Local / Tribal Code": 47,
-      "Public Order": 7,
-      "Drug Offense": 264,
-      "Making False Statements": 60,
       "Burglary (1st Degree)": 17,
       "Forgery": 8,
       "Ignition Interlock Violation": 88,
@@ -1744,7 +1744,7 @@
     },
     {
       "label": "Other",
-      "count": 510,
+      "count": 511,
       "pct": 9
     },
     {
@@ -1754,12 +1754,12 @@
     },
     {
       "label": "Drug",
-      "count": 363,
+      "count": 364,
       "pct": 6.4
     },
     {
       "label": "Fraud / Identity",
-      "count": 103,
+      "count": 104,
       "pct": 1.8
     },
     {
@@ -1787,11 +1787,11 @@
     {
       "label": "Felony",
       "count": 1655,
-      "pct": 20.5
+      "pct": 20.4
     },
     {
       "label": "Unknown",
-      "count": 1270,
+      "count": 1273,
       "pct": 15.7
     }
   ],
@@ -1922,7 +1922,7 @@
     },
     {
       "name": "Bremerton PD",
-      "count": 2548,
+      "count": 2551,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -1939,7 +1939,7 @@
         },
         {
           "label": "Drug Offense",
-          "count": 194
+          "count": 195
         },
         {
           "label": "Criminal Trespass",
@@ -2395,7 +2395,7 @@
         },
         {
           "label": "Drug Offense",
-          "count": 139
+          "count": 140
         }
       ]
     },
@@ -2587,7 +2587,7 @@
         },
         {
           "label": "Other",
-          "count": 159
+          "count": 160
         },
         {
           "label": "Order Violations",
@@ -2595,11 +2595,11 @@
         },
         {
           "label": "Drug",
-          "count": 139
+          "count": 140
         },
         {
           "label": "Fraud / Identity",
-          "count": 37
+          "count": 38
         },
         {
           "label": "Sex Offense",
@@ -2778,7 +2778,7 @@
         "avgWeight": 186,
         "avgHeight": "5'11\"",
         "topRace": "White",
-        "n": 264
+        "n": 265
       },
       {
         "charge": "Assault",
@@ -2883,7 +2883,7 @@
         "avgWeight": 177,
         "avgHeight": "5'9\"",
         "topRace": "White",
-        "n": 58
+        "n": 59
       },
       {
         "charge": "Failure to Comply (Sentence)",
@@ -3096,6 +3096,13 @@
         "n": 9
       },
       {
+        "charge": "Public Order",
+        "avgWeight": 186,
+        "avgHeight": "5'8\"",
+        "topRace": "White",
+        "n": 8
+      },
+      {
         "charge": "Forgery",
         "avgWeight": 171,
         "avgHeight": "5'10\"",
@@ -3113,13 +3120,6 @@
         "charge": "Traffic Violation",
         "avgWeight": 176,
         "avgHeight": "5'10\"",
-        "topRace": "White",
-        "n": 7
-      },
-      {
-        "charge": "Public Order",
-        "avgWeight": 189,
-        "avgHeight": "5'9\"",
         "topRace": "White",
         "n": 7
       },
