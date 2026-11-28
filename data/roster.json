@@ -182456,9 +182456,9 @@
     "charges": [
       {
         "violation": "46.20.342(1)(C) - DWLS 3 -DRIVE W/LICENSE SUSP OR REVOKED-3 OR REVOKED LIC OR PRIVILEGE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "BR",
         "bondBailType": "C/B",
         "bondAmount": null,
         "cashAmount": 1250,
@@ -182470,9 +182470,9 @@
       },
       {
         "violation": "46.20.740(2) - IGNITION INTERLOCK VIOL-NOTATION ON DR REC-VERIFY INTERLOCK",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "BR",
         "bondBailType": "C/B",
         "bondAmount": 1250,
         "cashAmount": null,
@@ -182484,8 +182484,8 @@
       }
     ],
     "totalBond": 2500,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "11/27/2026, 19:53:34",
-    "releasedAt": null
+    "releasedAt": "11/27/2026, 20:23:31"
   }
 }
